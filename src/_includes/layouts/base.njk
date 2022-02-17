@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    {% include "sections/head_generic.html" %}
+
+    <title>{{ title }}</title>
+
+    <!-- To make sure site points to https secure address -->
+    <script>
+      if (location.protocol != 'https:') {
+        location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+      }
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="/public/style.css" />
+
+    {% include "sections/social_meta.html" %}
+
+    {% include "sections/user_fonts.html" %}
+
+    <!-- Loads the twemoji script to allow twitter emojis -->    
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>  
+    
+    <!-- Import the webpage's javascript file -->
+    <script src="/public/script.js" defer></script>
+
+
+  </head>
+  <body id="my-body" class="light-mode">
+
+  <div>
+  
+      {% include "sections/header.html" %}
+
+    <main>
+      {{content | safe}}
+    </main>
+
+      {% include "sections/footer.html" %}
+
+  </div>
+
+  </body>
+
+  <script>twemoji.parse(document.body);</script>
+
+</html>
