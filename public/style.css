@@ -508,7 +508,7 @@ transition: var(--ftsize-transition);}
 transition: var(--ftsize-transition);}
 #main-article.normal-text > blockquote > blockquote > blockquote, #main-article.normal-text > blockquote >  blockquote > blockquote > p { font-size: calc( var(--bq-size-small) * var(--size-modifier) );
 transition: var(--ftsize-transition);}
-ol, ul {font-size: calc( var(--ul-size) * var(--size-modifier) );transition: var(--ftsize-transition);padding-left:40px;}
+ol, ul {font-size: calc( var(--ul-size) * var(--size-modifier) );transition: var(--ftsize-transition);padding-left:20px;}
 
 
 .stickunder_grid {  
