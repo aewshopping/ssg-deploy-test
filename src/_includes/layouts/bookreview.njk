@@ -2,7 +2,6 @@
 layout: layouts/base.njk
 
 eleventyComputed:
-  title: "{{ review_book_main_title }} - Review"
   excerpt: "Our review of {{ review_book_main_title }} - find out what we learned, what we liked, and whatnot. (Together with links to podcast episodes from the author.)"
   image: "{{review_book_image_url}}"
   review_book_info_snippet: "{{review_book_author}}, {{review_publication_date | myDateString }}, {{review_publisher}}, {{review_pages}} pages"
@@ -75,8 +74,7 @@ eleventyComputed:
 
       {% include "sections/read_settings.html" %}
 
-      <article id="main-article" class="normal-text">
-
+      <article id="main-article">
 
     {{ content | safe }}
 

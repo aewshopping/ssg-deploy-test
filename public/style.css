@@ -490,25 +490,25 @@ footer {
   color: var(--color-article-text);
   transition: var(--color-transition);
   max-width: 40ch; /* max p text width of 40 characters */
+  font-size: calc( var(--p-size) * var(--size-modifier) );
+  transition: var(--ftsize-transition);
 }
 
-#main-article.normal-text > p {font-size: calc( var(--p-size) * var(--size-modifier) );
+#main-article > h4 { font-size: calc( var(--h4-size) * var(--size-modifier) );
 transition: var(--ftsize-transition);}
-#main-article.normal-text > h4 { font-size: calc( var(--h4-size) * var(--size-modifier) );
+#main-article > h3 { font-size: calc( var(--h3-size) * var(--size-modifier) );
 transition: var(--ftsize-transition);}
-#main-article.normal-text > h3 { font-size: calc( var(--h3-size) * var(--size-modifier) );
+#main-article > h2 { font-size: calc( var(--h2-size) * var(--size-modifier) );
 transition: var(--ftsize-transition);}
-#main-article.normal-text > h2 { font-size: calc( var(--h2-size) * var(--size-modifier) );
+#main-article > h1 { font-size: calc( var(--h1-size) * var(--size-modifier) );
 transition: var(--ftsize-transition);}
-#main-article.normal-text > h1 { font-size: calc( var(--h1-size) * var(--size-modifier) );
+#main-article > blockquote, #main-article > blockquote > p { font-size: calc( var(--bq-size-large) * var(--size-modifier) );
 transition: var(--ftsize-transition);}
-#main-article.normal-text > blockquote, #main-article.normal-text > blockquote > p { font-size: calc( var(--bq-size-large) * var(--size-modifier) );
+#main-article > blockquote > blockquote, #main-article > blockquote > blockquote > p { font-size: calc( var(--bq-size-normal) * var(--size-modifier) );
 transition: var(--ftsize-transition);}
-#main-article.normal-text > blockquote > blockquote, #main-article.normal-text > blockquote > blockquote > p { font-size: calc( var(--bq-size-normal) * var(--size-modifier) );
+#main-article > blockquote > blockquote > blockquote, #main-article > blockquote >  blockquote > blockquote > p { font-size: calc( var(--bq-size-small) * var(--size-modifier) );
 transition: var(--ftsize-transition);}
-#main-article.normal-text > blockquote > blockquote > blockquote, #main-article.normal-text > blockquote >  blockquote > blockquote > p { font-size: calc( var(--bq-size-small) * var(--size-modifier) );
-transition: var(--ftsize-transition);}
-ol, ul {font-size: calc( var(--ul-size) * var(--size-modifier) );transition: var(--ftsize-transition);padding-left:20px;}
+#main-article > ol, #main-article > ul {font-size: calc( var(--ul-size) * var(--size-modifier) );transition: var(--ftsize-transition);padding-left:20px;}
 
 
 .stickunder_grid {  
