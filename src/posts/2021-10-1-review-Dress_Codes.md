@@ -1,36 +1,46 @@
-﻿---
+---
+review_book_main_title: Dress Codes
+shopping_links:
+  - - https://www.amazon.co.uk/dp/1501180061
+    - Amazon UK
+    - Amazon UK book link
+  - - https://www.amazon.com/dp/1501180061
+    - Amazon US
+    - Amazon US book link
+review_rating: ★★★★☆
+review_book_tags:
+  - - Europe
+  - - Contemporary
+    - Late Modern
+  - - Social
+  - - Clothing
+review_publication_date: 2021-02-09
+review_book_sub_title: How the Laws of Fashion Made History
 layout: layouts/bookreview.njk
-
+date: 2021-10-01
+review_author: Jenny Blakeley
+review_publisher: Simon and Schuster
+review_podcasts:
+  - - https://www.listennotes.com/e/d541ca5be93a439fb419eedc49263403
+    - Stanford Radio
+    - What How We Dress Matters and Why with guest Richard Thompson Ford
+  - - https://www.listennotes.com/e/d81f0743aaf048898c19c919d40a5769
+    - The World in Time / Lapham’s Quarterly
+    - Episode 69 Richard Thompson Ford
+title: Dress Codes - review
 tags:
   - post
   - review
-
-title: Dress Codes - review
-review_book_main_title: Dress Codes
-review_book_sub_title: How the Laws of Fashion Made History
 review_book_author: Richard Thompson Ford
 review_book_image_url: https://dl.airtable.com/.attachments/e6a4e2bae06e9bd9d7bb22e0a8aa0895/6ce4cc73/1501180061.02._SCL_.jpg
-review_publication_date: 2021-02-09
-review_publisher: Simon and Schuster
 review_pages: 464
+review_summary: <p>Our clothes project an image of us to the world, and how that
+  image has been controlled and read in the past still has an influence on us
+  today. This book gives a fascinating insight into how.</p><p>A great read for
+  anyone interested in fashion, tailoring – or simply social history.</p>
 review_ISBN13: 978-1501180064
-review_book_tags:
-  - [Europe]
-  - [Contemporary, Late Modern]
-  - [Social]
-  - [Clothing]
-review_podcasts:
-  - [https://www.listennotes.com/e/d541ca5be93a439fb419eedc49263403, Stanford Radio, What How We Dress Matters and Why with guest Richard Thompson Ford]
-  - [https://www.listennotes.com/e/d81f0743aaf048898c19c919d40a5769, The World in Time / Lapham’s Quarterly, Episode 69 Richard Thompson Ford]
-shopping_links:
-  - [https://www.amazon.co.uk/dp/1501180061, Amazon UK, Amazon UK book link]
-  - [https://www.amazon.com/dp/1501180061, Amazon US, Amazon US book link]
-review_author: Jenny Blakeley
-date: 2021-10-01
-review_rating: ★★★★☆
-review_summary: '<p>Our clothes project an image of us to the world, and how that image has been controlled and read in the past still has an influence on us today. This book gives a fascinating insight into how.</p><p>A great read for anyone interested in fashion, tailoring – or simply social history.</p>'
 ---
-Is fashion frivolous? Dress Codes: How the Laws of Fashion Made History acknowledges that it can judged to be, but also shows that it is and has been a serious matter. Whether we want them to or not, our clothes project an image of us to the world, and how that image has been controlled and read in the past still has an influence on us today, and this book gives as an insight into how.
+Is fashion frivolous? f it? Dress Codes: How the Laws of Fashion Made History acknowledges that it can judged to be, but also shows that it is and has been a serious matter. Whether we want them to or not, our clothes project an image of us to the world, and how that image has been controlled and read in the past still has an influence on us today, and this book gives as an insight into how.
 
 Richard Thompson Ford, the author of Dress Codes, loves suits. Really loves them. And to some extent, he has written a book explaining how all fashion up to the present day leads to suits as the ultimate in menswear. He traces clothing from the “birth of fashion” in the 1300s when men “stopped wearing draped garments and began wearing tailored clothing” to the present day, when he identifies a return from the aberration of athleisure back onto the path of suits. “Young people are,” he claims, “for the first time in half a century, discovering the refined pleasures of tailored clothing … in short, they are experiencing the pleasure of dressing like adults.”
 
