@@ -40,7 +40,7 @@ review_summary: <p>Our clothes project an image of us to the world, and how that
   anyone interested in fashion, tailoring – or simply social history.</p>
 review_ISBN13: 978-1501180064
 ---
-Is fashion frivolous? f it? Dress Codes: How the Laws of Fashion Made History acknowledges that it can judged to be, but also shows that it is and has been a serious matter. Whether we want them to or not, our clothes project an image of us to the world, and how that image has been controlled and read in the past still has an influence on us today, and this book gives as an insight into how.
+Is fashion frivolous? Dress Codes: How the Laws of Fashion Made History acknowledges that it can judged to be, but also shows that it is and has been a serious matter. Whether we want them to or not, our clothes project an image of us to the world, and how that image has been controlled and read in the past still has an influence on us today, and this book gives as an insight into how.
 
 Richard Thompson Ford, the author of Dress Codes, loves suits. Really loves them. And to some extent, he has written a book explaining how all fashion up to the present day leads to suits as the ultimate in menswear. He traces clothing from the “birth of fashion” in the 1300s when men “stopped wearing draped garments and began wearing tailored clothing” to the present day, when he identifies a return from the aberration of athleisure back onto the path of suits. “Young people are,” he claims, “for the first time in half a century, discovering the refined pleasures of tailored clothing … in short, they are experiencing the pleasure of dressing like adults.”
 
