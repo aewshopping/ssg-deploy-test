@@ -1,4 +1,4 @@
-﻿---
+---
 layout: layouts/bookreview.njk
 
 tags:
@@ -47,6 +47,9 @@ The fact that the clock told the time became incidental to the purpose of the me
 
 Reading Rooney’s book gave me a new perspective on an otherwise familiar landmark – it can help you see the everyday in new and insightful ways.
 
+![Stockwell War Memorial clock tower](https://res.cloudinary.com/ds2o5ecdw/image/upload/w_550/v1645393560/posts/stockwell-war-memorial.jpg#center)
+###### Seeing the familiar in a new light. Stockwell War Memorial clock tower ([picture credits and article](https://www.brixtonbuzz.com/2014/11/stockwell-war-memorial-and-mural-stockwell-south-london/))
+
 ### What is it about?
 
 “About Time” takes us on a roughly chronological journey, highlighting the different ways that clocks have been used by different people throughout history. Each of the 12 chapters is titled by a theme, representing a real or symbolic use for clocks beyond time telling.
@@ -88,3 +91,7 @@ Picking holes in one anecdote in the book is a bit pedantic of me, but it does i
 ### Conclusion
 
 This book is an easy one for me to recommend – it will appeal to a wide range of people in line with the broad scope of the book. It is written in an engaging style and will give you plenty of anecdotes to relate to your friends if time starts to drag. And it will help you to see afresh the many time-keeping devices that are all around us, perhaps even the humble Casio F-91W.
+
+![Casio F-91W](https://res.cloudinary.com/ds2o5ecdw/image/upload/ar_1.0,c_crop,r_max,f_png/v1645394392/posts/casiof91w.jpg#center)
+
+###### Time for a closer look? ([Casio F-91W image credit and more info](https://retromash.com/galleries/casio-f-91w/))

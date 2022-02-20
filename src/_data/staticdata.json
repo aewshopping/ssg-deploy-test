@@ -1,6 +1,6 @@
 {
   "images": {
-    "test": "hi",
-    "test2": "hello again"
+    "header_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645389502/pophist_static/justinian_eye_lowres.png",
+    "review_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645389687/pophist_static/twemoji_memo.png"
   }
 }
