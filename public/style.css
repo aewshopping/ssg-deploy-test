@@ -302,6 +302,13 @@ img.emoji {
   vertical-align: -0.1em;
 }
 
+/* for centering images in markdown - append #center to the image url */
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+    max-width:100%;
+}
+
 /* END OF TYPOGRAPHY CSS STYLING MODULE */
 
 /* LAYOUT CSS STYLING MODULE */
@@ -502,6 +509,11 @@ transition: var(--ftsize-transition);}
 transition: var(--ftsize-transition);}
 #main-article > h1 { font-size: calc( var(--h1-size) * var(--size-modifier) );
 transition: var(--ftsize-transition);}
+#main-article > h5 { font-size: calc( var(--h5-size) * var(--size-modifier) );
+transition: var(--ftsize-transition);}
+#main-article > h6 { font-size: calc( var(--h6-size) * var(--size-modifier) );
+transition: var(--ftsize-transition);
+font-weight:400;}
 #main-article > blockquote, #main-article > blockquote > p { font-size: calc( var(--bq-size-large) * var(--size-modifier) );
 transition: var(--ftsize-transition);}
 #main-article > blockquote > blockquote, #main-article > blockquote > blockquote > p { font-size: calc( var(--bq-size-normal) * var(--size-modifier) );

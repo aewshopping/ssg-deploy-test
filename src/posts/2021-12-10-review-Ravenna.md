@@ -1,4 +1,4 @@
-﻿---
+---
 layout: layouts/bookreview.njk
 
 tags:
@@ -32,7 +32,7 @@ date: 2021-12-10
 review_rating: ★★★★★
 review_summary: '<p>Ravenna is an absorbing and compelling read. Celebrating the achievements of a town that was building a new Christian world, it is also about the entire Mediterranean area and beyond.</p><p>It deftly slots together the political, religious, social, and artistic spheres: constructing a beautiful mosaic of post Roman, pre European life.</p>'
 ---
-[image]
+![image](https://res.cloudinary.com/ds2o5ecdw/image/upload/w_350/v1644497804/pophist_static/justinian.jpg#center)
 
 This is the celebrated Byzantine Emperor Justinian who is credited with reconquering the Western Roman Empire through his general Belisarius. The image itself is not from the capital Constantinople (now Istanbul) as you might expect, but instead from the small Italian city of Ravenna, on the north east coast of Italy. It is a photo of a wall mosaic from a 6th century church called St Vitale. It is also the motif of this website.
 
