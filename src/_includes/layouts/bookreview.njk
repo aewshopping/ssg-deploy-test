@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 
 eleventyComputed:
-  excerpt: "Our review of {{ review_book_main_title }} - find out what we learned, what we liked, and whatnot. (Together with links to podcast episodes from the author.)"
+  meta_excerpt: "Our review of {{ review_book_main_title }} by {{review_book_author}} - find out what we learned, what we liked, and whatnot. (Together with links to podcast episodes from the author.)"
   image: "{{review_book_image_url}}"
   review_book_info_snippet: "{{review_book_author}}, {{review_publication_date | myDateString }}, {{review_publisher}}, {{review_pages}} pages"
 ---
@@ -15,7 +15,7 @@ eleventyComputed:
 
           <h1 id="book-title">{{ review_book_main_title }}</h1>
 
-          <h4>{{ review_book_sub_title }}</h4>
+          <h4>{{ review_book_sub_title}}</h4>
 
           <p id="book-info-text" class="ft-size-small">{{ review_book_info_snippet }}</p>
 

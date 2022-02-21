@@ -89,6 +89,7 @@
 body {
   margin: 0;
   font-family: cabin, tahoma, sans-serif;
+  background-color: var(--color-bg);
 }
 
 .light-mode {
