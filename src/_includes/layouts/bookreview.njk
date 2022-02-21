@@ -37,11 +37,15 @@ eleventyComputed:
 
 
               {% for item in review_book_tags %}
-              {% set comma = joiner() %}
-                <p class="datapill tag">
-                {% for thing in item -%}
-                  {{ comma() }} {{thing}}
-                {%- endfor %}</p>
+              {% if item|length %}
+              
+                {% set comma = joiner() %}
+                  <p class="datapill tag">
+                  {% for thing in item -%}
+                    {{ comma() }} {{thing}}
+                  {%- endfor %}</p>
+
+              {% endif %}
               {% endfor %}
 
             </div>
@@ -93,10 +97,12 @@ eleventyComputed:
         <li>Pages - <p class="inline">{{review_pages}}</p></li>
         <li>ISBN 13 - <p class="inline">{{review_ISBN13}}</p></li>
         
-        {% for item in review_podcasts %}  
+        {% for item in review_podcasts %}
+        {% if item|length %}
            
           <li><span class="material-icons-outlined md-24">podcasts</span>Podcast episode - <p class="inline"><a href='{{ item[0] }}'target='_blank'>{{item[1]}}: {{item[2]}}</a></p></li>
-
+        
+        {% endif %}
         {% endfor %}
 
         {% for item in shopping_links %}  

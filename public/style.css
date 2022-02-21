@@ -227,7 +227,7 @@ ul {
   font-size: var(--ul-size);
   line-height: 1.6;
   color: var(--color-text);
-  margin: 10px 10px;
+  margin: 0;
   padding: 0;
 }
 .nobullet {
