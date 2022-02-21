@@ -1,10 +1,11 @@
-﻿---
+---
 layout: layouts/bookreview.njk
 
 tags:
   - post
   - review
 
+permalink: '/2022/02/18/phoenicians-and-the-making-of-the-mediterranean/'
 title: Phoenicians and the Making of the Mediterranean - review
 review_book_main_title: Phoenicians and the Making of the Mediterranean
 review_book_sub_title: 
