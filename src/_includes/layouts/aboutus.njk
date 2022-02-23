@@ -1,0 +1,50 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-home
+---
+
+{# The About page uses this template and you can customize / use it for any new pages you add #}
+
+  <div class="heading_section">
+    <div class="container">
+      {{ content | safe }}
+
+      
+      <img class="img-center pad-top" src="{{ staticdata.images.header_icon_hiqual }}">
+      <h6 class="fw-normal txt-center">
+        Justinian's beady eye<br>
+        (<a href="https://commons.wikimedia.org/wiki/File:Mosaic_of_Justinianus_I_-_Basilica_San_Vitale_(Ravenna).jpg">Image by Petar Milošević</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons)
+      </h6>
+      
+      
+    </div>
+</div>
+
+      <h2 class="margin-bothsides txt-center pad-bottom">Meet the reviewing team</h2>
+
+      <div class="max-width-1350">
+
+      {% for item in biodata.reviewers %}
+
+      <section class="grid-switch"> 
+      
+      <div class="grid-container-right">
+        <img class="img-align" src="{{ item.biopic }}">
+      </div>
+      
+      <div class="grid-container-left">
+        <h3> {{ item.name }} </h3>
+        <p> {{ item.bio }} </p>
+      
+          {% for thing in item.fav_books %}
+            <p> <a href="{{ thing.link }}"><i>{{ thing.title }}</i></a>, {{ thing.author }} </p>
+          {% endfor %}  
+      </div>
+
+      </section>
+        
+      {% endfor %}
+
+      </div>
+    
+

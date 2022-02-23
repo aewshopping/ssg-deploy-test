@@ -1,6 +1,7 @@
 {
   "images": {
     "header_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645389502/pophist_static/justinian_eye_lowres.png",
+    "header_icon_hiqual": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645391841/pophist_static/justinian_eye.png",
     "review_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645389687/pophist_static/twemoji_memo.png"
   },
   "links" : {
@@ -9,8 +10,47 @@
     "books_all": "https://popularhistorybooks.glitch.me",
     "books_reviews": "https://popularhistorybooks.softr.app",
     "podcast": "https://lnns.co/F2dxHuM4TNR",
+    "about": "/about/",
     "facebook":"https://www.facebook.com/Popular-history-books-107253478250090",
     "twitter":"https://twitter.com/PopHistoryBooks",
     "instagram":"https://www.instagram.com/popularhistorybooks/"
-  }
+  },
+  
+  "reviewers" : [
+    {"name": "Anthony Webb",
+    "bio": "Founder and Chief Website Officer of popularhistorybooks.com Anthony received his university education at the hands of (arguably) some of the greatest historians of the noughties, before branching out into a totally unrelated actuarial career. His favourite history books are:",
+    "fav_books": [
+      {"title":"After The Ice: A Global Human History",
+      "author":"Steven Mithen",
+      "link":"https://www.amazon.co.uk/After-Ice-Global-Human-History/dp/0753813920/"},
+      
+      {"title":"Rubicon: The Triumph and Tragedy of the Roman Republic",
+      "author":"Tom Holland",
+      "link":"https://www.amazon.co.uk/Rubicon-Triumph-Tragedy-Roman-Republic/dp/034911563X/"},
+      
+      {"title":"Collapse: How Societies Choose to Fail or Survive",
+      "author":"Jared Diamond",
+      "link":"https://www.amazon.co.uk/Collapse-Societies-Choose-Fail-Survive/dp/0241958687/"}
+      ]
+    },
+    
+    {"name": "Andrew Salisbury",
+    "bio": "A founding member of the site, Andrew studied not only history but also economics before deciding that both were less rewarding than serving the public as a corporate lawyer. But history literally runs in his veins: Andrew is a distant great nephew of the famous Victorian statesman Lord Salisbury. His favourite history books are:",
+    "fav_books": [
+      {"title":"The English and Their History",
+      "author":"Robert Tombs",
+      "link":"https://www.amazon.co.uk/English-their-History-Robert-Tombs/dp/0141031654/"},
+      
+      {"title":"History of Western Philosophy",
+      "author":"Betrand Russell",
+      "link":"https://www.amazon.co.uk/History-Western-Philosophy-Routledge-Classics/dp/0415325056/"},
+      
+      {"title":"The World of Late Antiquity",
+      "author":"Peter Brown",
+      "link":"https://www.amazon.co.uk/World-Late-Antiquity-European-Civilization/dp/0500330220/"}
+
+       ]
+    }
+  ]
+    
 }

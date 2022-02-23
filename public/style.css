@@ -309,6 +309,8 @@ img[src*='#center'] {
     margin: auto;
     max-width:100%;
 }
+.img-center {display:block;margin:auto;max-width:100%;}
+.img-align {display:block;margin:auto;max-width:100%;padding:40px 0 0 0;}
 
 /* END OF TYPOGRAPHY CSS STYLING MODULE */
 
@@ -354,10 +356,36 @@ img[src*='#center'] {
   justify-content: center;
   padding: 30px 0 0 40px;
 }
- @media screen and (min-width: 700px)  {
+.grid-switch {
+  display: grid;
+  gap: 1em;
+  margin: var(--padding-edge);
+  background-color: var(--color-summary-bg);
+  transition: var(--color-transition);
+  border-radius: 10px;
+}
+.grid-container-left {
+  justify-self: left;
+  padding: 0 var(--padding-edge) var(--padding-edge) var(--padding-edge);
+  max-width: 650px;
+}
+.grid-container-right {
+  justify-self: center;
+  padding: 0;
+  max-width: 650px;
+}
+
+@media screen and (min-width: 700px)  {
   .flex-switch {
     flex-direction: row;
   }
+  .grid-switch {
+    grid-auto-flow: column;
+    grid-auto-columns: 2fr 3fr;
+  }
+  .grid-container-right {
+    justify-self: right;
+    padding: 0 0 var(--padding-edge) var(--padding-edge);}
 }
 
 
@@ -373,6 +401,9 @@ img[src*='#center'] {
   margin: auto;
   max-width: 650px;
 }
+
+
+
 #godown {
   position: absolute;
   left: 50%;
@@ -647,6 +678,8 @@ transition: var(--ftsize-transition);}
 .ft-size-large {font-size: var(--step-1);}
 .ft-size-vlarge {font-size: var(--step-3);}
 .pad-bottom {padding-bottom: 50px;}
+.pad-top {padding-top: 50px;}
+.max-width-1350 {max-width:1350px;margin:auto;}
 .inline {display: inline;}
 .fix-children{position: relative;} /* needed to position "tag group" */
 .fit-content{width: max-content;}
