@@ -1,13 +1,20 @@
 ---
-layout: layouts/page.njk
+layout: layouts/aboutus.njk
+title: about page
+image: image link here please
+meta_excerpt: some info about this and that
 ---
 
-## About this site
+# About us
 
-Here you can write some details about you and your new blog: 
+We read history books for fun!
 
-- 🎉 I love blogging
-- 💥 I built this site using [Eleventy](https://www.11ty.dev/) on [Glitch](https://glitch.com/)
-- 🌈 Thanks for reading!
+With no affiliation to any publishers, booksellers, authors, librarians, bookbinders, or papermakers we can write independent reviews.
 
-You can also make your project available for other people to remix in Glitch! 🎏✨
+Our mission is to find and review history books that might otherwise get overlooked - hence Emperor Justinian's beady eye peering out at the top of the website 🤨.
+
+Want a bit more detail? [Our FAQ page can be found at this link.](https://popularhistorybooks.com/frequently-asked-questions/)
+
+📧 Or feel free to email us at: <a href="mailto:info@popularhistorybooks.com">info@popularhistorybooks.com</a>
+
+...or keep scrolling down for reviewer bios.

@@ -1,0 +1,95 @@
+{
+   "reviewers" : [
+    {"name": "Anthony Webb",
+     "biopic": "https://res.cloudinary.com/ds2o5ecdw/image/upload/c_scale,w_320,f_png/ar_1.0,c_fill,r_max/v1645607791/pophist_static/anthony_biopic2.jpg",
+    "bio": "Founder and Chief Website Officer of popularhistorybooks.com Anthony received his university education at the hands of (arguably) some of the greatest historians of the noughties, before branching out into a totally unrelated actuarial career. His favourite history books are:",
+    "fav_books": [
+      {"title":"After The Ice: A Global Human History",
+      "author":"Steven Mithen",
+      "link":"https://www.amazon.co.uk/After-Ice-Global-Human-History/dp/0753813920/"},
+      
+      {"title":"Rubicon: The Triumph and Tragedy of the Roman Republic",
+      "author":"Tom Holland",
+      "link":"https://www.amazon.co.uk/Rubicon-Triumph-Tragedy-Roman-Republic/dp/034911563X/"},
+      
+      {"title":"Collapse: How Societies Choose to Fail or Survive",
+      "author":"Jared Diamond",
+      "link":"https://www.amazon.co.uk/Collapse-Societies-Choose-Fail-Survive/dp/0241958687/"}
+      ]
+    },
+    
+    {"name": "Andrew Salisbury",
+     "biopic": "https://res.cloudinary.com/ds2o5ecdw/image/upload/c_scale,w_320,f_png/ar_1.0,c_fill,r_max/v1645607521/pophist_static/andy_biopic.jpg",
+    "bio": "A founding member of the site, Andrew studied not only history but also economics before deciding that both were less rewarding than serving the public as a corporate lawyer. But history literally runs in his veins: Andrew is a distant great nephew of the famous Victorian statesman Lord Salisbury. His favourite history books are:",
+    "fav_books": [
+      {"title":"The English and Their History",
+      "author":"Robert Tombs",
+      "link":"https://www.amazon.co.uk/English-their-History-Robert-Tombs/dp/0141031654/"},
+      
+      {"title":"History of Western Philosophy",
+      "author":"Betrand Russell",
+      "link":"https://www.amazon.co.uk/History-Western-Philosophy-Routledge-Classics/dp/0415325056/"},
+      
+      {"title":"The World of Late Antiquity",
+      "author":"Peter Brown",
+      "link":"https://www.amazon.co.uk/World-Late-Antiquity-European-Civilization/dp/0500330220/"}
+       ]
+    },
+     
+     
+    {"name": "Maddox von Ranke",
+     "biopic": "https://res.cloudinary.com/ds2o5ecdw/image/upload/c_scale,w_350,f_png/ar_1.0,c_fill,r_max/v1645608030/pophist_static/von_ranke_biopic.jpg",
+    "bio": "Although his first love was numbers, history was always a close second for Maddox. He could often be seen darting into a maths lecture with a copy of “Secret missions of World War 2” or “SOE Tactics” poking out of the pocket of his duffel coat. This concealed obsession continues through to today as he looks to grapple with new history books on our readers’ behalf. Favourite history books:",
+    "fav_books": [
+      {"title":"Byzantium: The Apogee",
+      "author":"John Julius Norwich",
+      "link":"https://www.amazon.co.uk/Byzantium-Apogee-John-Julius-Norwich/dp/0140114483/"},
+      
+      {"title":"Silk Roads",
+      "author":"Peter Frankopan",
+      "link":"https://www.amazon.co.uk/Silk-Roads-New-History-World/dp/1408839997/"},
+      
+      {"title":"Massacre At Montsegur",
+      "author":"Zoe Oldenbourg",
+      "link":"https://www.amazon.co.uk/Massacre-At-Montsegur-History-Albigensian/dp/1842124285/"}
+       ]
+    },
+
+     
+    {"name": "Adrian Webb",
+     "biopic": "https://res.cloudinary.com/ds2o5ecdw/image/upload/c_scale,w_400,f_png/ar_1.0,c_fill,r_max/v1645608040/pophist_static/adrian_biopic.jpg",
+    "bio": "Lawyer by day, musician by night, family man in the morning, and one-time amateur squash sports-journalist, Adrian was first introduced to contemporary history through a powerful but ultimately debilitating Beatles obsession in the mid-1990s. After completing a history degree he spent two decades in the historical wilderness, before returning to form with this website. Favourite books (and other key links) are:",
+    "fav_books": [
+      {"title":"Churchill: A Biography",
+      "author":"Roy Jenkins",
+      "link":"https://www.amazon.co.uk/Churchill-Biography-Roy-Jenkins-ebook/dp/B00ANJUF26/"},
+      
+      {"title":"Winston Churchill",
+      "author":"Henry Pelling",
+      "link":"https://www.amazon.co.uk/Winston-Churchill-Henry-Pelling/dp/0525235108/"},
+      
+      {"title":"Winston Churchill Quotations",
+      "author":"Winston Churchill",
+      "link":"https://www.amazon.co.uk/Winston-Churchill-Quotations-Military-Wartime/dp/1841652636/"},
+      
+      {"title":"Ade Webb music",
+      "author":"(🎵 on YouTube)",
+      "link":"https://www.youtube.com/channel/UCD6Q_bk-TdK17mJCl2uUuzw/videos"},
+      
+      {"title":"Amateur squash sports-journalism",
+      "author":"(🎾 unofficial archive)",
+      "link":"https://popularhistorybooks.com/internet-archive-of-amateur-squash-sports-journalism/"}
+       ]
+    }, 
+
+
+    {"name": "Jenny Blakeley",
+     "biopic": "https://res.cloudinary.com/ds2o5ecdw/image/upload/c_scale,w_320,f_png/ar_1.0,c_fill,r_max/v1645609145/pophist_static/jenny_biopic.jpg",
+    "bio": "Jenny has always had a keen interest in the past, having lived there for almost all of her life. Moreover she enthusiastically indulges in several pastimes including knitting, rope craft and dungeons & dragons. She also enjoys the occasional history book.",
+    "fav_books": []
+    }     
+     
+     
+  ]
+    
+}
