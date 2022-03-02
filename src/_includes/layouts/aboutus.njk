@@ -11,12 +11,11 @@ templateClass: tmpl-home
 
       
       <img class="img-center pad-top" src="{{ staticdata.images.header_icon_hiqual }}">
-      <h6 class="fw-normal txt-center">
+      <h6 class="fw-normal txt-center pad-bottom">
         Justinian's beady eye<br>
-        (<a href="https://commons.wikimedia.org/wiki/File:Mosaic_of_Justinianus_I_-_Basilica_San_Vitale_(Ravenna).jpg">Image by Petar Milošević</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons)
+        (<a href="https://commons.wikimedia.org/wiki/File:Mosaic_of_Justinianus_I_-_Basilica_San_Vitale_(Ravenna).jpg" alt="Justinian mosaic - his eye">Image by Petar Milošević</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons)
       </h6>
-      
-      
+            
     </div>
 </div>
 
@@ -26,10 +25,10 @@ templateClass: tmpl-home
 
       {% for item in biodata.reviewers %}
 
-      <section class="grid-switch"> 
+      <section class="grid-switch" id="{{ item.name | replace(" ", "_") }}"> 
       
       <div class="grid-container-right">
-        <img class="img-align" src="{{ item.biopic }}">
+        <img class="img-align" src="{{ item.biopic }}" alt="Picture of {{ item.name }}" loading="lazy">
       </div>
       
       <div class="grid-container-left">

@@ -19,6 +19,7 @@ module.exports = function(eleventyConfig) {
   ]);
   eleventyConfig.addPassthroughCopy("public");
 
+
   // change to snippet: false when not updating or testing project
   eleventyConfig.setBrowserSyncConfig({
     snippet: true,
@@ -82,8 +83,8 @@ module.exports = function(eleventyConfig) {
     return coll;
   });
   
-
   return {
+    markdownTemplateEngine: "njk",
     dir: {
       input: "src",
       includes: "_includes",
