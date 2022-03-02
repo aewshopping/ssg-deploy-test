@@ -5,6 +5,7 @@ eleventyComputed:
   meta_excerpt: "Our review of {{ review_book_main_title }} by {{review_book_author}} - find out what we learned, what we liked, and whatnot. (Together with links to podcast episodes from the author.)"
   image: "{{review_book_image_url}}"
   review_book_info_snippet: "{{review_book_author}}, {{review_publication_date | myDateString }}, {{review_publisher}}, {{review_pages}} pages"
+  post_author: '{{review_author}}'
 ---
 
     <section class="flex-switch heading_section">
@@ -59,7 +60,7 @@ eleventyComputed:
 
 
        
-      <section id="summary_section" class="flex-switch stickunder_grid">
+      <section id="under_section" class="summary_section flex-switch stickunder">
 
         <div class="flex-primary" id="summary_text">
           {{ review_summary | safe }}          
@@ -68,15 +69,17 @@ eleventyComputed:
         </div>
         
         <div class="flex-secondary">
-          <p class="datapill tag">Review by {{ review_author }}, {{date | htmlDateString}}</p>
+          <p class="datapill tag">Review by <a class="pill_link" href="{{ staticdata.links.canonical_stem }}/about/#{{ post_author | replace(" ", "_")}}">{{ post_author }}</a>, {{date | htmlDateString}}</p>
         </div>
         
        </section> 
 
-    <section id="scrollover">
-       <div id="progress-bar"></div>
+    <section id="progress-section" class="scrollover_format">
+      <div id="progress-bar"></div>
 
-      {% include "sections/read_settings.html" %}
+      <div id="article-settings" class="flex-row"> 
+        {% include "sections/read_settings.html" %}  
+      </div>
 
       <article id="main-article">
 
