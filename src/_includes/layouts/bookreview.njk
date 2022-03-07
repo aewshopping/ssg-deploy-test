@@ -11,8 +11,9 @@ eleventyComputed:
     <section class="flex-switch heading_section">
 
       <div class="flex-primary">
-        
-          <h5 class="color-accent txt-capital ft-size-small"><span class="ft-size-vlarge"><img src="{{ staticdata.images.review_icon }}" class="emoji"></span>Book Review</h5>
+
+  {% include "sections/tags_in_post.html" %}
+
 
           <h1 id="book-title">{{ review_book_main_title }}</h1>
 
@@ -22,7 +23,7 @@ eleventyComputed:
 
           <h5 class="fw-normal ft-size-small fix-children fit-content">--Links and info--<a id="goto-details" href="#book-details-title"><span class="material-icons-outlined md-36">expand_more</span></a></h5>
         
-          <a id="godown" href="#summary_section">   
+          <a id="godown" href="#under_section">   
                   <span class="material-icons-outlined md-72">expand_more</span>
           </a>
 
@@ -85,6 +86,10 @@ eleventyComputed:
 
     {{ content | safe }}
 
+    <hr>
+        
+    {% include "sections/tags_in_post.html" %}         
+        
     <section id="book-details-section">
 
       <h4 id="book-details-title" class="inline">Book details </h4><a href="#my-body">(back to top)</a>

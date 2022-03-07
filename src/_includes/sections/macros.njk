@@ -1,0 +1,35 @@
+{% macro book_covers(input) %}
+<div class="grid_book_small">
+
+{% for item in input.books %}
+
+<div class="fix-children">
+
+  <img loading='lazy' class='image_book_cover' src="https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/{{ item[0] }}.02._SCM_.jpg" alt="{{ item[1] }}" title="{{ item[1] }}">
+
+  <div class='image_book_overlay'>
+    <div class="emoji_text">
+    <a href='https://www.amazon.co.uk/dp/{{ item[0] }}' title="Amazon UK link" target='_blank' alt="Amazon UK link"><img class="image_miniflag" loading='lazy' src="{{staticdata.images.UK_flag}}"></a>
+    <a href='https://www.amazon.co.uk/dp/{{ item[0] }}' title="Amazon US link" target='_blank' alt="Amazon US link"><img class="image_miniflag" loading='lazy' src="{{staticdata.images.US_flag}}"></a>
+    </div>
+  {{ item[1] | truncate(70) | upper }}
+  </div>
+  
+</div>
+
+{% endfor %}
+  
+</div>
+{% endmacro %}
+
+
+{% macro post_icon(input) %}
+
+{# associate icons with post tag types - may need to look at padding #}
+
+<img class="grid_post_icon" src="
+{% if input.type=="review" %}{{staticdata.images.review_icon}}{% endif %}
+{% if input.type=="history books" %}{{staticdata.images.books_icon}}{% endif %}
+">
+                           
+{% endmacro %}

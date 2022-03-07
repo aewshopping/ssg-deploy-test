@@ -14,7 +14,7 @@
   --step-5: clamp(2.14rem, -0.50rem + 8.46vw, 5.52rem);
   --step-6: clamp(2.41rem, -1.46rem + 12.39vw, 7.36rem);
 
-  --size-modifier: 1;  
+  --size-modifier: 1;
   --size-modifier-big: 1.15;
   --size-modifier-vbig: 1.4;
   --ftsize-transition: font 0.3s ease;
@@ -104,6 +104,7 @@ body {
   --color-article-border: var(--color-1st);
   --color-pill-bg: var(--color-accent-lm);
   --color-pill-text: var(--color-white);
+  --color-pilltag-text: var(--color-accent);
   --color-boxshadow: var(--color-boxshadow-lm);
   --color-progressbar: linear-gradient(var(--color-seethrublack), var(--color-seethrublack));
   --color-icon: var(--color-lightgrey);
@@ -129,6 +130,7 @@ body {
   --color-progressbar: linear-gradient(var(--color-seethru-accent), var(--color-seethru-accent));
   --color-pill-bg: #484848;
   --color-pill-text: var(--color-text);
+  --color-pilltag-text: var(--color-text);
   --color-boxshadow: var(--color-boxshadow-dm);
   --color-icon: var(--color-lightgrey);
   --color-icon-hover: var(--color-white);
@@ -152,6 +154,7 @@ body {
   --color-article-border: var(--color-1st);
   --color-pill-bg: #7D938A;
   --color-pill-text: var(--color-white);
+  --color-pilltag-text: var(--color-text);
   --color-boxshadow: var(--color-boxshadow-lm);
   --color-progressbar: linear-gradient(#DFD2539B, #DFD2539B);
   --color-icon: var(--color-2nd);
@@ -388,9 +391,120 @@ img[src*='#center'] {
   min-height: 350px;
 }
 
+
+/* ------------------------------------
+This sections contains styling for 
+displaying a GRID OF SMALL BOOK COVERS
+------------------------------------ */
+.grid_book_small{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 88px);
+  gap: 6px;
+}
+.image_book_cover {
+  width:100%;
+  box-shadow: 2px 2px 3px var(--color-boxshadow);
+}
+.image_book_overlay {
+  position: absolute;
+	z-index: 1;
+	top: 0;
+	background: rgba(0,0,0,0.7);
+	color: #f1f1f1;
+	width: 88px;
+	min-height: 120px;
+	transition: .3s ease;
+	opacity: 0;
+	color: white;
+	font-size: 12px;
+  padding: 5px;
+	text-align: left;
+}
+.image_book_overlay:hover{
+  opacity:1;
+}
+.emoji_text {
+  font-size: 15px;
+ 	text-align: left;
+	margin-bottom: 0;
+	margin-left: 2px;
+}
+.image_miniflag {
+  height: 1.3em;
+  width: 1.3em;
+  margin: 0 0.1em 0 0.1em;
+  vertical-align: -0.1em;
+}
+.image_miniflag:hover {
+	filter: grayscale(100%);
+}
+/* ------------------------------------
+End of GRID OF SMALL BOOK COVERS
+------------------------------------ */
+
+/* ------------------------------------
+This sections contains styling for 
+displaying a GRID OF POSTS of different types
+------------------------------------ */
+.grid_posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+  gap: 2em;
+  padding: var(--padding-edge);
+  margin: auto;
+}
+.grid_post_container {
+  border-radius: 10px;
+}
+.grid_post_review {
+  padding: 50px var(--padding-edge) 4em var(--padding-edge);
+  background-color: var(--color-summary-bg);
+  transition: var(--color-transition);
+}
+.grid_post_other {
+  padding: 10px var(--padding-edge) 4em var(--padding-edge);
+  background-color: var(--color-bg);
+  transition: var(--color-transition);
+  border: 3px solid var(--color-summary-bg);
+}
+.grid_post_bookimage {
+  position: absolute;
+  top:15px;
+  right:15px;
+  transform: rotate(3deg);
+  width: 88px;
+  box-shadow: 2px 2px 3px var(--color-boxshadow);
+}
+.grid_post_icon {
+  width: 36px;  
+  position: absolute;
+  top:20px;
+  left:var(--padding-edge);
+/*  transform: translate(-50%, 0%); */
+}
+.grid_post_title {
+  padding-right: 90px;
+
+}
+.undecorate_link > a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+.grid_post_tagpill {
+  position: absolute;
+  bottom: 10px;
+  left: var(--padding-edge)
+}
+/* ------------------------------------
+End of GRID OF POSTS
+------------------------------------ */
+
 .heading_title {
   padding: 0 var(--padding-edge);
   text-align: left;
+}
+.heading_title > h1 {
+  margin-top: 0.5em;
 }
 .heading_section {
   padding: 10px 0 80px 0;
@@ -417,6 +531,9 @@ img[src*='#center'] {
     justify-self: right;
     padding: 0 0 var(--padding-edge) var(--padding-edge);}
   .heading_title {text-align: center;}
+  .grid_book_small{
+  gap: 10px;
+}
 }
 
 #godown {
@@ -540,6 +657,7 @@ footer {
   height: 5px;
   position: sticky;
   top:0;
+  z-index: 1;
 }
 
 #main-article {
@@ -642,6 +760,34 @@ transition: var(--ftsize-transition);}
   transform: rotate(-1deg);
 }
 
+.tagpill{
+/*  background-color: var(--color-bg); */
+  transition: var(--color-transition);
+  font-size: var(--step--2);
+  color: var(--color-pilltag-text);
+  border: 1.5px solid var(--color-pilltag-text);
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  padding: 0.2em .5em;
+  line-height: 2em;
+  height: 2em;
+  border-radius: .25em;
+  text-decoration: none;
+  margin: 0 .5em .5em 0;
+}
+.tagpill:hover {
+  background-color: var(--color-pill-bg);
+  color: var(--color-pill-text);
+  border: 1.5px solid var(--color-pill-text);
+}
+.tagbar{
+  padding: 0 var(--padding-edge) 0 var(--padding-edge);
+  margin: auto;
+  margin-bottom: 0;
+  max-width: 650px;
+}
+
+
 .icon-button-lightbg {
   background-color: transparent;
   padding: 0;
@@ -693,6 +839,7 @@ transition: var(--ftsize-transition);}
 /* UTILITY CSS */
 
 .fw-normal {font-weight:400;}
+.fw-bold {font-weight:700;}
 .txt-center {text-align:center;}
 .txt-left {text-align:left;}
 .txt-right {text-align:right;}
@@ -705,7 +852,8 @@ transition: var(--ftsize-transition);}
 .ft-size-vlarge {font-size: var(--step-3);}
 .pad-bottom {padding-bottom: 50px;}
 .pad-top {padding-top: 50px;}
-.max-width-1350 {max-width:1350px;margin:auto;}
+.max-width-1520 {max-width:1520px;margin:auto;}
+.max-width-1300 {max-width:1300px;margin:auto;}
 .inline {display: inline;}
 .fix-children{position: relative;} /* needed to position "tag group" */
 .ztop{z-index: 1;border-top: none;}

@@ -56,6 +56,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("myDateString", dateObj => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("LLLL yyyy");
   });
+  
+  eleventyConfig.addFilter("myDateYear", dateObj => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy");
+  });
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
   
@@ -63,6 +67,11 @@ module.exports = function(eleventyConfig) {
   const content = post.replace(/(<([^>]+)>)/gi, "");
   return content.substr(0, content.lastIndexOf(" ", 200)) + "...";
 });
+  
+  eleventyConfig.addShortcode("splitit", function(string, splitter) { 
+    return string.split(splitter);
+  });
+
 
   eleventyConfig.addCollection("posts", function(collection) {
 

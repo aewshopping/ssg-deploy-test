@@ -2,7 +2,13 @@
   "images": {
     "header_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645389502/pophist_static/justinian_eye_lowres.png",
     "header_icon_hiqual": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645391841/pophist_static/justinian_eye.png",
-    "review_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645389687/pophist_static/twemoji_memo.png"
+    "review_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645389687/pophist_static/twemoji_memo.png",
+    "UK_flag": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1646170450/pophist_static/UKflag.png",
+    "US_flag": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1646170450/pophist_static/USflag.png",
+    "computer_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1646653088/pophist_static/computer.png",
+    "opinion_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645389689/pophist_static/twemoji_moai.png",
+    "books_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645389686/pophist_static/twemoji-bookpile.png",
+    "pencil_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1646653472/pophist_static/pencil.png"
   },
   "links" : {
     "canonical_stem": "https://pophist-ssg-test.glitch.me",
@@ -11,6 +17,7 @@
     "books_reviews": "https://popularhistorybooks.softr.app",
     "podcast": "https://lnns.co/F2dxHuM4TNR",
     "about": "/about/",
+    "faq": "/frequently-asked-questions/",
     "facebook":"https://www.facebook.com/Popular-history-books-107253478250090",
     "twitter":"https://twitter.com/PopHistoryBooks",
     "instagram":"https://www.instagram.com/popularhistorybooks/",

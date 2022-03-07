@@ -3,21 +3,46 @@ layout: layouts/base.njk
 templateClass: tmpl-home
 ---
 
-{# The Home page uses this template–it extends the base template #}
+{# This is the template for the Posts page–it lists the posts in the collection #}
 
-<div class="wrapper home">
-  <div class="content">
-  
-    {{ content | safe }}
+  <div class="heading_section">
     
-    {# After the the content defined in index.md, list the blog posts in the collection #}
-    <ul>
+    <div class="container max-width-1350">
+    {{ content | safe }}
+    </div>
+
+    <div class="grid_posts max-width-1520">
+      
       {%- for post in collections.posts -%}
-        <li{% if page.url == post.url %} aria-current="page"{% endif %}>{{ post.data.page.date | htmlDateString }} — <a href='{{ post.url }}'>{{ post.data.title }}</a></li>
+
+      <div class="fix-children grid_post_container {% if post.data.tags[1]=="review" %}grid_post_review{% else %}grid_post_other{% endif %}">
+        {%- from "sections/macros.njk" import post_icon with context -%}
+        <a href="{{post.url}}">{{ post_icon({type:post.data.tags[1] | lower}) }}</a>
+
+        <h4 class="undecorate_link {% if post.data.tags[1]=="review" %} grid_post_title{% endif %}"><a href="{{post.url}}">{{ post.data.title }}</a></h4>
+        
+        <p class="ft-size-small undecorate_link"><a href="{{post.url}}"><i>Posted on</i>: {{post.data.date | htmlDateString }}</a></p>
+        
+        <p class="ft-size-small undecorate_link"><a href="{{post.url}}">{{ post.templateContent | excerpt }}</a></p>
+        
+        {% if post.data.tags[1]=="review" %}<p class="ft-size-small undecorate_link"><a href="{{post.url}}">{{post.data.review_rating}} ({{ post.data.review_publication_date | myDateYear }})</a></p>{% endif %}
+        
+        <h6 class="fw-normal grid_post_tagpill">
+          {% for tag in post.data.tags %}
+            {%- if tag != "post" -%}
+              <a href="{{post.url}}" class="tagpill">{{ tag }}</a>
+            {%- endif -%}
+          {% endfor %}
+        </h6>
+        
+        <a href="{{post.url}}"><img class="grid_post_bookimage" src="{{post.data.review_book_image_small_url}}"></a>
+          </div>
+                                                                                  
       {%- endfor -%}
-      <li><a href="/posts">View all posts</a></li>
-    </ul>
+    </div>
+
   </div>
-</div>
+
+
 
 

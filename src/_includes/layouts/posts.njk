@@ -6,14 +6,14 @@ templateClass: tmpl-home
 {# This is the template for the Posts page–it lists the posts in the collection #}
 
   <div class="heading_section">
-    <div class="container">
+    <div class>
     {{ content | safe }}
-    <ul class="nobullet">
+    <div class="grid_posts">
       {%- for post in collections.posts -%}
-        <li{% if page.url == post.url %} aria-current="page"{% endif %}>{{ post.data.page.date | htmlDateString }} — <a href='{{ post.url }}'>{{ post.data.title }}</a>
+        <div{% if page.url == post.url %} aria-current="page"{% endif %}>{{ post.data.page.date | htmlDateString }} — <a href='{{ post.url }}'>{{ post.data.title }}</a>
         <p>{{ post.templateContent | excerpt }}</p>
-        </li>
+        </div>
       {%- endfor -%}
-    </ul>
+    </div>
     </div>
   </div>

@@ -4,6 +4,7 @@ permalink: '/2021/05/21/what-is-popular-history/'
 tags:
   - post
   - opinion
+  - test
 
 title: What is Popular History?
 post_author: Anthony Webb
@@ -14,9 +15,6 @@ meta_excerpt: this is an article
 ---
 ### What can I expect from a popular history book?
 A popular history book is really just a history book that is not aimed at professional historians.
-
-{% set test = ["test1", "test2"] %}
-{{ test[0] }}
 
 So if you are not a professional academic historian and you find a history book interesting then you can classify it as popular history.
 
