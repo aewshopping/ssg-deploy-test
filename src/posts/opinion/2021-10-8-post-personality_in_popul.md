@@ -1,4 +1,4 @@
-﻿---
+---
 layout: layouts/post.njk
 permalink: '/2021/10/08/personality-in-popular-history/'
 tags: [post, opinion]

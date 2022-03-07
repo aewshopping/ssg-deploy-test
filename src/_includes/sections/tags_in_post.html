@@ -1,5 +1,5 @@
-  {% if tags %}
-  <p>
+{% if tags %}
+<p>
   {% for tag in tags %}
     {%- if tag != "post" -%}
       {% set tagUrl %}/tags/{{ tag }}/{% endset %}
