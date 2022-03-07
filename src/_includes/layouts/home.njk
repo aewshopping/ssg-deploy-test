@@ -26,11 +26,11 @@ pagination:
 
         <h4 class="undecorate_link {% if post.data.tags[1]=="review" %} grid_post_title{% endif %}"><a class="main_link" href="{{post.url}}">{{ post.data.title }}</a></h4>
         
-        <p class="ft-size-small undecorate_link"><i>Posted on</i>: {{post.data.date | htmlDateString }}</p>
+        <p class="ft-size-small"><i>Posted on</i>: {{post.data.date | htmlDateString }}</p>
         
-        <p class="ft-size-small undecorate_link">{{ post.templateContent | excerpt }}</p>
+        <p class="ft-size-small">{{ post.templateContent | excerpt }}</p>
         
-        {% if post.data.tags[1]=="review" %}<p class="ft-size-small undecorate_link">{{post.data.review_rating}} ({{ post.data.review_publication_date | myDateYear }})</p>{% endif %}
+        {% if post.data.tags[1]=="review" %}<p class="ft-size-small">{{post.data.review_rating}} ({{ post.data.review_publication_date | myDateYear }})</p>{% endif %}
         
         <h6 class="fw-normal grid_post_tagpill_position_bottom">
           {% for tag in post.data.tags %}

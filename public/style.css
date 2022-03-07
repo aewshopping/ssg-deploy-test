@@ -460,12 +460,17 @@ displaying a GRID OF POSTS of different types
   padding: 50px var(--padding-edge) 4em var(--padding-edge);
   background-color: var(--color-summary-bg);
   transition: var(--color-transition);
-    border: 3px solid var(--color-summary-bg);
+  border: 3px solid var(--color-summary-bg);
 }
 .grid_post_other {
   padding: 10px var(--padding-edge) 4em var(--padding-edge);
   background-color: var(--color-bg);
   transition: var(--color-transition);
+  border: 3px solid var(--color-summary-bg);
+}
+.grid_post_taglist {
+  padding: 0 20px;
+  background-color: var(--color-summary-bg);
   border: 3px solid var(--color-summary-bg);
 }
 .grid_post_bookimage {
@@ -496,7 +501,7 @@ displaying a GRID OF POSTS of different types
   z-index:1;
 }
 .grid_post_container:hover {
-  border: 3px solid var(--color-text);
+  border: 3px solid var(--color-accent);
   box-shadow: 4px 4px 6px var(--color-boxshadow);
 }
 .undecorate_link > a {
@@ -865,6 +870,7 @@ transition: var(--ftsize-transition);}
 .ft-size-vlarge {font-size: var(--step-3);}
 .pad-bottom {padding-bottom: 50px;}
 .pad-top {padding-top: 50px;}
+.pad-left {padding-left: var(--padding-edge);}
 .max-width-1520 {max-width:1520px;margin:auto;}
 .max-width-1300 {max-width:1300px;margin:auto;}
 .inline {display: inline;}
