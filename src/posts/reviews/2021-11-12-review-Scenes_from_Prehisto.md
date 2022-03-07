@@ -1,4 +1,4 @@
-﻿---
+---
 layout: layouts/bookreview.njk
 
 tags:
@@ -9,8 +9,8 @@ title: Scenes from Prehistoric Life - review
 review_book_main_title: Scenes from Prehistoric Life
 review_book_sub_title: From the Ice Age to the Coming of the Romans
 review_book_author: Francis Pryor
-review_book_image_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1789544149.02._SCL_.jpg
-review_book_image_small_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1789544149.02._SCM_.jpg
+review_book_image_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1789544157.02._SCL_.jpg
+review_book_image_small_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1789544157.02._SCM_.jpg
 review_publication_date: 2021-08-05
 review_publisher: Head of Zeus
 review_pages: 338
@@ -23,8 +23,8 @@ review_book_tags:
 review_podcasts:
   - [https://lnns.co/87S0eB4XE3D, History Extra podcast, Inside the prehistoric mind]
 shopping_links:
-  - [https://www.amazon.co.uk/dp/1789544149/, Amazon UK, Amazon UK book link]
-  - [https://www.amazon.com/dp/1789544149/, Amazon US, Amazon US book link]
+  - [https://www.amazon.co.uk/dp/1789544157/, Amazon UK, Amazon UK book link]
+  - [https://www.amazon.com/dp/1789544157/, Amazon US, Amazon US book link]
 review_author: Anthony Webb
 date: 2021-11-12
 review_rating: ★★★☆☆
