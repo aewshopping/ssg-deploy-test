@@ -1,6 +1,11 @@
 ---
 layout: layouts/base.njk
 templateClass: tmpl-home
+pagination:
+  data: collections.post
+  size: 9
+  reverse: true
+  alias: myposts
 ---
 
 {# This is the template for the Posts page–it lists the posts in the collection #}
@@ -12,35 +17,44 @@ templateClass: tmpl-home
     </div>
 
     <div class="grid_posts max-width-1520">
-      
-      {%- for post in collections.posts -%}
+
+      {% for post in myposts %}
 
       <div class="fix-children grid_post_container {% if post.data.tags[1]=="review" %}grid_post_review{% else %}grid_post_other{% endif %}">
         {%- from "sections/macros.njk" import post_icon with context -%}
-        <a href="{{post.url}}">{{ post_icon({type:post.data.tags[1] | lower}) }}</a>
+        {{ post_icon({type:post.data.tags[1] | lower}) }}
 
-        <h4 class="undecorate_link {% if post.data.tags[1]=="review" %} grid_post_title{% endif %}"><a href="{{post.url}}">{{ post.data.title }}</a></h4>
+        <h4 class="undecorate_link {% if post.data.tags[1]=="review" %} grid_post_title{% endif %}"><a class="main_link" href="{{post.url}}">{{ post.data.title }}</a></h4>
         
-        <p class="ft-size-small undecorate_link"><a href="{{post.url}}"><i>Posted on</i>: {{post.data.date | htmlDateString }}</a></p>
+        <p class="ft-size-small undecorate_link"><i>Posted on</i>: {{post.data.date | htmlDateString }}</p>
         
-        <p class="ft-size-small undecorate_link"><a href="{{post.url}}">{{ post.templateContent | excerpt }}</a></p>
+        <p class="ft-size-small undecorate_link">{{ post.templateContent | excerpt }}</p>
         
-        {% if post.data.tags[1]=="review" %}<p class="ft-size-small undecorate_link"><a href="{{post.url}}">{{post.data.review_rating}} ({{ post.data.review_publication_date | myDateYear }})</a></p>{% endif %}
+        {% if post.data.tags[1]=="review" %}<p class="ft-size-small undecorate_link">{{post.data.review_rating}} ({{ post.data.review_publication_date | myDateYear }})</p>{% endif %}
         
-        <h6 class="fw-normal grid_post_tagpill">
+        <h6 class="fw-normal grid_post_tagpill_position_bottom">
           {% for tag in post.data.tags %}
             {%- if tag != "post" -%}
-              <a href="{{post.url}}" class="tagpill">{{ tag }}</a>
+              <span class="tagpill">{{ tag }}</span>
             {%- endif -%}
           {% endfor %}
         </h6>
         
-        <a href="{{post.url}}"><img class="grid_post_bookimage" src="{{post.data.review_book_image_small_url}}"></a>
+        <img class="grid_post_bookimage" src="{{post.data.review_book_image_small_url}}">
           </div>
                                                                                   
       {%- endfor -%}
     </div>
 
+<p class="txt-center">{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Previous</a> | {% endif %}
+
+Page {% for items in pagination.pages %}
+{% if page.url == pagination.hrefs[ loop.index0 ] %}{{loop.index}}{% endif %}
+{% endfor %}
+of {{ pagination.pages | length }}
+      
+{% if pagination.href.next %} | <a href="{{ pagination.href.next }}">Next</a>{% endif %}</p>    
+    
   </div>
 
 
