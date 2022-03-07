@@ -12,10 +12,10 @@ image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1646083485/posts/UKvsU
 meta_excerpt: Trauma or nostalgia? What does history mean in the USA 🇺🇸 and the UK 🇬🇧?
 
 ---
+I have lived all my life in the UK and have a certain idea about what history is. But history can mean different things to different people. How is my UK perspective on the subject different from a United Statesian’s for example? What is the best way to study this difference? And why should we care?
 
 ![A US and a UK history book]({{ image }}#center 'A US history book bestseller and a UK history book bestseller')
 
-I have lived all my life in the UK and have a certain idea about what history is. But history can mean different things to different people. How is my UK perspective on the subject different from a United Statesian’s for example? What is the best way to study this difference? And why should we care?
 
 In this post I will be exploring some of the – for me – surprising answers to these questions.
 
@@ -29,19 +29,52 @@ And the “why” is that the history books we choose to read tell us a lot abou
 
 So what are the history bestsellers[^2] in the UK and the US?
 
+### The top 12 history books in the US right now:
 
 ![US flag](https://res.cloudinary.com/ds2o5ecdw/image/upload/v1646170450/pophist_static/USflag.png#center)
 
-The top 12 history books in the US right now:
+{%- from "sections/macros.njk" import book_covers with context -%}
 
+{{ book_covers({books: [
+["0062316117","A Sapiens: A Brief History Of Humankind"],
+["0393418243","Give Me Liberty!"],
+["154173033X","Hero Of Two Worlds: The Marquis De Lafayette In The Age Of Revolution"],
+["1637582617","Red, White, And Black: Rescuing American History From Revisionists And Race Hustlers"],
+["1465475850","Smithsonian: History Of The World Map By Map"],
+["0307742482","Killers Of The Flower Moon"],
+["0062397346","A People's History of the United States"],
+["0316296619","The Bomber Mafia: A Dream, A Temptation, And The Longest Night Of The Second World War"],
+["1631494538","The Color Of Law: A Forgotten History Of How Our Government Segregated America"],
+["0385545681","Empire Of Pain: The Secret History Of The Sackler Dynasty"],
+["0316492930","How The Word Is Passed: A Reckoning With The History Of Slavery Across America"],
+["1620973928","Lies My Teacher Told Me: Everything Your American History Textbook Got Wrong"]
+]
+}) }}
 
 <hr>
 
+### The top 12 bestselling history books in the UK:
+
 ![UK flag](https://res.cloudinary.com/ds2o5ecdw/image/upload/v1646170450/pophist_static/UKflag.png#center)
 
-The top 12 bestselling history books in the UK:
 
-[books]
+{%- from "sections/macros.njk" import book_covers with context -%}
+
+{{ book_covers({books: [
+["1529073405", "Lily's Promise: How I Survived Auschwitz And Found The Strength To Live"],
+["0099590085", "Sapiens: A Brief History Of Humankind"],
+["1786330997", "The Anglo-Saxons: The Roots Of England"],
+["0241283981", "The Children Of Ash And Elm: A History Of The Vikings"],
+["1788704819", "Traitor King: The Duke And Duchess Of Windsor In Exile"],
+["0008296804", "The White Ship"],
+["0241287898", "Josiah Wedgwood: The Man Who Designed Britain"],
+["178649647X", "Scoff: A History Of Food And Class In Britain"],
+["0752450115", "A 1950s Childhood: From Tin Baths To Bread And Dripping"],
+["0751582891", "52 Times Britain Was A Bellend: The History You Didn't Get Taught At School"],
+["0241986958", "Agent Sonya: Moscow's Most Daring Wartime Spy"],
+["0008353115", "River Kings: A New History Of Vikings From Scandinavia To The Silk Roads"]
+]
+}) }}
 
 <hr>
 

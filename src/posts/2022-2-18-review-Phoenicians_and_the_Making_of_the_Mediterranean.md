@@ -5,12 +5,12 @@ tags:
   - post
   - review
 
-permalink: '/2022/02/18/phoenicians-and-the-making-of-the-mediterranean/'
 title: Phoenicians and the Making of the Mediterranean - review
 review_book_main_title: Phoenicians and the Making of the Mediterranean
 review_book_sub_title: 
 review_book_author: Carolina Lopez-Ruiz
-review_book_image_url: https://dl.airtable.com/.attachments/609aa989c308952f7f909dd8d3663a3b/08b0283a/0674988183.02._SCL_.jpg
+review_book_image_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/0674988183.02._SCL_.jpg
+review_book_image_small_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/0674988183.02._SCM_.jpg
 review_publication_date: 2022-01-28
 review_publisher: Harvard University Press
 review_pages: 384
@@ -30,6 +30,7 @@ shopping_links:
 review_author: Anthony Webb
 date: 2022-02-18
 review_rating: ★★★★☆
+permalink: '/2022/02/18/phoenicians-and-the-making-of-the-mediterranean/'
 review_summary: '<p>Find out what the Phoenicians did for us: from letters, to religion, to apotropaic art, in this survey of the early first millennium BCE Mediterranean.</p><p>While not an easy read it is a rewarding one, methodically unearthing this critical but neglected culture.</p>'
 ---
 Did you know that this review is written in Phoenician? Given that you can read this, that means you can read Phoenician - congratulations.

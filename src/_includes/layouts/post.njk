@@ -5,6 +5,14 @@ templateClass: tmpl-home
 
 {# This is the template for individual blog posts–it builds the front matter properties into the page #}
 
+<div class="tagbar">
+  
+{% include "sections/tags_in_post.html" %}
+
+</div>
+
+
+  
 <div class="heading_title">
   
   <h1>{{title}}</h1>
@@ -29,6 +37,8 @@ templateClass: tmpl-home
         
         {{ content | safe }}
 
+{% include "sections/tags_in_post.html" %}        
+        
         <hr>
         
       <div>

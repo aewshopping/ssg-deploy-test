@@ -1,5 +1,5 @@
 ---
-layout: layouts/posts.njk
+layout: layouts/home.njk
 ---
 
 # Posts
