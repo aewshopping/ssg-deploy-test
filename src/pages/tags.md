@@ -8,7 +8,7 @@ pagination:
 permalink: /tags/{{ tag }}/
 ---
 
-<div class="pad-left"><span class="ft-size-normal tagpill">{{ tag }}</span></div>
+<div><span class="ft-size-normal tagpill">{{ tag }}</span></div>
 
 
 <div class="grid_posts">

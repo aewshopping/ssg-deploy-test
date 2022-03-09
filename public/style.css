@@ -360,14 +360,14 @@ img[src*='#center'] {
   flex: 2;
   padding: 0 var(--padding-edge);
   display: flex;
-  align-items: end;
+  align-items: flex-end;
 }
 .flex-image {
   flex: 2;
   background-color: var(--color-bg);
   height: auto;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   justify-content: center;
   padding: 30px 0 0 40px;
 }
@@ -448,9 +448,9 @@ displaying a GRID OF POSTS of different types
 ------------------------------------ */
 .grid_posts {
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+  grid-template-columns: repeat(auto-fill,minmax(337px,1fr));
   gap: 2em;
-  padding: var(--padding-edge);
+  padding: var(--padding-edge) 0;
   margin: auto;
 }
 .grid_post_container {
@@ -765,7 +765,7 @@ transition: var(--ftsize-transition);}
 .tag-group {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
   position: absolute;
   z-index: 3;
   right: -25%;

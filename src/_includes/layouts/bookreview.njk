@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 
 eleventyComputed:
-  meta_excerpt: "Our review of {{ review_book_main_title }} by {{review_book_author}} - find out what we learned, what we liked, and whatnot. (Together with links to podcast episodes from the author.)"
+  meta_excerpt: "Our review of {{ review_book_main_title }}{% if review_book_sub_title %}: {{ review_book_sub_title }}{% endif %}, by {{review_book_author}}, first published in {{review_publication_date | myDateString }}."
   image: "{{review_book_image_url}}"
   review_book_info_snippet: "{{review_book_author}}, {{review_publication_date | myDateString }}, {{review_publisher}}, {{review_pages}} pages"
   post_author: '{{review_author}}'

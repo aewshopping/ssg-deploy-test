@@ -15,8 +15,10 @@ pagination:
     <div class="container max-width-1350">
     {{ content | safe }}
     </div>
-
-    <div class="grid_posts max-width-1520">
+   
+    <div class="container max-width-1520">
+      
+    <div class="grid_posts ">
 
       {% for post in myposts %}
 
@@ -25,6 +27,10 @@ pagination:
         {{ post_icon({type:post.data.tags[1] | lower}) }}
 
         <h4 class="undecorate_link {% if post.data.tags[1]=="review" %} grid_post_title{% endif %}"><a class="main_link" href="{{post.url}}">{{ post.data.title }}</a></h4>
+
+        {% if post.data.tags[1]=="review" %}
+        <img loading="lazy" class="grid_post_bookimage" src="{{post.data.review_book_image_small_url}}" alt="Book cover for {{post.data.review_book_main_title}}">        
+        {% endif %}
         
         <p class="ft-size-small"><i>Posted on</i>: {{post.data.date | htmlDateString }}</p>
         
@@ -32,15 +38,14 @@ pagination:
         
         {% if post.data.tags[1]=="review" %}<p class="ft-size-small">{{post.data.review_rating}} ({{ post.data.review_publication_date | myDateYear }})</p>{% endif %}
         
-        <h6 class="fw-normal grid_post_tagpill_position_bottom">
+        <p class="fw-normal grid_post_tagpill_position_bottom">
           {% for tag in post.data.tags %}
             {%- if tag != "post" -%}
               <span class="tagpill">{{ tag }}</span>
             {%- endif -%}
           {% endfor %}
-        </h6>
+        </p>
         
-        <img class="grid_post_bookimage" src="{{post.data.review_book_image_small_url}}">
           </div>
                                                                                   
       {%- endfor -%}
