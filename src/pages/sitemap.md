@@ -10,10 +10,14 @@ title_content: Sitemap of pages and posts
 
 {% set taglist = collections["page"] %}
 
+<ol>
 {% for post in taglist %}
-<p>{{loop.index}}. <a href="{{post.url}}">{{ post.data.title }}</a></p>
+  <li>
+    <p><a href="{{post.url}}">{{ post.data.title }}</a></p>
 {% endfor %}
-  
+  </li>
+</ol>
+
 ## Posts
   
 {% set taglist = collections["post"] | reverse %}
