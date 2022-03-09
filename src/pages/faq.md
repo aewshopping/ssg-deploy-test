@@ -1,8 +1,10 @@
 ---
 layout: layouts/page.njk
+permalink: '/frequently-asked-questions/'
 title: Frequently Asked Questions
 image: link here
 title_content: Frequently Asked Questions
+tags: page
 ---
 
 ### What's this website all about'?

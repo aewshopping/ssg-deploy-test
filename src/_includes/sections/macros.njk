@@ -27,9 +27,9 @@
 
 {# associate icons with post tag types - may need to look at padding #}
 
-<img class="grid_post_icon" src="
-{% if input.type=="review" %}{{staticdata.images.review_icon}}{% endif %}
-{% if input.type=="history books" %}{{staticdata.images.books_icon}}{% endif %}
-">
+{% if input.type=="review" %}
+<img loading="lazy" class="grid_post_icon" src="{{staticdata.images.review_icon}}" alt="little review icon">{% endif %}
+{% if input.type=="history books" %}
+<img loading="lazy" class="grid_post_icon" src="{{staticdata.images.books_icon}}" alt="little books icon">{% endif %}
                            
 {% endmacro %}

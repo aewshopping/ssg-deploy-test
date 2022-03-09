@@ -91,6 +91,7 @@ module.exports = function(eleventyConfig) {
 
     return coll;
   });
+
   
   return {
     markdownTemplateEngine: "njk",
