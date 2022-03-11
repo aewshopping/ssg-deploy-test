@@ -8,7 +8,8 @@
     "computer_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1646653088/pophist_static/computer.png",
     "opinion_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645389689/pophist_static/twemoji_moai.png",
     "books_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645389686/pophist_static/twemoji-bookpile.png",
-    "pencil_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1646653472/pophist_static/pencil.png"
+    "pencil_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1646653472/pophist_static/pencil.png",
+    "mic_icon": "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1647012581/pophist_static/mic_lighter.png"
   },
   "links" : {
     "canonical_stem": "https://pophist-ssg-test.glitch.me",
