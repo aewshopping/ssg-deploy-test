@@ -8,7 +8,7 @@ pagination:
   alias: myposts
 ---
 
-{# This is the template for the Posts page–it lists the posts in the collection #}
+<h1 class="heading_title">{{title_content}}</h1>
 
   <div class="heading_section">
     
@@ -18,15 +18,24 @@ pagination:
  
     <div class="container max-width-1520">
       
-    <div class="grid_posts ">
+    <div class="grid_posts fix-children">
+      
+ 
+        
+        <img class="peek-out absolute" src="https://res.cloudinary.com/ds2o5ecdw/image/upload/w_200/v1646946826/pophist_static/Justinian_transparent.png" alt="Byzantine Emperor Justinian">
+ 
+        <div class="tooltip-peek absolute">
+          I, Emperor Justinian, welcome you to this website. Ciao!
+        </div>
 
+        
       {% for post in myposts %}
 
       <div class="fix-children grid_post_container {% if post.data.tags[1]=="review" %}grid_post_review{% else %}grid_post_other{% endif %}">
         {%- from "sections/macros.njk" import post_icon with context -%}
         {{ post_icon({type:post.data.tags[1] | lower}) }}
 
-        <h4 class="undecorate_link {% if post.data.tags[1]=="review" %} grid_post_title{% endif %}"><a class="main_link" href="{{post.url}}">{{ post.data.title }}</a></h4>
+        <h4 aria-level="2" class="undecorate_link {% if post.data.tags[1]=="review" %} grid_post_title{% endif %}"><a class="main_link" href="{{post.url}}">{{ post.data.title }}</a></h4>
 
         {% if post.data.tags[1]=="review" %}
         <img loading="lazy" class="grid_post_bookimage" src="{{post.data.review_book_image_small_url}}" alt="Book cover for {{post.data.review_book_main_title}}">        

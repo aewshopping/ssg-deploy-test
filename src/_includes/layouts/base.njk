@@ -30,17 +30,17 @@
   </head>
   <body id="my-body" class="light-mode">
 
-  <div>
+    <a class="skip-nav-link" href="#main-content">Skip to content</a>
   
       {% include "sections/header.html" %}
-
-    <main>
+    
+    <main id="main-content">
       {{content | safe}}
     </main>
 
       {% include "sections/footer.html" %}
 
-  </div>
+  
 
   </body>
 
