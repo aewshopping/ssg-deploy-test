@@ -57,7 +57,7 @@
   --color-accent-lm-accessible: #BE1341;
   --color-accent-dm: #E92D5F; /* rgb(214,66,106); */
   --color-seethru-accent: rgba(226,38,88,0.6);
-  --color-alt-accent: #FFCC4D;
+  --color-alt-accent: #66023C; /* #FFCC4D; */
   --color-1st: #000000;
   --color-2nd: #DBDBDB;
   --color-3rd: #FFFFFF;
@@ -146,25 +146,25 @@ body {
 }
 
 .byzantine-mode {
-  --color-accent: var(--color-accent-lm);
-  --color-accent-accessible: var(--color-accent-lm);
-  --color-bg: #474973;
-  --color-text: var(--color-white);
-  --color-article-text: var(--color-white);
-  --color-heading-text: var(--color-white);
-  --color-summary-text: var(--color-black);
-  --color-header-text: var(--color-white);
+  --color-accent: #D95C15;
+  --color-accent-accessible: white;
+  --color-bg: #E7C271;
+  --color-text: var(--color-black);
+  --color-article-text: black;
+  --color-heading-text: black;
+  --color-summary-text: var(--color-white);
+  --color-header-text: black;
   --color-summary-bg: var(--color-alt-accent);
   --color-article-border: var(--color-1st);
-  --color-pill-bg: #7D938A;
-  --color-pill-text: var(--color-white);
-  --color-pilltag-text: var(--color-text);
-  --color-boxshadow: var(--color-boxshadow-lm);
   --color-progressbar: linear-gradient(#DFD2539B, #DFD2539B);
-  --color-icon: var(--color-2nd);
+  --color-pill-bg: #D95C15;
+  --color-pill-text: black;
+  --color-pilltag-text: black;
+  --color-boxshadow: var(--color-boxshadow-lm);
+  --color-icon: var(--color-accent);
   --color-icon-hover: var(--color-white);
   --color-footer: var(--color-alt-accent);
-  --color-footer-text: var(--color-1st);
+  --color-footer-text: var(--color-white);
   --color-footer-border: var(--color-footer);
   --color-menu-border: var(--color-footer);
   --color-menu-hover: #34366F;
@@ -561,10 +561,10 @@ displaying a GRID OF POSTS of different types
   transition: opacity 300ms ease-in-out 150ms, transform 400ms ease-in-out 150ms;
   width: 150px;
   background-color: var(--color-summary-bg);
-  color: var(--color-text);
+  color: var(--color-summary-text);
   text-align: center;
   padding: 2px 5px;
-  border: 3px solid var(--color-text);
+  border: 3px solid var(--color-summary-text);
   border-radius: 6px;
   opacity: 0;
 }
@@ -576,7 +576,7 @@ displaying a GRID OF POSTS of different types
   margin-top: -10px;
   border-width: 10px;
   border-style: solid;
-  border-color: transparent transparent transparent var(--color-text);
+  border-color: transparent transparent transparent var(--color-summary-text);
 }
 .tooltip-peek::after {
   content: " ";
@@ -758,7 +758,7 @@ footer {
   z-index: 2;
 }
 
-#summary_text p, #summary_text h3 {
+.summary_text p, .summary_text h3, .summary_text h4 {
   color: var(--color-summary-text);
   transition: var(--color-transition);
 }
