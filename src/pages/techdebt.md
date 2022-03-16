@@ -5,6 +5,9 @@ title: Tech Acknowledgements
 tags: page
 permalink: '/techdebt/'
 ---
+
+_Last modified {{ page.date | htmlDateString }}_
+
 This page sets out the various platforms that I use to build this website, in case you are interested. It also serves as a thank you to those platforms 🙂.
 
 All of them are online which means you don't need to download anything to your computer at any stage - one of my objectives. If my computer breaks I can carry on straightaway with someone else's computer, if they will lend it to me.

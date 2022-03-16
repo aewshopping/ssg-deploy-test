@@ -7,6 +7,8 @@ title_content: Frequently Asked Questions
 tags: page
 ---
 
+_Last modified {{ page.date | htmlDateString }}_
+
 ### What's this website all about'?
 We want to share great popular history books with you. By talking about new history books, and by reading and reviewing them.
 

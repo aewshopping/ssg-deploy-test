@@ -9,6 +9,8 @@ tags: page
 
 # About us
 
+_Last modified {{ page.date | htmlDateString }}_
+
 We read history books for fun!
 
 With no affiliation to any publishers, booksellers, authors, librarians, bookbinders, or papermakers we can write independent reviews.
