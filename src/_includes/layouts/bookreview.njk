@@ -17,13 +17,13 @@ eleventyComputed:
 
           <h1 id="book-title">{{ review_book_main_title }}</h1>
 
-          <h4>{{ review_book_sub_title}}</h4>
+          <h4 aria-level="2">{{ review_book_sub_title}}</h4>
 
           <p id="book-info-text" class="ft-size-small">{{ review_book_info_snippet }}</p>
 
-          <h5 class="fw-normal ft-size-small fix-children fit-content">--Links and info--<a id="goto-details" href="#book-details-title"><svg class="svg-icon svg-icon-accent" xmlns="http://www.w3.org/2000/svg" height="30px" width="30px" viewBox="0 0 24 24"  fill="#000000">{% include "sections/svg/icon_downarrow.html" %}</svg></a></h5>
+          <p class="fw-normal ft-size-small fix-children fit-content">--Links and info--<a id="goto-details" href="#book-details-title" aria-label="Go to the details section at the bottom of the page"><svg class="svg-icon svg-icon-accent" xmlns="http://www.w3.org/2000/svg" height="30px" width="30px" viewBox="0 0 24 24"  fill="#000000">{% include "sections/svg/icon_downarrow.html" %}</svg></a></p>
 
-          <a id="godown" href="#under_section">   
+          <a id="godown" href="#under_section" aria-label="Go to the review summary section">   
             <svg class="svg-icon svg-icon-large svg-icon-accent" xmlns="http://www.w3.org/2000/svg" height="72px" width="72px" viewBox="0 0 24 24" fill="#000000">{% include "sections/svg/icon_downarrow.html" %}</svg>
           </a>
 

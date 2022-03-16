@@ -850,6 +850,7 @@ transition: var(--ftsize-transition);}
   border: none;
   width: max-content;
   box-shadow: 6px 6px 8px var(--color-boxshadow);
+  max-width: 400px;
 }
 .tag-group {
   display: flex;
