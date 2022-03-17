@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-permalink: '/frequently-asked-questions/'
+permalink: '/faq/'
 title: Frequently Asked Questions
 image: link here
 title_content: Frequently Asked Questions
@@ -9,6 +9,8 @@ tags: page
 
 _Last modified {{ page.date | htmlDateString }}_
 
+[[toc]]
+
 ### What's this website all about'?
 We want to share great popular history books with you. By talking about new history books, and by reading and reviewing them.
 
@@ -16,7 +18,7 @@ We want to share great popular history books with you. By talking about new hist
 
 I have always read a lot and have always enjoyed reading history books - plus did a degree in modern history back in the day. But as time went by I found that more and more of my reading was directed by whatever Amazon happened to be promoting. Either through their monthly or daily kindle sales or through the books floating to the top of one of their categories.
 
-#### *I had lost control of what I put into my brain* 👉🧠
+__*I had lost control of what I put into my brain*__ 👉🧠
 
 It was time to take stock. Thinking specfically about history books - one of my favourite genres - where else could I find an unbiased and complete list of books to choose from?
 

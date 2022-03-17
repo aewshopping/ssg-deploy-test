@@ -1,9 +1,10 @@
 dependencies:
   '@11ty/eleventy': 1.0.0
-  eleventy-plugin-seo: 0.5.2
   luxon: 2.3.1
   markdown-it: 12.3.2
+  markdown-it-anchor: 8.4.1
   markdown-it-footnote: 3.0.3
+  markdown-it-table-of-contents: 0.6.0
 packages:
   /@11ty/dependency-tree/2.0.0:
     dev: false
@@ -670,13 +671,6 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-9lt9Zse4hPucPkoP7FHDF0LQAlGyF9JVpnClFLFH3aSSbxmyoqINRpp/9wePWJTUl4KOQwRL72Iw3InHPDkoGw==
-  /eleventy-plugin-seo/0.5.2:
-    dependencies:
-      html-entities: 1.4.0
-      lodash: 4.17.21
-    dev: false
-    resolution:
-      integrity: sha512-saAWnrQrMc/dP6nimCbvAlumohfBrDI7IrpkN/OJoxvLxcOsyWrA+XMR+3lWLVAkuwC1SyA5cbunr1u8jkFK/A==
   /emoji-regex/8.0.0:
     dev: false
     resolution:
@@ -979,10 +973,6 @@ packages:
       node: '>= 0.4.0'
     resolution:
       integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
-  /html-entities/1.4.0:
-    dev: false
-    resolution:
-      integrity: sha512-8nxjcBcd8wovbeKx7h3wTji4e6+rhaVuPNpMqwWgnHh+N9ToqsCs6XztWRBPQ+UtzsoMAdKZtUENoVzU/EMtZA==
   /http-errors/1.6.3:
     dependencies:
       depd: 1.1.2
@@ -1272,10 +1262,23 @@ packages:
       node: '>=12'
     resolution:
       integrity: sha512-I8vnjOmhXsMSlNMZlMkSOvgrxKJl0uOsEzdGgGNZuZPaS9KlefpE9KV95QFftlJSC+1UyCC9/I69R02cz/zcCA==
+  /markdown-it-anchor/8.4.1:
+    dev: false
+    peerDependencies:
+      '@types/markdown-it': '*'
+      markdown-it: '*'
+    resolution:
+      integrity: sha512-sLODeRetZ/61KkKLJElaU3NuU2z7MhXf12Ml1WJMSdwpngeofneCRF+JBbat8HiSqhniOMuTemXMrsI7hA6XyA==
   /markdown-it-footnote/3.0.3:
     dev: false
     resolution:
       integrity: sha512-YZMSuCGVZAjzKMn+xqIco9d1cLGxbELHZ9do/TSYVzraooV8ypsppKNmUJ0fVH5ljkCInQAtFpm8Rb3eXSrt5w==
+  /markdown-it-table-of-contents/0.6.0:
+    dev: false
+    engines:
+      node: '>6.4.0'
+    resolution:
+      integrity: sha512-jHvEjZVEibyW97zEYg19mZCIXO16lHbvRaPDkEuOfMPBmzlI7cYczMZLMfUvwkhdOVQpIxu3gx6mgaw46KsNsQ==
   /markdown-it/12.3.2:
     dependencies:
       argparse: 2.0.1
@@ -2181,7 +2184,8 @@ shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
   '@11ty/eleventy': ^1.0.0
-  eleventy-plugin-seo: 0.5.2
   luxon: ^2.3.1
   markdown-it: ^12.3.2
+  markdown-it-anchor: ^8.4.1
   markdown-it-footnote: ^3.0.3
+  markdown-it-table-of-contents: ^0.6.0

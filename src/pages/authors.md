@@ -6,11 +6,11 @@ image: link here
 title_content: Authors we have reviewed
 tags: page
 ---
-Sorted by most recently reviewed author first.
+Sorted by the first name of the author...
 <br>
 <br>
 
-{% set things = collections.all | reverse %}
+{% set things = collections.all | sort(attribute="data.review_book_author") %}
 <ul>
 {% for author, things in things | groupby("data.review_book_author") %}
 {% if author!=="undefined" %}<li><p>{{ author }}</p>

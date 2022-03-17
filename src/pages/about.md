@@ -17,7 +17,7 @@ With no affiliation to any publishers, booksellers, authors, librarians, bookbin
 
 Our mission is to find and review history books that might otherwise get overlooked - hence Emperor Justinian's beady eye peering out at the top of the website 🤨.
 
-Want a bit more detail? [Our FAQ page can be found at this link.]({{ staticdata.links.canonical_stem }}{{staticdata.links.faq}})
+Want a bit more detail? [Our FAQ page can be found at this link.]({{staticdata.links.faq}})
 
 📧 Or feel free to email us at: <a href="mailto:{{ staticdata.links.myemail }}">{{ staticdata.links.myemail }}</a>
 

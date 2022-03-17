@@ -1,4 +1,4 @@
-﻿---
+---
 layout: layouts/post.njk
 permalink: '/2021/06/11/if-history-is-wrong-does-it-matter/'
 tags: [post, opinion]
