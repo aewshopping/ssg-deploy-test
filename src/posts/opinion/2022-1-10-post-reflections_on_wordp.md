@@ -1,4 +1,4 @@
-﻿---
+---
 layout: layouts/post.njk
 permalink: '/2022/01/10/reflections-on-wordpress-after-8-months/'
 tags: [post, website development]
@@ -11,7 +11,7 @@ meta_excerpt: On this post I’m not going to be talking about history books but
 ---
 On this post I’m not going to be talking about history books but instead about WordPress.com the web platform behind this website – my thoughts after having used it for 8 months now. Tune in or out according to your preference!
 
-<hr>
+[[toc]]
 
 When I started this blog with my friend and collaborator Andy Salisbury in May 2021 we had three aims:
 

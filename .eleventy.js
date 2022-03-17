@@ -29,11 +29,22 @@ module.exports = function(eleventyConfig) {
 
   let markdownIt = require("markdown-it");
   let markdownItfn = require("markdown-it-footnote");
-  let options = {
+  let markdownItAnchor = require("markdown-it-anchor"); 
+  let markdownItToc = require("markdown-it-table-of-contents"); 
+  let md_options = {
     html: true
   };
+ 
   
-  let markdownLib = markdownIt(options).use(markdownItfn);
+  let markdownLib = markdownIt(md_options)
+  .use(markdownItfn)
+  .use(markdownItAnchor)
+  .use(markdownItToc, {
+      "includeLevel": [2,3,4],
+      "listType": "ol",
+      "containerClass":"toc_list",
+      "containerHeaderHtml":"<hr><h3><strong>What's in this page?</strong></h3><p><i>Links are to the headings in the article</i></p>",
+      "containerFooterHtml":"<hr>"});
 
   markdownLib.renderer.rules.footnote_caption = (tokens, idx) => {
   let n = Number(tokens[idx].meta.id + 1).toString();
@@ -44,6 +55,7 @@ module.exports = function(eleventyConfig) {
 
   return n;
 };
+  
 
   
   eleventyConfig.setLibrary("md", markdownLib);

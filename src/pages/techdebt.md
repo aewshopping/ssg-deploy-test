@@ -14,13 +14,15 @@ All of them are online which means you don't need to download anything to your c
 
 _Disclaimer - I have no affiliation to any of these websites, I am just an ordinary user! All of the sites listed below have generous free tiers to get started - and Eleventy is completely free - until you get trillions of readers and need to upgrade. This website has been built using the free tiers only (for now...)_
 
+[[toc]]
+
 ## Eleventy
 
 This website is built using Eleventy a fantastic and - dare I say it? - beginner friendly [website coding/building platform](https://www.11ty.dev/). You can set up various website layouts to display your written word in a consistent way, sprinkle in some data if you want, and auto-generate a blog-roll + other website pages. It then builds your website for you in html format - in the lingo it is a Static Site Generator or SSG.
 
 One of the reasons Eleventy is easy to have a go at is because it is available on...
 
-## Glitch ✨
+## Glitch
 
 If you sort of know what you would like a website to _do_ but have no idea _how_ to go about it, [Glitch is an amazing place / platform to start](https://glitch.com). It offers a colourful, inviting and above all immensely practical way into web programming with a whole range of carefully chosen languages, frameworks and examples you can adapt. It also allows you to bypass all this Command Line super user do this and that mumbo jumbo which can be a big barrier to just trying things out.
 
@@ -40,7 +42,7 @@ It is fast at building sites (this one takes 20-30 seconds, most of which is the
 
 But not everything on this website comes from Netlify, images come from...
 
-## Cloudinary 🌥
+## Cloudinary
 
 An awesome [online platform to store your images](https://cloudinary.com) and to provide them to your website in whatever format you need. Cloudinary handles these image adjustments automatically. Need a low resolution image? Just amend the image url to specify this. Need to serve different image formats to different users? Again you can get Cloudinary to do this for you automatically. Upload is dead easy too and can be done in a variety of time saving ways if you want.
 

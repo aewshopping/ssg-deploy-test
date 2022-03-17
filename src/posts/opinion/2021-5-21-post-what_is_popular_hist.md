@@ -1,4 +1,4 @@
-﻿---
+---
 layout: layouts/post.njk
 permalink: '/2021/05/21/what-is-popular-history/'
 tags: [post, opinion]
@@ -9,6 +9,9 @@ date: 2021-05-21
 image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645998525/posts/whatispopularhistory2.png
 meta_excerpt: What can I expect from a popular history book?
 ---
+
+[[toc]]
+
 ### What can I expect from a popular history book?
 A popular history book is really just a history book that is not aimed at professional historians.
 

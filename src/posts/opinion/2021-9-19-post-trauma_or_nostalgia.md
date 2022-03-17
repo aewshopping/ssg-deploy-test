@@ -1,4 +1,4 @@
-﻿---
+---
 layout: layouts/post.njk
 permalink: '/2021/09/19/popular-history-books-in-the-usa-vs-the-uk/'
 tags: [post, opinion]
@@ -10,6 +10,8 @@ image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1646083485/posts/UKvsU
 meta_excerpt: 
 ---
 I have lived all my life in the UK and have a certain idea about what history is. But history can mean different things to different people. How is my UK perspective on the subject different from a United Statesian’s for example? What is the best way to study this difference? And why should we care?
+
+[[toc]]
 
 ![A US and a UK history book]({{ image }}#center 'A US history book bestseller and a UK history book bestseller')
 
