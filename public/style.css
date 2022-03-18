@@ -978,6 +978,7 @@ transition: var(--ftsize-transition);}
 .ft-size-large {font-size: var(--step-1);}
 .ft-size-vlarge {font-size: var(--step-3);}
 .pad-bottom {padding-bottom: 50px;}
+.pad-bottom-20 {padding-bottom: 20px;}
 .pad-top {padding-top: 50px;}
 .pad-top-10 {padding-top: 10px;}
 .pad-left {padding-left: var(--padding-edge);}
