@@ -35,5 +35,7 @@ collections:
     view_filters:
       - label: "Post author"
         field: post_author
+        pattern: 'Alice|Bob'
       - label: 'Type of post'
         field: tags
+        pattern: 'tags'
