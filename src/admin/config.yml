@@ -13,11 +13,16 @@ collections:
     label: "posts" # Used in the UI
     folder: "src/posts" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
-    sortable_fields: ['date', 'title', 'post_author']
     nested:
        depth: 5
-       summary: "{{tags}}"
+       summary: "{{tags[1]}}"
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date first posted", name: "date", widget: "date" }
+      - { label: "Post author", name: "post_author", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+    sortable_fields: ['date', 'title', 'post_author']
+    view_groups:
+      - label: Writer
+        field: post_author
