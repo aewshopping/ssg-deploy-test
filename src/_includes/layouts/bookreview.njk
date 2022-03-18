@@ -6,6 +6,7 @@ eleventyComputed:
   image: "{{review_book_image_url}}"
   review_book_info_snippet: "{{review_book_author}}, {{review_publication_date | myDateString }}, {{review_publisher}}, {{review_pages}} pages"
   post_author: '{{review_author}}'
+  book_author_1stletter: "{{review_book_author_surname | truncate(1,false,'')}}"
 ---
 
     <section class="flex-switch heading_section">
@@ -70,7 +71,7 @@ eleventyComputed:
         </div>
         
         <div class="flex-secondary">
-          <p class="datapill tag">Review by <a class="pill_link" href="{{ staticdata.links.canonical_stem }}/about/#{{ post_author | replace(" ", "_")}}">{{ post_author }}</a>, {{date | htmlDateString}}</p>
+          <p class="datapill tag">Review by <a class="pill_link" href="{{ staticdata.links.about }}#{{ post_author | replace(" ", "_")}}">{{ post_author }}</a>, {{date | htmlDateString}}</p>
         </div>
         
        </section> 

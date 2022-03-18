@@ -757,7 +757,8 @@ footer {
 }
 
 .book_main_image {
-  max-width: var(--space-s); 
+  max-width: var(--space-s);
+  min-height: 350px;
   box-shadow: 6px 6px 8px var(--color-boxshadow);
   transform: rotate(3deg);
   transition: transform 0.3s ease;

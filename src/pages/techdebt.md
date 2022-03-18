@@ -66,7 +66,7 @@ This is my pod service of choice. It is the [best way I know of to search podcas
 
 And then (even better) I can add this episode to my [personal ListenNotes podcast playlist](https://lnns.co/F2dxHuM4TNR), which is actually an actual real podcast with an RSS feed and everything. I can then subscribe to my own ListenNotes podcast on Google podcast or Apple ipodcast or wherever and listen to it how I like.
 
-An then (even more better) anyone else _in the world_ can subscribe to this [popular history books podcast](https://lnns.co/F2dxHuM4TNR) with whichever podcasting service _they_ like, and use it as another way of discovering great history books 😀. I have a link to the popular history books podcast page in the menu, and links to relevant podcast episodes in all the reviews at the bottom... which are generated automatically by...
+An then (even more better) anyone else _in the world_ can subscribe to this [popular history books podcast]({{ staticdata.links.podcast }}) with whichever podcasting service _they_ like, and use it as another way of discovering great history books 😀. I have a link to the popular history books podcast page in the menu, and links to relevant podcast episodes in all the reviews at the bottom... which are generated automatically by...
 
 ## Zapier
 
@@ -75,6 +75,10 @@ An then (even more better) anyone else _in the world_ can subscribe to this [pop
 In my case when my ListenNotes RSS feed for Popular History Books gets a new podcast episode added to it, Zapier "sees" this and pops links and info about the podcast into my Airtable database, and I then link it up to a book review.
 
 But you can link pretty much anything to anything else in Zapier, and they have a [nice blog](https://zapier.com/blog/) too!
+
+## Softr
+
+Softr is a quick and super easy "no-code" way to [display airtable data in a website](https://www.softr.io/). I use it as a way of providing a [list of our reviews]({{ staticdata.links.books_reviews }}) that you can easily filter and search, which is embedded as an iframe in the page.
 
 Oh yes, I should also acknowledge...
 
