@@ -32,3 +32,8 @@ collections:
         field: post_author
       - label: Type of post
         field: tags
+    view_filters:
+      - label: "Post author"
+        field: post_author
+      - label: 'Type of post'
+        field: tags
