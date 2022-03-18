@@ -43,7 +43,7 @@ module.exports = function(eleventyConfig) {
       "includeLevel": [2,3,4],
       "listType": "ol",
       "containerClass":"toc_list",
-      "containerHeaderHtml":"<hr><h3><strong>What's in this page?</strong></h3><p><i>Links are to the headings in the article</i></p>",
+      "containerHeaderHtml":"<hr><h3><strong>Contents</strong></h3><p><i>Links are to the headings in the article below</i></p>",
       "containerFooterHtml":"<hr>"});
 
   markdownLib.renderer.rules.footnote_caption = (tokens, idx) => {
