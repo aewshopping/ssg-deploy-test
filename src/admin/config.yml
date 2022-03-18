@@ -7,6 +7,9 @@ backend:
 
 media_folder: "" # Media files will be stored in the repo under images/uploads
 
+site_url: https://pophistbooks.netlify.app
+logo_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645389502/pophist_static/justinian_eye_lowres.png
+
 collections:
   # Our blog posts
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
@@ -22,7 +25,10 @@ collections:
       - { label: "Date first posted", name: "date", widget: "date" }
       - { label: "Post author", name: "post_author", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-    sortable_fields: ['date', 'title', 'post_author']
+      - { label: "Tags", name: "tag", widget: "list" }
+    sortable_fields: ['date', 'title', 'post_author', 'tag']
     view_groups:
-      - label: Writer
+      - label: Post writer
         field: post_author
+      - label: Type of post
+        field: tag
