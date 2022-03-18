@@ -16,7 +16,7 @@ permalink: /tags/{{ tag }}/
 
 {% for post in taglist | reverse %}
 
-<div class="fix-children grid_post_container grid_post_taglist">
+<div class="fix-children grid_post_container grid_post_taglist summary_text">
 <p class=" undecorate_link">{{loop.index}}. <a class="main_link" href="{{ post.url | url }}">{{ post.data.title }}</a><br>
 <p class="ft-size-small">{% if tag=="review" %}{{post.data.review_rating}} - {% endif %}Posted on {{post.data.date | htmlDateString }}</p>
 

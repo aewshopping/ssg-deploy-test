@@ -13,10 +13,10 @@
   },
   "links" : {
     "canonical_stem": "https://popularhistorybooks.com",
-    "home": "https://popularhistorybooks.com",
+    "home": "/",
     "books_all": "https://popularhistorybooks.glitch.me",
-    "books_reviews": "https://popularhistorybooks.softr.app",
-    "podcast": "https://lnns.co/F2dxHuM4TNR",
+    "books_reviews": "/reviews/",
+    "podcast": "/podcast/",
     "about": "/about/",
     "faq": "/faq/",
     "facebook":"https://www.facebook.com/Popular-history-books-107253478250090",
