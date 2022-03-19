@@ -1,5 +1,6 @@
 dependencies:
   '@11ty/eleventy': 1.0.0
+  dotenv: 16.0.0
   luxon: 2.3.1
   markdown-it: 12.3.2
   markdown-it-anchor: 8.4.1
@@ -632,6 +633,12 @@ packages:
     dev: false
     resolution:
       integrity: sha1-6oCxBqh1OHdOijpKWv4pPeSJ4Kk=
+  /dotenv/16.0.0:
+    dev: false
+    engines:
+      node: '>=12'
+    resolution:
+      integrity: sha512-qD9WU0MPM4SWLPJy/r2Be+2WgQj8plChsyrCNQzW/0WjvcJQiKQJ9mH3ZgB3fxbUUxgc/11ZJ0Fi5KiimWGz2Q==
   /easy-extender/2.3.4:
     dependencies:
       lodash: 4.17.21
@@ -2184,6 +2191,7 @@ shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
   '@11ty/eleventy': ^1.0.0
+  dotenv: ^16.0.0
   luxon: ^2.3.1
   markdown-it: ^12.3.2
   markdown-it-anchor: ^8.4.1
