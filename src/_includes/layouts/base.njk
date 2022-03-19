@@ -6,22 +6,13 @@
 
     <title>{{ title }}</title>
 
-    <!-- To make sure site points to https secure address -->
-    <script>
-      if (location.protocol != 'https:') {
-        location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-      }
-    </script>
-
+    {% include "sections/head_scripts.html" %}    
+    
     <link rel="stylesheet" type="text/css" href="/public/style.css" />
 
     {% include "sections/head_social_meta.html" %}
 
     {% include "sections/head_user_fonts.html" %}
-
-    {# remove the twemoji from html markup until later :-) 
-    <!-- Loads the twemoji script to allow twitter emojis, only turn on when loads emoji, automate later!     
-    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>  --> #}
     
     <!-- Import the webpage's javascript file -->
     <script src="/public/script.js" defer></script>

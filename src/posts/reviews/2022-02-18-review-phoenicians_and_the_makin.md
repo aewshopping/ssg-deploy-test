@@ -1,52 +1,38 @@
----
-review_book_main_title: Phoenicians and the Making of the Mediterranean
-shopping_links:
-  - - https://www.amazon.co.uk/dp/0674988183/
-    - Amazon UK
-    - Amazon UK book link
-  - - https://www.amazon.com/dp/0674988183/
-    - Amazon US
-    - Amazon US book link
-review_rating: ★★★★☆
-review_book_image_small_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/0674988183.02._SCM_.jpg
-review_book_tags:
-  - - Europe
-    - Africa
-    - Asia
-  - - Ancient
-  - - Social
-    - Cultural
-  - - Phoenicians
-review_publication_date: 2022-01-28
-review_book_sub_title: null
-post_author: Anthony Webb
+﻿---
 layout: layouts/bookreview.njk
-permalink: /2022/02/18/phoenicians-and-the-making-of-the-mediterranean/
-date: 2022-02-18
-review_publisher: Harvard University Press
-review_book_author_surname: Lopez-Ruiz
-review_podcasts:
-  - - https://www.listennotes.com/e/bb98312780a6497c87e9bf6d3f7121e5
-    - Ithaca Bound
-    - Phoenicians Settling in Iberia w. Dr. Carolina López-Ruiz
-  - - https://www.listennotes.com/e/3e2ab542fbef41869a6854835791ef53
-    - The Levantini Podcast
-    - When the Gods Were Born
-  - - https://www.listennotes.com/e/3d4289757a764988ad8f609769965210
-    - The Ancients
-    - The Phoenician World
-title: Phoenicians and the Making of the Mediterranean - review
+
 tags:
   - post
   - review
+
+title: Phoenicians and the Making of the Mediterranean - review
+review_book_main_title: Phoenicians and the Making of the Mediterranean
+review_book_sub_title: 
 review_book_author: Carolina Lopez-Ruiz
+review_book_author_surname: Lopez-Ruiz
 review_book_image_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/0674988183.02._SCL_.jpg
+review_book_image_small_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/0674988183.02._SCM_.jpg
+review_publication_date: 2022-01-28
+review_publisher: Harvard University Press
 review_pages: 384
-review_summary: "<p>Find out what the Phoenicians have done for us: from
-  letters, to religion, to apotropaic art, in this survey of the early first
-  millennium BCE Mediterranean.</p><p>While not an easy read it is a rewarding
-  one, methodically unearthing this critical but neglected culture.</p>"
 review_ISBN13: 978-0674988187
+review_book_tags:
+  - [Europe, Africa, Asia]
+  - [Ancient]
+  - [Social, Cultural]
+  - [Phoenicians]
+review_podcasts:
+  - [https://www.listennotes.com/e/bb98312780a6497c87e9bf6d3f7121e5, Ithaca Bound, Phoenicians Settling in Iberia w. Dr. Carolina López-Ruiz]
+  - [https://www.listennotes.com/e/3e2ab542fbef41869a6854835791ef53, The Levantini Podcast, When the Gods Were Born]
+  - [https://www.listennotes.com/e/3d4289757a764988ad8f609769965210, The Ancients, The Phoenician World]
+shopping_links:
+  - [https://www.amazon.co.uk/dp/0674988183/, Amazon UK, Amazon UK book link]
+  - [https://www.amazon.com/dp/0674988183/, Amazon US, Amazon US book link]
+post_author: Anthony Webb
+date: 2022-02-18
+review_rating: ★★★★☆
+permalink: '/2022/02/18/phoenicians-and-the-making-of-the-mediterranean/'
+review_summary: '<p>Find out what the Phoenicians did for us: from letters, to religion, to apotropaic art, in this survey of the early first millennium BCE Mediterranean.</p><p>While not an easy read it is a rewarding one, methodically unearthing this critical but neglected culture.</p>'
 ---
 Did you know that this review is written in Phoenician? Given that you can read this, that means you can read Phoenician - congratulations.
 
