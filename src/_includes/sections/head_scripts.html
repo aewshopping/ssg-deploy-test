@@ -8,7 +8,7 @@
     <!-- fixes a bug in the netlify cms identity system by making sure an account confirmation token is applied to the admin page of the website -->
     <script>
       if (window.location.hash.includes('_token=')) {
-      window.location.replace('/admin/' + window.location.hash)
+      window.location.replace('/admin' + window.location.hash)
     }
     </script>
 
