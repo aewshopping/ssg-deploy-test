@@ -9,16 +9,54 @@ media_folder: "" # Media files will be stored in the repo under images/uploads
 
 site_url: https://pophistbooks.netlify.app
 logo_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645389502/pophist_static/justinian_eye_lowres.png
+search: false
 
 collections:
-  # Our blog posts
+  # Our review posts
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "posts" # Used in the UI
-    folder: "src/posts" # The path to the folder where the documents are stored
+    folder: "src/posts/reviews" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
-    nested:
-       depth: 5
-       summary: "{{tags[1]}}"
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date first posted", name: "date", widget: "date" }
+      - { label: "Post author", name: "post_author", widget: "string" }
+      - { label: "Rating", name: "review_rating", widget: "string", hint: "Copy and paste stars to change"}
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Review summary", name: "review_summary", widget: "text" }
+      - { label: "Review", name: "body", widget: "markdown" }
+    sortable_fields: ['date', 'title', 'post_author', 'tags']
+    view_groups:
+      - label: Post author
+        field: post_author
+      - label: Type of post
+        field: tags
+      - label: Year of post
+        field: date
+        pattern: \d{4}
+    view_filters:
+      - label: "Post author = Anthony Webb"
+        field: post_author
+        pattern: 'Anthony Webb'
+      - label: "Post author = Andy Salisbury"
+        field: post_author
+        pattern: 'Andy Salisbury'
+      - label: "Post author = Maddox"
+        field: post_author
+        pattern: 'Maddox von Ranke'
+      - label: "Post author = Adrian Webb"
+        field: post_author
+        pattern: 'Adrian Webb'
+      - label: "Post author = Jenny Blakeley"
+        field: post_author
+        pattern: 'Jenny Blakeley'
+
+  # Our opinion posts
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "posts" # Used in the UI
+    folder: "src/posts/opinion" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
@@ -28,14 +66,26 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
     sortable_fields: ['date', 'title', 'post_author', 'tags']
     view_groups:
-      - label: Post writer
+      - label: Post author
         field: post_author
       - label: Type of post
         field: tags
+      - label: Year of post
+        field: date
+        pattern: \d{4}
     view_filters:
-      - label: "Post author"
+      - label: "Post author = Anthony Webb"
         field: post_author
-        pattern: 'Alice|Bob'
-      - label: 'Type of post'
-        field: tags
-        pattern: 'tags'
+        pattern: 'Anthony Webb'
+      - label: "Post author = Andy Salisbury"
+        field: post_author
+        pattern: 'Andy Salisbury'
+      - label: "Post author = Maddox"
+        field: post_author
+        pattern: 'Maddox von Ranke'
+      - label: "Post author = Adrian Webb"
+        field: post_author
+        pattern: 'Adrian Webb'
+      - label: "Post author = Jenny Blakeley"
+        field: post_author
+        pattern: 'Jenny Blakeley'  
