@@ -88,4 +88,4 @@ collections:
         pattern: 'Adrian Webb'
       - label: "Post author = Jenny Blakeley"
         field: post_author
-        pattern: 'Jenny Blakeley'  
+        pattern: 'Jenny Blakeley'
