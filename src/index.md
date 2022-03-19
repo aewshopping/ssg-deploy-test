@@ -24,5 +24,5 @@ title_content: History books and reviews
 
 </div>
 
-<p class="pad-bottom pad-top">We read and review history books! Latest reviews and posts below ↓ {{ process.env.testing }}</p>
+<p class="pad-bottom pad-top">We read and review history books! Latest reviews and posts below ↓ {{ project.environment }}</p>
 
