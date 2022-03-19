@@ -13,7 +13,7 @@ search: false
 
 collections:
   # Our review posts
-  - name: "reviews" # Used in routes, e.g., /admin/collections/blog
+  - name: "review" # Used in routes, e.g., /admin/collections/blog
     label: "reviews" # Used in the UI
     folder: "src/posts/reviews" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
