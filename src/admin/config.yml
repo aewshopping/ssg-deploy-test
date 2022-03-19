@@ -14,24 +14,22 @@ search: false
 collections:
   # Our review posts
   - name: "review" # Used in routes, e.g., /admin/collections/blog
-    label: "reviews" # Used in the UI
+    label: "Reviews" # Used in the UI
+    description: "From here you can edit your reviews if you want to make any post publication changes. You can't make a new review from here or delete one. (New reviews should be submitted via the airtable form https://airtable.com/shrdVVIcFRxvtxbbW as normal.)"
     folder: "src/posts/reviews" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
+    delete: false
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date first posted", name: "date", widget: "date" }
       - { label: "Post author", name: "post_author", widget: "string" }
-      - { label: "Rating", name: "review_rating", widget: "string", hint: "Copy and paste stars to change"}
-      - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Review summary", name: "review_summary", widget: "text" }
-      - { label: "Review", name: "body", widget: "markdown" }
+      - { label: "Review", name: "body", widget: "text" }
     sortable_fields: ['date', 'title', 'post_author', 'tags']
     view_groups:
       - label: Post author
         field: post_author
-      - label: Type of post
-        field: tags
       - label: Year of post
         field: date
         pattern: \d{4}
@@ -54,16 +52,18 @@ collections:
 
   # Our opinion posts
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "posts" # Used in the UI
+    label: "Posts" # Used in the UI
+    description: "From here you can edit your opinion pieces if you want to make any post publication changes. You can't make a new post from here or delete one. (New posts should be submitted via the airtable form https://airtable.com/shrUat4zwN8Rac94f as normal.)"
     folder: "src/posts/opinion" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
+    delete: false
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date first posted", name: "date", widget: "date" }
       - { label: "Post author", name: "post_author", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "text" }
     sortable_fields: ['date', 'title', 'post_author', 'tags']
     view_groups:
       - label: Post author

@@ -1,0 +1,17 @@
+    <!-- To make sure site points to https secure address -->
+    <script>
+      if (location.protocol != 'https:') {
+        location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+      }
+    </script>
+
+    <!-- fixes a bug in the netlify cms identity system by making sure an account confirmation token is applied to the admin page of the website -->
+    <script>
+      if (window.location.hash.includes('_token=')) {
+      window.location.replace('/admin/' + window.location.hash)
+    }
+    </script>
+
+    {# remove the twemoji from html markup until later :-) note also requires <script>twemoji.parse(document.body);</script> right after the html body tag 
+    <!-- Loads the twemoji script to allow twitter emojis, only turn on when loads emoji, automate later!     
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>  --> #}
