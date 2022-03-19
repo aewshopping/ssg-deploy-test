@@ -13,8 +13,8 @@ search: false
 
 collections:
   # Our review posts
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "posts" # Used in the UI
+  - name: "review" # Used in routes, e.g., /admin/collections/blog
+    label: "reviews" # Used in the UI
     folder: "src/posts/reviews" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
