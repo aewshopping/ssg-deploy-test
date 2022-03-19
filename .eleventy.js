@@ -104,6 +104,9 @@ module.exports = function(eleventyConfig) {
     return coll;
   });
 
+  // Populates environment variables into process.env and makes it available in 11ty's global data https://github.com/11ty/eleventy/issues/782.
+  require('dotenv').config();
+  eleventyConfig.addGlobalData('env', process.env);
   
   return {
     markdownTemplateEngine: "njk",
