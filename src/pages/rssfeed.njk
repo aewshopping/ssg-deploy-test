@@ -18,6 +18,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.subtitle }}</subtitle>
+  <icon>{{ staticdata.images.header_icon_hiqual }}</icon>
+  <logo>{{ staticdata.images.header_icon_hiqual }}</logo>
   <link href="{{ metadata.feedUrl }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
   <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
@@ -36,7 +38,7 @@
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    {% set book_image %}<p><img src="{{post.data.review_book_image_small_url}}" alt="image" /></p> {% endset %}<content type="html">{{ book_image | htmlToAbsoluteUrls(absolutePostUrl) }}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    {% set book_image %}<p><img src="{{post.data.review_book_image_url}}" alt="image" /></p> {% endset %}<content type="html">{{ book_image | htmlToAbsoluteUrls(absolutePostUrl) }}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
   {%- endfor %}
 </feed>
