@@ -80,10 +80,6 @@ module.exports = function(eleventyConfig) {
   return content.substr(0, content.lastIndexOf(" ", 200)) + "...";
 });
   
-  eleventyConfig.addShortcode("splitit", function(string, splitter) { 
-    return string.split(splitter);
-  });
-
 
   eleventyConfig.addCollection("posts", function(collection) {
 
@@ -107,6 +103,9 @@ module.exports = function(eleventyConfig) {
   // Populates environment variables into process.env and makes it available in 11ty's global data https://github.com/11ty/eleventy/issues/782.
   require('dotenv').config();
   eleventyConfig.addGlobalData('env', process.env);
+
+  const pluginRss = require("@11ty/eleventy-plugin-rss");
+  eleventyConfig.addPlugin(pluginRss);
   
   return {
     markdownTemplateEngine: "njk",
