@@ -987,6 +987,7 @@ transition: var(--ftsize-transition);}
 .max-width-1520 {max-width:1520px;margin:auto;}
 .max-width-1300 {max-width:1300px;margin:auto;}
 .inline {display: inline;}
+.no-line{text-decoration:none;}
 .fix-children{position: relative;}
 .absolute{position: absolute;}
 .ztop{z-index: 1;border-top: none;}

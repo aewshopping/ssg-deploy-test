@@ -5,6 +5,7 @@ title: Privacy policy
 image: link here
 title_content: Privacy policy
 tags: page
+
 ---
 
 _Last modified {{ page.date | htmlDateString }}_

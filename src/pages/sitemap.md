@@ -4,6 +4,7 @@ permalink: '/sitemap/'
 image: link here
 title: A human readable sitemap
 title_content: Sitemap of pages and posts
+
 ---
 
 ## Pages

@@ -4,6 +4,7 @@ title_content: Tech Acknowledgements
 title: Tech Acknowledgements
 tags: page
 permalink: '/techdebt/'
+
 ---
 
 _Last modified {{ page.date | htmlDateString }}_
