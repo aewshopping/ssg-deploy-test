@@ -38,7 +38,7 @@
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    {% set book_image %}<p><img src="{{post.data.review_book_image_url}}" alt="image" /></p> {% endset %}<content type="html">{{ book_image | htmlToAbsoluteUrls(absolutePostUrl) }}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    {% set book_image %}<p><img src="{{post.data.image}}" alt="image" /></p> {% if post.data.tags[1]=="review" %}<p>{{post.data.meta_excerpt}}</p> <p><strong>{{post.data.review_summary | safe}}</strong></p> <p>{{post.data.review_rating}}</p> {% endif %}{% endset %}<content type="html">{{ book_image | htmlToAbsoluteUrls(absolutePostUrl) }}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
   {%- endfor %}
 </feed>
