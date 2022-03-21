@@ -5,6 +5,7 @@ title: About us and contact
 image: image link here please
 meta_excerpt: some info about this and that
 tags: page
+
 ---
 
 # About us

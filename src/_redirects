@@ -1,1 +1,2 @@
+# Redirect file to move old atom feed to new location, works when deployed to netlify
 /feed/  /feed.xml

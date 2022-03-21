@@ -6,6 +6,7 @@ pagination:
   size: 1
   alias: tag
 permalink: /tags/{{ tag }}/
+
 ---
 
 <div><span class="ft-size-normal tagpill">{{ tag }}</span></div>

@@ -5,6 +5,7 @@ title: Frequently Asked Questions
 image: link here
 title_content: Frequently Asked Questions
 tags: page
+
 ---
 
 _Last modified {{ page.date | htmlDateString }}_

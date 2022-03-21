@@ -714,6 +714,7 @@ transition: var(--ftsize-transition);}
 .flex1{flex:1;}
 .flex2{flex:2;}
 .margin-bothsides{margin: 0 6px;}
+.no-line{text-decoration:none!important;border:none!important;}
 
 .material-icons-outlined.md-18 { font-size: 18px;}
 .material-icons-outlined.md-24 { font-size: 24px; }
