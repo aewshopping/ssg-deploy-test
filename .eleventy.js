@@ -18,6 +18,7 @@ module.exports = function(eleventyConfig) {
     "yml"
   ]);
   eleventyConfig.addPassthroughCopy("public");
+  eleventyConfig.addPassthroughCopy('src/_redirects');
 
 
   // change to snippet: false when not updating or testing project
