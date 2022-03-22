@@ -81,7 +81,8 @@ module.exports = function(eleventyConfig) {
   return content.substr(0, content.lastIndexOf(" ", 200)) + "...";
 });
   
-
+  eleventyConfig.addFilter("keys", obj => Object.keys(obj));
+  
   eleventyConfig.addCollection("posts", function(collection) {
 
     const coll = collection

@@ -5,10 +5,11 @@ title: Privacy policy
 image: link here
 title_content: Privacy policy
 tags: page
+date: 2022-03-22
 
 ---
 
-_Last modified {{ page.date | htmlDateString }}_
+_Last modified {{ date | htmlDateString }}_
 
 This site __does not__ store your personal information.
 

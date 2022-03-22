@@ -33,7 +33,7 @@ eleventyComputed:
         
           <div class="fix-children">
             
-            <img class="book_main_image" alt="Front cover of the book" src="{{review_book_image_url}}">
+            <img class="book_main_image" alt="Front cover of the book" src="{{review_book_image_url | replace("upload/","upload/f_auto/") }}">
 
             <div class="tag-group">
 

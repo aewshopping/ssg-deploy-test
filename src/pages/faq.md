@@ -5,10 +5,11 @@ title: Frequently Asked Questions
 image: link here
 title_content: Frequently Asked Questions
 tags: page
+date: 2022-03-22
 
 ---
 
-_Last modified {{ page.date | htmlDateString }}_
+_Last modified {{ date | htmlDateString }}_
 
 [[toc]]
 
