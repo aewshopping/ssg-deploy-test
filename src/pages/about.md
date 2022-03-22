@@ -5,12 +5,13 @@ title: About us and contact
 image: image link here please
 meta_excerpt: some info about this and that
 tags: page
+date: 2022-03-22
 
 ---
 
 # About us
 
-_Last modified {{ page.date | htmlDateString }}_
+_Last modified {{ date | htmlDateString }}_
 
 We read history books for fun!
 

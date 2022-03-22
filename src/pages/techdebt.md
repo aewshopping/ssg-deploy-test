@@ -4,16 +4,17 @@ title_content: Tech Acknowledgements
 title: Tech Acknowledgements
 tags: page
 permalink: '/techdebt/'
+date: 2022-03-22
 
 ---
 
-_Last modified {{ page.date | htmlDateString }}_
+_Last modified {{ date | htmlDateString }}_
 
-This page sets out the various platforms that I use to build this website, in case you are interested. It also serves as a thank you to those platforms 🙂.
+This website was built by me from the ground up. If you are interested in the tools I used keep reading!
 
-All of them are online which means you don't need to download anything to your computer at any stage - one of my objectives. If my computer breaks I can carry on straightaway with someone else's computer, if they will lend it to me.
+All of the sites listed below have generous free tiers to get started. Eleventy is completely free. This website has been built using the free tiers only, which works fine until you need to scale up.
 
-_Disclaimer - I have no affiliation to any of these websites, I am just an ordinary user! All of the sites listed below have generous free tiers to get started - and Eleventy is completely free - until you get trillions of readers and need to upgrade. This website has been built using the free tiers only (for now...)_
+_Disclaimer - I have no affiliation or association with any of these companies. If you click the links below I will get nothing_ 🙂
 
 [[toc]]
 
@@ -31,7 +32,7 @@ I use Glitch to test and update the code for this website, which I can then expo
 
 ## Github
 
-The code for this website is backed up on Github in my repository (ie folder). [Github is way of storing code or text built around version control](https://github.com). You are welcome to take a look at [the code that creates this website!](https://github.com) but bear in mind my level is beginner coder, so I wouldn't assume that I have done anything in the best or even the right way.
+The code for this website is backed up on Github in my repository (ie folder). [Github is way of storing code or text built around version control](https://github.com). You are welcome to take a look at [the code that creates this website!](https://github.com/aewshopping/ssg-deploy-test) but bear in mind my level is beginner coder, so I wouldn't assume that I have done anything in the best or even the right way.
 
 The code for the website isn't the website itself. The actual html website pages need to be _built_ from the code, for which I turn to...
 

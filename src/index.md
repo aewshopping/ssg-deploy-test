@@ -4,7 +4,7 @@ title: Popular history books homepage
 tags: page
 meta_excerpt: "A blog reading and reviewing popular history books. We review great (hopefully!) new (probably...) history (certainly 🙂) books - that you might otherwise overlook."
 title_content: History books and reviews
-image: "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1645391841/pophist_static/justinian_eye.png"
+image: "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1647984580/pophist_static/justinian_eye_square.jpg"
 
 ---
 

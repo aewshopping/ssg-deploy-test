@@ -18,8 +18,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.subtitle }}</subtitle>
-  <icon>{{ staticdata.images.header_icon_hiqual }}</icon>
-  <logo>{{ staticdata.images.header_icon_hiqual }}</logo>
+  <icon>{{ staticdata.images.header_icon_square }}</icon>
+  <logo>{{ staticdata.images.header_icon_square }}</logo>
   <link href="{{ metadata.feedUrl }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
   <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>

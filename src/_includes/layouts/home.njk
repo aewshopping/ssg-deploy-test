@@ -38,7 +38,7 @@ pagination:
         <h4 aria-level="2" class="undecorate_link {% if post.data.tags[1]=="review" %} grid_post_title{% endif %}"><a class="main_link" href="{{post.url}}">{{ post.data.title }}</a></h4>
 
         {% if post.data.tags[1]=="review" %}
-        <img loading="lazy" class="grid_post_bookimage" src="{{post.data.review_book_image_small_url}}" alt="Book cover for {{post.data.review_book_main_title}}">        
+        <img loading="lazy" class="grid_post_bookimage" src="{{post.data.review_book_image_small_url | replace("upload/","upload/f_auto/")}}" alt="Book cover for {{post.data.review_book_main_title}}">        
         {% endif %}
         
         <p class="ft-size-small"><i>Posted on</i>: {{post.data.date | htmlDateString }}</p>
