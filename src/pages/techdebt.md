@@ -32,7 +32,7 @@ I use Glitch to test and update the code for this website, which I can then expo
 
 ## Github
 
-The code for this website is backed up on Github in my repository (ie folder). [Github is way of storing code or text built around version control](https://github.com). You are welcome to take a look at [the code that creates this website!](https://github.com/aewshopping/ssg-deploy-test) but bear in mind my level is beginner coder, so I wouldn't assume that I have done anything in the best or even the right way.
+The code for this website is backed up on Github in my repository (ie folder). [Github is way of storing code or text built around version control](https://github.com). You are welcome to take a look at [the code that creates this website](https://github.com/aewshopping/ssg-deploy-test).
 
 The code for the website isn't the website itself. The actual html website pages need to be _built_ from the code, for which I turn to...
 

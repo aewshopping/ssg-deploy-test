@@ -25,7 +25,7 @@ collections:
       - { label: "Date first posted", name: "date", widget: "date" }
       - { label: "Post author", name: "post_author", widget: "string" }
       - { label: "Review summary", name: "review_summary", widget: "text" }
-      - { label: "Review", name: "body", widget: "markdown", modes: ["raw"] }
+      - { label: "Review", name: "body", widget: "markdown"}
     sortable_fields: ['date', 'title', 'post_author', 'tags']
     view_groups:
       - label: Post author
@@ -63,7 +63,7 @@ collections:
       - { label: "Date first posted", name: "date", widget: "date" }
       - { label: "Post author", name: "post_author", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Body", name: "body", widget: "markdown", modes: [raw] }
+      - { label: "Body", name: "body", widget: "markdown"}
     sortable_fields: ['date', 'title', 'post_author', 'tags']
     view_groups:
       - label: Post author
