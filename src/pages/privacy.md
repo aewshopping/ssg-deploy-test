@@ -23,6 +23,8 @@ Images are served from [Cloudinary](https://cloudinary.com). Their dashboard rep
 
 This is currently my only way of keeping rough track of the number of users on this site.
 
+This [Cloudinary Support article](https://support.cloudinary.com/hc/en-us/articles/360020207811-Does-Cloudinary-Store-Any-Cookies-) says that when you view images on this website your personal data is not used or stored by them.
+
 ### Google fonts
 
 Fonts are loaded from [Google fonts](https://fonts.google.com/). Google will track font usage numbers, their [font FAQ](https://developers.google.com/fonts/faq) has more details.

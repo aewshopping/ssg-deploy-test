@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 permalink: '/2022/01/10/reflections-on-wordpress-after-8-months/'
-tags: [post, website development]
+tags: [post, website]
 
 title: Reflections on WordPress – 8 months in
 post_author: Anthony Webb

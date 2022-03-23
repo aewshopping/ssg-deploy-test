@@ -894,7 +894,7 @@ transition: var(--ftsize-transition);}
   color: var(--color-accent-accessible);  
   border: 1.5px solid var(--color-accent-accessible);
 } 
-.tagpill:hover {
+.tagpill:hover, .tagpill_selected {
   background-color: var(--color-pill-bg);
   color: var(--color-pill-text);
   border: 1.5px solid var(--color-pill-text);

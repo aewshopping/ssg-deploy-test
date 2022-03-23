@@ -81,6 +81,7 @@ module.exports = function(eleventyConfig) {
   return content.substr(0, content.lastIndexOf(" ", 200)) + "...";
 });
   
+  // From https://github.com/11ty/eleventy/issues/927
   eleventyConfig.addFilter("keys", obj => Object.keys(obj));
   
   eleventyConfig.addCollection("posts", function(collection) {
