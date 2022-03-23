@@ -4,7 +4,7 @@
       name="description"
       content="{{meta_excerpt}}"
     />
-    <meta name="robots" content="noindex, nofollow" />
+    {% if env.environment=="testing" %}<meta name="robots" content="noindex, nofollow" />{% endif %}
     <meta property="og:title" content="{{title}}" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{ staticdata.links.canonical_stem }}{{ page.url }}" />
