@@ -28,7 +28,7 @@ function checkColor() {
 
 function checkSize() {
 
-  let myBtn = document.getElementById('btn-txtsize-article');
+  let txtIcon = document.getElementById('btn-txtsize-article');
   let z = 0;
   
     for (let i = 0; i < textSizes.length; i++) {
@@ -40,7 +40,7 @@ function checkSize() {
     }
   }   
   if (z != 0) {
-    myBtn.classList.toggle("color-accent");
+    txtIcon.classList.toggle("color-accent-fill");
   }
 }
 
@@ -66,7 +66,7 @@ function next_in_array(myArray, targetID) {
 
 
 function cycle_text_size(buttonID) {
-  let myBtn = document.getElementById(buttonID);
+  let txtIcon = document.getElementById("btn-txtsize-article");
   let z = 0;
   
   let currentSize = getComputedStyle(document.documentElement).getPropertyValue('--size-modifier');
@@ -86,7 +86,7 @@ function cycle_text_size(buttonID) {
   console.log ("stored: " + localStorage.getItem("textSize"));
 
   if ((z == 0) || (z == [textSizes.length - 1])) {
-    myBtn.classList.toggle("color-accent");
+    txtIcon.classList.toggle("color-accent-fill");
   }
 }
 
@@ -94,13 +94,16 @@ function cycle_text_size(buttonID) {
 
 function toggle_layer_scroll(id) {
    document.getElementById("under_section").classList.toggle("stickunder");
-  document.getElementById(id).classList.toggle("color-accent");
+  document.getElementById("btn-layers-article").classList.toggle("color-accent-fill");
 }
 
 
 function toggle_showdetails(btnID, elem) {
   document.getElementById(elem).classList.toggle("uncollapsed");
-  document.getElementById(btnID).classList.toggle("uncollapsed");
+}
+
+function toggle_on_showdetails(btnID, elem) {
+  document.getElementById(elem).classList.add("uncollapsed");
 }
 
 
