@@ -164,7 +164,7 @@ body {
   --color-pilltag-text: black;
   --color-boxshadow: var(--color-boxshadow-lm);
   --color-icon: black;
-  --color-icon-hover: #D95C15;
+  --color-icon-hover: white;
   --color-footer: #D95C15;
   --color-footer-text: black;
   --color-footer-border: black;
