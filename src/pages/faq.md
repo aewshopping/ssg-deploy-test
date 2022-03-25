@@ -30,6 +30,10 @@ If you can't find it: build it.
 
 With a couple of friends we decided to start up this website in the spring of 2021. The results you can see / judge for yourself 🙂.
 
+### How can I contact you?
+
+📧 Send us an email at <a href="mailto:{{ staticdata.links.myemail }}">{{ staticdata.links.myemail }}</a>
+
 ### How do you find your books?
 By scouring the catalogues (and catalogs) of publishing houses looking for English language history books that captivate us. We also use the Amazon advanced book search functionality to find newly released history books.  We are trying to supplement and complement the reviews you might find in other publications.
 
