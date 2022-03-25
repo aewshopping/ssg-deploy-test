@@ -15,3 +15,9 @@ This website is a blog for reading and reviewing popular history books. We revie
 [Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
 
 This project started with the official Eleventy template on Glitch: [Minimal Eleventy](https://glitch.com/edit/#!/remix/11ty)!
+
+## Deployed on Netlify
+
+Current deploy status is:
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9d0a9294-2717-4163-be9f-13d6accfd658/deploy-status)](https://app.netlify.com/sites/pophistbooks/deploys)
