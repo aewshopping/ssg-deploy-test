@@ -111,12 +111,13 @@ body {
   --color-progressbar: linear-gradient(var(--color-seethrublack), var(--color-seethrublack));
   --color-icon: var(--color-lightgrey);
   --color-icon-hover: var(--color-offblack);
-  --color-footer: var(--color-bg);
+  --color-footer: var(--color-summary-bg);
   --color-footer-text: var(--color-header-text);
   --color-footer-border: var(--color-2nd);
   --color-menu-items-border: var(--color-2nd);
   --color-menu-hover: #F0F0F0;
   --color-menu-text: var(--color-footer-text);
+  --color-grid-accent: var(--color-accent);
 }
 
 .dark-mode {
@@ -143,6 +144,7 @@ body {
   --color-menu-border: var(--color-footer);
   --color-menu-hover: #313233;
   --color-menu-text: var(--color-text);
+  --color-grid-accent: var(--color-accent);
 }
 
 .byzantine-mode {
@@ -169,6 +171,7 @@ body {
   --color-menu-border: var(--color-footer);
   --color-menu-hover: #D95C15;
   --color-menu-text: black;
+  --color-grid-accent: white;
 }
 
 *,
@@ -416,7 +419,7 @@ img[src*='#center'] {
   height:50px;
   width:50px;
 }
-.circle:hover{border-color: var(--color-summary-bg);}
+.circle:hover{border-color: var(--color-icon-hover);}
 .fit-inside-circle {
   position: absolute;
   height: 30px;
@@ -425,7 +428,7 @@ img[src*='#center'] {
   transform: translate(-50%,-50%);
 }
 a:focus .fit-inside-circle {
-  outline: 2.5px solid var(--color-text);
+  outline: 7px solid var(--color-text);
 }
 
 /* ------------------------------------
@@ -537,7 +540,7 @@ displaying a GRID OF POSTS of different types
   z-index:1;
 }
 .grid_post_container:hover {
-  border: 3px solid var(--color-accent);
+  border: 3px solid var(--color-grid-accent);
   box-shadow: 4px 4px 6px var(--color-boxshadow);
 }
 .undecorate_link > a {
@@ -706,6 +709,7 @@ footer {
   font-size: inherit;
   color: inherit;
   padding: 10px 0;
+  color: var(--color-footer-text);
 }
 
 #book-title {
@@ -935,7 +939,7 @@ transition: var(--ftsize-transition);}
 .svg-icon-accent {fill: var(--color-accent);}
 .svg-icon-border {border: 3px solid var(--color-accent);}
 .svg-icon-large {height: 72px;width: 72px;}
-.svg-icon:hover {fill: var(--color-text);}
+.svg-icon:hover {fill: var(--color-icon-hover);}
 .svg-icon-small {height: 30px;width: 30px;}
 .svg-icon-fill-accent {
   fill: var(--color-bg);
@@ -973,6 +977,7 @@ transition: var(--ftsize-transition);}
 .txt-capital {text-transform: uppercase;}
 .txt-summary-color {color: var(--color-summary-text);}
 .color-accent {color: var(--color-accent);}
+.color-accent-fill{fill: var(--color-icon-hover);}
 .ft-size-verysmall {font-size: var(--step--2);}
 .ft-size-small {font-size: var(--step--1);}
 .ft-size-normal {font-size: var(--step-0);}
