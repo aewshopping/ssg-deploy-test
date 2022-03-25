@@ -147,16 +147,17 @@ let shareData = {
   url: myurl,
 }
 
-    const btn = document.querySelector('.share-link');
-
-    btn.addEventListener('click', () => {
-      navigator.share(shareData)
+let btnShare = document.getElementsByClassName("share-link");
+    for (var i = 0; i < btnShare.length; i++) {
+        btnShare[i].addEventListener("click", () => {
+          navigator.share(shareData)
         .then(() =>
           console.log('Share successfull!')
         )
         .catch((e) =>
           console.log('Error: ' + e)
         )
-    });
+        });
+    }
 
 //END OF SHARING BUTTON CODE USING WEB SHARE API /////////////////////

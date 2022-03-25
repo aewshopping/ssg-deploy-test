@@ -99,3 +99,5 @@ I also really like the [Twitter emoji designs](https://twemoji.twitter.com) whic
 <hr>
 
 Thank you to all these services! I highly recommend you check them out if you haven't already.
+
+Anthony Webb, London UK

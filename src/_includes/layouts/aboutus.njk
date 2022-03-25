@@ -32,11 +32,11 @@ templateClass: tmpl-home
       </div>
       
       <div class="grid-container-left">
-        <h3> {{ item.name }} </h3>
-        <p> {{ item.bio }} </p>
+        <h3 class="txt-summary-color"> {{ item.name }} </h3>
+        <p class="txt-summary-color"> {{ item.bio }} </p>
       
           {% for thing in item.fav_books %}
-            <p> <a href="{{ thing.link }}"><i>{{ thing.title }}</i></a>, {{ thing.author }} </p>
+            <p class="txt-summary-color"> <a class="txt-summary-color" href="{{ thing.link }}"><i>{{ thing.title }}</i></a>, {{ thing.author }} </p>
           {% endfor %}  
       </div>
 
