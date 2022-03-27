@@ -54,27 +54,27 @@ Wilfred Owen, Rupert Brooke, Siegfried Sassoon.. just a small number of men insp
 
 __The Dead-Beat__
 
-Akroyd dropped, — more sullenly than wearily,
-Lay stupid like a cod, heavy like meat,
-And they could not kick him to his feet;
-Just blinked at Webb’s squash racquet, blearily;
-— Didn’t appear to know the match was won,
-Or see the court on which he was undone.
-“I’ll beat the others,” he whined, “If this hand’s spared,
+Akroyd dropped, — more sullenly than wearily,<br>
+Lay stupid like a cod, heavy like meat,<br>
+And they could not kick him to his feet;<br>
+Just blinked at Webb’s squash racquet, blearily;<br>
+— Didn’t appear to know the match was won,<br>
+Or see the court on which he was undone.<br>
+“I’ll beat the others,” he whined, “If this hand’s spared,<br>
 I’ll murder them, I will.”
 
-A low voice said,
-“It’s Huddersfield, p’raps, he sees; his pluck’s all gone,
-Dreaming of all the valiant, that too once were ahead:
-Bold uncles, smiling ministerially;
-Maybe his brave young fiancee, getting no younger
-In some new home, improved materially.
+A low voice said,<br>
+“It’s Huddersfield, p’raps, he sees; his pluck’s all gone,<br>
+Dreaming of all the valiant, that too once were ahead:<br>
+Bold uncles, smiling ministerially;<br>
+Maybe his brave young fiancee, getting no younger<br>
+In some new home, improved materially.<br>
 It’s not these stiffs have crazed him; nor Webb’s greater hunger.”
 
-Webb sent him down at last, out of the way
-Unwounded; — stout lad, too, ‘fore facing Webb’s play.
-Malingering? Stretcher-bearers winked, “Not half!”
-Later they heard the Doc’s well-whiskied laugh:
+Webb sent him down at last, out of the way<br>
+Unwounded; — stout lad, too, ‘fore facing Webb’s play.<br>
+Malingering? Stretcher-bearers winked, “Not half!”<br>
+Later they heard the Doc’s well-whiskied laugh:<br>
 “That Akroyd you sent last night soon died. Hooray!”
 
 _Journalist: Adrian Webb_
