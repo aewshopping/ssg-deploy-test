@@ -14,10 +14,10 @@ image: "https://res.cloudinary.com/ds2o5ecdw/image/upload/v1647984580/pophist_st
   <a href="{{ staticdata.links.books_all }}" aria-label="All history books"><img class="fit-inside-circle" src="{{staticdata.images.books_icon}}" alt="Books icon">
 </div></a>
 <div class="circle">
-  <a href="{{ staticdata.links.books_reviews }}" aria-label="All our reviews"><img class="fit-inside-circle" src="{{staticdata.images.review_icon}}" alt="Reviews icon"></a>
+  <a href="{{ staticdata.links.books_reviews }}" aria-label="All of our our reviews"><img class="fit-inside-circle" src="{{staticdata.images.review_icon}}" alt="Reviews icon"></a>
 </div>
 <div class="circle">
-  <a href="{{ staticdata.links.opinion }}" aria-label="Our podcast playlist - opens in the ListenNotes site"><img class="fit-inside-circle" src="{{staticdata.images.opinion_icon}}" alt="Opinion icon"></a>
+  <a href="{{ staticdata.links.opinion }}" aria-label="A list of all our opinion pieces"><img class="fit-inside-circle" src="{{staticdata.images.opinion_icon}}" alt="Opinion icon"></a>
 </div>
 
 <h6 class="txt-center txt-capital fw-normal pad-none" role="presentation">All Books</h6>

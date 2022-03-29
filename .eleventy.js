@@ -47,6 +47,8 @@ module.exports = function(eleventyConfig) {
       "containerHeaderHtml":"<hr><h3><strong>Contents</strong></h3><p><i>Links are to the headings in the article below</i></p>",
       "containerFooterHtml":"<hr>"});
 
+  //some code to take out the square brackets that are otherwise
+  //shown around the footnote numbers
   markdownLib.renderer.rules.footnote_caption = (tokens, idx) => {
   let n = Number(tokens[idx].meta.id + 1).toString();
 
@@ -79,7 +81,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("excerpt", (post) => {
   const content = post.replace(/(<([^>]+)>)/gi, "");
   return content.substr(0, content.lastIndexOf(" ", 200)) + "...";
-});
+  });
+  
+
   
   // From https://github.com/11ty/eleventy/issues/927
   eleventyConfig.addFilter("keys", obj => Object.keys(obj));

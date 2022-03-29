@@ -16,7 +16,7 @@
     "canonical_stem": "https://popularhistorybooks.com",
     "home": "/",
     "books_all": "https://popularhistorybooks.glitch.me",
-    "books_reviews": "/reviews/",
+    "books_reviews": "/tags/review/",
     "podcast": "/podcast/",
     "about": "/about/",
     "faq": "/faq/",
