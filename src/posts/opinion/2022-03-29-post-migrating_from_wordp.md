@@ -6,7 +6,7 @@ tags: [post, website]
 title: Migrating From WordPress to Eleventy - a non-developer's experience
 post_author: Anthony Webb
 date: 2022-03-29
-image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1648574520/posts/WordpresstoEleventy.jpg
+image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1648574520/posts/wordpresstoeleventysquare.jpg
 meta_excerpt: I recently switched this website / blog from WordPress.com to Eleventy. I'm not a developer. Find out what happened!
 ---
 This post covers upgrades I have made to this website - no history book chat, although more of that coming soon!
