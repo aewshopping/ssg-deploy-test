@@ -32,7 +32,7 @@ pagination:
       
       {% for post in myposts %}
 
-      <div class="grid_post_container fix-children {% if post.data.tags[1]=="review" %}grid_post_review summary_text{% else %}grid_post_other{% endif %}">
+      <div class="grid_post_container fix-children {% if post.data.tags[1]=="review" %}grid_post_review summary_text{% else %}grid_post_other{% endif %} {% if post.data.title==collections.posts[0].data.title %}grid_post_latest{% endif %}">
         {%- from "sections/macros.njk" import post_icon with context -%}
         {{ post_icon({type:post.data.tags[1] | lower}) }}
 

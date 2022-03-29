@@ -539,7 +539,7 @@ displaying a GRID OF POSTS of different types
   height:100%;
   z-index:1;
 }
-.grid_post_container:nth-child(1) {
+.grid_post_latest {
   border: 3px solid var(--color-pill-bg);  
 }
 .grid_post_container:hover {
@@ -555,7 +555,7 @@ displaying a GRID OF POSTS of different types
   bottom: 10px;
   left: var(--padding-edge)
 }
-.grid_post_container:nth-child(1)::before {
+.grid_post_latest::before {
   background-color: var(--color-pill-bg);
   content: "Latest Post";
   font-size: 0.9rem;
