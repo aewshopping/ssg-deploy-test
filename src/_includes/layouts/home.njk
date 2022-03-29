@@ -18,9 +18,7 @@ pagination:
     
     <div class="container max-width-1520">
       
-    <div class="grid_posts fix-children">
-      
- 
+    <div class="fix-children">
         
         <img class="peek-out absolute" src="https://res.cloudinary.com/ds2o5ecdw/image/upload/w_200,f_auto/v1646946826/pophist_static/Justinian_transparent.png" alt="Byzantine Emperor Justinian">
  
@@ -28,10 +26,13 @@ pagination:
           I, Emperor Justinian, welcome you to this website. Ciao!
         </div>
 
-        
+    </div>  
+
+    <div class="grid_posts fix-children">
+      
       {% for post in myposts %}
 
-      <div class="fix-children grid_post_container {% if post.data.tags[1]=="review" %}grid_post_review summary_text{% else %}grid_post_other{% endif %}">
+      <div class="grid_post_container fix-children {% if post.data.tags[1]=="review" %}grid_post_review summary_text{% else %}grid_post_other{% endif %}">
         {%- from "sections/macros.njk" import post_icon with context -%}
         {{ post_icon({type:post.data.tags[1] | lower}) }}
 
@@ -58,7 +59,7 @@ pagination:
           </div>
                                                                                   
       {%- endfor -%}
-    </div>
+     </div>
 
 <p class="txt-center">{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Previous</a> | {% endif %}
 

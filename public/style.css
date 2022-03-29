@@ -256,12 +256,10 @@ ol {
   margin: 10px var(--padding-edge);
   padding: 10px 0;
 }
-a {
-  color: var(--color-accent);
-}
-a.pill_link{
-  color: var(--color-pill-text)
-}
+
+a {color: var(--color-accent);}
+a.pill_link {color: var(--color-pill-text);}
+a:hover {color: var(--color-text);}
 
 blockquote {
   margin: 0.5em 0px 0.5em 10px;
@@ -495,6 +493,7 @@ displaying a GRID OF POSTS of different types
 }
 .grid_post_container {
   border-radius: 10px;
+  overflow: hidden;
 }
 .grid_post_review {
   padding: 50px var(--padding-edge) 4em var(--padding-edge);
@@ -540,6 +539,9 @@ displaying a GRID OF POSTS of different types
   height:100%;
   z-index:1;
 }
+.grid_post_container:nth-child(1) {
+  border: 3px solid var(--color-pill-bg);  
+}
 .grid_post_container:hover {
   border: 3px solid var(--color-grid-accent);
   box-shadow: 4px 4px 6px var(--color-boxshadow);
@@ -552,6 +554,21 @@ displaying a GRID OF POSTS of different types
   position: absolute;
   bottom: 10px;
   left: var(--padding-edge)
+}
+.grid_post_container:nth-child(1)::before {
+  background-color: var(--color-pill-bg);
+  content: "Latest Post";
+  font-size: 0.9rem;
+  transform: rotate(-25deg) translate(0, 0);
+  bottom: 15px;
+  right: -30px;
+  width: 200px;
+  color:var(--color-pill-text);
+  padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+  border-radius: 0 0 0 0;
+  border: 1px solid var(--color-pill-bg);
+  position: absolute;
+  text-align: center;
 }
 .peek-out {
   will-change: transform;
@@ -683,8 +700,8 @@ header {
 
 .skip-nav-link {
   position: absolute;
-  left: 50%;
   transform: translate(-50%, -120%);
+  left: 50%;
   transition: transform 325ms ease-in;
   z-index:1;
   background:var(--color-summary-bg);

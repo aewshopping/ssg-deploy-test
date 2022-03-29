@@ -85,7 +85,7 @@ The second was during the reign of Hadrian in CE 125-6 soon after his visit, whe
 
 Perring suggests that the skulls - and other body parts scattered over the area - fit the pattern of headhunting which had become “normalised” with the second century Roman army, possibly in a punitive campaign against those who had burnt the city down in the first place.
 
-## Decimation or decency?
+## Just a bit of harmless ritual expurgation
 
 Perring's suggestion that there was a major Hadrianic revolt in London is not accepted by everyone. In particular the Walbrook skulls are sometimes suggested to be the result of respectful ritual treatment of the dead. But - as Perring reminds us - this doesn't explain why their heads got bashed in in the first place and why there are so many of them all in one go.
 
@@ -95,7 +95,7 @@ So the Roman empire was not a particularly welcome addition for many Britons and
 
 Perring guides us through the twists and turns of London's Roman past with as much detail as the archaeological record allows. Himself a London based pro archaeologist he doesn't shy away from providing a layer by layer account of the discovery process.
 
-Archaeology all about _what_ has been found, and _where_ it was found. Combining with a bit of chemical analysis and mixing with larger and larger data sets, we (ie they) can make some fairly confident judgements about what was going on.
+Archaeology is all about _what_ has been found, and _where_ it was found. Combining with a bit of chemical analysis and mixing with larger and larger data sets, we (ie they) can make some fairly confident judgements about what was going on.
 
 Perring invites us into this process of discovery. For example we are told of the different types of pottery or artefacts found in certain trenches, or whether a trace element of slag is indicative of a particular industry. We even get the occasional reconstruction of past lives from their cremated remains.
 
