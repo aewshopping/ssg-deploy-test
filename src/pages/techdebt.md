@@ -78,10 +78,6 @@ In my case when my ListenNotes RSS feed for Popular History Books gets a new pod
 
 But you can link pretty much anything to anything else in Zapier, and they have a [nice blog](https://zapier.com/blog/) too!
 
-## Softr
-
-Softr is a quick and super easy "no-code" way to [display airtable data in a website](https://www.softr.io/). I use it as a way of providing a [list of our reviews]({{ staticdata.links.books_reviews }}) that you can easily filter and search, which is embedded as an iframe in the page.
-
 Oh yes, I should also acknowledge...
 
 ## Google fonts

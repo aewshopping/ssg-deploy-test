@@ -87,7 +87,7 @@ Perring suggests that the skulls - and other body parts scattered over the area 
 
 ## Just a bit of harmless ritual expurgation
 
-Perring's suggestion that there was a major Hadrianic revolt in London is not accepted by everyone. In particular the Walbrook skulls are sometimes suggested to be the result of respectful ritual treatment of the dead. But - as Perring reminds us - this doesn't explain why their heads got bashed in in the first place and why there are so many of them all in one go.
+Perring's suggestion that there was a major Hadrianic revolt in London is not accepted by everyone. In particular the Walbrook skulls are sometimes suggested to be the result of respectful ritual treatment of the dead. But - as Perring reminds us - this doesn't explain why their heads got bashed-in in the first place and why there are so many of them all in one go.
 
 So the Roman empire was not a particularly welcome addition for many Britons and when Rome left Britain to its own devices in the 5th century and the town lost its official support it seems to have been abandoned and then deliberately shunned. There is no evidence for anyone living within the London walled area from about 450 CE despite a few Saxon settlements close by.
 
