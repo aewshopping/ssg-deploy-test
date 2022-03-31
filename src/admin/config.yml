@@ -89,3 +89,43 @@ collections:
       - label: "Post author = Jenny Blakeley"
         field: post_author
         pattern: 'Jenny Blakeley'
+
+  # Our announcement posts
+  - name: "announcements" # Used in routes, e.g., /admin/collections/blog
+    label: "Announcements" # Used in the UI
+    description: "From here you can edit your announcement pieces if you want to make any post publication changes. You can't make a new post from here or delete one. (New posts should be submitted via the airtable form https://airtable.com/shrUat4zwN8Rac94f as normal.)"
+    folder: "src/posts/announcements" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    delete: false
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date first posted", name: "date", widget: "date" }
+      - { label: "Post author", name: "post_author", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Body", name: "body", widget: "markdown"}
+    sortable_fields: ['date', 'title', 'post_author', 'tags']
+    view_groups:
+      - label: Post author
+        field: post_author
+      - label: Type of post
+        field: tags
+      - label: Year of post
+        field: date
+        pattern: \d{4}
+    view_filters:
+      - label: "Post author = Anthony Webb"
+        field: post_author
+        pattern: 'Anthony Webb'
+      - label: "Post author = Andy Salisbury"
+        field: post_author
+        pattern: 'Andy Salisbury'
+      - label: "Post author = Maddox"
+        field: post_author
+        pattern: 'Maddox von Ranke'
+      - label: "Post author = Adrian Webb"
+        field: post_author
+        pattern: 'Adrian Webb'
+      - label: "Post author = Jenny Blakeley"
+        field: post_author
+        pattern: 'Jenny Blakeley'
