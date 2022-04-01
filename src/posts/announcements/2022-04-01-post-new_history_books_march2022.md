@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 permalink: ''
-tags: [post, announcement]
+tags: [post, new books]
 
 title: New history books in March 2022 
 post_author: Anthony Webb
@@ -9,7 +9,7 @@ date: 2022-04-01
 image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1648762256/posts/March2022newbooks.jpg
 meta_excerpt: A round-up of the new history books published in March 2022 in the UK
 ---
-Here are they are! The latest history books available to buy.
+Here are they are - the latest history books available to buy.
 
 A definite European bias this month with medieval and early modern periods featuring strongly...
 

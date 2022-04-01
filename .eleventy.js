@@ -83,7 +83,15 @@ module.exports = function(eleventyConfig) {
   return content.substr(0, content.lastIndexOf(" ", 200)) + "...";
   });
   
-
+  // This filter intakes a string and inserts a non-breaking space between the last two words to prevent a single word dangling on the last line https://11ty.rocks/eleventyjs/content/
+  eleventyConfig.addFilter("addNbsp", (str) => {
+    if (!str) {
+      return;
+    }
+    let title = str.replace(/((.*)\s(.*))$/g, "$2&nbsp;$3");
+    title = title.replace(/"(.*)"/g, '\\"$1\\"');
+    return title;
+  });
   
   // From https://github.com/11ty/eleventy/issues/927
   eleventyConfig.addFilter("keys", obj => Object.keys(obj));
