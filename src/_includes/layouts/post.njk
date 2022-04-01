@@ -15,7 +15,7 @@ templateClass: tmpl-home
   
 <div class="heading_title">
   
-  <h1>{{title}}</h1>
+  <h1>{{title | addNbsp | safe }}</h1>
   
   <p>by <a href="{{ staticdata.links.canonical_stem }}/about/#{{ post_author | replace(" ", "_")}}">{{ post_author }}</a>, {{date | htmlDateString}}</p> 
   
