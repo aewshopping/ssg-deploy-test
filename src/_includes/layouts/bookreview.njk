@@ -43,8 +43,9 @@ eleventyComputed:
               
                 {% set comma = joiner() %}
                   <p class="datapill tag">
+                  {% if loop.index==2 %}{% set shrink = "true" %}{% else %}{% set shrink="false" %}{% endif %}
                   {% for thing in item -%}
-                    {{ comma() }} {{thing}}
+                    {% if shrink=="true" and loop.index > 1 and loop.index ==2 and loop.index < loop.length %} to...{% elif shrink=="true" and loop.index > 1 and loop.index < loop.length %}{% else %}{{ comma() }} {{thing}}{% endif %}
                   {%- endfor %}</p>
 
               {% endif %}

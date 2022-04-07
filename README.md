@@ -1,6 +1,6 @@
 # Popular history books
 
-This repository holds the source code for the website [popularhistorybooks.com](popularhistorybooks.com).
+This repository holds the source code for the website [popularhistorybooks.com](https://popularhistorybooks.com).
 
 It is powered by [Eleventy](https://www.11ty.dev/), a lightweight static site generator. Blurb: _all the power of a server-side framework but it builds plain HTML files for fast loading by your visitors._
 
