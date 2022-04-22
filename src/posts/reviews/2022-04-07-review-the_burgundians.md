@@ -35,7 +35,7 @@ review_summary: '<p>At its core, this book contains a fascinating and colourful 
 ---
 ## What is it about?
 
-Written by a Belgium author in Dutch, and translated into English, this book tells the story of the 'Burgurdians'. But who were the 'Burgurdians'? That is a good question. After reading the 514 pages of this book, I had learned a lot, but remained a little confused about the answer to that central question. Perhaps the best way of getting to grips with the Burgurdians is to recount, very briefly and simplistically, the key events covered in this book. 
+Written by a Belgian author in Dutch, and translated into English, this book tells the story of the 'Burgurdians'. But who were the 'Burgurdians'? That is a good question. After reading the 514 pages of this book, I had learned a lot, but remained a little confused about the answer to that central question. Perhaps the best way of getting to grips with the Burgurdians is to recount, very briefly and simplistically, the key events covered in this book. 
 
 ## Act 1: The Burgurdians enter the scene
 
