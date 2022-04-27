@@ -31,7 +31,7 @@ post_author: Anthony Webb
 date: 2022-04-29
 review_rating: ★★★★☆
 permalink: ''
-review_summary: '<p>The coming of age story of Sulieman the Magnificent, told in eyewitness style. And it is a great story, masterfully told - assuming you can enjoy or ignore the flowery prose style.</p><p>I would have no hesitation in recommending this to anyone with a passing interest in Ottoman or Renaissance history.</p>'
+review_summary: '<p>The coming of age story of Sulieman the Magnificent, told from an eyewitness perspective. And it is a great story, masterfully told - assuming the rather lyrical prose style doesn‘t put you off.</p><p>I would have no hesitation in recommending this to anyone with a passing interest in Ottoman or Renaissance history.</p>'
 ---
 When an Ottoman emperor died, his son inherited the empire. But _which_ son? With no clear rule of succession it depended upon who managed to seize power and eliminate their rivals.
 
@@ -45,15 +45,15 @@ As Christopher De Bellaigue puts it in _The Lion House: the Coming of a King_:
 
 When Sultan Suleiman, the subject of De Ballaigue’s new book, came to power in 1520 he was lucky because all his brothers had already died due to natural causes. His five male cousins and two uncles had also been systematically wiped out by his father, as alluded to in the quote above.
 
-The author tells us that Suleiman himself was almost killed by one of his dad’s birthday presents - a robe impregnated with poison - and was only saved by the finely honed paranoia of his mum who suggested an attendant try it on first.[^1]
+The author tells us that Suleiman himself was almost killed by one of his dad’s birthday presents - a robe impregnated with poison - and was only saved by his mum's finely honed sense of paranoia who suggested an attendant try it on first.[^1]
 
 In turn, two of Suleiman’s own sons were murdered on his orders, due to suspected or actual rebelliousness.
 
 ## Stab and stability
 
-These bloody fratricidal family relations went hand-in-hand with a relatively stable system of political power. Sultan Suleiman for example - our hero, and the sole survivor of his father’s intra-familial purge - ruled without any serious opposition for 46 years from 1520 to 1566 and was able to enlarge and to some extent enrich a huge empire that by the end of his rule stretched from Algeria to Iran.[^4]
+These bloody fratricidal family relations went hand-in-hand with a relatively stable system of political power. Sultan Suleiman for example - our hero, and the sole survivor of his father’s intra-familial purge - ruled without any serious opposition for 46 years from 1520 to 1566 and was able to enlarge and presumably enrich a huge empire that by the end of his rule stretched from Algeria to Iran.[^4]
 
-Bellaigue’s book revels in this contrast: the refined, luxurious courtly life and the brutality that lurked just under the surface - and was to some extent the critical underpinning of this regal lifestyle.
+De Bellaigue’s book revels in this contrast: the refined, luxurious courtly life and the brutality that lurked just under the surface - and was to some extent the critical underpinning of this regal lifestyle.
 
 He also shows that this was true not just of the Ottomans but also the kingdoms of Christendom: murder and mutilation going hand in hand with kingship and authority across Europe and Asia.
 
@@ -61,11 +61,24 @@ He also shows that this was true not just of the Ottomans but also the kingdoms 
 
 What of the luxury then? To mark the circumcision of his sons the Sultan organised 14 days of public celebrations in Istanbul, with free food and entertainment for all. Gifts poured in to commemorate the occasion until they covered the floor of the hippodrome (the horse racing track).
 
-There were more than a thousand presents and they weren’t just any old knick-knacks: “_The Grand Vizier alone gave 160 gifts, including precious books, a golden caftan encrusted with jewels and twelve boys._”
+There were more than a thousand presents and they we're not talking the usual wedding list cutlery sets and cheese slicers, this was decent stuff: The Grand Vizier alone “_gave 160 gifts, including precious books, a golden caftan encrusted with jewels and twelve boys._”
 
-Conspicuous consumption was an important element of courtly life. But while we are encouraged to gawp at the ostentation this book is really about death which defines the key moments in the book and ultimately triggers the coming of age of the Sultan himself in the concluding scene - a lion now escaped from the Lion House.
+Conspicuous consumption was an important element of courtly life. But while we are encouraged to gawp at the ostentation this book is really about death. Death defines the key moments in the book and ultimately triggers the coming of age of the Sultan himself in the concluding scene - a lion now escaped from the Lion House.
 
-## What is it like to read
+## What is the structure of the book?
+
+The book follows five key protagonists from 1520 to 1536 - the first 16 years of Suleiman's reign.
+
+We have:
+1. Sultan Suleiman himself
+2. Ibrahim Pasha, the Sultan's slave, (boy)friend and right-hand man
+3. Alvise Gritti an illegitimate Venetian nobleman and informal foreign minister for the Sultan
+4. Hurrem Sultan, an enslaved eastern European who became the emperor's concubine and later his wife, and
+5. Hayreddin Barbarossa, a Turkish pirate king and later admiral of the Ottoman fleet.
+
+The story is set mainly in Istanbul and Venice, but follows the characters when they are travelling in (ie invading) other places too such as Hungary, Iran or around the Mediterranean coast.
+
+## What is it like to read?
 
 The writing is smooth, lucid and often flowery - you can tell that De Bellaigue does words for a living. It is all written in the present tense and we are invited to peer over the shoulders of the fantastic historical characters that surrounded Suleiman the Magnificent in the early part of his reign.
 
@@ -75,7 +88,7 @@ But when I adjusted to the rhythm of the book I very much enjoyed being carried 
 
 ## What are my takeaways?
 
-Reading Lion House is a great way to get a feel for the high politics and high flying politicians of the early 16th century mediterranean world. I’ve been to Turkey a few times but never really got a sense of the Ottoman sultans who ruled the world from Istanbul. The Lion House is an excellent way into this world and makes me want to visit again, COVID and family permitting...
+Reading Lion House is a great way to get a feel for the high politics and high flying politicians of the early 16th century Mediterranean world. I’ve been to Turkey a few times but never really got a sense of the Ottoman sultans who ruled the world from Istanbul. The Lion House is an excellent way into this world and makes me want to visit again, COVID and family permitting...
 
 It also made me reflect on why Europe and Asia at that time was such a murderous place. My tenuous conclusion is that with life generally precarious and the material difference between success and failure so huge, gambling your own life (or better yet someone else’s) could become an attractive way of getting ahead.
 
@@ -83,7 +96,7 @@ And when you _had_ got ahead it seemed that there was no easy way back down - re
 
 ## A connected world
 
-You also get a nice sense of the interconnectedness of the mediterranean states, and Europe and Asia. For example Suleiman’s favourite slave, maybe lover and ultimately grand vizier started out in life a Christian Albanian peasant boy before being captured by slavers and transported to Anatolia. The Sultan’s unofficial foreign minister was the illegitimate son of the Venetian Doge.
+You also get a nice sense of the interconnectedness of the Mediterranean states, and Europe and Asia. For example Suleiman’s favourite slave, maybe lover and ultimately grand vizier Ibrahim Pasha started out in life a Christian Albanian peasant boy before being captured by slavers and transported to Anatolia. The Sultan’s unofficial foreign minister Alvise Gritti was the illegitimate son of the Venetian Doge.
 
 ## Downsides
 
@@ -91,7 +104,7 @@ To enjoy this book you have to accept that you are being recounted a story, and 
 
 I’m also not sure how reliable all those primary sources are - when mixed together in this book it feels like we end up with Suleiman the legend more than as Suleiman the... man[^3].
 
-Mind you, a great story about Sulieman the legend and his murderous chums is infintely better than no story at all, which is where I suspect most English speakers are in their knowledge of the Sultan and where I was before I started this book.
+Mind you, a great story about Sulieman the legend and his murderous chums is infinitely better than no story at all, which is where I suspect most English speakers are in their knowledge of the Sultan and where I was before I started this book.
 
 ## Conclusion
 
