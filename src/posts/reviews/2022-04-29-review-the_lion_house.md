@@ -61,7 +61,7 @@ He also shows that this was true not just of the Ottomans but also the kingdoms 
 
 What of the luxury then? To mark the circumcision of his sons the Sultan organised 14 days of public celebrations in Istanbul, with free food and entertainment for all. Gifts poured in to commemorate the occasion until they covered the floor of the hippodrome (the horse racing track).
 
-There were more than a thousand presents and they we're not talking the usual wedding list cutlery sets and cheese slicers, this was decent stuff: The Grand Vizier alone “_gave 160 gifts, including precious books, a golden caftan encrusted with jewels and twelve boys._”
+There were more than a thousand presents and we're not talking the usual wedding list cutlery sets and cheese slicers, this was decent stuff: The Grand Vizier alone “_gave 160 gifts, including precious books, a golden caftan encrusted with jewels and twelve boys._”
 
 Conspicuous consumption was an important element of courtly life. But while we are encouraged to gawp at the ostentation this book is really about death. Death defines the key moments in the book and ultimately triggers the coming of age of the Sultan himself in the concluding scene - a lion now escaped from the Lion House.
 
