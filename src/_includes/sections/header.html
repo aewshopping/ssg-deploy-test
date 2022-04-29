@@ -1,7 +1,7 @@
     <header>
       <div class="flex-row">
 
-        <a href="/" title="link to home page">
+        <a class="no-line" href="/" title="link to home page">
               <img src="{{ staticdata.images.header_icon | replace("upload/","upload/f_auto/")}}" alt="The eye of Justinian" width="50" height="50">
         </a>
         <p class="flex-outer">&nbsp; &nbsp;Popular history books{% if env.environment=="testing" %} - TESTING{% endif %}</p>
