@@ -1009,6 +1009,7 @@ transition: var(--ftsize-transition);}
 .pad-bottom-20 {padding-bottom: 20px;}
 .pad-top {padding-top: 50px;}
 .pad-top-10 {padding-top: 10px;}
+.pad-top-20 {padding-top: 25px;}
 .pad-left {padding-left: var(--padding-edge);}
 .pad-none{padding:0;}
 .max-width-1520 {max-width:1520px;margin:auto;}
