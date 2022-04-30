@@ -1,0 +1,17 @@
+<div>
+  {# The previous and next post data is added in .eleventy.js #}
+  {% if prevPost.url %}
+  <h3>Next post</h3>
+  <p>← <a href="{{ prevPost.url }}">{{ prevPost.data.title }}</a></p>
+  <img loading="lazy" class="shadow width150 rotate-plus3 margin-left50" src="{{
+  prevPost.data.image | replace("upload/", "upload/c_scale,w_300,f_auto/") }}"
+  alt="image for {{prevPost.data.title}}">
+  {% endif %}
+  {% if nextPost.url %}
+  <h3 class="txt-right">Last post</h3>
+  <p class="txt-right"><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a> →</p>
+  <img loading="lazy" class="shadow width150 rotate-minus3 go-right
+  margin-right50" src="{{ nextPost.data.image | replace("upload/",
+  "upload/c_scale,w_300,f_auto/") }}" alt="image for {{nextPost.data.title}}">
+  {% endif %}
+</div>
