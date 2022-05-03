@@ -8,16 +8,23 @@ pagination:
   alias: myposts
 ---
 
-<h1 class="heading_title">{{title_content}}</h1>
+{% if pagination.pageNumber==0 %}
 
-  <div class="heading_section">
+<h1 class="heading_title">{{title_content}}</h1>
     
     <div class="container max-width-1350">
     {{ content | safe }}
     </div>
+{% endif %}
+
+
+{% if pagination.pageNumber!=0 %}
+{% include "sections/pagination_pages.html" %}
+{% endif %}
     
     <div class="container max-width-1520">
-      
+
+{% if pagination.pageNumber==0 %}      
     <div class="fix-children">
         
         <img class="peek-out absolute" src="https://res.cloudinary.com/ds2o5ecdw/image/upload/w_200,f_auto/v1646946826/pophist_static/Justinian_transparent.png" alt="Byzantine Emperor Justinian">
@@ -27,7 +34,8 @@ pagination:
         </div>
 
     </div>  
-
+{% endif %}
+      
     <div class="grid_posts fix-children">
       
       {% for post in myposts %}
@@ -61,14 +69,7 @@ pagination:
       {%- endfor -%}
      </div>
 
-<p class="txt-center">{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Previous</a> | {% endif %}
-
-Page {% for items in pagination.pages %}
-{% if page.url == pagination.hrefs[ loop.index0 ] %}{{loop.index}}{% endif %}
-{% endfor %}
-of {{ pagination.pages | length }}
-      
-{% if pagination.href.next %} | <a href="{{ pagination.href.next }}">Next</a>{% endif %}</p>    
+{% include "sections/pagination_pages.html" %}   
     
   </div>
 
