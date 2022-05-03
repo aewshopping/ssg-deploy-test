@@ -1,0 +1,8 @@
+<p class="txt-center">{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Previous</a> | {% endif %}
+
+Page {% for items in pagination.pages %}
+{% if page.url == pagination.hrefs[ loop.index0 ] %}{{loop.index}}{% endif %}
+{% endfor %}
+of {{ pagination.pages | length }}
+      
+{% if pagination.href.next %} | <a href="{{ pagination.href.next }}">Next</a>{% endif %}</p> 

@@ -115,6 +115,12 @@ module.exports = function(eleventyConfig) {
     return coll;
   });
 
+// From: https://11ty.rocks/eleventyjs/data-arrays/  
+eleventyConfig.addFilter("limit", function (arr, limit) {
+  return arr.slice(0, limit);
+});
+  
+  
   // Populates environment variables into process.env and makes it available in 11ty's global data https://github.com/11ty/eleventy/issues/782.
   require('dotenv').config();
   eleventyConfig.addGlobalData('env', process.env);
