@@ -704,10 +704,10 @@ header {
 }
 
 .skip-nav-link {
-  opacity:0;
+  visibility: visible;
   position: absolute;
   transform: translate(-50%, -120%);
-  transition: transform 325ms ease-in, opacity 0.5s;
+  transition: transform 325ms ease-in;
   left: 50%;
   z-index:1;
   background:var(--color-summary-bg);
@@ -719,7 +719,6 @@ header {
 }
 .skip-nav-link:focus {
   transform: translate(-50%, -3px);
-  opacity: 1;
 }
 
 footer {
