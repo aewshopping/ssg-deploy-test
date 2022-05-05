@@ -704,7 +704,6 @@ header {
 }
 
 .skip-nav-link {
-  visibility: visible;
   position: absolute;
   transform: translate(-50%, -120%);
   transition: transform 325ms ease-in;
@@ -716,6 +715,7 @@ header {
   border-radius: 0 0 10px 10px;
   border: 3px solid var(--color-accent);
   box-shadow: 4px 4px 6px var(--color-boxshadow);
+  visibility: visible;
 }
 .skip-nav-link:focus {
   transform: translate(-50%, -3px);
