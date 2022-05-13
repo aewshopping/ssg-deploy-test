@@ -16,7 +16,12 @@ Sorted by surname...
 {% if letter!=="undefined" %}<li class="pad-bottom-20 nobullet"><h2>{{ letter }}</h2>
 <ul>
 {% for item in thing %}
-<li><p><strong>{{item.data.review_book_author_surname}}</strong> ({{item.data.review_book_author}})<br> <a href="{{ item.url}}">{{ item.data.review_book_main_title }}</a>, published {{item.data.review_publication_date | myDateString }}.</p></li>
+{% if author_name_check==item.data.review_book_author %}
+<p class="margin-top-10"><a href="{{ item.url}}">{{ item.data.review_book_main_title }}</a>, published {{item.data.review_publication_date | myDateString }}.</p>
+{% else %}
+<li><p class="margin-top-40 margin-bottom-none"><strong>{{item.data.review_book_author_surname}}</strong> ({{item.data.review_book_author}})</p><p class="margin-top-10 margin-bottom-none"><a href="{{ item.url}}">{{ item.data.review_book_main_title }}</a>, published {{item.data.review_publication_date | myDateString }}.</p></li>
+{% endif %}
+{% set author_name_check=item.data.review_book_author %}
 {% endfor %}{% endif %}</ul>
 </li>
 {% endfor %}
