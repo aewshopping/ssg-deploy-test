@@ -96,6 +96,7 @@ body {
 .light-mode {
   --color-accent: var(--color-accent-lm);
   --color-accent-accessible: var(--color-accent-lm-accessible);
+  --color-accent-lighter: rgba(226,38,88,0.3);
   --color-bg: var(--color-white);
   --color-text: var(--color-1st);
   --color-article-text: var(--color-offblack);
@@ -123,6 +124,7 @@ body {
 .dark-mode {
   --color-accent: var(--color-accent-dm);
   --color-accent-accessible: var(--color-accent-dm);
+  --color-accent-lighter: var(--color-seethru-accent);
   --color-bg: var(--color-bg-dm);
   --color-text: var(--color-text-dm);
   --color-article-text: var(--color-text-dm);
@@ -150,6 +152,7 @@ body {
 .byzantine-mode {
   --color-accent: black;
   --color-accent-accessible: white;
+  --color-accent-lighter: rgba(0,0,0,0.2);
   --color-bg: #FFA31F;
   --color-text: black;
   --color-article-text: black;
@@ -257,9 +260,16 @@ ol {
   padding: 10px 0;
 }
 
-a {color: var(--color-accent);}
+a {
+  color: inherit;
+  text-decoration-color:var(--color-accent);
+}
 a.pill_link {color: var(--color-pill-text);}
-a:hover {color: white;background-color:var(--color-accent);}
+a:hover {
+  color: inherit;
+  background-color:var(--color-accent-lighter);
+  transition: background-color 250ms;
+}
 
 blockquote {
   margin: 0.5em 0px 0.5em 10px;
