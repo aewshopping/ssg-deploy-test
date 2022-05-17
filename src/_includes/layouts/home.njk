@@ -56,6 +56,8 @@ pagination:
         
         {% if post.data.tags[1]=="review" %}<p class="ft-size-small">{{post.data.review_rating}} ({{ post.data.review_publication_date | myDateYear }})</p>{% endif %}
         
+        {# comment #}
+        
         <p class="fw-normal grid_post_tagpill_position_bottom">
           {% for tag in post.data.tags %}
             {%- if tag != "post" -%}
