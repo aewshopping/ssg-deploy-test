@@ -15,7 +15,7 @@ collections:
   # Our review posts
   - name: "review" # Used in routes, e.g., /admin/collections/blog
     label: "Reviews" # Used in the UI
-    description: "From here you can edit your reviews if you want to make any post publication changes. You can't make a new review from here or delete one. (New reviews should be submitted via the airtable form https://airtable.com/shrdVVIcFRxvtxbbW as normal.)"
+    description: "From here you can edit your reviews if you want to make any post publication changes. You can't make a new review from here or delete one. (New reviews should be submitted via [the airtable form](https://airtable.com/shrdVVIcFRxvtxbbW) as normal.)"
     folder: "src/posts/reviews" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
     delete: false
@@ -53,7 +53,7 @@ collections:
   # Our opinion posts
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
-    description: "From here you can edit your opinion pieces if you want to make any post publication changes. You can't make a new post from here or delete one. (New posts should be submitted via the airtable form https://airtable.com/shrUat4zwN8Rac94f as normal.)"
+    description: "From here you can edit your opinion pieces if you want to make any post publication changes. You can't make a new post from here or delete one. (New posts should be submitted via [the airtable form](https://airtable.com/shrUat4zwN8Rac94f) as normal.)"
     folder: "src/posts/opinion" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
     delete: false
@@ -93,7 +93,7 @@ collections:
   # Our announcement posts
   - name: "announcements" # Used in routes, e.g., /admin/collections/blog
     label: "Announcements" # Used in the UI
-    description: "From here you can edit your announcement pieces if you want to make any post publication changes. You can't make a new post from here or delete one. (New posts should be submitted via the airtable form https://airtable.com/shrUat4zwN8Rac94f as normal.)"
+    description: "From here you can edit your announcement pieces if you want to make any post publication changes. You can't make a new post from here or delete one. (New posts should be submitted via [the airtable form](https://airtable.com/shrUat4zwN8Rac94f) as normal.)"
     folder: "src/posts/announcements" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
     delete: false
