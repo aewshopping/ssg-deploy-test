@@ -8,6 +8,8 @@ post_author: Anthony Webb
 date: 2022-05-01
 image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1651346968/posts/april2022newbooks.jpg
 meta_excerpt: A round-up of the new history books published in April 2022 in the UK
+newbooks: ['0861542452', '1472277287', '1541600584', '0241427266', '147228383X', '1913083152']
+
 ---
 The April 2022 new history books round up!
 

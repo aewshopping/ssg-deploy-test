@@ -492,6 +492,34 @@ End of GRID OF SMALL BOOK COVERS
 
 /* ------------------------------------
 This sections contains styling for 
+displaying a FLEX SINGLE ROW of SMALL BOOK COVERS 
+------------------------------------ */
+.flex_book_row {
+  display: flex;
+  gap: 6px;
+  overflow: hidden;
+}
+/* This pseudo element fades out the last visible book */
+.flex_book_row::before {
+  content: " ";
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: linear-gradient(90deg, rgba(255,255,255,0) 85%, var(--color-bg) 100%);
+}
+.flex_row_image_book_cover {
+  width:88px;
+  box-shadow: 2px 2px 3px var(--color-boxshadow);
+}
+/* ------------------------------------
+End of FLEX SINGLE ROW of SMALL BOOK COVERS
+------------------------------------ */
+
+
+/* ------------------------------------
+This sections contains styling for 
 displaying a GRID OF POSTS of different types
 ------------------------------------ */
 .grid_posts {
@@ -1023,13 +1051,15 @@ transition: var(--ftsize-transition);}
 .pad-bottom-20 {padding-bottom: 20px;}
 .pad-top {padding-top: 50px;}
 .pad-top-10 {padding-top: 10px;}
-.pad-top-20 {padding-top: 25px;}
+.pad-top-20 {padding-top: 20px;}
 .pad-left {padding-left: var(--padding-edge);}
 .pad-none{padding:0;}
 .margin-right50{margin-right:50px;}
 .margin-left50{margin-left:50px;}
 .margin-top-none{margin-top:0px;}
 .margin-top-10{margin-top:10px;}
+.margin-top-20{margin-top:20px;}
+.margin-bottom-20{margin-bottom:20px;}
 .margin-top-40{margin-top:40px;}
 .margin-bottom-none{margin-bottom:0px;}
 .max-width-1520 {max-width:1520px;margin:auto;}
