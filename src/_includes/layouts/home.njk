@@ -56,7 +56,18 @@ pagination:
         
         {% if post.data.tags[1]=="review" %}<p class="ft-size-small">{{post.data.review_rating}} ({{ post.data.review_publication_date | myDateYear }})</p>{% endif %}
         
-        {# comment #}
+        {% if post.data.newbooks %}
+        <div class="bg_fade_sides">
+          
+        <div class="flex_book_row pad-bottom-20 pad-top-20 fix-children">
+        {% for item in post.data.newbooks %}
+    
+        <img loading='lazy' class='flex_row_image_book_cover' src="https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/{{ item }}.02._SCM_.jpg" alt="book cover" title="book cover">
+  
+        {% endfor %}
+        </div>
+        </div>
+        {% endif %}
         
         <p class="fw-normal grid_post_tagpill_position_bottom">
           {% for tag in post.data.tags %}

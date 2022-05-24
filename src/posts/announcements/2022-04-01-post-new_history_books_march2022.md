@@ -8,6 +8,8 @@ post_author: Anthony Webb
 date: 2022-04-01
 image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1648762256/posts/March2022newbooks.jpg
 meta_excerpt: A round-up of the new history books published in March 2022 in the UK
+newbooks: ['1847922392', '0008282021', '180110915X', '1474615775', '152934624X', '152663208X']
+
 ---
 Here are they are - the latest history books available to buy.
 
