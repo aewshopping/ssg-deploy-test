@@ -21,7 +21,7 @@ I'm going to try to find the time to read:
 - Also __Persians: The Age of The Great Kings__ written from the Persian's point of view by a history professor who presumably knows his stuff.
 - And finally __The Empress and the English Doctor: How Catherine the Great defied a deadly virus__ which looks like an intriguing tale even it has clearly commandeered the COVID bandwagon.
 
-Hover over the book and click the little flags for links to Amazon UK and US book pages.
+Click the book covers to see a zoomed in image and links to Amazon.
 
 {%- from "sections/macros.njk" import book_covers with context -%}
 

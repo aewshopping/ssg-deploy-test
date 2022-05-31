@@ -21,7 +21,7 @@ My personal highlights:
 - Also: __The Restless Republic: Britain without a Crown__ covering ordinary and celebrity lives during Britain's 10 years without a king from 1649.
 - I will also mention __Legacy of Violence: A History of the British Empire__ which I think is an important book to be aware of... and it gets a front cover plug from my old history tutor too.
 
-Hover over the book and click the little flags for links to Amazon UK and US book pages.
+Click the book covers to see a zoomed in image and links to Amazon.
 
 {%- from "sections/macros.njk" import book_covers with context -%}
 
