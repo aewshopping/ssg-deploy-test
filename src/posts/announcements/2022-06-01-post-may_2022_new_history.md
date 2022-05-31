@@ -3,7 +3,7 @@ layout: layouts/post.njk
 permalink: ''
 tags: [post, new books]
 
-title: May 2022 new history books
+title: New history books in May 2022 
 post_author: Anthony Webb
 date: 2022-06-01
 image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1654027605/posts/May2022_newhistorybooks.jpg
