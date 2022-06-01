@@ -677,6 +677,7 @@ displaying a GRID OF POSTS of different types
   border: 1px solid var(--color-pill-bg);
   position: absolute;
   text-align: center;
+  z-index:1;
 }
 .peek-out {
   will-change: transform;
