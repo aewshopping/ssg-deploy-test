@@ -164,3 +164,31 @@ let btnShare = document.getElementsByClassName("share-link");
     }
 
 //END OF SHARING BUTTON CODE USING WEB SHARE API /////////////////////
+
+const modal = document.querySelector('.modal_bookzoom');
+const modalTitle = document.querySelector('.myModalTitle');
+const modalImage = document.querySelector('.myModalImage');
+const modalLink_AmazonUK = document.querySelector('.myModalLink_AmazonUK');
+const modalLink_AmazonUS = document.querySelector('.myModalLink_AmazonUS');
+const modalClose = document.querySelector('.modal_close');
+
+document.querySelectorAll('.open-modal').forEach(item => {
+  item.addEventListener('click', event => {
+
+    const myid = document.getElementById(item.id);
+    
+    modalTitle.innerText = myid.dataset.title;
+    modalImage.src = myid.dataset.cover_large;
+    modalLink_AmazonUK.href = myid.dataset.amazon_uk_link;
+    modalLink_AmazonUS.href = myid.dataset.amazon_us_link;
+    
+    modal.showModal();
+    console.log(item.id);
+
+  })
+})
+
+
+modalClose.addEventListener("click", () => {
+  modal.close();
+});
