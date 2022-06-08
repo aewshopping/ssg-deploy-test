@@ -57,8 +57,6 @@ So what are the history bestsellers[^2] in the UK and the US?
 ![UK flag](https://res.cloudinary.com/ds2o5ecdw/image/upload/v1646170450/pophist_static/UKflag.png#center)
 
 
-{%- from "sections/macros.njk" import book_covers with context -%}
-
 {{ book_covers({books: [
 ["1529073405", "Lily's Promise: How I Survived Auschwitz And Found The Strength To Live"],
 ["0099590085", "Sapiens: A Brief History Of Humankind"],

@@ -4,15 +4,18 @@
 
 {% for item in input.books %}
 
+{% set isbn = item[0] %}
+{% set title = item[1] %}
+  
 <div class="fix-children">
   <div class="image_cover_container">
-  <img loading='lazy' class='image_book_cover' src="https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/{{ item[0] }}.02._SCM_.jpg" alt="{{ item[1] }}" title="{{ item[1] }}">
+  <img loading='lazy' class='image_book_cover' src="https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/{{ isbn }}.02._SCM_.jpg" alt="{{ title }}" title="{{ title }}">
 
-  <div tabindex="0" id="cover{{ loop.index }}" class='image_book_overlay open-modal'
-      data-title="{{ item[1] }}" 
-      data-cover_large="https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/{{ item[0] }}.02._SCL_.jpg" 
-      data-amazon_uk_link="https://amazon.co.uk/dp/{{ item[0]}}" 
-      data-amazon_us_link="https://amazon.com/dp/{{ item[0]}}">
+  <div id="cover{{ isbn }}" class='image_book_overlay open-modal'
+      data-title="{{ title }}" 
+      data-cover_large="https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/{{ isbn }}.02._SCL_.jpg" 
+      data-amazon_uk_link="https://amazon.co.uk/dp/{{ isbn }}" 
+      data-amazon_us_link="https://amazon.com/dp/{{ isbn }}">
     <div class="center_item">
     <svg class="svg-icon-zoom" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">{% include "sections/svg/icon_zoom.html" %}</svg>
     </div>
