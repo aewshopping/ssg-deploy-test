@@ -1,63 +1,40 @@
 ---
-review_book_main_title: The Ottomans
-shopping_links:
-  - - https://www.amazon.co.uk/Ottomans-Khans-Caesars-Caliphs/dp/1473695708
-    - Amazon UK
-    - Amazon UK book link
-  - - https://www.amazon.com/Ottomans-Khans-Caesars-Caliphs/dp/1473695708
-    - Amazon US
-    - Amazon US book link
-review_rating: ★★★★☆
-review_book_image_small_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1473695708.02._SCM_.jpg
-review_book_tags:
-  - - Europe
-    - Africa
-    - Asia
-  - - Middle Ages
-    - Early Modern
-    - Late Modern
-  - - Political
-    - Military
-    - Economic
-    - Social
-    - Cultural
-  - - Ottoman
-    - Turkey
-review_publication_date: 2021-10-14
-review_book_sub_title: Khans, Caesars and Caliphs
-post_author: Andy Salisbury
 layout: layouts/bookreview.njk
-permalink: ""
-date: 2022-06-17
-review_publisher: Hachette
-review_book_author_surname: Baer
-review_podcasts:
-  - - https://www.listennotes.com/e/819cefcd98cc483fadaf31418e81c151
-    - Turkey Book Talk
-    - Marc David Baer on the Ottomans as khans caesars and caliphs
-  - - https://www.listennotes.com/e/ea8bba44807d4d05a3fd6de97b5f098d
-    - History Extra podcast
-    - The Ottoman “Age of Discovery”
-  - - https://www.listennotes.com/e/19c221d70ead4db7b8d3c070afc081b1
-    - New Books Network
-    - Marc David Baer ‘The Ottomans Khans Caesars and Caliphs‘ (Basic Books 2021)
-title: The Ottomans - review
+
 tags:
   - post
   - review
+
+title: The Ottomans - review
+review_book_main_title: The Ottomans
+review_book_sub_title: Khans, Caesars and Caliphs
 review_book_author: Marc David Baer
+review_book_author_surname: Baer
 review_book_image_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1473695708.02._SCL_.jpg
+review_book_image_small_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1473695708.02._SCM_.jpg
+review_publication_date: 2021-10-14
+review_publisher: Hachette
 review_pages: 560
-review_summary: <p>A thought-provoking and accessible guide to the history of
-  the Ottoman Empire from the 14th to the 20th century , which at its peak
-  spanned three continents, stretching from North Africa to the Caucasus and
-  from Meca to Budapest.</p><p>This is a story of the interplay of religious
-  conflict and tolerance, an elite slave army against whom other European powers
-  struggled to compete, and an ingenious solution to the age old problem of
-  sibling rivalry.</p>
 review_ISBN13: 978-1473695702
+review_book_tags:
+  - [Europe, Africa, Asia]
+  - [Middle Ages, Early Modern, Late Modern]
+  - [Political, Military, Economic, Social, Cultural]
+  - [Ottoman, Turkey]
+review_podcasts:
+  - [https://www.listennotes.com/e/819cefcd98cc483fadaf31418e81c151, Turkey Book Talk, Marc David Baer on the Ottomans as khans caesars and caliphs]
+  - [https://www.listennotes.com/e/ea8bba44807d4d05a3fd6de97b5f098d, History Extra podcast, The Ottoman “Age of Discovery”]
+  - [https://www.listennotes.com/e/19c221d70ead4db7b8d3c070afc081b1, New Books Network, Marc David Baer ‘The Ottomans Khans Caesars and Caliphs‘ (Basic Books 2021)]
+shopping_links:
+  - [https://www.amazon.co.uk/Ottomans-Khans-Caesars-Caliphs/dp/1473695708, Amazon UK, Amazon UK book link]
+  - [https://www.amazon.com/Ottomans-Khans-Caesars-Caliphs/dp/1473695708, Amazon US, Amazon US book link]
+post_author: Andy Salisbury
+date: 2022-06-17
+review_rating: ★★★★☆
+permalink: ''
+review_summary: '<p>A thought-provoking and accessible guide to the history of the Ottoman Empire from the 14th to the 20th century , which at its peak spanned three continents, stretching from North Africa to the Caucasus and from Meca to Budapest.</p><p>This is a story of the interplay of religious conflict and tolerance, an elite slave army against whom other European powers struggled to compete, and an ingenious solution to the age old problem of sibling rivalry.</p>'
 ---
-How did an obscure thirteenth century Anatolian *beylik* emerge as a vast continent-spanning Ottoman empire? How then did it come to wither away in the nineteenth century, with its eventual replacement by Ataturk's new Turkish Republic[^1] in 1922? Marc David Baer, Professor of International History at the London School of Economics and Political Science, tells the story in his new history of the Ottoman Empire, also reflecting on how we think about the Ottomans today - and why it matters.
+How did an obscure thirteenth century Anatolian _beylik_ emerge as a vast continent-spanning Ottoman empire? How then did it come to wither away in the nineteenth century, with its eventual replacement by Ataturk's new Turkish Republic[^1] in 1922? Marc David Baer, Professor of International History at the London School of Economics and Political Science, tells the story in his new history of the Ottoman Empire, also reflecting on how we think about the Ottomans today - and why it matters.
 
 ## Origins
 
@@ -71,7 +48,7 @@ The Collection was a child levy on Christian subjects of the sultan, in which on
 
 ## Fratricide
 
-Murad I also came up with a clever idea of how to deal with difficult siblings on assuming power – he killed them all off. Murad I obtained religious sanction, and then codified into law, the policy whereby a new sultan would murder all of his brothers and uncles, and often all make relatives, regardless of age, on assuming power. Male relatives were either killed on the battlefield or, if they survived, they were strangled with a silk cord, befitting their royal status. This aspect of Ottoman rule is also vividly brought to life in an excellent [review by Anthony Webb of The Lion House](https://popularhistorybooks.com/posts/reviews/2022-04-29-review-the_lion_house/), elsewhere on this website.
+Murad I also came up with a clever idea of how to deal with difficult siblings on assuming power – he killed them all off. Murad I obtained religious sanction, and then codified into law, the policy whereby a new sultan would murder all of his brothers and uncles, and often all male relatives, regardless of age, on assuming power. Male relatives were either killed on the battlefield or, if they survived, they were strangled with a silk cord, befitting their royal status. This aspect of Ottoman rule is also vividly brought to life in an excellent [review by Anthony Webb of The Lion House](https://popularhistorybooks.com/posts/reviews/2022-04-29-review-the_lion_house/), elsewhere on this website.
 
 ## A European empire
 
@@ -85,11 +62,11 @@ The Ottoman Empire had many faces, but has Europe (i.e. the non-Turkish bit of E
 
 The author examines key events and themes in supposedly European history from an Ottoman perspective. Did secularism, tolerance and modernity begin in Europe with the Peace of Westphalia in 1648? Or did the Ottomans get there first under Mehmed 'the Conqueror' in the fifteenth century, who rebuilt Constantinople as a 'multireligious metropolis' and who permitted Greek Orthodox Christians, Armenian Christians and Jews to live according to their own systems of beliefs and practices?
 
-Following their forced departure from Spain in 1492 and from Portugal in 1497, as many as one hundred thousand Spanish and Portuguese Jews, as well as a large number of conversos (Iberian Jews compelled to convert to Catholicism) migrated to the Ottoman Empire, where they were relatively free to practice their religion and could rise to important positions at the Ottoman court.
+Following their forced departure from Spain in 1492 and from Portugal in 1497, as many as one hundred thousand Spanish and Portuguese Jews, as well as a large number of conversos (Iberian Jews compelled to convert to Catholicism) migrated to the Ottoman Empire, where they were relatively free to practise their religion and could rise to important positions at the Ottoman court.
 
 ## The Renaissance, the Reformation, and the Age of Discovery
 
-Likewise, Marc David Baer presents the Renaissance, the Reformation, and the Age of Discovery from an Ottoman perspective. Sultan Mehmed II, who had his portrait painted by the Venetian Renaissance master Gentile Bellini in 1480, is presented as a renaissance prince and patron of Italian and Greek scholars. Suleiman I 'the Magnificent' allied with Protestant rebels against their mutual enemy, the Catholic Habsburgs. As the Portuguese and Spanish were colonising the Americas, the Ottomans were projecting their power and controlling oceangoing trade from the Mediterranean to the Indian Ocean.
+Likewise, Marc David Baer presents the Renaissance, the Reformation, and the Age of Discovery from an Ottoman perspective. Sultan Mehmed II, who had his portrait painted by the Venetian Renaissance master Gentile Bellini in 1480, is presented as a renaissance prince and patron of Italian and Greek scholars. Suleiman I 'the Magnificent' allied with Protestant rebels against their mutual enemy, the Catholic Habsburgs. As the Portuguese and Spanish were colonising the Americas, the Ottoman's were projecting their power and controlling oceangoing trade from the Mediterranean to the Indian Ocean.
 
 ## Decline and genocide
 
@@ -99,7 +76,7 @@ With much of the book recounting the power and achievements of the Ottoman Empir
 
 The author characterises the genocide of Armenian Christians during World War I as the first genocide committed by a European empire in Europe. The chapter on this, and related atrocities committed during the First World War, is very powerful, in particular his recounting of the testimony of a rare Armenian female survivor of a death march to the Syrian desert. The author estimates that 'out of a population of one and a half million Armenians in the Ottoman Empire in 1914, 650,000 to 800,000 has been annihilated by 1916'.
 
-Of those that escaped, the author states that a 'couple of hundred thousand fled abroad to Russia and elsewhere. An estimated one hundred thousand Armenians, in situations of duress, converted to Islam to save their lives. Tens of thousands of Armenian girls and women were raped and subjected to sexual violence, taken into Muslim families as daughters or brides, and converted to Islam and taught Kurdish or Turkish, thereby escaping deportation.' In the same period, Assyrian Christians were also targeted, with claims that a quarter of a million of them, half their original population, were killed by the Ottomans.
+Of those that escaped, the author states that a 'couple of hundred thousand fled abroad to Russia and elsewhere. An estimated one hundred thousand Armenians, in situations of duress, converted to Islam to save their lives. Tens of thousands of Armenian girls and women were raped and subjected to sexual violence, taken into Muslim families as daughters or brides, and converted to Islam and taught Kurdish or Turkish, thereby escaping deportation.' In the same period, Assyrian Christians were also targeted, with claims that quarter of a million of them, half their original population, were killed by the Ottomans.
 
 ## What is it like to read?
 
