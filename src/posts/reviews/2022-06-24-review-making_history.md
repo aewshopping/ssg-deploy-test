@@ -31,7 +31,7 @@ post_author: Anthony Webb
 date: 2022-06-24
 review_rating: ★★★☆☆
 permalink: ''
-review_summary: '<p>A useful book, with lots of interesting biographical information on a whole range of historians from the Western tradition, starting with the Greeks and ending at the present day.</p><p>But despite it‘s wide range, it is also quite narrow in scope - with nothing on why it was this particular bunch of historians that came to tell our story. Cohen simply tells us what happened - not why.</p>'
+review_summary: '<p>A useful book, with lots of interesting biographical information on a whole range of historians from the Western, starting with the Greeks and ending at the present day</p><p>But despite it‘s wide range, it is also quite narrow in scope - with nothing on why it was this particular bunch of historians that came to tell our story. Cohen simply tells us what happened - not why.</p>'
 ---
 The study of history is a funny beast: on the one hand _everything_ is history, given that by the time we put fingers to keyboard, we are commenting on the past. On the other hand “history” can mean an exclusive professional endeavour focussed on narrow areas of enquiry.
 
@@ -96,7 +96,7 @@ But, as Richard Cohen explains, his comment was actually made in the context of 
 
 Instead of hubris, von Ranke was advocating humility.
 
-Cohen then goes on to tell us in more detail the outline of von Ranke’s career, and his belief that the hand of God was behind everything. The historian’s role was to try to understand God’s intentions: the “overruling compulsion of the innate life-germ” (_Einfuhlungsvermogen_). There was much more to von Ranke than simply telling it how it was.
+Cohen then goes on to tell us in more detail the outline of von Ranke’s career, and his belief that the hand of God was behind everything. The historian’s role was to try to understand God’s intentions: the “overruling compulsion of the innate life-germ” (_Einfühlungsvermögen_). There was much more to von Ranke than simply telling it how it was.
 
 Meanwhile holding a chair in history went from being seen as a sinecure (”_Unsuccessful in my profession, infirm and lame, I am impelled to solicit for some addition to my present income_” went one rather unimpressive application to the post of Chair of History in Cambridge University in 1762) to a serious and increasingly widespread academic position in the later 19th Century. Von Ranke we are told, did as much as anyone else to professionalise the methods and outlook of these new historians.
 
@@ -114,7 +114,7 @@ But lacking any clear attempt from Cohen to figure anything out from the collect
 
 For example he doesn’t try to address why the historians covered came to have such an influence; why it was this particular set that have become the “storytellers who have shaped our past”. Instead we are simply told that historian X was born in the year dot, wrote book Y - and everyone read it.
 
-Perhaps, like von Ranke, Cohen is wary of hubris. But his caution makes this a lesser book, even if nemesis is safely avoided. 
+Perhaps, like von Ranke, Cohen is wary of hubris. But his caution makes this a lesser book, even if Nemesis is safely avoided. 
 
 It is also worth mentioning again that the Storytellers of this book are those of the Western English speaking tradition. If you want to find out about how history has told different stories of the past in different traditions - ie Indian, or Chinese - you will have to find a different book.
 
