@@ -31,7 +31,7 @@ post_author: Anthony Webb
 date: 2022-06-24
 review_rating: ★★★☆☆
 permalink: ''
-review_summary: '<p>A useful book, with lots of interesting biographical information on a whole range of historians from the Western, starting with the Greeks and ending at the present day</p><p>But despite it‘s wide range, it is also quite narrow in scope - with nothing on why it was this particular bunch of historians that came to tell our story. Cohen simply tells us what happened - not why.</p>'
+review_summary: '<p>A useful book, with lots of interesting biographical information on a whole range of historians from the Western tradition, starting with the Greeks and ending at the present day</p><p>But despite it‘s wide range, it is also quite narrow in scope - with nothing on why it was this particular bunch of historians that came to tell our story. Cohen simply tells us what happened - not why.</p>'
 ---
 The study of history is a funny beast: on the one hand _everything_ is history, given that by the time we put fingers to keyboard, we are commenting on the past. On the other hand “history” can mean an exclusive professional endeavour focussed on narrow areas of enquiry.
 
