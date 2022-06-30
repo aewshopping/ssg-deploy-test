@@ -165,11 +165,16 @@ let btnShare = document.getElementsByClassName("share-link");
 
 //END OF SHARING BUTTON CODE USING WEB SHARE API /////////////////////
 
+
+//MODAL FOR BOOK COVERS /////////////////////
+
 const modal = document.querySelector('.modal_bookzoom');
 const modalTitle = document.querySelector('.myModalTitle');
 const modalImage = document.querySelector('.myModalImage');
 const modalLink_AmazonUK = document.querySelector('.myModalLink_AmazonUK');
 const modalLink_AmazonUS = document.querySelector('.myModalLink_AmazonUS');
+const modalLink_review = document.querySelector('.myModalLink_review');
+const modal_review_btn = document.querySelector('.myModal_review_btn');
 const modalClose = document.querySelector('.modal_close');
 
 document.querySelectorAll('.open-modal').forEach(item => {
@@ -181,8 +186,17 @@ document.querySelectorAll('.open-modal').forEach(item => {
     modalImage.src = myid.dataset.cover_large;
     modalLink_AmazonUK.href = myid.dataset.amazon_uk_link;
     modalLink_AmazonUS.href = myid.dataset.amazon_us_link;
+    modalLink_review.href = myid.dataset.review;
+    
+    if (myid.dataset.review.length == 0) {
+      modal_review_btn.style.display = "none";
+    } else {
+      modal_review_btn.style.display = "block";
+    }
+    
     
     modal.showModal();
+    document.activeElement?.blur(); // removes focus from close button
     console.log(item.id);
 
   })
@@ -192,3 +206,5 @@ document.querySelectorAll('.open-modal').forEach(item => {
 modalClose.addEventListener("click", () => {
   modal.close();
 });
+
+//END OF MODAL FOR BOOK COVERS /////////////////////
