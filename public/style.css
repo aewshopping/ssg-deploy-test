@@ -538,14 +538,15 @@ displaying a MODAL BOOK ZOOM
   padding: 10px 20px 10px 10px;
   width: max-content;
   text-decoration: none;
+  min-width: 150px;
 }
 .link-btn-bg {
   width: max-content;
   border-radius: 6px;
-  background-color: white;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.bg-white {background-color: white;}
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -1094,6 +1095,7 @@ transition: var(--ftsize-transition);}
   width: 25px;
   margin-right:5px;
 }
+.svg-icon-white {fill:white;}
 
 @media (hover: hover) { /* disables hover effect on mobiles */
   .icon-button-lightbg:hover {
@@ -1118,6 +1120,7 @@ transition: var(--ftsize-transition);}
 .txt-right {text-align:right;}
 .txt-capital {text-transform: uppercase;}
 .txt-summary-color {color: var(--color-summary-text);}
+.color-white {color: white;}
 .color-accent {color: var(--color-accent);}
 .color-accent-fill{fill: var(--color-icon-hover);}
 .ft-size-verysmall {font-size: var(--step--2);}
