@@ -32,7 +32,7 @@ post_author: Anthony Webb
 date: 2022-08-12
 review_rating: ★★★★☆
 permalink: ''
-review_summary: '<p>Dominion tells the story of the history of Christianity in the West, and traces this particular history as the source of <b>all</b> of our moral values in Europe and North America.</p><p>Tom Holland does a great job of making religious history fun - and gruesomely fasacinating - showing why this Christian story still matters, even if no-one goes to Church.</p>'
+review_summary: '<p>Dominion tells the story of the history of Christianity in the West, and traces this particular history as the source of <b>all</b> of our moral values in Europe and North America.</p><p>Tom Holland does a great job of making religious history fun - and gruesomely fascinating - showing why this Christian story still matters, even if no-one goes to Church.</p>'
 ---
 
 Lady Elizabeth of Hungary was a young lady who had it all. Daughter of King Andrew II of Hungary, she had been successfully married off at 14 to a German Duke - a husband she seems to have been devoted to - and lived with all the trappings of luxury in a Thuringian (ie German) castle. The trouble was, as Tom Holland tells us in Dominion: the Making of the Western Mind, that while she had it all, she didn’t want any of it.
