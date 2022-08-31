@@ -2,12 +2,11 @@
 layout: layouts/post.njk
 permalink: ''
 tags: [post, new books]
-
-title: New history books in August 2022
+title: New history books in July 2022
 post_author: Anthony Webb
 date: 2022-08-01
 image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1659385530/posts/July2022_newhistorybooks.jpg
-meta_excerpt: A round up of the new history books in August 2022 - a bit of a quiet month.
+meta_excerpt: A round up of the new history books in July 2022 - a bit of a quiet month.
 newbooks: ['0300253583', '0753558254', '0195335430', '1529376785', '1538753324', '0300254172']
 
 ---
