@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-permalink: '/posts/announcements/2022-10-01-post-new_history_books/'
+permalink: ''
 tags: [post, new books]
 title: New history books in September 2022
 post_author: Anthony Webb
