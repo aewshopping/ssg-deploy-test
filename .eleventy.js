@@ -94,7 +94,7 @@ module.exports = function(eleventyConfig) {
   });
   
   // From https://github.com/11ty/eleventy/issues/927
-  eleventyConfig.addFilter("keys", obj => Object.keys(obj));
+//  eleventyConfig.addFilter("keys", obj => Object.keys(obj));
   
   eleventyConfig.addCollection("posts", function(collection) {
 
@@ -124,7 +124,8 @@ eleventyConfig.addFilter("limit", function (arr, limit) {
   // Populates environment variables into process.env and makes it available in 11ty's global data https://github.com/11ty/eleventy/issues/782.
   require('dotenv').config();
   eleventyConfig.addGlobalData('env', process.env);
-
+  
+  
   const pluginRss = require("@11ty/eleventy-plugin-rss");
   eleventyConfig.addPlugin(pluginRss);
   
