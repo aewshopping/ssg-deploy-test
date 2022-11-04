@@ -32,7 +32,7 @@ post_author: Anthony Webb
 date: 2022-11-04
 review_rating: ★★★☆☆
 permalink: ''
-review_summary: '<p>Ancestors surveys the grand sweep of human history in Britain before the Romans came along, by forensically examining bones, burial things and DNA.</p><p>But a meandering rather disjointed structure means it is more like a disarticulated skeleton than a coherant body of work. So while it has some great content that it is worth digging through, it ends up a decent, rather than great, book.</p>'
+review_summary: '<p>Ancestors surveys the grand sweep of human history in Britain before the Romans came along, by forensically examining bones, burial things and DNA.</p><p>But a disjointed and sometimes meandering structure means it is more like a disarticulated skeleton than a coherent body of work. While it has some great content that it is worth digging through, it ends up a decent, rather than great, book.</p>'
 ---
 Elizabeth II, Queen of the United Kingdom and some other places, was buried on 19 September 2022 in Windsor Chapel. The crown she wore as queen, together with the orb and sceptre (ie the golden ball with a cross on top, and the golden stick respectively) had been resting on her coffin but were not interred with her - they will be used again later. The main ceremonial item that was buried alongside her was a simple wooden wand belonging to the Lord Chancellor[^1], broken in two to symbolise the ending of the Queen’s reign[^2].
 
@@ -56,11 +56,11 @@ This may not seem like that much stuff to us, but compared to everyone else buri
 
 ### Anything missing?
 
-The Amesbury Archer’s grave will also be missing any significant and / or beautiful items made of wood, textiles and leather that will have decomposed completely, just like the Queen Elizabeth’s Wand of Office - charged with symbolism - will eventually vanish without trace. At a minimum the Archer is likely to have had a bow with him, perhaps also snapped in half and laid on the body.[^5]
+The Amesbury Archer’s grave will also be missing any significant and beautiful items made of wood, textiles and leather that will have decomposed completely, just like the Queen Elizabeth’s Wand of Office - charged with symbolism - will eventually vanish without trace. At a minimum the Archer is likely to have had a bow with him, perhaps also snapped in half and laid on the body.[^5]
 
 ### What does it all mean?
 
-So he was a member of the super rich in Britain in the copper age or early bronze age 4,000 years ago. And Alice Roberts does a great job of explaining what all of these objects mean for this period of prehistory - and what his skeleton reveals about the man.
+So he was a member of the copper age super rich in Britain 4,000 years ago. Alice Roberts then does a great job of explaining what all of these objects mean for this period of prehistory - and what his skeleton reveals about the man.
 
 We can see metal beginning to be used by some people in the gold and copper items - although worked flint still seems to be the more practical cutting tool. We can evidence of sophisticated hunting weaponry with new barbed arrowhead designs. And we can see the evidence of long distance travel and migration in the bones of the man himself, in particular his teeth...
 
@@ -76,9 +76,9 @@ Quite astoundingly the Amesbury Archer seems to have grown up in the Swiss Alps 
 
 If he came directly by the shortest route (which he certainly wouldn’t have done) this was a journey of almost 1,000km which [Google Maps tells me will take 171 hours of constant walking](https://goo.gl/maps/raMAqta9aE5Haz7LA). This level of mobility in such a high status individual at this time is amazing.
 
-It also indicates population wide mobility - the genetic evidence from a range of skeletons seems to point to almost complete population replacement by these metal using “Beaker People”, taking over from the stone age neolithic inhabitants of Britain who came before them. The likely reason for this, Roberts tells us, is that changes in climate disrupted the way of life of the neolithic farmers, who saw a significant reduction in their population and abandoned the fields to rely on their herds of animals instead.
+It also indicates population wide mobility - the genetic evidence from a range of skeletons seems to point to almost complete population replacement by these metal using “Beaker People”, taking over from the stone age Neolithic inhabitants of Britain who came before them. The likely reason for this, Roberts tells us, is that changes in climate disrupted the way of life of the Neolithic farmers, who saw a significant reduction in their population and abandoned the fields to rely on their herds of animals instead.
 
-When the Beaker People made the crossing to Britain over the channel they came across a landscape largely empty of humans. As Roberts puts it:
+When the Beaker People made the crossing to Britain over the Channel they came across a landscape largely empty of humans. As Roberts puts it:
 
 >> ...in the later fourth millennium BCE, it seems that cereal cultivation was abandoned and there was a switch to more nomadic pastoralism... And along with that, there was a population collapse. Long barrows fell out of use. Causewayed enclosures fell into ruin. Fields were abandoned... this is the background to the arrival of the Beaker complex in Britain [i.e. the arrival of the Amesbury Archer and his associates] - it follows that Neolithic population collapse.
 >>> Alice Roberts, Ancestors
