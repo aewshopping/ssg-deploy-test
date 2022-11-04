@@ -11,8 +11,7 @@ permalink: /tags/{{ tag }}/
 
 {# from https://github.com/11ty/eleventy/issues/927 #}
 {%- for atag, posts in collections %}
-{% if (atag !="post") and (atag !="posts") and (atag !="page") and (atag !="all")  %}<a href="/tags/{{ atag }}" class="tagpill ft-size-normal {% if atag==tag %}tagpill_selected{% endif %}">{{ atag }} &nbsp;({{ posts | length }})</a>{% endif %}{%- endfor %}
-
+{% if (atag !="post") and (atag !="posts") and (atag !="page") and (atag !="all")  %}<a href="/tags/{{ atag }}" class="tagpill ft-size-normal {% if atag==tag %}tagpill_selected{% endif %}">{{ atag }}&nbsp;({{ posts | length }})</a>{% endif %}{%- endfor %}
 
 
 <div class="grid_posts">
