@@ -1,6 +1,5 @@
 const { DateTime } = require("luxon");
 
-
 module.exports = function(eleventyConfig) {
   eleventyConfig.setTemplateFormats([
     // Templates:
@@ -119,7 +118,7 @@ module.exports = function(eleventyConfig) {
 eleventyConfig.addFilter("limit", function (arr, limit) {
   return arr.slice(0, limit);
 });
-  
+
   
   // Populates environment variables into process.env and makes it available in 11ty's global data https://github.com/11ty/eleventy/issues/782.
   require('dotenv').config();

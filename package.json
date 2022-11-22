@@ -7,7 +7,7 @@
     "build": "NODE_ENV=production eleventy"
   },
   "dependencies": {
-    "luxon": "^3.0.4",
+    "luxon": "^3.1.0",
     "markdown-it": "^13.0.1",
     "markdown-it-footnote": "^3.0.3",
     "@11ty/eleventy": "^1.0.2",

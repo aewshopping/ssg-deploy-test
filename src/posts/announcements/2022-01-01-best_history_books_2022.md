@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 permalink: ''
-tags: [post, new books]
+tags: [post, best books]
 
 title: Best history books of 2022 so far... 
 post_author: Anthony Webb

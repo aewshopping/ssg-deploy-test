@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-permalink: ''
+permalink: https://popularhistorybooks.com/posts/opinion/2022-03-29-post-migrating_from_wordp/
 tags: [post, website]
 
 title: Migrating From WordPress to Eleventy - a non-developer's experience
