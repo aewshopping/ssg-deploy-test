@@ -62,7 +62,7 @@ Fundamentally it is just a well researched history book. It takes you through wh
 For example: when recounting the story of how Canute, the Norwegian King of England from 1016 to 1035, demonstrated to his obsequious courtiers that God’s power was infinitely greater than his own, by ineffectually commanding the incoming tide to retreat, and getting his feet wet in the process, Sandbrook writes:
 
 >> Canute knew perfectly well that he couldn’t control the waves. But he wanted to remind his advisers that God, not man, was the master of all.  Whether it really happened, we will never know. But if it didn’t, perhaps it should have done.
->>> Jonathon Sandbrook, Fury of the Vikings
+>>> Dominic Sandbrook, Fury of the Vikings
 
 ### Imagining the past
 
@@ -81,7 +81,7 @@ Finally I also enjoyed the book’s down to earth approach. A good example of th
 >> They had seen the wealth of their towns, the softness of their people and the weakness of their defences. They had seen the treasures of their monasteries, the golden relics and silver crosses, the decorated robes and jewel encrusted books. And they had seen the men they would be fighting: peaceful monks and well-meaning priests, who never even carried weapons.
 >> So why did they do it?
 >> Because they could.
->>> Jonathon Sandbrook, Fury of the Vikings
+>>> Dominic Sandbrook, Fury of the Vikings
 
 “Because they could” is an explanation that should get more use by historians!
 
