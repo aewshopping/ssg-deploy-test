@@ -39,7 +39,7 @@ Lots of potentially interesting stuff here, including two that I can vouch for a
 
 - __Uncommon Wrath: Caesar, Cato, and the Quarrel That Ended the Roman Republic__ by Josiah Osgood - [a great double bio of Caesar and Cato](https://pophist-ssg-test.glitch.me/posts/reviews/2022-12-02-review-uncommon_wrath/) looking at two late Republican titans and their role in destroying the Roman Republic, and their relevance for present day politicians.
 
-- __Adventures in Time: Fury of The Vikings__ by Dominic Sandbrook - an [fun and engaging history of the Viking Age](https://pophist-ssg-test.glitch.me/posts/reviews/2022-11-29-review-adventures_in_time_vikings/), written as a gateway history book for kids but just as good for adults.
+- __Adventures in Time: Fury of The Vikings__ by Dominic Sandbrook - a [fun and engaging history of the Viking Age](https://pophist-ssg-test.glitch.me/posts/reviews/2022-11-29-review-adventures_in_time_vikings/), written as a gateway history book for kids but just as good for adults.
 
 - __Papyrus: The Invention of Books in the Ancient World__ by Irene Vallejo - this one looks really interesting both as a history book and as a piece of writing. Translated from the Spanish version which was published in 2019, and one I hope to get round to reading!
 
