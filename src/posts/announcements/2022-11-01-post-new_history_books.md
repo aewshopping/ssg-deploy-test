@@ -2,7 +2,6 @@
 layout: layouts/post.njk
 permalink: ''
 tags: [post, new books]
-
 title: New history books in October 2022
 post_author: Anthony Webb
 date: 2022-11-01
