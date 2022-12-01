@@ -10,12 +10,12 @@ review_book_main_title: Uncommon Wrath
 review_book_sub_title: How Caesar and Cato's Deadly Rivalry Destroyed the Roman Republic
 review_book_author: Josiah Osgood
 review_book_author_surname: Osgood
-review_book_image_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1541620119.02._SCL_.jpg
-review_book_image_small_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1541620119.02._SCM_.jpg
+review_book_image_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/0192859560.02._SCL_.jpg
+review_book_image_small_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/0192859560.02._SCM_.jpg
 review_publication_date: 2022-11-29
 review_publisher: Oxford University Press
 review_pages: 352
-review_ISBN13: 978-1541620117
+review_ISBN13: 978-0192859563
 review_book_tags:
   - [Europe]
   - [Ancient]
@@ -24,8 +24,8 @@ review_book_tags:
 review_podcasts:
   - [https://www.listennotes.com/e/a6dbcda87d644f76b3b1c4361f5aff11, The Lincoln Project, Uncommon Wrath with Josiah Osgood]
 shopping_links:
-  - [https://www.amazon.co.uk/Uncommon-Wrath-Rivalry-Destroyed-Republic/dp/1541620119/, Amazon UK, Amazon UK book link]
-  - [https://www.amazon.com/Uncommon-Wrath-Rivalry-Destroyed-Republic/dp/1541620119/, Amazon US, Amazon US book link]
+  - [https://www.amazon.co.uk/Uncommon-Wrath-Rivalry-Destroyed-Republic/dp/0192859560/, Amazon UK, Amazon UK book link]
+  - [https://www.amazon.com/Uncommon-Wrath-Rivalry-Destroyed-Republic/dp/0192859560/, Amazon US, Amazon US book link]
 post_author: Anthony Webb
 date: 2022-11-25
 review_rating: ★★★★☆
