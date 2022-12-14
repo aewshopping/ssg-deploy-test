@@ -22,7 +22,8 @@ review_book_tags:
   - [Political, Economic]
   - [Vikings]
 review_podcasts:
-  - 
+  - [https://www.listennotes.com/e/7b23f2cea7f242bd9aa649fd346594cf, Little Atoms, Little Atoms 689 - Cat Jarmans River Kings]
+  - [https://www.listennotes.com/e/e39bc61ab8df4cf190e23ed67f0006b6, Jaipur Bytes, River Kings Cat Jarman in conversation with William Dalrymple]
 shopping_links:
   - [https://www.amazon.co.uk/dp/0008353077, Amazon UK, Amazon UK book link]
   - [https://www.amazon.com/dp/0008353077, Amazon US, Amazon US book link]
@@ -30,7 +31,7 @@ post_author: Anthony Webb
 date: 2022-12-14
 review_rating: ★★★★★
 permalink: ''
-review_summary: '<p>Cat Jarman shows us the Viking world from England in the West to India in the East, following the trail of small carnelian bead found in a Viking grave in Repton.</p><p>This is an excellent history book - describing the evidence that we have for what the Vikings were up to as they roamed the river systems of Eastern Europe, and stringing this together in a compelling and very readable story.</p>'
+review_summary: '<p>Cat Jarman shows us the Viking world from England in the West to India in the East, following the trail of a small carnelian bead found in a Viking grave in Repton.</p><p>This is an excellent history book - describing the evidence that we have for what the Vikings were up to as they roamed the river systems of Eastern Europe, and stringing this together in a compelling and very readable story.</p>'
 ---
 >> To see a World in a Grain of Sand  
 And a Heaven in a Wild Flower  
