@@ -9,7 +9,7 @@ tags: page
 ---
 Sorted by surname...
 
-{% set things = collections.all) %}
+{% set things = collections.all|sort(attribute="data.review_book_author_surname") %}
 
 <ul>
 {% for letter, thing in things | groupby("data.book_author_1stletter") %}
