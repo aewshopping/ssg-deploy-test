@@ -30,7 +30,7 @@ post_author: Anthony Webb
 date: 2023-01-06
 review_rating: ★★★★☆
 permalink: ''
-review_summary: '<p><i>The Perfect Sword</i> is a finely crafted book that brings the earthy practicalities of Anglo-Saxon sword making to life - in the context of honing swords into ever more effective murder weapons, over the two or three thousand years since their invention.</p><p>If the thought of a finely wrought blade stirs the embers of your soul, then you are sure to love this book. If you simply have a healthy curiosity, you will find a lot to like as well.</p>'
+review_summary: '<p><i>The Perfect Sword</i> is a finely crafted book that brings the earthy practicalities of Anglo-Saxon sword making to life - in the context of honing swords into ever more effective murder weapons, over the two or three thousand years since their invention.</p><p>If the thought of a finely wrought blade stirs the embers of your soul, then you are sure to love this book. If you are merely sword-curious, you will find a lot to like as well.</p>'
 ---
 The sword is the first tool made by humans whose sole function is death; or more specifically: killing other humans, according to Edoardo Albert and Paul Gething, co-authors of _The Perfect Sword: Forging the Dark Ages_.[^1]
 
