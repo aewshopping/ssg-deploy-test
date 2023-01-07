@@ -243,6 +243,7 @@ ul {
   color: var(--color-text);
   padding: 10px 0;
   margin: 10px var(--padding-edge);
+  list-style-type: disc;
 }
 .nobullet {
   margin: 0;
