@@ -330,14 +330,14 @@ document.querySelectorAll('.open_modal_bookzoom').forEach(item => {
     modalImage.src = myid.dataset.cover_large;
     modalLink_AmazonUK.href = myid.dataset.amazon_uk_link;
     modalLink_AmazonUS.href = myid.dataset.amazon_us_link;
-    if (myid.dataset.review) {modalLink_review.href = myid.dataset.review;
-    
+
     if (myid.dataset.review.length == 0) {
       modal_review_btn.style.display = "none";
     } else {
       modal_review_btn.style.display = "block";
+      modalLink_review.href = myid.dataset.review;
     }
-  }
+ 
     
     modal_bookzoom.showModal();
     document.activeElement?.blur(); // removes focus from close button

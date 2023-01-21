@@ -24,7 +24,7 @@
     "facebook":"https://www.facebook.com/Popular-history-books-107253478250090",
     "twitter":"https://twitter.com/PopHistoryBooks",
     "instagram":"https://www.instagram.com/popularhistorybooks/",
-    "myemail":"popularhistorybooks@gmail.com"
-  }
-    
+    "myemail":"popularhistorybooks@gmail.com",
+    "cloudinary": "https://res.cloudinary.com/ds2o5ecdw/image/upload/"
+  }  
 }
