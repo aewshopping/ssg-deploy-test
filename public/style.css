@@ -346,7 +346,7 @@ hr {
   height: 1.1em;
   width: 1.1em;
   margin: 0em 0.3em 0 0.1em;
-  vertical-align: 0.1em;
+  vertical-align: -0.1em;
 }
 
 /* for centering images in markdown - append #center to the image url */

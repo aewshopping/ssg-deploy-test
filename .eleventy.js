@@ -1,4 +1,14 @@
 const { DateTime } = require("luxon");
+const staticData = require("./src/_data/staticdata.json");
+
+function toUnicode16(str) {
+  var myArr = Array.from(str); //can't use str.length due to emoji unicode weirdness
+  var myStr =""; //can't get map to work it seems due to eleventy weirdness
+  for (var i = 0; i < myArr.length; i++) {
+    myStr += myArr[i].codePointAt(0).toString(16) +"-";
+}
+  return myStr.slice(0, -1);
+}
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.setTemplateFormats([
@@ -19,7 +29,21 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("public");
   eleventyConfig.addPassthroughCopy('src/_redirects');
 
+  eleventyConfig.addFilter("twemoji", function(str) {
+    var cldurl = staticData.links.cloudinary + "f_auto/twemoji/" // "https://res.cloudinary.com/ds2o5ecdw/image/upload/f_auto/twemoji/";
+    var cldsfx = ".png'";
+    var element = "<img class='img-emoji' alt='" + str + "' loading='lazy' src='";
+    var elementsfx = ">";
+    var imgurl = cldurl + toUnicode16(str) + cldsfx;
 
+    return element + imgurl + elementsfx;
+  });
+
+  eleventyConfig.addFilter("twemoji_test", function(str) {
+    return toUnicode16(str);
+  });
+
+  
   // change to snippet: false when not updating or testing project
   eleventyConfig.setBrowserSyncConfig({
     snippet: true,
@@ -91,6 +115,7 @@ module.exports = function(eleventyConfig) {
     title = title.replace(/"(.*)"/g, '\\"$1\\"');
     return title;
   });
+  
   
   // From https://github.com/11ty/eleventy/issues/927
 //  eleventyConfig.addFilter("keys", obj => Object.keys(obj));
