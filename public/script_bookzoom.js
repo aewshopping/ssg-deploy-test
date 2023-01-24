@@ -263,7 +263,7 @@ function getMonthName(monthNumber) {
 
 //END OF MODAL FOR BOOK COVERS /////////////////////
 
-
+/*
 // CLOSE MODAL IF CLICK BACKDROP ///////////////////
 // active if class list of dialog has backdrop_close
 let modalclosebckdrp = '.backdrop_close';
@@ -296,3 +296,4 @@ document.querySelectorAll(modalclosebckdrp).forEach(item => {
     })
   );
 })
+*/
