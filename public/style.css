@@ -576,6 +576,7 @@ displaying a MODAL BOOK ZOOM
 .myModalImage {
   width:320px;
   max-width: 100%;
+  height: auto;
 }
 .myModalTitle {
   color: white;
@@ -1033,7 +1034,6 @@ footer {
   margin: 40px 0 20px 0;
 }
 
-
 .collapse-div-slow {
   transition: max-height 0.7s ease;
 }
@@ -1045,6 +1045,9 @@ footer {
 }
 .uncollapsed {
   max-height: none;
+}
+.uncollapsed.collapse-div-slow {
+  max-height: 420px;
 }
 .top_menu li {
   border-bottom: 1px solid var(--color-header-text);  

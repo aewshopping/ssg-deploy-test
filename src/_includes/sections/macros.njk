@@ -152,7 +152,7 @@
 {# This extra div is necessary to get the overlay reviewed text lined up #}
 <div class={%- if review | length -%}"image_cover_container_fit_reviewed"{% else %}"image_cover_container_fit"{% endif %}>
   
-<div id="cover{{ asin }}" class='image_book_overlay open_modal_bookzoom'
+<div id="cover{{ asin }}" class='image_book_overlay open_modal_bookzoom {{classes}}'
       data-title="{{ title }}"
       data-author="{{ author }}"
       data-publishdate="{{ publishdate }}"
@@ -176,12 +176,13 @@
   
 </div>
 
-<dialog class="modal_bookzoom">
+<dialog class="modal_bookzoom backdrop_close">
 
   <button class="modal_close">&#10005;</button>
   <div class="grid-2column">
     <div>
-      <img class = "myModalImage" src="#" alt="cover image">
+      <img class = "myModalImage" src="#" alt="cover image" width="320" height="485" style="background-color: #40383b">
+      <p id="book_cat_display" class="color-white txt-center">book cover</p>
     </div>
     <div class="flex-column">
       <p class="myModalTitle pad-top-10 margin-top-10">[title]</p>

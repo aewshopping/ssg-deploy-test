@@ -6,14 +6,15 @@ title_content: All books
 image: image link here please
 meta_excerpt: some info about this and that
 tags: page
+script_add: [script_bookzoom.js]
 
 ---
 
 <div class="container">
   
-Comprehensive list of recent {{ "📚" | twemoji | safe }} popular history books below! 👇 Click the covers to see more details on that book, also our review {{ "📝" | twemoji | safe }} if available.
+A comprehensive list of recent {% twemoji "📚" %} popular history books below! Click the covers to see more details on that book, also our review {% twemoji "📝" %} if available.
 
-Shopping links are to Amazon for your convenience only. For more info see <a href="#notes">notes</a>.
+For more info see <a href="#notes">notes</a>.
 </div>
 <div class="bg-alternative">
 <div class="container pad-top-20">
@@ -23,7 +24,7 @@ Shopping links are to Amazon for your convenience only. For more info see <a hre
 </div>
 
 
-<dialog class="modal_bookfilter">
+<dialog class="modal_bookfilter backdrop_close">
 <div class="container"> {# this will be start of modal #}
 <button class="modal_bookfilter_close">&#10005;</button>
 
@@ -78,7 +79,8 @@ Shopping links are to Amazon for your convenience only. For more info see <a hre
 - The purpose of this list is to give you a good feel for all the history books published recently in hardback in the UK, ordered by publication date with the newest at the top. When you first load the page it will show the first {{ max_intial_books }} most recently published books, but you can see many more less recent books if you use the filter. It is a reasonably exhaustive list but…
   - I have excluded military history books which I see as a category all on its own (and would if included have swamped the non-military history books).
   - I have excluded history books that I see as too “local” eg the many books on particular aspects of the US Civil War, or the many books focussing on relatives of medieval English kings.
-- The filter is an OR filter within categories and an AND filter between categories. For example if you select '{{ "🗓️" | twemoji | safe }}  2021' and '{{ "🗓️" | twemoji | safe }} 2022' books from both years will be shown - 2021 OR 2022...
-- ...but if you select '{{ "🗓️" | twemoji | safe }} 2021' and '{{ "👑" | twemoji | safe }} Political' then only books that have both attributes will be shown - 2021 AND Political. I think this is intuitively what most people expect to happen!
+- The filter is an OR filter within categories and an AND filter between categories. For example if you select '{% twemoji "🗓️" %}  2021' and '{% twemoji "🗓️" %} 2022' books from both years will be shown - 2021 OR 2022...
+- ...but if you select '{% twemoji "🗓️" %} 2021' and '{% twemoji "👑" %} Political' then only books that have both attributes will be shown - 2021 AND Political. I think this is intuitively what most people expect to happen!
 - This history book database is hand-curated - the categories for the books are chosen by me when I do my monthly roundup. This means they can't be manipulated to boost sales (“hey my book is in *all* the categories!”) but also that you may or may not agree with my judgement 🙂.
+- Links are provided to Amazon UK and US for convenience only, with no affiliation on my part. Please ignore them if you want to shop elsewhere!
 - Finally for the more technicially minded among you: this is not a _proper_ database because all books are loaded when the page loads and are then selectively hidden or shown by the filter. On the negative side this is not a scalable solution, on the positive side it works well enough for now!</div>

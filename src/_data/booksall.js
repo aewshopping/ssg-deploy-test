@@ -12,6 +12,8 @@ module.exports = function() {
 
     base("Books (all)")
       .select({
+      maxRecords: 1000,
+      fields: ["Title", "Author", "HB Publish date", "ASIN (HB)", "Review url", "URL Cldnry img small", "URL Cldnry img large", "Create css filter classes"],
       filterByFormula: "{go live}=1",
       sort: [{field: "HB Publish date", direction: "desc"}]
     })
