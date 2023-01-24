@@ -12,6 +12,8 @@
     }
     </script>
 
-    {# remove the twemoji from html markup until later :-) note also requires <script>twemoji.parse(document.body);</script> right after the html body tag 
-    <!-- Loads the twemoji script to allow twitter emojis, only turn on when loads emoji, automate later!     
-    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>  --> #}
+{% if script_add %}
+{% for item in script_add %}
+<script src="/public/{{ item }}" defer></script>
+{% endfor %}
+{% endif %}
