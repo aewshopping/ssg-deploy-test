@@ -1,31 +1,30 @@
 const staticData = require("../_data/staticdata.json");
 // "./src/utils/shortcodes.js"
 
-function toUnicode16(str) {
-  var myArr = Array.from(str); //can't use str.length due to emoji unicode weirdness
-  var myStr =""; //can't get map to work it seems due to eleventy weirdness
-  for (var i = 0; i < myArr.length; i++) {
-    myStr += myArr[i].codePointAt(0).toString(16) +"-";
-}
-  return myStr.slice(0, -1);
-}
+function toUnicode16(text){
+  return Array.from(text).map(char => char
+  .codePointAt(0)
+  .toString(16))
+  .join("-");
+  }
+
 
 module.exports = eleventyConfig => {
 
   eleventyConfig.addShortcode("twemoji", function(str, options = "") {
-    var cldurl = `${staticData.links.cloudinary}f_auto/${options}twemoji/`;
-    var cldsfx = ".png";
-     var imgurl = cldurl + toUnicode16(str) + cldsfx;
-    var element = `<img class='img-emoji' alt='${str}' loading='lazy' src='${imgurl}'>`;   
+    let cldurl = `${staticData.links.cloudinary}f_auto/${options}twemoji/`;
+    let cldsfx = ".png";
+     let imgurl = cldurl + toUnicode16(str) + cldsfx;
+    let element = `<img class='img-emoji' alt='${str}' loading='lazy' src='${imgurl}'>`;
 
-    return element;
+    return element + "s";
   });
-  
+
   eleventyConfig.addFilter("twemoji_test", function(str) {
     return toUnicode16(str);
   });
 
   eleventyConfig.addShortcode("testfunction", function() {
-	return "hello!";
+	return "hello again";
   });
 };

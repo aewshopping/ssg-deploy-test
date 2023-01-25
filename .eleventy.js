@@ -1,5 +1,3 @@
-const { DateTime } = require("luxon");
-
 module.exports = function(eleventyConfig) {
   eleventyConfig.setTemplateFormats([
     // Templates:
@@ -19,9 +17,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("public");
   eleventyConfig.addPassthroughCopy('src/_redirects');
 
-// import user defined shortcodes  
+// import user defined shortcodes and filters
+eleventyConfig.addWatchTarget("./src/utils/");
 eleventyConfig.addPlugin(require("./src/utils/shortcodes.js"));
-  
+eleventyConfig.addPlugin(require("./src/utils/filters.js"));
+
+
   // change to snippet: false when not updating or testing project
   eleventyConfig.setBrowserSyncConfig({
     snippet: true,
@@ -60,40 +61,8 @@ eleventyConfig.addPlugin(require("./src/utils/shortcodes.js"));
   return n;
 };
   
-
-  
   eleventyConfig.setLibrary("md", markdownLib);
-
-  // Filters let you modify the content https://www.11ty.dev/docs/filters/
-  eleventyConfig.addFilter("htmlDateString", dateObj => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("d LLLL yyyy");
-  });
-
-  eleventyConfig.addFilter("myDateString", dateObj => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("LLLL yyyy");
-  });
-  
-  eleventyConfig.addFilter("myDateYear", dateObj => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy");
-  });
-
-  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
-  
-  eleventyConfig.addFilter("excerpt", (post) => {
-  const content = post.replace(/(<([^>]+)>)/gi, "");
-  return content.substr(0, content.lastIndexOf(" ", 200)) + "...";
-  });
-  
-  // This filter intakes a string and inserts a non-breaking space between the last two words to prevent a single word dangling on the last line https://11ty.rocks/eleventyjs/content/
-  eleventyConfig.addFilter("addNbsp", (str) => {
-    if (!str) {
-      return;
-    }
-    let title = str.replace(/((.*)\s(.*))$/g, "$2&nbsp;$3");
-    title = title.replace(/"(.*)"/g, '\\"$1\\"');
-    return title;
-  });
-  
+ 
   
   // From https://github.com/11ty/eleventy/issues/927
 //  eleventyConfig.addFilter("keys", obj => Object.keys(obj));
@@ -116,11 +85,6 @@ eleventyConfig.addPlugin(require("./src/utils/shortcodes.js"));
 
     return coll;
   });
-
-// From: https://11ty.rocks/eleventyjs/data-arrays/  
-eleventyConfig.addFilter("limit", function (arr, limit) {
-  return arr.slice(0, limit);
-});
 
   
   // Populates environment variables into process.env and makes it available in 11ty's global data https://github.com/11ty/eleventy/issues/782.
