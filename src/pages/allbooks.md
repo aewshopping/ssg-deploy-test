@@ -11,8 +11,8 @@ script_add: [script_bookzoom.js]
 ---
 
 <div class="container">
-  
-A comprehensive list of recent {% twemoji "📚" %} popular history books below! Click the covers to see more details on that book, also our review {% twemoji "📝" %} if available.
+
+A comprehensive list of recent {% twemoji "🥐" %} popular history books below! Click the covers to see more details on that book, also our review {% twemoji "📝" %} if available.
 
 For more info see <a href="#notes">notes</a>.
 </div>
@@ -24,7 +24,7 @@ For more info see <a href="#notes">notes</a>.
 </div>
 
 
-<dialog class="modal_bookfilter backdrop_close">
+<dialog class="modal_bookfilter">
 <div class="container"> {# this will be start of modal #}
 <button class="modal_bookfilter_close">&#10005;</button>
 
