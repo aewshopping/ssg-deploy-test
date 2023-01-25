@@ -1,3 +1,4 @@
+{# ///// VERY SIMPLE SHOW COVERS MACRO ////////// #}
 {% macro book_covers(input) %}
 
 <div class="grid_book_small">
@@ -6,48 +7,16 @@
 
 {% set isbn = item[0] %}
 {% set title = item[1] %}
-  
-<div class="fix-children">
-  <div class="image_cover_container">
-  <img loading='lazy' class='image_book_cover' src="https://res.cloudinary.com/ds2o5ecdw/image/upload/f_auto/acovers/{{ isbn }}.02._SCM_.jpg" alt="{{ title }}" title="{{ title }}">
 
-  <div id="cover{{ isbn }}" class='image_book_overlay open_modal_bookzoom'
-      data-title="{{ title }}" 
-      data-cover_large="https://res.cloudinary.com/ds2o5ecdw/image/upload/f_auto/acovers/{{ isbn }}.02._SCL_.jpg" 
-      data-amazon_uk_link="https://amazon.co.uk/dp/{{ isbn }}" 
-      data-amazon_us_link="https://amazon.com/dp/{{ isbn }}">
-    <div class="center_item">
-    <svg class="svg-icon-zoom" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">{% include "sections/svg/icon_zoom.html" %}</svg>
-    </div>
-  </div>    
+  <div class="image_cover_container">
+  <img loading='lazy' class='image_book_cover' src="https://res.cloudinary.com/ds2o5ecdw/image/upload/f_auto/acovers/{{ isbn }}.02._SCM_.jpg" alt="{{ title }}" title="{{ title }}">  
     
   </div>
-    
-</div>
 
 {% endfor %}
   
 </div>
 
-<dialog class="modal_bookzoom">
-
-  <button class="modal_close">&#10005;</button>
-  <div class="grid-2column">
-    <div>
-      <img class = "myModalImage" src="#" alt="cover image">
-    </div>
-    <div class="flex-column">
-      <p class="myModalTitle pad-top-10 margin-top-10">[title]</p>
-      <div class="flex1">        
-      </div>
-      <div class="link-btn-bg">
-        <a href="#"  target="_blank" class="myModalLink_AmazonUK link-btn displayblock flex0"><svg class="svg-icon-btn" xmlns="http://www.w3.org/2000/svg" height="25px" width="25px" viewBox="0 0 24 24"  fill="#000000">{% include "sections/svg/icon_shoppingcart.html" %}</svg>Amazon UK</a></div>
-      <div class="link-btn-bg">
-        <a href="#" target="_blank" class="myModalLink_AmazonUS link-btn displayblock flex0"><svg class="svg-icon-btn" xmlns="http://www.w3.org/2000/svg" height="25px" width="25px" viewBox="0 0 24 24"  fill="#000000">{% include "sections/svg/icon_shoppingcart.html" %}</svg>Amazon US</a></div>
-    </div>
-  </div>
-
-</dialog>
 {% endmacro %}
 
 
@@ -63,66 +32,6 @@
 {% if input.type=="history books" %}
 <img loading="lazy" class="grid_post_icon" src="{{staticdata.images.books_icon}}" alt="little books icon">{% endif %}
                            
-{% endmacro %}
-
-
-{# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX #}
-
-
-{% macro book_covers_all(input) %}
-
-<div class="grid_book_small">
-
-{% for item in input.books %}
-
-{% set isbn = item.isbn %}
-{% set title = item.title %}
-{% set review = item.review_url %}
-
-<div class="fix-children">
-  <div class="image_cover_container">
-  <img loading='lazy' class='image_book_cover' src="https://res.cloudinary.com/ds2o5ecdw/image/upload/f_auto/acovers/{{ isbn }}.02._SCM_.jpg" alt="{{ title }}" title="{{ title }}">
-
-  <div id="cover{{ isbn }}" class='image_book_overlay open_modal_bookzoom'
-      data-title="{{ title }}"
-      data-cover_large="https://res.cloudinary.com/ds2o5ecdw/image/upload/f_auto/acovers/{{ isbn }}.02._SCL_.jpg" 
-      data-amazon_uk_link="https://amazon.co.uk/dp/{{ isbn }}" 
-      data-amazon_us_link="https://amazon.com/dp/{{ isbn }}"
-      data-review="{{ review }}">
-    <div class="center_item">
-    <svg class="svg-icon-zoom" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">{% include "sections/svg/icon_zoom.html" %}</svg>
-    </div>
-  </div>    
-    
-  </div>
-    
-</div>
-
-{% endfor %}
-  
-</div>
-
-<dialog class="modal_bookzoom">
-
-  <button class="modal_close">&#10005;</button>
-  <div class="grid-2column">
-    <div>
-      <img class = "myModalImage" src="#" alt="cover image">
-    </div>
-    <div class="flex-column">
-      <p class="myModalTitle pad-top-10 margin-top-10">[title]</p>
-      <div class="flex1">        
-      </div>
-      <div class="link-btn-bg bg-white myModal_review_btn">
-        <a href="#"  target="_blank" class="myModalLink_review link-btn displayblock flex0"><svg class="svg-icon-btn" xmlns="http://www.w3.org/2000/svg" height="48px" width="48px" viewBox="0 0 48 48"  fill="#000000">{% include "sections/svg/icon_review.html" %}</svg>Review</a></div>
-      <div class="link-btn-bg bg-white">
-        <a href="#"  target="_blank" class="myModalLink_AmazonUK link-btn displayblock flex0"><svg class="svg-icon-btn" xmlns="http://www.w3.org/2000/svg" height="25px" width="25px" viewBox="0 0 24 24"  fill="#000000">{% include "sections/svg/icon_shoppingcart.html" %}</svg>Amazon UK</a></div>
-      <div class="link-btn-bg bg-white">
-        <a href="#" target="_blank" class="myModalLink_AmazonUS link-btn displayblock flex0"><svg class="svg-icon-btn" xmlns="http://www.w3.org/2000/svg" height="25px" width="25px" viewBox="0 0 24 24"  fill="#000000">{% include "sections/svg/icon_shoppingcart.html" %}</svg>Amazon US</a></div>
-    </div>
-  </div>
-
-</dialog>
 {% endmacro %}
 
 
@@ -181,7 +90,7 @@
   <button class="modal_close">&#10005;</button>
   <div class="grid-2column">
     <div>
-      <img class = "myModalImage" src="#" alt="cover image" width="320" height="485" style="background-color: #40383b">
+      <img class = "myModalImage" src="#" alt="cover image" width="326" height="500" style="background-color: #40383b">
       <p id="book_cat_display" class="color-white txt-center">book cover</p>
     </div>
     <div class="flex-column">
