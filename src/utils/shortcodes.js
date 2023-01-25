@@ -17,7 +17,7 @@ module.exports = eleventyConfig => {
      let imgurl = cldurl + toUnicode16(str) + cldsfx;
     let element = `<img class='img-emoji' alt='${str}' loading='lazy' src='${imgurl}'>`;
 
-    return element + "s";
+    return element;
   });
 
   eleventyConfig.addFilter("twemoji_test", function(str) {
