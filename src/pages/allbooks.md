@@ -12,7 +12,7 @@ script_add: [script_bookzoom.js]
 
 <div class="container">
 
-A comprehensive list of recent {% twemoji "🥐" %} popular history books below! Click the covers to see more details on that book, also our review {% twemoji "📝" %} if available.
+A comprehensive list of recent {% twemoji "📚" %} popular history books below! Click the covers to see more details on that book, also our review {% twemoji "📝" %} if available.
 
 For more info see <a href="#notes">notes</a>.
 </div>
