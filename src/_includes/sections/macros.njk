@@ -20,9 +20,8 @@
 {% endmacro %}
 
 
-{# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX #}
 
-
+{# ///// POST TAG STICKER ONNER ///////////////// #}
 {% macro post_icon(input) %}
 
 {# associate icons with post tag types - may need to look at padding #}
@@ -35,9 +34,8 @@
 {% endmacro %}
 
 
-{# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX #}
 
-
+{# ///// SHOW BOOKS IN GRID WITH MODAL ZOOM ////////// #}
 {% macro book_covers_all_api(input) %}
 
 <div class="grid_book_small">
@@ -82,13 +80,12 @@
 </div>
 
 {% endfor %}
-  
+
 </div>
 
 <dialog class="modal_bookzoom">
-
-  <button class="modal_close">&#10005;</button>
-  <div class="grid-2column">
+<button class="modal_close">&#10005;</button>
+<div class="grid-2column">
     <div>
       <img class = "myModalImage" src="#" alt="cover image" width="326" height="500" style="background-color: #40383b">
       <p id="book_cat_display" class="color-white txt-center">book cover</p>
