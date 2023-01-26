@@ -567,7 +567,7 @@ displaying a MODAL BOOK ZOOM
 }
 .modal_close {
   position: absolute;
-  bottom: 100%;
+  top: 0;
   padding-inline: 1em;
   right: 20px;
   color:white;
