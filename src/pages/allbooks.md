@@ -25,7 +25,7 @@ For more info see <a href="#notes">notes</a>.
 
 
 <dialog class="modal_bookfilter">
-<div class="container"> {# this will be start of modal #}
+<div class="container pad-top-20"> {# this will be start of modal #}
 <button class="modal_bookfilter_close">&#10005;</button>
 
 <p class="color-white">Filter by...</p>
