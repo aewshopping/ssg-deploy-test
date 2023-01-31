@@ -561,6 +561,11 @@ displaying a MODAL BOOK ZOOM
   border: none;
   background: rgba(0, 0, 0, 0);
   position: fixed;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.modal_bookzoom::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }
 .modal_bookzoom::backdrop {
   background: rgb(0 0 0 / 0.8);
@@ -575,7 +580,7 @@ displaying a MODAL BOOK ZOOM
   border: none;
   border-radius: 3em;
   cursor: pointer;
-  font-size: var(--h2-size);   
+  font-size: 35px;   
 }
 .grid-2column {
   display: grid;
@@ -649,7 +654,7 @@ Start of MODAL FILTER
   border: none;
   border-radius: 3em;
   cursor: pointer;
-  font-size: var(--h2-size);   
+  font-size: 35px;   
 }
 
 

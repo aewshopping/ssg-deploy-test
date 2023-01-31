@@ -1,19 +1,34 @@
-require("dotenv").config();
+// my thanks to https://jamesdoc.com/blog/2022/11ty-airtable/
+// also see https://www.11ty.dev/docs/plugins/fetch/
 
-var Airtable = require("airtable");
+require("dotenv").config();
+const { AssetCache } = require("@11ty/eleventy-fetch");
+const Airtable = require("airtable");
+
+const assetCacheId = "airtableCMS";
+const airtableAllBooksTable = "tblE6xb68NI5UxdRt";
+
 var base = new Airtable({ apiKey: process.env.mykey }).base(
   process.env.mybase
 );
 
+module.exports = () => {
+  let asset = new AssetCache(assetCacheId);
 
-module.exports = function() {
+  // Cache the data in 11ty for one day
+  if (asset.isCacheValid("1s")) {
+    console.log("Serving airtable data from the cache…");
+    return asset.getCachedValue();
+  }
+
+  // The 11ty cache is cold… so we need to talk to Airtable
   return new Promise((resolve, reject) => {
     const allCases = [];
 
-    base("Books (all)")
+    base(airtableAllBooksTable)
       .select({
       maxRecords: 1000,
-      fields: ["Title", "Author", "HB Publish date", "ASIN (HB)", "Review url", "URL Cldnry img small", "URL Cldnry img large", "Create css filter classes"],
+      fields: ["Title", "Author", "HB Publish date", "ASIN (HB)", "Review url", "URL Cldnry img small", "URL Cldnry img large", "css filter classes"],
       filterByFormula: "{go live}=1",
       sort: [{field: "HB Publish date", direction: "desc"}]
     })
@@ -31,9 +46,10 @@ module.exports = function() {
           if (err) {
             reject(err);
           } else {
+            asset.save(allCases , "json");
             resolve(allCases);
           }
-        }
+        },
       );
   });
 };

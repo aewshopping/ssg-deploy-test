@@ -16,7 +16,7 @@ function myFilterAnd(id) {
 // this is the main filtering function that calls the sub functions
 
  //select the button element clicked
- var myfbtn = document.getElementById(id);
+ let myfbtn = document.getElementById(id);
  myfbtn.classList.toggle("btn-color-accent");
  myfbtn.classList.toggle("btn-color-light");
  myfbtn.classList.toggle("onState");
@@ -35,9 +35,9 @@ function myFilterAnd(id) {
 function myShowFilterLabel(id) {
 //  creates a button to match the filter that has just been applied, puts the button above the books so you can see which filters are active, then attaches a function to the button to allow you to remove the filter.
   
-  var xbtn = document.createElement("button");
-  var location = document.getElementById("myFilterGroup");
-  var btnText = document.getElementById(id).innerHTML;
+  let xbtn = document.createElement("button");
+  let location = document.getElementById("myFilterGroup");
+  let btnText = document.getElementById(id).innerHTML;
   
   xbtn.type = "button";
   xbtn.id = id + "f"
@@ -254,10 +254,9 @@ modal_bookfilter_close.addEventListener("click", () => {
   modal_bookfilter.close();
 });
 
-
 function getMonthName(monthNumber) {
   const date = new Date();
-  date.setMonth(monthNumber - 1);
+//  date.setMonth(monthNumber - 1); // don't know why I thought I needed this line
   return date.toLocaleString('en-US', { month: 'long' });
 }
 
