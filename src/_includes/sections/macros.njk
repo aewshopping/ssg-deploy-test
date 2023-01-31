@@ -49,7 +49,7 @@
 {% set review = item["Review url"] %}
 {%- set imgsmall = item["URL Cldnry img small"] | replace("upload/","upload/f_auto/") -%}
 {%- set imglarge = item["URL Cldnry img large"] | replace("upload/","upload/f_auto/") -%}
-{%- set classes = item["Create css filter classes"] -%}
+{%- set classes = item["css filter classes"] -%}
 
 <div class="fix-children {{classes}} hbk {% if loop.index > max_intial_books %}nodisplay{% endif %}">
 <div class="image_cover_container">
