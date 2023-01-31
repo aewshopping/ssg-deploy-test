@@ -24,13 +24,13 @@ _Click the book covers to see a zoomed in image and links to Amazon for those wh
 
 ---
 
-I haven't been reading as much as normal this month, mainly because I have been hard at work (in the evenings) improving and spring cleaning this website. As is the way of these things most of the changes I have made are invisible, but you may spot an improved [All Books]({{ staticdata.links.books_all }}) page that now lives on the main site and has some extra filtering options, such as by the winners of the Wolfson or Cundhill history book prizes.
+I haven't been reading as much as normal this month, mainly because I have been hard at work improving and spring cleaning this website. As is the way of these things most of the changes I have made are invisible, but you may spot an improved [All Books]({{ staticdata.links.books_all }}) page that now lives on the main site and has some extra filtering options, such as by the winners of the excellent 🏆 Wolfson or 🥇 Cundhill history book prizes.
 
 On to the range of books published in Jan:
 
 - ___Pirate Enlightenment: Buccaneers, Women Traders and Mock Kingdoms in Eighteenth Century Madagascar___ _by David Graeber_ - I know that the author sadly died in 2020 so I'm not sure where this book has come from: perhaps it is a manuscript that has only now come to light? But Graeber has always been an excellent and provocative writer so hopefully this will be no different. It is also the first book on Madagascan history that I have come across.
 - ___Battle Elephants and Flaming Foxes: Animals in the Roman World___ _by Caroline Freeman-Cuerden_ - who has written what looks like an entertaining book on Romans and their love of (killing?) animals.
 - ___On Savage Shores: How Indigenous Americans Discovered Europe___ _by Caroline Dodds Pennock_ - nice juxtaposition! as they might say on Numberblocks. I like the premise of this one and hope to get around to reading it.
-- ___Beaverland: How One Weird Rodent Made America___ _by Leila Philip_ - I enjoyed listening to excellent _The Rest is History_ podcast episode [Canada: Beaver Wars](https://play.acast.com/s/the-rest-is-history-podcast/285-canada-beaver-wars) and I'm expecting more of the same in this book. In fact given that Beaverland was published in the US a little while ago, this may well have been one of the sources.
+- ___Beaverland: How One Weird Rodent Made America___ _by Leila Philip_ - I enjoyed listening to entertaining and informative _The Rest is History_ podcast episode [Canada: Beaver Wars](https://play.acast.com/s/the-rest-is-history-podcast/285-canada-beaver-wars) and I'm expecting more of the same in this book. In fact given that Beaverland was published in the US a little while ago, this may well have been one of the sources.
 
 I have realised that I seem to have ignored all of the more recent history books that I referenced at the start of this post! I would like to read these too, but I will let you browse them via the covers above at your leisure.
