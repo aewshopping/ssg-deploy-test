@@ -28,7 +28,7 @@ module.exports = () => {
     base(airtableAllBooksTable)
       .select({
       maxRecords: 1000,
-      fields: ["Title", "Author", "HB Publish date", "ASIN (HB)", "Review url", "URL Cldnry img small", "URL Cldnry img large", "css filter classes"],
+      fields: ["Title", "Author", "HB Publish date", "ASIN (HB)", "Review url", "URL Cldnry img small", "URL Cldnry img large", "css filter classes"], // if any field names change in airtable we need to change them here and also in the sections/macro.njk file book_covers_all_api
       filterByFormula: "{go live}=1",
       sort: [{field: "HB Publish date", direction: "desc"}]
     })
