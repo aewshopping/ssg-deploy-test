@@ -16,7 +16,7 @@ module.exports = () => {
   let asset = new AssetCache(assetCacheId);
 
   // Cache the data in 11ty for one day
-  if (asset.isCacheValid("1s")) {
+  if (asset.isCacheValid("1d")) {
     console.log("Serving airtable data from the cache…");
     return asset.getCachedValue();
   }

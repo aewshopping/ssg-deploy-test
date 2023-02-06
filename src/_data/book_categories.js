@@ -20,7 +20,7 @@ module.exports = async function() {
 
     // Cache the responses for 1 hour; useful so you don't 
     // constantly ping and exceed the limits on Airtable's API
-    duration: '2s',
+    duration: '1d',
 
     // Set the data response type
     type: 'json',
