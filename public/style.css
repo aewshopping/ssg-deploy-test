@@ -253,6 +253,9 @@ ul {
   padding: 10px 0;
   margin: 10px var(--padding-edge);
 }
+ul li {
+  list-style-type: disc;
+}
 .nobullet {
   margin: 0;
   list-style: none;
