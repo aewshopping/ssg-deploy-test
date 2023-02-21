@@ -10,10 +10,10 @@ tags: page
 
 Sorted by surname... 
 {% set things = collections.all %}
-<ul>
+<ul class="nobullet-sublist">
 {% for letter, thing in things | groupby("data.book_author_1stletter") | dictsort %}
 {% if letter!=="undefined" %}
-<li class="pad-bottom-20 nobullet">
+<li class="pad-bottom-20">
 <h2>{{ letter }}</h2>
 {# so if you _do_ have a letter then format nicely and carry on with the author surnames for that letter #}
 <ul>

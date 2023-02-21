@@ -4,7 +4,7 @@ title_content: Tech Acknowledgements
 title: Tech Acknowledgements
 tags: page
 permalink: '/techdebt/'
-date: 2022-03-22
+date: 2023-02-21
 
 ---
 
@@ -56,9 +56,9 @@ So images are stored on Cloudinary, but what about the website content, ie the a
 
 Another brilliant service available to us all! Airtable looks and feels [like a spreadsheet but is actually a database](https://airtable.com) you can do all sorts of fancy things with if you want to. I use it to store reviews, and link them up to history book records. My fellow reviewers also submit their reviews to Airtable through an Airtable form - you don't need to login to do this.
 
-I _could_ automatically pull reviews from Airtable directly into Eleventy, but I am nervous about retaining editorial control. Therefore I will manually add them as an Eleventy friendly and appropriately tagged markdown file (created in Airtable) to Glitch or Github depending on how I feel.
+I _could_ automatically pull reviews from Airtable directly into Eleventy, but I am nervous about retaining editorial control. Therefore I will manually add them as an Eleventy friendly and appropriately tagged markdown file (created in Airtable) to the website.
 
-If a reviewer wants to edit their review they can do this directly on the website using the Netlify CMS but this won't update the Airtable database so my system isn't great but it is good enough for now.
+One thing that does pull automatically from Airtable using their API is the full list of recent history books in the All Books page. This is a big step forward for me as previously I was creating html divs and manually updating an html page on a linked website!
 
 I also need to make sure I don't forget to mention...
 
@@ -90,7 +90,7 @@ And finally...
 
 ## Twemoji!
 
-I also really like the [Twitter emoji designs](https://twemoji.twitter.com) which have kindly been opensourced by Twitter. So if you see a colourful emoji icon this is likely to be a Twemoji. I am using them as plain png icons mainly but in our "All Books" all emojis are automatically swapped out for Twemojis. Here it is a great way to generate loads of country flags from emoji symbols that otherwise don't show up on most desktops. On other pages it isn't worth troubling your computer to perform this task.
+I also really like the [Twitter emoji designs](https://twemoji.twitter.com) which have kindly been opensourced by Twitter. So if you see a colourful emoji icon this is likely to be a Twemoji design. I am using them as plain png icons mainly but in our "All Books" the book category emojis are swapped out for Twemojis using an over-engineered bit of build time javascript. In particular it is a great way to generate loads of country flags from emoji symbols that otherwise don't show up on most desktops.
 
 <hr>
 
