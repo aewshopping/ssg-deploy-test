@@ -260,6 +260,10 @@ ul li {
   margin: 0;
   list-style: none;
 }
+.nobullet-sublist > li {
+  margin: 0;
+  list-style: none;
+}
 .toc_list li {
   margin: 10px 0;
 }
