@@ -23,13 +23,6 @@ eleventyConfig.addPlugin(require("./src/utils/shortcodes.js"));
 eleventyConfig.addPlugin(require("./src/utils/filters.js"));
 
 
-  // change to snippet: false when not updating or testing project
-  eleventyConfig.setBrowserSyncConfig({
-    snippet: true,
-  });
-
-  eleventyConfig.setBrowserSyncConfig({ ghostMode: false });
-
   let markdownIt = require("markdown-it");
   let markdownItfn = require("markdown-it-footnote");
   let markdownItAnchor = require("markdown-it-anchor"); 
