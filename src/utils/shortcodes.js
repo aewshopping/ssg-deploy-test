@@ -12,7 +12,7 @@ function toUnicode16(text){
 module.exports = eleventyConfig => {
 
   eleventyConfig.addShortcode("twemoji", function(str, options = "") {
-    let cldurl = `${staticData.links.cloudinary}f_auto/${options}twemoji/`;
+    let cldurl = `${staticData.links.cloudinary}${options}twemoji/`;
     let cldsfx = ".png";
      let imgurl = cldurl + toUnicode16(str) + cldsfx;
     let element = `<img class='img-emoji' alt='${str}' loading='lazy' src='${imgurl}'>`;
