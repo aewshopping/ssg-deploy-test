@@ -11,9 +11,9 @@ permalink: /tags/{{ tag }}/
 
 {# from https://github.com/11ty/eleventy/issues/927 #}
 {%- for atag, posts in collections %}
-{% if (atag !="post") and (atag !="posts") and (atag !="page") and (atag !="all")  %}<button type="button" onclick="location.href='/tags/{{ atag }}';" class="btn tagpill ft-size-small {% if atag==tag %}tagpill_selected{% endif %}">{{ atag }}&nbsp;({{ posts | length }})</button>{% endif %}{%- endfor %}
+{% if (atag !="post") and (atag !="posts") and (atag !="page") and (atag !="all") and (atag !="allReviewCats") %}<button type="button" onclick="location.href='/tags/{{ atag }}'" class="btn tagpill ft-size-small {% if atag==tag %}tagpill_selected{% endif %}">{{ atag }}&nbsp;({{ posts | length }})</button>{% endif %}{%- endfor %}
 
-
+{% if tag=="review" %}(Hint: if you want to browse for just 5 star reviews go to the [all history books page]({{ staticdata.links.books_all }}), click the __Filter by...__ button and select the __Prizes__ option __⭐ PHB 5 stars award__.){% endif %}
 
 <div class="grid_posts">
 {% set taglist = collections[ tag ] %}

@@ -20,7 +20,7 @@ review_book_tags:
   - [Global]
   - [Early Modern]
   - [Cultural]
-  - [Enlightenment; ]
+  - [Enlightenment]
 review_podcasts:
   - [https://lnns.co/hUqFuxr4iJN, New Books Network, Ritchie Robertson The Enlightenment The Pursuit of Happiness 1680-1790]
   - [https://lnns.co/icHCeVJD3Ex, History Extra podcast, The Enlightenment everything you wanted to know]
