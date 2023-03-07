@@ -20,7 +20,7 @@ review_book_tags:
   - [Europe, Africa, Asia]
   - [Middle Ages, Early Modern, Late Modern]
   - [Political, Military, Economic, Social, Cultural]
-  - [Ottoman, Turkey]
+  - [Ottomans, Turkey]
 review_podcasts:
   - [https://www.listennotes.com/e/819cefcd98cc483fadaf31418e81c151, Turkey Book Talk, Marc David Baer on the Ottomans as khans caesars and caliphs]
   - [https://www.listennotes.com/e/ea8bba44807d4d05a3fd6de97b5f098d, History Extra podcast, The Ottoman “Age of Discovery”]
