@@ -30,7 +30,7 @@ shopping_links:
 post_author: Anthony Webb
 date: 2023-03-10
 review_rating: ★★★★★
-permalink: 'https://popularhistorybooks.com/posts/reviews/2023-03-10-review-weavers-scribes-and-kings/'
+permalink: ''
 review_summary: '<p><i>Weavers, Scribes, and Kings: A New History of the Ancient Near East</i> introduces us to a broad cast of ancient Mesopotamians - from regal families to regular folk. Podany tells their story starting in 3500 BCE and the invention of writing, and going up until 350 BCE and the arrival of Alexander the Great.</p><p>This is a brilliant “micro-macro” history book that almost magically conjures the ancient Near Eastern world back to life. I loved reading it and would make it compulsory reading for everyone else if I could!</p>'
 ---
 Names have power. If you know a name you know a person. Conversely those countless individuals throughout history whose names we have forgotten are without form and void.  But when we then say let there be... Dwight, or Moses, or Sargon - there they are: fully formed and alive.
