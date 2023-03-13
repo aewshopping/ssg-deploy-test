@@ -5,7 +5,7 @@ tags: [post, best books]
 
 title: Best history books of 2022 
 post_author: Anthony Webb
-date: 2022-01-01
+date: 2023-01-01
 image: 
 meta_excerpt: What are the best popular history books of 2022? Here are our favourites so far.
 ---
@@ -14,9 +14,7 @@ What are the best popular history books published in 2022 in the UK?
 
 These are the best popular history books that we have read and reviewed on this site. The links take you to more details on each book below.
 
-So far we have not awarded any coveted five star reviews to history books published in 2022, but as and when we come across them we will add them to the list. But there are plenty of highly recommended four star books to choose from!
-
-If you want to see __all__ history books published in 2022 you can search our [history books mini database]({{ staticdata.links.books_all }}).
+If you want to see __all__ history books published in 2022 you can search our [history books mini database]({{ staticdata.links.books_all }}). There are many more history books published than we are able to review!
 
 {% set YearRoundUp = "2022" %}
 {% set taglist = collections["review"] | reverse %}
