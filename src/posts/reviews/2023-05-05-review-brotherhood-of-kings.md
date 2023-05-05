@@ -77,7 +77,7 @@ The Mitannian secret weapon, according to Podany, was diplomacy. Just after Amen
 The audaciousness was striking. As Amehotep himself remarked: the Mitannians came...
 
 >> tribute on their backs, to seek the peace of His Majesty, desirous of his sweet breath of life. A notable event! [The like of this occurrence] had not been heard of since the time of the demigods: this land which knew not Egypt was supplicating the Good God!
->> Amenhotep II
+>>> Amenhotep II
 
 “Seeking peace” Podany tells us “was not a phrase used with respect to vassals, and it is a telling sign of the new way in which these great kings were seeing one another - as partners in peace rather than as enemies in war.”
 
@@ -93,11 +93,11 @@ The key point is that what was being proposed was an alliance based on equality.
 
 Podany speculates that for the pharaoh the royal brides were a particular attraction, but that easy access to luxury goods that were not available in Egypt such as fine horses and beautiful lapis lazuli would also have been tempting.
 
-Whatever the details, Amehotep II clearly now found peace more attractive than war. He never ventured outside Egypt again and spent the rest of his reign building magnificent temples and palaces, or at least ordering their construction.
+Whatever the details, Amehotep II clearly now found peace more attractive than war. He never ventured outside Egypt again and spent the rest of his reign building magnificent temples and palaces, or at least getting other people to build them for him.
 
 ### An equilibrium state
 
-This system of peace that took root in Mesopotamia didn’t prevent war but it did lead to periods of remarkable interstate stability. In the three hundred or so years from Amenhotep’s conversion to the late bronze age collapse, it took an unusually belligerent leader to undermine the system. Most of the time the various kings were content to call each other brother, marry each others daughters, and try to wheedle just a _bit_ more gold for the _very_ last time out of the Egyptian pharaoh.
+This system of peace that took root in Mesopotamia didn’t _prevent_ war but it did lead to periods of remarkable interstate stability. In the three hundred or so years from Amenhotep’s conversion to the late bronze age collapse, it took an unusually belligerent leader to undermine the system. Most of the time the various kings were content to call each other brother, marry each others daughters, and try to wheedle just a _bit_ more gold out of the Egyptian pharaoh for the _very_ last time.
 
 It is also notable that it is all based on self interest. There was no particular moral underpinning to the idea of international peace, it just suited the interests of the kings involved who could get what they wanted more easily and with less risk.
 
@@ -109,7 +109,7 @@ This means we hear about the now more or less forgotten great kingdoms of the ti
 
 ### Begging letters
 
-No pre-knowledge is assumed by the author which was helpful for me as I had very little! (although I had previously read and reviewed her excellent 2022 book [Weavers, Scribes and Kings: A New History of the Ancient Near East](https://popularhistorybooks.com/posts/reviews/2023-03-10-review-weavers-scribes-and-kings/).) Podany introduces us to the Near Eastern world as gently as possible with the help of some memorable and sometimes eccentric characters. For example: Tushratta, King of Mitanni who was pathetically desperate to get his hands on a solid gold statue of himself from his Egyptian “brother” king.
+No pre-knowledge is assumed by the author which was helpful for me as I had very little! (Although I had previously read and reviewed her excellent 2022 book [Weavers, Scribes and Kings: A New History of the Ancient Near East](https://popularhistorybooks.com/posts/reviews/2023-03-10-review-weavers-scribes-and-kings/).) Podany introduces us to the Near Eastern world as gently as possible with the help of some memorable and sometimes eccentric characters. For example: Tushratta, King of Mitanni who was pathetically desperate to get his hands on a solid gold statue of himself from his Egyptian “brother” king.
 
 A lot of the fun of the book lies in hearing the words of the Kings themselves in their messages to each other. Here is Tushratta again, who was unusually affectionate in his letters:
 
@@ -131,7 +131,7 @@ If you have even a passing interest in the ancient world or diplomacy in general
 
 [^1]: As an aside I couldn’t figure out where Egypt sourced its tin - an essential ingredient for the bronze age. Most tin in the region seems to have been mined in what is now Afghanistan so perhaps this was also on the shopping list.
 
-[^2]: All of these characteristics are disputed but I find them hard to shake due to having read River God at an impressionable age: the highly entertaining historical fiction romp by Wilbur Smith
+[^2]: All of these characteristics are disputed but I find them hard to shake due to having read _River God_ at an impressionable age: the highly entertaining historical fiction romp by Wilbur Smith
 
 [^3]: He is very precise about this but surely it is an exaggeration??
 
