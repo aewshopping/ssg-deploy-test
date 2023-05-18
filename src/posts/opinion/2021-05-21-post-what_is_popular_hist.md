@@ -19,7 +19,7 @@ So if you are not a professional academic historian and you find a history book 
 
 This can cover a very broad range of topics and time periods, from things that happened fairly recently, such as the cold war, to things that happened ages ago, before humans started planting their own vegetables.
 
-### What’s the difference between a popular and academic history book?
+### What’s the difference between a popular and an academic history book?
 People often read popular history to find out what happened. Whereas an academic already knows the key events of their period and could instead be looking at a very particular aspect of their topic.
 
 ![A popular history book and an academic history book]({{ image }}#center 'Rubicon vs Roman Masculinity')
@@ -36,7 +36,7 @@ Over time (we hope!) the knowledge and insights accumulated by professional hist
 > One of the things that we are trying to do with this book blog is root around in the publishers’ catalogues for popular history books that are not getting much coverage but look really interesting – with topics that we want to hear and talk about.
 
 ### Is a popular history book a less reliable history book?
-You can probably see by now that I am a big fan of popular history. But the genre does have its detractors. It has sometimes been seen as less rigorous in its approach and more likely to cover the same old topics – another helping of world War 2 anyone? I think that this can be true of popular history. But it can also be true of any work of non-fiction including academic work.
+You can probably see by now that I am a big fan of popular history. But the genre does have its detractors. It has sometimes been seen as less rigorous in its approach and more likely to cover the same old topics – another helping of World War 2 anyone? I think that this can be true of popular history. But it can also be true of any work of non-fiction including academic work.
 
 When I studied history at university I would occasionally get frustrated that the topics historians chose to write about would follow pretty narrow tramlines – and would usually be in direct response to another book or article on the same topic. So “more of the same” can be a problem in academic history too.
 
