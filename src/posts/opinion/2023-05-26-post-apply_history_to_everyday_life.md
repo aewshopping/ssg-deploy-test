@@ -6,7 +6,7 @@ tags: [post, opinion]
 title: How can we apply history in our daily life?
 post_author: Anthony Webb
 date: 2023-05-26
-image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1684614703/posts/HistoryInDailyLife_titled.png
+image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1684614796/posts/HistoryInDailyLife.png
 meta_excerpt: Learning from history is all very well but how do we apply this to our normal everyday life? I consider a typical day of my own - and how I personally apply the past to the present.
 ---
 Regular readers of this website will, I imagine, often think to themselves: 
