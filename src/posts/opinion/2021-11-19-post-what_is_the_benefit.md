@@ -21,7 +21,7 @@ As members of the human race, we all start out like Jason Bourne in the Robert L
 
 Jason Bourne did it by running around Europe with a gun and a ridiculous array of special abilities.
 
-We do it by reading history books.
+We do it by [reading history books](https://popularhistorybooks.com/allbooks/).
 
 [[toc]]
 
