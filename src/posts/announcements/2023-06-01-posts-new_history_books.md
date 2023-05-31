@@ -5,7 +5,7 @@ tags: [post, new books]
 title: New history books in May 2023
 post_author: Anthony Webb
 date: 2023-06-01
-image: 
+image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1685567704/posts/May2023_newhistorybooks.jpg
 meta_excerpt: New history books published in May 2023 in the UK
 script_add: [script_bookzoom.js]
 newbooks: ['147118367X', '1399705083', '1529109957', '0674279395', '1802792392', '152936776X']
