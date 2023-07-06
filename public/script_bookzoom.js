@@ -256,7 +256,7 @@ modal_bookfilter_close.addEventListener("click", () => {
 
 function getMonthName(monthNumber) {
   const date = new Date();
-//  date.setMonth(monthNumber - 1); // don't know why I thought I needed this line
+  date.setMonth(monthNumber); // for some reason it used to work with a minus one here
   return date.toLocaleString('en-US', { month: 'long' });
 }
 
