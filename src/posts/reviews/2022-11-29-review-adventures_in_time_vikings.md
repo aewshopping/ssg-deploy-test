@@ -5,9 +5,9 @@ tags:
   - post
   - review
 
-title: Adventures in Time - review
-review_book_main_title: Adventures in Time
-review_book_sub_title: Fury of The Vikings
+title: Fury of The Vikings - review
+review_book_main_title: Fury of The Vikings
+review_book_sub_title: Adventures in Time
 review_book_author: Dominic Sandbrook
 review_book_author_surname: Sandbrook
 review_book_image_url: https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/0241552176.02._SCL_.jpg
