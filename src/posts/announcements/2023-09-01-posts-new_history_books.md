@@ -25,7 +25,7 @@ _Click the book covers to see a zoomed in image and links to Amazon if you like 
 
 Here are a few that stuck out for me:
 
-- ___Backbone of the Nation: Mining Communities and the Great Strike of 1984-85___, _by Robert Gildea_ - last month I came across a book published the ex warden of my ex University college. This month it is an ex history tutor of the ex college, with this interesting looking book on the history of the miners strike in the UK.
+- ___Backbone of the Nation: Mining Communities and the Great Strike of 1984-85___, _by Robert Gildea_ - last month I came across a book published by the ex-warden of my ex-University college. This month it is an ex-history tutor of the ex-college, with this interesting looking book on the history of the miners strike in the UK.
 
 - ___Empires of the Steppes: The Nomadic Tribes Who Shaped Civilisation___, _by Kenneth W. Harl_ - I enjoy the open road myself so this one instinctively appeals to me.
 
