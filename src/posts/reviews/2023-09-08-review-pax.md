@@ -29,9 +29,9 @@ shopping_links:
   - [https://www.amazon.com/dp/1408706989, Amazon US, Amazon US book link]
 post_author: Anthony Webb
 date: 2023-09-08
-review_rating: ★★★★☆
+review_rating: ★★★★★
 permalink: ''
-review_summary: '<p>A grand tour of the Roman world from the death of Nero in 68 CE to the death of Hadrian 70 years later, Holland wants us to appreciate not only what the Romans did but also how they thought.</p><p>With an impressive trail of defeated enemies, stormed cities, castrated boys and exploded volcanoes, I found it an entertaining, engrossing and thought-provoking read.</p>'
+review_summary: '<p>A grand tour of the Roman world from the death of Nero in 68 CE to the death of Hadrian 70 years later, Holland wants us to appreciate not only what the Romans did but also how they thought.</p><p>With a triumphant procession of defeated enemies, stormed cities, castrated boys and exploded volcanoes, I found it an entertaining, engrossing and thought-provoking read.</p>'
 ---
 Do you - can you? - think like a Roman?
 
@@ -76,16 +76,25 @@ This is because Holland wants us to think like a Roman, or at least appreciate t
 
 ...I didn’t even raise an eyebrow.
 
-As well as travelling through time we are also taken on an empire tour, with stop-offs at:
+As well as travelling through time:
 
-- Rome
-- the German frontier
-- Judaea
-- Pompeii (timed for the eruption of Vesuvius)
-- Britain
-- Bithynia and Pontus (nowadays West Turkey)
-- Mesopotamia
-- Greece
+- Death of Nero
+- Year of the four emperors: martinet Galba, playboy Otho, pie-loving Vitellius, and then...
+- Vespasian and his son Titus
+- Domitian
+- Trajan (and Nerva)
+- Hadrian 
+
+...we are also taken on an empire tour, with stop-offs at:
+
+- 🏛️ Rome
+- 🐄 the German frontier
+- 🕍 Judaea
+- 🌋 Pompeii (timed for the eruption of Vesuvius)
+- 🧙 Britain
+- 🦃 Bithynia and Pontus (nowadays West Turkey)
+- 🏖️ Mesopotamia
+- 🫒 Greece
 
 Each visit provides a vivid picture and helps us to appreciate the vast expanse of the Roman world - and just how much people moved around within it.
 
@@ -111,9 +120,11 @@ By about half way through though, I felt tour guide Holland had earned my trust 
 
 The second caveat is stylistic. Holland’s writing is fluid and pacy but - paradoxically - it can also be florid and unnecessarily convoluted.[^6] Again as per above, the whole journey is rewarding and worthwhile but a few of the by-roads are not as smooth as they might be.
 
+Ultimately though the sheer relish and exuberance with which Holland marches us through the history compensates for these wrinkles and makes Pax a delight to read.
+
 ### Conclusion
 
-Overall though this is an excellent book, and although it has fallen just short of being awarded a 5 star triumph, it nevertheless leaves an impressive trail of defeated enemies, stormed cities, castrated boys and exploded volcanoes.
+This is an excellent book, awarded a 5 star triumph: with an impressive procession of defeated enemies, stormed cities, castrated boys and exploded volcanoes.
 
 You may finish it _still_ thinking that transforming a young lad into the image of your dead wife is an unacceptable thing to do. But you will certainly appreciate that standards of good and bad behaviour _can_ alter dramatically over time - that the Romans thought very differently to us.
 
