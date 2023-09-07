@@ -30,7 +30,7 @@ shopping_links:
 post_author: Anthony Webb
 date: 2023-09-08
 review_rating: ★★★★★
-permalink: ''
+permalink: '/posts/reviews/2023-09-08-review-pax/'
 review_summary: '<p>A grand tour of the Roman world from the death of Nero in 68 CE to the death of Hadrian 70 years later, Holland wants us to appreciate not only what the Romans did but also how they thought.</p><p>With a triumphant procession of defeated enemies, stormed cities, castrated boys and exploded volcanoes, I found it an entertaining, engrossing and thought-provoking read.</p>'
 ---
 Do you - can you? - think like a Roman?
@@ -63,6 +63,9 @@ The point of this disturbing tale, told by Tom Holland in his latest book _Pax: 
 
 The key to understanding this particular story, Holland tells us, is that for the Romans, the most important identity was not man or woman but one of power. What mattered was the fact - and act - of domination. In the case of Sporus it was considered less important that he was transformed from a boy into a woman, and more important that he was an underling who remained on the receiving end of the Emperor’s affections. Whether those affections were welcome or not was beyond the point: the strong do what they want and the weak (if they were not Roman citizens) just have to take it.
 
+>> She [Sporus] was a symbol not just of imperial power, but of the daring required to reach after imperial power. Well might those who had moulded her, fashioning an empress out of a boy, think nothing beyond them.
+>>> Tom Holland, Pax
+
 ### What’s in the book?
 
 _Pax_ provides us with a grand tour of the Roman empire from the death of Nero in 68 CE to the death of Hadrian 70 years later in 138 AD.
@@ -83,7 +86,7 @@ As well as travelling through time:
 - Vespasian and his son Titus
 - Domitian
 - Trajan (and Nerva)
-- Hadrian 
+- Hadrian
 
 ...we are also taken on an empire tour, with stop-offs at:
 
@@ -91,12 +94,12 @@ As well as travelling through time:
 - 🐄 the German frontier
 - 🕍 Judaea
 - 🌋 Pompeii (timed for the eruption of Vesuvius)
-- 🧙 Britain
+- 🧙‍♂️ Britain
 - 🦃 Bithynia and Pontus (nowadays West Turkey)
 - 🏖️ Mesopotamia
 - 🫒 Greece
 
-Each visit provides a vivid picture and helps us to appreciate the vast expanse of the Roman world - and just how much people moved around within it.
+Each location is vividly described and helps us to appreciate the vast expanse of the Roman world - and just how mobile people were within it.
 
 ### Sub-optimus Princeps
 
