@@ -1341,6 +1341,7 @@ transition: var(--ftsize-transition);}
 .ft-size-normal {font-size: var(--step-0);}
 .ft-size-large {font-size: var(--step-1);}
 .ft-size-vlarge {font-size: var(--step-3);}
+.ft-inherit {font-family: inherit;}
 .color-inherit {color: inherit;}
 .pad-bottom {padding-bottom: 50px;}
 .pad-bottom-20 {padding-bottom: 20px;}
