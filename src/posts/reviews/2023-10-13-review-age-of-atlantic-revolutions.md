@@ -30,19 +30,23 @@ shopping_links:
 post_author: Anthony Webb
 date: 2023-10-13
 review_rating: ★★☆☆☆
-permalink: ''
+permalink: '/posts/reviews/2023-10-13-review-age-of-atlantic-revolutions/'
 review_summary: '<p>A bird eye view of the foundation of our modern world of nation states, in the connected revolutions around the Atlantic in the late 18th and early 19th century.</p><p>Griffin provides a welcome challenge to the often blinkered national histories that can dominate our view of the past. But despite all the learning, empathy and insight, this book is just too dry to turn the world upside-down.</p>'
 ---
->> 🎵🎶Give me an alcoholic beverage:  
+> It's history is the creation of a world
+>>> Simone de Beauvoir, America Day by Day
+
+In Colombia the first song I learnt on my battered travelling guitar was “Soy Colombiano” (“I am Colombian”) which goes something like this:
+
+_🎵 Give me an alcoholic beverage:  
 An alcoholic beverage made of sugar cane,  
 With the sugar cane of my valleys and the aniseed of my mountains!  
-Don’t give me foreign alcoholic beverages  
+Don’t give me foreign alcoholic beverages. 
 Which are expensive and don’t taste so good.  
-For me the home grown stuff is always the best  
-¡Ay! How proud I feel to be born in my country!🎶🎵 [Colombia]
->>> Soy Colombiano by Rafael Godoy, translation by me with original language lyrics here[^1]
+For me the home grown stuff is always the best. 
+¡Ay! How proud I feel to be born in my country!🎶🎵 [Colombia]_. 
 
-In Colombia the first song I learnt on my battered travelling guitar was “Soy Colombiano” (“I am Colombian”) with the main refrain repeated in each verse of “Ay! How proud I am to be a Colombian!” or some variant thereof. You can listen to some nice recordings on YouTube, including this one by the [celebrated Garzón Y Collazos](https://www.youtube.com/watch?v=wAxe3Uj_Gk8)
+(Soy Colombiano by Rafael Godoy, translation by me with original language lyrics here[^1])
 
 This wasn’t atypical for popular South American guitar tunes. In every country there were a suite of well known songs telling the audience how lucky they are to be a citizen of that particular country.
 
@@ -59,7 +63,7 @@ As a revolutionary nation builder looking to create a sense of national identity
 
 ### Lighting the fire
 
-Griffin starts his book in around 1760 and finishes around 1850, covering the revolution in British North America, the revolution in France and, after a few decades of benign neglect, the revolutions that formed the map of South and Central America. He also covers the Carribean world, in particular Haiti.
+Griffin starts his book in around 1760 and finishes around 1850, covering the revolution in British North America, the revolution in France and, after a few decades of benign neglect, the revolutions that formed the map of South and Central America. He also covers the Caribbean world, in particular Haiti.
 
 One of the key ideas underlying this book is that the Atlantic was a deeply connected world, and developments in one place were closely linked with events elsewhere. For example, the French revolution acted as both an inspirational people power moment, or a warning of the terrible violence that a revolution could unleash. So while the interactions were complex in their effects they were nonetheless fundamental to how people around the Atlantic ocean experienced the age.
 
@@ -85,9 +89,9 @@ With the American and the French Revolution as precursors, Saint-Dominique explo
 
 ### The price of independence
 
-The price it paid was a high one. Firstly in blood and suffering to reach this point. Secondly in direct monetary terms - [the French government demanded a payment which has deprived Haiti of $21 billion](https://www.nytimes.com/2022/05/20/world/americas/haiti-history-colonized-france.html) (in today’s terms) in order to recognise the new Republic[^3].
+The price it paid was a high one. Firstly in blood and suffering to reach this point. Secondly in direct monetary terms - [the French government demanded a payment which is thought to have deprived Haiti of $21 billion](https://www.nytimes.com/2022/05/20/world/americas/haiti-history-colonized-france.html) (in today’s terms) in order to recognise the new Republic[^3].
 
-The justification for the crippling fine was that it was compensation for the losses suffered by French planters. What had they lost? The land they had stolen and the right to work their slaves to death.
+The justification for the crippling fine was that it was compensation for the losses suffered by French planters. What had they lost? The land they had stolen and the right to work their slaves to death.[^4]
 
 ### The writing style
 
@@ -106,18 +110,22 @@ I think I know what he means even though I don’t understand all of the words. 
 
 Because this period is so fundamental to Europe, America and Africa we should all know more about it than most of us do.
 
-Not just the “national stories” of Bunker Hill or the Storming of the Bastille, but instead understanding how those national stories are often just exercises in self-congratulatory navel-gazing. By lifting our gazes and looking over the horizon we can understand our own modern world so much better.
+Not just the national stories of Bunker Hill or the Storming of the Bastille, but instead understanding how these “foundational myths” are often just exercises in self-congratulatory navel-gazing. By lifting our gazes and looking over the horizon we can understand our own modern world so much better.
 
-Unfortunately, The Age of Atlantic Revolution is not the book to do this despite all its empathy and perceptiveness. It is just too boring. But perhaps it can show us the way.
+Unfortunately, The Age of Atlantic Revolution is not the book to do this despite all its learning, empathy and perceptiveness. It is just too boring. But perhaps it can show us the way.
 
 
 
-[^1]: A mí deme un aguardiente, un aguardiente de caña,  
+[^1]: _A mí deme un aguardiente, un aguardiente de caña,  
 de las cañas de mis valles y el anís de mis montañas.  
 No me dé trago extranjero que es caro y no sabe a bueno,  
 porque yo quiero siempre lo de mi tierra primero.  
-Ay! qué orgulloso me siento de haber nacido en mi pueblo.
+Ay! qué orgulloso me siento de haber nacido en mi pueblo._  
+If you want to know how it sounds you can of course listen to some recordings on YouTube, including this one by the [celebrated Garzón Y Collazos](https://www.youtube.com/watch?v=wAxe3Uj_Gk8)
 
 [^2]: You can watch [a nice video of the changing political map of South America](https://www.youtube.com/watch?v=UULp33MNNNE) on YouTube
 
-[^3]: Recognition in this context means a loose promise not to launch unprovoked attacks. The $21 billion figure comes from an excellent article in the New York Times from 20 May 2022 called “[The Ransom: The Roots of Haiti’s Misery: Reparations to Enslavers](https://www.nytimes.com/2022/05/20/world/americas/haiti-history-colonized-france.html)”. This appears to be not behind a paywall and is well worth reading. The original figure was 150 million francs according to Wikipedia, 10x Haiti’s annual budget. This get’s translated to $560 million in today’s terms and the $21 billion includes the opportunity cost of forgoing the opportunity to invest this amount in Haiti itself. 
+[^3]: Recognition in this context means a loose promise not to launch unprovoked attacks. The $21 billion figure comes from the Haitian president Jean-Betrand Aristide who made this restitution demand of the French state in 2003. It has recently been the subject of an article in the New York Times called “[The Ransom: The Roots of Haiti’s Misery: Reparations to Enslavers](https://www.nytimes.com/2022/05/20/world/americas/haiti-history-colonized-france.html)” (May 2022). The article works very well as a brief history of Haiti as well a discussion of the $21 amount. The original figure was 150 million francs according to Wikipedia, 10x Haiti’s annual budget. This get’s translated to $560 million in today’s terms and $21 billion including the opportunity cost of not being able to invest this amount in Haiti itself.
+
+[^4]: Described thusly by the New York Times article referenced above: “It [Haiti] became the world’s first and only country where the descendants of enslaved people paid reparations to the descendants of their masters — for generations.  
+It is often called the 'independence debt.' But that is a misnomer. It was a ransom.”
