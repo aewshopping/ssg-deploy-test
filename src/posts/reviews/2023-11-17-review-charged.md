@@ -59,7 +59,7 @@ In the 1950s the gulags were closed and the workers were paid higher salaries to
 By the early 2000s the area was in a pretty bad way. In the middle of nowhere, belonging to a government that didn’t typically prioritise the natural environment, and using highly polluting processing methods, it was considered one of the top ten worst-polluted sites in the world.
 
 >> Acid deposition had scorched two thousand square miles of surrounding forests. Air and water sampling revealed pollution levels exceeding Russian standards by more than an order of magnitude. Life expectancies for Norilsk employees were ten years below the Russian average
->>> Charged, James Moreton Turner
+>>> Charged, James Morton Turner
 
 After this point there was an intensive effort to clean up production, but problems and bad publicity have remained.
 
