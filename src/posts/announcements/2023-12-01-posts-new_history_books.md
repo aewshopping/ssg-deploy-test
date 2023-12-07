@@ -11,7 +11,7 @@ script_add: [script_bookzoom.js]
 newbooks: ['1108839290', '0197546870', '0241530849', '0691230153', '1803995416', '1529326761']
 
 ---
-Fourteen books published in November that meet my exacting criteria (of being history, not too academic, and not too niche or military). It looks like a fairly traditional range of topics: Weimar Germany, Russian revolution, French revolution,  a bit of Rome - but a few books with less familiar themes too.
+Fourteen books published in November that meet my exacting criteria (of being history, not too academic, and not too niche or military). It looks like a fairly traditional range of topics: Weimar Germany, Russian revolution, French revolution, a bit of Rome - but a few books with less familiar themes too.
 
 _Click the book covers to see a zoomed in image and links to Amazon if you like to buy your books there._
 
