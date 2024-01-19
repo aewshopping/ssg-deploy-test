@@ -1303,6 +1303,7 @@ transition: var(--ftsize-transition);}
 }
 .svg-icon-white {fill:white;}
 
+
 @media (hover: hover) { /* disables hover effect on mobiles */
   .icon-button-lightbg:hover {
     color: var(--color-icon-hover);
