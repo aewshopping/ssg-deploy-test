@@ -72,12 +72,12 @@ Travelling back one hundred years will still only cover a paltry 1cm of our jour
 <p class="svg-legend-title">Last one hundred years</p>
 
 <div class="svg-legend">
-<ul class="svg-legend-list">
-<li class="legend-1a">We are all born 19XX...</li>
-<li class="legend-1b">Birth control pill available 1961</li>
-<li class="legend-1c">Airplanes and war 1945</li>
-<li class="legend-1d">Antibiotics 1920</li>
-</ul>
+<ol class="svg-legend-list">
+<li class="legend-1a">👶We are all born 19XX...</li>
+<li class="legend-1b">💊Birth control pill available 1961</li>
+<li class="legend-1c">🛫Airplanes and war 1945</li>
+<li class="legend-1d">💉Antibiotics 1920</li>
+</ol>
 </div>
 </div>
 
@@ -98,12 +98,12 @@ A journey of 1,000 years covers a mere 10cm of our trip across the UK. About the
 <p class="svg-legend-title">Last one thousand years</p>
 
 <div class="svg-legend">
-<ul class="svg-legend-list">
-<li class="legend-1a">Stars recognised as suns 1840</li>
-<li class="legend-1b">World is (almost) all mapped 1770</li>
-<li class="legend-1c">Europeans invade Americas 1492</li>
-<li class="legend-1d">Guns and cannons 1250</li>
-</ul>
+<ol class="svg-legend-list">
+<li class="legend-1a">✨Stars recognised as suns 1840</li>
+<li class="legend-1b">🌍World is (almost) all mapped 1770</li>
+<li class="legend-1c">⛵Europeans invade Americas 1492</li>
+<li class="legend-1d">🔫Guns and cannons 1250</li>
+</ol>
 </div>
 </div>
 
@@ -123,12 +123,12 @@ Going back in time ten thousand years in our journey to the beginning of the uni
 <p class="svg-legend-title">Last ten thousand years</p>
 
 <div class="svg-legend">
-<ul class="svg-legend-list">
-<li class="legend-1a">Stonehenge 2500 BCE</li>
-<li class="legend-1b">Cities and kings 4000 BCE</li>
-<li class="legend-1c">Channel forms, Europe cut off 6500 BCE</li>
-<li class="legend-1d">Agriculture takes root 9000 BCE</li>
-</ul>
+<ol class="svg-legend-list">
+<li class="legend-1a">🧙‍♂️Stonehenge 2500 BCE</li>
+<li class="legend-1b">👑Cities and kings 4000 BCE</li>
+<li class="legend-1c">🌊Channel forms, Europe cut off 6500 BCE</li>
+<li class="legend-1d">🌾Agriculture takes root 9000 BCE</li>
+</ol>
 </div>
 </div>
 
@@ -150,12 +150,12 @@ To go back one hundred thousand years you are finally going to have to get to yo
 <p class="svg-legend-title">Last one hundred thousand years</p>
 
 <div class="svg-legend">
-<ul class="svg-legend-list">
-<li class="legend-1a">Stable warm climate 11,500 years age</li>
-<li class="legend-1b">Cave painting 40,000 years ago</li>
-<li class="legend-1c">Bows and arrows 60,000 years ago</li>
-<li class="legend-1d">Clothes 100,000 years ago</li>
-</ul>
+<ol class="svg-legend-list">
+<li class="legend-1a">😎Stable warm climate 11,500 years age</li>
+<li class="legend-1b">🎨Cave painting 40,000 years ago</li>
+<li class="legend-1c">🏹Bows and arrows 60,000 years ago</li>
+<li class="legend-1d">🩲Clothes 100,000 years ago</li>
+</ol>
 </div>
 </div>
 
@@ -175,12 +175,12 @@ In our time-scale a million years is represented by a hundred metres. In our map
 <p class="svg-legend-title">Last one million years</p>
 
 <div class="svg-legend">
-<ul class="svg-legend-list">
-<li class="legend-1a">Ice ages, most of the time</li>
-<li class="legend-1b">Modern humans evolve 300,000 years ago</li>
-<li class="legend-1c">Human-made fires 400,000 years ago</li>
-<li class="legend-1d">First Neanderthals 500,000 years ago</li>
-</ul>
+<ol class="svg-legend-list">
+<li class="legend-1a">🥶Ice ages, most of the time</li>
+<li class="legend-1b">😀Modern humans evolve 300,000 years ago</li>
+<li class="legend-1c">🔥Human-made fires 400,000 years ago</li>
+<li class="legend-1d">🧔First Neanderthals 500,000 years ago</li>
+</ol>
 </div>
 </div>
 
@@ -200,18 +200,18 @@ Now we actually have to stretch our legs a bit, taking 15 minutes to walk a kilo
 <p class="svg-legend-title">Last ten million years</p>
 
 <div class="svg-legend">
-<ul class="svg-legend-list">
-<li class="legend-1a">Ape common ancestors lived 6 mya</li>
-<li class="legend-1b">“Walking around” humans 3 mya</li>
-<li class="legend-1c">Language develops, 1.8 mya (disputed!)</li>
-<li class="legend-1d">Nice looking hand axes 1.5 mya</li>
-</ul>
+<ol class="svg-legend-list">
+<li class="legend-1a">🐒Ape common ancestors lived 6 mya</li>
+<li class="legend-1b">🚶“Walking around” humans 3 mya</li>
+<li class="legend-1c">👄Language develops, 1.8 mya (disputed!)</li>
+<li class="legend-1d">🪓Nice looking hand axes 1.5 mya</li>
+</ol>
 </div>
 </div>
 
 Quite close to the start of our stroll we will see the first nice looking hand axes, made about 1.5 million years ago (mya) in Africa 🪓. A little further on at 1.8 mya we may be lucky enough to witness the first ever conversation between humans with the evolution of language 👄. (The timing of this is heavily disputed with others dating it to less than 100,000 years ago!) From now on there will be no more chit chat on our journey.
 
-At 3 million years ago - after 300 metres walked - we will see the first (non-tottering) steps as humans get the hang of bipedal locomotion. At just over half of the distance to the farm we will meet our most recent common ancestors with the great apes who was a sociable chimpanzee like fellow from 6 mya 🐒.
+At 3 million years ago - after 300 metres walked - we will see the first (non-tottering) steps as humans get the hang of bipedal locomotion 🚶. At just over half of the distance to the farm we will meet our most recent common ancestors with the great apes who was a sociable chimpanzee like fellow from 6 mya 🐒.
 
 ### Going back one hundred million years
 <h6><a href="#travelling-back-one-billion-years">↓ one billion years</a> | <a href="#travelling-back-ten-million-years">↑ ten million years</a></h6>
@@ -227,12 +227,12 @@ We are now going to walk a bit further - half a day’s walking at 10km. This wi
 <p class="svg-legend-title">Last one hundred million years</p>
 
 <div class="svg-legend">
-<ul class="svg-legend-list">
-<li class="legend-1a">First flowers bloom 100 mya</li>
-<li class="legend-1b">Dinosaur extinction 65 mya</li>
-<li class="legend-1c">Tiny horses evolves 50 mya</li>
-<li class="legend-1d">Himalayas start their ascent 40 mya</li>
-</ul>
+<ol class="svg-legend-list">
+<li class="legend-1a">🌺First flowers bloom 100 mya</li>
+<li class="legend-1b">🦖Dinosaur extinction 65 mya</li>
+<li class="legend-1c">🐎Tiny horses evolves 50 mya</li>
+<li class="legend-1d">🌄Himalayas start their ascent 40 mya</li>
+</ol>
 </div>
 </div>
 
@@ -254,12 +254,12 @@ Our journey is now going to cover 100 km as we walk back one billion years. This
 <p class="svg-legend-title">Last one billion years</p>
 
 <div class="svg-legend">
-<ul class="svg-legend-list">
-<li class="legend-1a">First decent (sea) animals 550 mya</li>
-<li class="legend-1b">Life on land 440 mya</li>
-<li class="legend-1c">Trees 385 mya</li>
-<li class="legend-1d">Dawn of dinosaurs 245 mya</li>
-</ul>
+<ol class="svg-legend-list">
+<li class="legend-1a">🦐First decent (sea) animals 550 mya</li>
+<li class="legend-1b">🐜Life on land 440 mya</li>
+<li class="legend-1c">🌴Trees 385 mya</li>
+<li class="legend-1d">🦕Dawn of dinosaurs 245 mya</li>
+</ol>
 </div>
 </div>
 
@@ -283,13 +283,13 @@ This is our last stage, taking in the remaining 92.5% of the journey! It’s goi
 <p class="svg-legend-title">Last 13.878 billion years</p>
 
 <div class="svg-legend">
-<ul class="svg-legend-list">
-<li class="legend-1a">Universe begins 13.8 bya</li>
-<li class="legend-1b">Milky way galaxy forms 13.6 bya</li>
-<li class="legend-1c">Sun and planets form 4.6 bya</li>
-<li class="legend-1d">Life on earth begins 4 bya</li>
-<li class="legend-1e">Multicellular life starts 1.5 bya</li>
-</ul>
+<ol class="svg-legend-list">
+<li class="legend-1a">💥Universe begins 13.8 bya</li>
+<li class="legend-1b">🌌Milky way galaxy forms 13.6 bya</li>
+<li class="legend-1c">🪐Sun and planets form 4.6 bya</li>
+<li class="legend-1d">🦠Life on earth begins 4 bya</li>
+<li class="legend-1e">💩Multicellular life starts 1.5 bya</li>
+</ol>
 </div>
 </div>
 
