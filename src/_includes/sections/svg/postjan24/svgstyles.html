@@ -1,5 +1,5 @@
 <style>
-.svg-container {--s-w: 10;--txt-d:underline 0.3rem;--s-c:red}
+.svg-container {--s-w: 10;--s-c:var(--color-accent-lighter);--txt-d:underline 0.3rem var(--s-c)}
 .svg-sketch {width:100%;max-width:420px;margin:auto}
 .svg-sketch path {stroke:var(--color-text)}
 .svg-sketch text {fill:var(--color-text)}
@@ -9,9 +9,9 @@
 /* pin hover for svg-sketch highlight */
 .pin-1a:hover > path, .pin-1b:hover > path, .pin-1c:hover > path, .pin-1d:hover > path, .pin-1e:hover > path {stroke:var(--s-c);stroke-width:var(--s-w)}
 /* legend hover for svg-legend highlight */
-.legend-1a:hover, .legend-1b:hover, .legend-1c:hover, .legend-1d:hover, .legend-1e:hover {text-decoration:var(--txt-d);cursor: default;}
+.legend-1a:hover, .legend-1b:hover, .legend-1c:hover, .legend-1d:hover, .legend-1e:hover {text-decoration:var(--txt-d);cursor: default;background-color:var(--s-c)}
 /* pin hover for svg-legend highlight */
-.svg-sketch:has(.pin-1a:hover) ~ .svg-legend .legend-1a, .svg-sketch:has(.pin-1b:hover) ~ .svg-legend .legend-1b, .svg-sketch:has(.pin-1c:hover) ~ .svg-legend .legend-1c, .svg-sketch:has(.pin-1d:hover) ~ .svg-legend .legend-1d, .svg-sketch:has(.pin-1e:hover) ~ .svg-legend .legend-1e {text-decoration:var(--txt-d)}
+.svg-sketch:has(.pin-1a:hover) ~ .svg-legend .legend-1a, .svg-sketch:has(.pin-1b:hover) ~ .svg-legend .legend-1b, .svg-sketch:has(.pin-1c:hover) ~ .svg-legend .legend-1c, .svg-sketch:has(.pin-1d:hover) ~ .svg-legend .legend-1d, .svg-sketch:has(.pin-1e:hover) ~ .svg-legend .legend-1e {text-decoration:var(--txt-d);background-color:var(--s-c)}
 /* legend hover for svg-pin highlight */
 .svg-sketch:has(~ .svg-legend .legend-1a:hover) .pin-1a > path, .svg-sketch:has(~ .svg-legend .legend-1b:hover) .pin-1b > path, .svg-sketch:has(~ .svg-legend .legend-1c:hover) .pin-1c > path, .svg-sketch:has(~ .svg-legend .legend-1d:hover) .pin-1d > path, .svg-sketch:has(~ .svg-legend .legend-1e:hover) .pin-1e > path {stroke-width:var(--s-w);stroke:var(--s-c)}
 </style>
