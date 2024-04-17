@@ -30,7 +30,7 @@ post_author: Anthony Webb
 date: 2024-04-19
 review_rating: ★★★★☆
 permalink: ''
-review_summary: '<p>A history of the Indian gurus who brought Eastern religion and spiritualism to the West, from the late 19th Century up to the 1980s.</p><p>I thought this book was excellent, full of characters who are eccentric or inspiring, manipulative or selfless, greedy or destitute - and how meditation could go from mistrusted to mainstream.</p>'
+review_summary: '<p>A history of the Indian gurus who brought Eastern religion and spiritualism to the West, from the late 19th Century up to the 1980s, giving us a glimpse of how meditation went from mistrusted to mainstream.</p><p>I thought this book was mostly excellent, full of characters who are eccentric or inspiring, manipulative or selfless, greedy or destitute.</p>'
 ---
 My first step on the road to enlightenment occurred about ten years ago in the offices of an accounting firm in London. I was sitting in a meeting room with about twenty actuaries, my eyes closed while I listened to a colleague instructing us in meditation, or more specifically: mindfulness. I was relieved to find out that all we needed to do was close our eyes and keep breathing.
 
