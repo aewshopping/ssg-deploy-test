@@ -52,7 +52,7 @@ This represents _The Nirvana Express’_ starting point for a cascade of fascina
 
 The most memorable of these individuals for me were:
 
-__Krishnamurti__, who was adopted / kidnapped by the crackpot Theosophist organisation at the age of thirteen in 1909, brought up to be the reincarnation of the coming Master, before disavowing the whole Theosophist project in his early twenties announcing that there is no one path to truth and rejecting the idea that he was a messiah. He dedicated the rest of his life to spreading this message that you yourself hold the keys to enlightenment.
+__Krishnamurti__, who was adopted / kidnapped by the crackpot Theosophist organisation at the age of thirteen in 1909, brought up to be the reincarnation of the coming Master, before disavowing the whole Theosophist project in his early twenties announcing that there is no one path to truth and rejecting the idea that he was a messiah. He dedicated the rest of his life to spreading the message that you yourself hold the keys to enlightenment.
 
 __Meher Baba__, who travelled the world in the 1920s and 1930s, and who would move people to tears just by looking at them - he had taken a vow of silence and communicated by tapping out letters on an alphabet board with a stick. He loved the cinema and spent many years trying and failing to meet Greeta Garbo who he wanted to star in a film about his life.
 
@@ -73,7 +73,7 @@ I was fascinated to follow the journey of discovery that we collectively went on
 
 The book also serves as a window to the world of the late 19th century. This was a time when Einstein, Heisenberg and others were discovering new worlds of space and time. In this context, searching for new previously hidden spiritual planes beyond the realms of Christianity does not seem so outlandish as it might today.
 
-_The Nirvana Express_ is a useful counterpoint to a “Christian history” of the West - such as expounded in [Tom Holland’s book, Dominion](https://popularhistorybooks.com/posts/reviews/2022-08-12-review-dominion/), albeit I don’t think you would describe any of the people in the _The Nirvana Express_ as mainstream.
+_The Nirvana Express_ is a useful counterpoint to a “Christian history” of the West - such as expounded in [Tom Holland’s book, Dominion](https://popularhistorybooks.com/posts/reviews/2022-08-12-review-dominion/), albeit I don’t think you would describe any of the people in the _The Nirvana Express_ as mainstream in Western society.
 
 Finally, it is also often pretty funny! Brown never takes any cheap shots at the people in his book - he is a sympathetic and factual observer. But it is impossible not to be amused by some of the situations that he describes.
 
