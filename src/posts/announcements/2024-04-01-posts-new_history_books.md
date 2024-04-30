@@ -6,7 +6,7 @@ title: New history books in March 2024
 post_author: Anthony Webb
 date: 2024-04-01
 image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1711746546/posts/Mar2024_newhistorybooks.jpg
-meta_excerpt: New history books published in February March in the UK
+meta_excerpt: New history books published in March in the UK
 script_add: [script_bookzoom.js]
 newbooks: ['1800811586', '0198894481', '0750999586', '1804542806', '1800811993', '024155277X']
 
