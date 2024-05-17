@@ -100,7 +100,7 @@ Interestingly, regal inaction and incompetence could be equally effective in sta
 
 An active warlike king such as Edward III stretched the resources of the English people to such an extent that the government was forced to innovate in an attempt to stump up more cash.
 
-But an indolent wastrel like Richard II, by doing as little as he felt he could get away with, created the space for existing state institutions to do more and expand - not least when he was deposed by his cousin Henry Beaumont, later Henry IV (spoiler alert) and parliament was asked to ratify his demotion.
+But an indolent wastrel like Richard II, by doing as little as he felt he could get away with, created the space for existing state institutions to do more and expand - not least when he was deposed by his cousin Henry Bolingbroke, later Henry IV (spoiler alert) and parliament was asked to ratify his demotion.
 
 ### War and taxes
 
@@ -108,7 +108,11 @@ The consistent thread running through the whole period is war - the English vs t
 
 Warfare was the great engine of state in this period. War is expensive and difficult, and the kings in this period tried lots of different ways of squeezing money out of their subjects to pay for it - both driving and funding state activity.
 
-King John’s wheezes included demanding arbitrarily huge sums of money from his nobles to allow them to inherit their lands or on other significant occasions (payments raised in this way were known as scutage). Either John got the cash, or he could blackmail his lords by threatening their bankruptcy by calling in his debts.
+King John’s wheezes included demanding arbitrarily huge sums of money from his nobles to allow them to inherit their lands or on other significant occasions (payments raised in this way were known as scutage).
+
+### Scutage scam
+
+In an ingenious variation on this trick John would grant a favourite huge tracts of land, and apply very high scutage charges that would take years if not decades to pay off. Then when they started to get on his nerves, he would insist on immediate payment, thus forcing instant ruin.
 
 This sort of thing went down very badly and led to the Magna Carta which was the start of formalising the process of no representation without taxation.
 
