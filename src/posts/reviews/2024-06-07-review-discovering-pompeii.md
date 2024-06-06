@@ -30,7 +30,7 @@ post_author: Anthony Webb
 date: 2024-06-07
 review_rating: ★★★☆☆
 permalink: ''
-review_summary: '<p>Discovering Pompeii is part guidebook, part history narrative, with each short chapter focusing in on a different building in the town - and each building serving as a window onto an aspect of life in the Roman town.</p><p>I found it a great way to get to grips with the ancient site, transforming the empty shells of ruined buildings into living places.</p>'
+review_summary: '<p>Discovering Pompeii is part guidebook, part history narrative, with each short chapter focusing in on a different building - and each building serving as a window onto a particular aspect of life in the Roman town.</p><p>I found it a great way to get to grips with the ancient site, transforming the empty shells of ruined buildings into living places.</p>'
 ---
 It was just after midday. The sun was high in the sky and radiating heat over the Roman town. Most people sought shade, perhaps beneath a portico or under a tree.
 
