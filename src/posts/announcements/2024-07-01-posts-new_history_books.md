@@ -27,6 +27,6 @@ A few that I have my eye on:
 
 - ___How the West Became Antisemitic: Jews and the Formation of Europe, 800–1500___, _by Ivan G. Marcus_. This one looks a bit more 'scholarly' than your typical popular history book, but the topic is one that I would like to know about, on the assumption that the origin point of antisemitism was not inherent in the origin Christianity itself
 
-- ___Spycraft: Tricks and Tools of the Dangerous Trade from Elizabeth I to the Restoration___, _by Nadine Akkerman, Pete Langman_. With the dual purpose of finding out what was done back then and also which of the more benign tricks might still be useful today 🙂. 
+- ___Spycraft: Tricks and Tools of the Dangerous Trade from Elizabeth I to the Restoration___, _by Nadine Akkerman, Pete Langman_. With the dual purpose of finding out what was done back then and also which of the more benign tricks might still be useful today 🙂 - perhaps I can teach them to / try them on my kids?
 
-- ___Sexed: A History of British Feminism___, _Susanna Rustin_. Going from the 18th century to the present day on this, my assumption is that this will be well written and engaging.
+- ___Sexed: A History of British Feminism___, _Susanna Rustin_. Going from the 18th century to the present day, my assumption is that this will be well written and engaging - and with the sort of subject that you think you will probably know all about, but actually find that you don't that much.
