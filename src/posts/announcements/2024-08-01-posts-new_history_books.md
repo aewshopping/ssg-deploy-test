@@ -1,0 +1,34 @@
+---
+layout: layouts/post.njk
+permalink: ''
+tags: [post, new books]
+title: New history books in July 2024
+post_author: Anthony Webb
+date: 2024-08-01
+image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1722159378/posts/July_2024_new_history_books.jpg
+meta_excerpt: New history books published in July in the UK
+script_add: [script_bookzoom.js]
+newbooks: ['0300272928', '1529371325', '180399682X', '1398110477', '006286968X', '0300276079']
+
+---
+I'm off on holiday for a couple of weeks now so posting this round-up a few days before month end - but don't worry I will add on any July history book stragglers into the August post!
+
+With that said, it's an attractive looking set of ten books covering a wide range of subjects: from Elizabethan spies, Mughal royalty, and Crusading delinquents... a few more notes on the books that I was most intrigued by below. 
+
+_Click the book covers to see a zoomed in image and links to Amazon if you like to buy your books there._
+
+{%- import "sections/macros.njk" as macros with context -%}
+
+{{ macros.book_covers_all_api(
+[{"id":"receu9MWy4pEWYBto","Title":"The Great Reversal: Britain, China and the 400-Year Contest for Power","HB Publish date":"2024-07-23","ASIN (HB)":"0300272928","Author":"Kerry Brown","css filter classes":"🇨🇳 🇬🇧 🍜 🥐 👑 ⛪ 🏭 2024","URL Cldnry img small":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/0300272928.02._SCM_.jpg","URL Cldnry img large":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/0300272928.02._SCL_.jpg"},{"id":"recqHZL16NoJkCPzn","Title":"Nelson's Pathfinders: A Forgotten Story in the Triumph of British Sea Power","HB Publish date":"2024-07-23","ASIN (HB)":"0300273762","Author":"Michael Barritt","css filter classes":"🥐 🇬🇧 🏭 ⚔️ 2024","URL Cldnry img small":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/0300273762.02._SCM_.jpg","URL Cldnry img large":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/0300273762.02._SCL_.jpg"},{"id":"recy2zgRZ7kmrVRhN","Title":"Travellers in the Golden Realm: How Mughal India Connected England to the World","HB Publish date":"2024-07-18","ASIN (HB)":"1529371325","Author":"Lubaaba Al-Azami","css filter classes":"⛪ 🥐 🍜 🚽 👑 🇬🇧 🇮🇳 2024","URL Cldnry img small":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1529371325.02._SCM_.jpg","URL Cldnry img large":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1529371325.02._SCL_.jpg"},{"id":"recZe3go811OkPksg","Title":"Alexander at the End of the World: The Forgotten Final Years of Alexander the Great","HB Publish date":"2024-07-16","ASIN (HB)":"006286968X","Author":"Rachel Kousser","css filter classes":"🏛️ 👑 🍜 2024","URL Cldnry img small":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/006286968X.02._SCM_.jpg","URL Cldnry img large":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/006286968X.02._SCL_.jpg"},{"id":"recJfnCY7YmNCHYAb","Title":"Son of Prophecy: The Rise of Henry Tudor","HB Publish date":"2024-07-15","ASIN (HB)":"1398110477","Author":"Nathen Amin","css filter classes":"🏰 🥐 👑 🇬🇧 2024","URL Cldnry img small":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1398110477.02._SCM_.jpg","URL Cldnry img large":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1398110477.02._SCL_.jpg"},{"id":"recSjqxzXlLA1a79H","Title":"Crusader Criminals: The Knights Who Went Rogue in the Holy Land","HB Publish date":"2024-07-09","ASIN (HB)":"0300276079","Author":"Steve Tibble","css filter classes":"🏰 🚽 🥐 2024","URL Cldnry img small":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/0300276079.02._SCM_.jpg","URL Cldnry img large":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/0300276079.02._SCL_.jpg"},{"id":"recL0SEwNl5zIvwQG","Title":"The History of Ideas: Equality, Justice and Revolution","HB Publish date":"2024-07-04","ASIN (HB)":"1800815905","Author":"David Runciman","css filter classes":"🍭 🕯️ 🏭 2024","URL Cldnry img small":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1800815905.02._SCM_.jpg","URL Cldnry img large":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1800815905.02._SCL_.jpg"},{"id":"recxvJdd5VGmxDDoh","Title":"All His Spies: The Secret World of Robert Cecil","HB Publish date":"2024-07-04","ASIN (HB)":"0241423473","Author":"Stephen Alford","css filter classes":"🇬🇧 🥐 ⛪ 🚽 2024","URL Cldnry img small":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/0241423473.02._SCM_.jpg","URL Cldnry img large":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/0241423473.02._SCL_.jpg"},{"id":"recQ6CE6AcXHiCjR5","Title":"Empire's Son, Empire's Orphan: The Fantastical Lives of Ikbal and Idries Shah","HB Publish date":"2024-07-02","ASIN (HB)":"1324002417","Author":"Nile Green","css filter classes":"🏭 🚽 🥐 🍜 🇦🇫 2024","URL Cldnry img small":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1324002417.02._SCM_.jpg","URL Cldnry img large":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/1324002417.02._SCL_.jpg"},{"id":"recwUng3BedeKAUjg","Title":"The Busy Narrow Sea: A Social History of the English Channel","HB Publish date":"2024-07-01","ASIN (HB)":"180399682X","Author":"Robin Laurance","css filter classes":"🚽 🇬🇧 🇫🇷 🥐 ⛩️ 2024","URL Cldnry img small":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/180399682X.02._SCM_.jpg","URL Cldnry img large":"https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/180399682X.02._SCL_.jpg"}]
+) }}
+
+---
+
+A few that I have my eye on:
+
+- ___Crusader Criminals: The Knights Who Went Rogue in the Holy Land___, _by Steve Tibble_. At first glance I thought this was one of those auto-generated books that flood the Amazon catalogue and give themselves away by their cookie-cut covers. At second glance I realised this was an interesting new take on the crusader story focusing on the idea that the crusades were from one perspective (i.e. the receiving end) a swarm of violent bigoted young men decamping to the Eastern Mediterranean. 
+
+- ___The History of Ideas: Equality, Justice and Revolution___, _by David Runciman_. Runciman is a big hitter in the academic and literary world, with plenty of experience explaining stuff to students and the public, so this book should be decent!
+
+- ___Empire's Son, Empire's Orphan: The Fantastical Lives of Ikbal and Idries Shah___, _Nile Green_. This book has already attracted some ire in its Amazon reviews so clearly people still care a lot about the subject and the people involved. Recounting the tale of two people who (I think) had roots in Afghanistan, and who may or may not have hoodwinked a lot of people in the West. 
