@@ -14,7 +14,8 @@ script_add: [script_bookzoom.js]
 
 A comprehensive list of recent {% twemoji "📚" %} popular history books below! Click the covers to see more details on that book, also our review {% twemoji "📝" %} if available.
 
-For more info see <a href="#notes">notes</a>.
+For more info see <a href="#notes">notes</a>. You can also have a poke around the <a href="https://history-books-blush.vercel.app/data/books">underlying data</a>, which allows you to do a text search through the books, has a slightly longer list, and lets you see a few extra details such as the publisher.
+  
 </div>
 <div class="bg-alternative">
 <div class="container pad-top-20">
@@ -37,16 +38,16 @@ For more info see <a href="#notes">notes</a>.
 {%- set catlooplast=loop.length -%}  
 <div  class="container pad-none {% if not loop.last %}border-simple-bottom{% endif %}">
 <div tabindex="0" id="expand{{ loop.index }}" class="expander arrow-right" onclick="toggle_showdetails(id, 'cat{{ loop.index }}')">
-<p><span class="arrow"></span>{{ item.fields.category }}</p>
+<p><span class="arrow"></span>{{ item.category }}</p>
 </div>
 
 <div id="cat{{ loop.index }}" class="collapse-div">
 <div class="container pad-inline-10 bg-normal {% if loop.last %}border-rounded-bottom{% endif %}">
-{% set filternames = item.fields.tag_name -%}
-{%- set filterunicodes = item.fields.emoji_unicode -%}
-{%- for thing in item.fields.tag_emoji -%}
+{% set filternames = item.tag_name -%}
+{%- set filterunicodes = item.emoji_unicode -%}
+{%- for thing in item.tag_emoji -%}
 {%- set filterimage = "https://res.cloudinary.com/ds2o5ecdw/image/upload/f_auto/v1673646580/twemoji/" + filterunicodes[loop.index0] + ".png" -%}
-<button type="button" id="{{thing}}" class="catbtn{{catloop}} btn btn-color-light ft-size-small margin-top-20 filter-btn">{% if item.fields.icon_type=="emoji" %}{{ thing }} {% elif item.fields.icon_type=="image" %}<img class="img-emoji" loading="lazy" src="{{ filterimage }}" alt="{{ thing }}"> {% endif %}{{ filternames[loop.index0] }}</button>
+<button type="button" id="{{thing}}" class="catbtn{{catloop}} btn btn-color-light ft-size-small margin-top-20 filter-btn">{% if item.icon_type=="emoji" %}{{ thing }} {% elif item.icon_type=="image" %}<img class="img-emoji" loading="lazy" src="{{ filterimage }}" alt="{{ thing }}"> {% endif %}{{ filternames[loop.index0] }}</button>
 {% endfor %}
 </div>
 </div>

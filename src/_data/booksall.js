@@ -1,55 +1,58 @@
-// my thanks to https://jamesdoc.com/blog/2022/11ty-airtable/
-// also see https://www.11ty.dev/docs/plugins/fetch/
+const EleventyFetch = require("@11ty/eleventy-fetch");
 
-require("dotenv").config();
-const { AssetCache } = require("@11ty/eleventy-fetch");
-const Airtable = require("airtable");
+module.exports = async function () {
+	    const sql = `with books_all as (
+  select
+    books.isbn_10 as 'ASIN (HB)',
+    title as Title,
+    author as Author,
+    hb_publish_date as 'HB Publish date',
+    review_url as 'Review url',
+    concat(
+      'https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/',
+      books.isbn_10,
+      '.02._SCM_.jpg'
+    ) as 'URL Cldnry img small',
+    concat(
+      'https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/',
+      books.isbn_10,
+      '.02._SCL_.jpg'
+    ) as 'URL Cldnry img large',
+    group_concat(tags.tag_emoji, ' ') as 'css filter classes',
+    CASE
+      WHEN group_concat(cats.pk_cat_id) LIKE '%cat-07%' THEN 'true'
+      /* test to see if a prize book */
+      ELSE null
+    END as prize_check
+  from
+    books
+    join books_tags on books.isbn_10 = books_tags.isbn_10
+    join tags on books_tags.tag_id = tags.pk_tag_id
+    join cats on tags.fk_cat_id = cats.pk_cat_id
+  where
+    hb_publish_date like '' || '%'
+    /* for ease of filtering by date eg 2024-06 in the quotes */
+  group by
+    books.isbn_10
+  order by
+    review_url desc,
+    prize_check desc,
+    hb_publish_date desc
+  limit
+    600
+)
+select
+  *
+from
+  books_all
+order by
+  "HB Publish date" desc`;
 
-const assetCacheId = "airtableCMS";
-const airtableAllBooksTable = "tblE6xb68NI5UxdRt";
+const url = ("https://history-books-blush.vercel.app/data.json?sql=" + encodeURIComponent(sql) + "&_shape=array");
 
-var base = new Airtable({ apiKey: process.env.mykey }).base(
-  process.env.mybase
-);
-
-module.exports = () => {
-  let asset = new AssetCache(assetCacheId);
-
-  // Cache the data in 11ty for one day
-  if (asset.isCacheValid("1d")) {
-    console.log("Serving airtable data from the cache…");
-    return asset.getCachedValue();
-  }
-
-  // The 11ty cache is cold… so we need to talk to Airtable
-  return new Promise((resolve, reject) => {
-    const allCases = [];
-
-    base(airtableAllBooksTable)
-      .select({
-      maxRecords: 1000,
-      fields: ["Title", "Author", "HB Publish date", "ASIN (HB)", "Review url", "URL Cldnry img small", "URL Cldnry img large", "css filter classes"], // if any field names change in airtable we need to change them here and also in the sections/macro.njk file book_covers_all_api
-      filterByFormula: "{go live}=1",
-      sort: [{field: "HB Publish date", direction: "desc"}]
-    })
-      .eachPage(
-        function page(records, fetchNextPage) {
-          records.forEach(record => {
-            allCases.push({
-              id: record._rawJson.id,
-              ...record._rawJson.fields
-            });
-          });
-          fetchNextPage();
-        },
-        function done(err) {
-          if (err) {
-            reject(err);
-          } else {
-            asset.save(allCases , "json");
-            resolve(allCases);
-          }
-        },
-      );
-  });
+	/* This returns a promise */
+	return EleventyFetch(url, {
+		duration: "1d", // save for 1 day
+		type: "json", // we’ll parse JSON for you
+	});
 };
