@@ -4,7 +4,7 @@ title_content: Tech Acknowledgements
 title: Tech Acknowledgements
 tags: page
 permalink: '/techdebt/'
-date: 2023-02-21
+date: 2024-08-24
 
 ---
 
@@ -14,7 +14,7 @@ This website was built by me from the ground up. If you are interested in the to
 
 All of the sites listed below have generous free tiers to get started. Eleventy is completely free. This website has been built using the free tiers only, which works fine until you need to scale up.
 
-_Disclaimer - I have no affiliation or association with any of these companies. If you click the links below I will get nothing_ 🙂
+_Disclaimer - I have no affiliation or association with any of these companies. If you click the links below I will get nothing_ 🥲
 
 [[toc]]
 
@@ -56,9 +56,19 @@ So images are stored on Cloudinary, but what about the website content, ie the a
 
 Another brilliant service available to us all! Airtable looks and feels [like a spreadsheet but is actually a database](https://airtable.com) you can do all sorts of fancy things with if you want to. I use it to store reviews, and link them up to history book records. My fellow reviewers also submit their reviews to Airtable through an Airtable form - you don't need to login to do this.
 
-I _could_ automatically pull reviews from Airtable directly into Eleventy, but I am nervous about retaining editorial control. Therefore I will manually add them as an Eleventy friendly and appropriately tagged markdown file (created in Airtable) to the website.
+I was previously pulling books data automatically from Airtable using their API to create the full list of recent history books in the All Books page. However as my list of books grew I was no longer able to store all books on Airtable using the free tier. Also my previous method of showing the books was to load the All Books page with _all_ the books and then selectively hiding and showing them based on filters. This was ok while book numbers were small but means a big download if book numbers grow.
 
-One thing that does pull automatically from Airtable using their API is the full list of recent history books in the All Books page. This is a big step forward for me as previously I was creating html divs and manually updating an html page on a linked website!
+I therefore updated my books database approach to...
+
+## Datasette on Vercel
+
+The All Books page is now based on a [Datasette](https://datasette.io/) SQLite database served up by [Vercel](https://vercel.com/). This means that I can use javascript to query the database based on user selected filters (ie published in 2024 _and_ UK history) and bring back only the books you are interested in. Datasette is an open source data sharing program that is brilliant but comes with caveats the main one being it is not yet on v1.0, so things could change or break. I had a few difficulties in setting it up which you can read about on the [GitHub page where my csv data lives](https://github.com/aewshopping/history_books) that builds the database. Vercel have a free tier to serve the data which I am hoping my database is small enough to stay within!
+
+You can have a look at [my history books Datasette database directly](https://history-books-blush.vercel.app/) if you want to. This has more functionality than my All Books front end - such as full text search and sql queries but it is much harder to use for the uninitiated and doesn't look as pretty 🙂. 
+
+## Google Sheets
+
+So the database is build with csv files living on GitHub. I do all the book data entry for those csv files using Google Sheets. Google Sheets is quite good now! But it is a shame to move away from Airtable for data entry because for entering in data by hand this is hard to beat. I have built various thingymajigs in Google Sheets to try to make it less easy to accidentally destroy everything, and found the new Tables feature very helpful. I've got a Google Apps Scripts that pulls in book data from the Google Books API (which often contains errors so needs a quality check), and a Google Apps Script that pushes the data contained in the Google Sheets over to GitHub and triggers the Vercel database build.
 
 I also need to make sure I don't forget to mention...
 

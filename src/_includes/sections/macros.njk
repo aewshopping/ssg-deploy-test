@@ -44,30 +44,31 @@
 {% for item in input %}
 
 {% if item.isbn_10|length  %}
-  
+
+{# new data input column headings #}
 {% set asin = item.isbn_10 %}
 {% set title = item.title %}
 {% set author = item.author %}
 {% set publishdate = item.hb_publish_date %}
-{% set review = item.["Review url"] %}
+{% set review = item.review_url %}
 {%- set imgsmall = item.url_cldnry_img_small | replace("upload/","upload/f_auto/") -%}
 {%- set imglarge = item.url_cldnry_img_large | replace("upload/","upload/f_auto/") -%}
-{%- set classes = item.[css_filter_classes] -%}
+{%- set classes = item.css_filter_classes -%}
+{% else %}
 
-{% else %}  
-
-{% set asin = item.["ASIN (HB)"] %}
+{# prior headings - retained to be consisent with hardcoded data in New History books each month page! #}
+{% set asin = item["ASIN (HB)"] %}
 {% set title = item.Title %}
 {% set author = item.Author %}
-{% set publishdate = item.["HB Publish date"] %}
-{% set review = item.review_url %}
-{%- set imgsmall = item.["URL Cldnry img small"] | replace("upload/","upload/f_auto/") -%}
-{%- set imglarge = item.["URL Cldnry img large"] | replace("upload/","upload/f_auto/") -%}
-{%- set classes = item.["Create css filter classes"] -%}
-  
+{% set publishdate = item["HB Publish date"] %}
+{% set review = item["Review url"] %}
+{%- set imgsmall = item["URL Cldnry img small"] | replace("upload/","upload/f_auto/") -%}
+{%- set imglarge = item["URL Cldnry img large"] | replace("upload/","upload/f_auto/") -%}
+{%- set classes = item["Create css filter classes"] -%}
+
 {% endif %}
-  
-  
+
+
 <div class="fix-children {{classes}} hbk {% if loop.index > max_intial_books %}nodisplay{% endif %}">
 <div class="image_cover_container">
   
@@ -77,7 +78,7 @@
 <div class={%- if review | length -%}"image_cover_container_fit_reviewed"{% else %}"image_cover_container_fit"{% endif %}>
   
 <div id="cover{{ asin }}"
-      onclick="open_modal_bookzoom('cover{{asin}}')"
+      onclick="open_modal_bookzoom('cover{{ asin }}')"
       class='image_book_overlay open_modal_bookzoom {{classes}}'
       data-title="{{ title }}"
       data-author="{{ author }}"
