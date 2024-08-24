@@ -18,12 +18,7 @@ module.exports = async function () {
       books.isbn_10,
       '.02._SCL_.jpg'
     ) as 'url_cldnry_img_large',
-    group_concat(tags.tag_emoji, ' ') as 'css_filter_classes',
-    CASE
-      WHEN group_concat(cats.pk_cat_id) LIKE '%cat-07%' THEN 'true'
-      /* test to see if a prize book */
-      ELSE null
-    END as prize_check
+    group_concat(tags.tag_emoji, ' ') as 'css_filter_classes'
   from
     books
     join books_tags on books.isbn_10 = books_tags.isbn_10
@@ -35,11 +30,9 @@ module.exports = async function () {
   group by
     books.isbn_10
   order by
-    review_url desc,
-    prize_check desc,
     hb_publish_date desc
   limit
-    600
+    100
 )
 select
   *
