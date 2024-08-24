@@ -3,22 +3,22 @@ const EleventyFetch = require("@11ty/eleventy-fetch");
 module.exports = async function () {
 	    const sql = `with books_all as (
   select
-    books.isbn_10 as 'ASIN (HB)',
-    title as Title,
-    author as Author,
-    hb_publish_date as 'HB Publish date',
-    review_url as 'Review url',
+    books.isbn_10 as 'isbn_10',
+    title,
+    author,
+    hb_publish_date,
+    review_url,
     concat(
       'https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/',
       books.isbn_10,
       '.02._SCM_.jpg'
-    ) as 'URL Cldnry img small',
+    ) as 'url_cldnry_img_small',
     concat(
       'https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/',
       books.isbn_10,
       '.02._SCL_.jpg'
-    ) as 'URL Cldnry img large',
-    group_concat(tags.tag_emoji, ' ') as 'css filter classes',
+    ) as 'url_cldnry_img_large',
+    group_concat(tags.tag_emoji, ' ') as 'css_filter_classes',
     CASE
       WHEN group_concat(cats.pk_cat_id) LIKE '%cat-07%' THEN 'true'
       /* test to see if a prize book */
@@ -46,7 +46,7 @@ select
 from
   books_all
 order by
-  "HB Publish date" desc`;
+  hb_publish_date desc`;
 
 const url = ("https://history-books-blush.vercel.app/data.json?sql=" + encodeURIComponent(sql) + "&_shape=array");
 

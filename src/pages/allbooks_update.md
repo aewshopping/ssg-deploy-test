@@ -1,12 +1,12 @@
 ---
 layout: layouts/page_wide.njk
-permalink: '/allbooks/'
+permalink: '/allbooks-update/'
 title: All books
 title_content: All books
 image: image link here please
 meta_excerpt: some info about this and that
 tags: page
-script_add: [script_bookzoom.js]
+script_add: [script_bookfilter_modals.js, script_bookfilter.js]
 
 ---
 
@@ -27,34 +27,17 @@ For more info see <a href="#notes">notes</a>. You can also have a poke around th
 
 <dialog class="modal_bookfilter">
 <div class="container pad-top-20"> {# this will be start of modal #}
-<button class="modal_bookfilter_close">&#10005;</button>
+
 
 <p class="color-white">Filter by...</p>
-
-<div class="bg-alternative border-rounded"> {# wrapper for accordian #}
-{%- set catlooplast = "" -%}
-{%- for item in book_categories -%}
-{%- set catloop=loop.index0 -%}
-{%- set catlooplast=loop.length -%}  
-<div  class="container pad-none {% if not loop.last %}border-simple-bottom{% endif %}">
-<div tabindex="0" id="expand{{ loop.index }}" class="expander arrow-right" onclick="toggle_showdetails(id, 'cat{{ loop.index }}')">
-<p><span class="arrow"></span>{{ item.category }}</p>
+<button class="modal_bookfilter_close">&#10005;</button>
+<div class="tag-form bg-alternative border-rounded"> <!-- wrapper for accordian -->
+<form id="form_filter">
+<div id="output">
+<p style="padding:20px">Filter options loading. Please refresh the page if they don't appear shortly!</p>
 </div>
-
-<div id="cat{{ loop.index }}" class="collapse-div">
-<div class="container pad-inline-10 bg-normal {% if loop.last %}border-rounded-bottom{% endif %}">
-{% set filternames = item.tag_name -%}
-{%- set filterunicodes = item.emoji_unicode -%}
-{%- for thing in item.tag_emoji -%}
-{%- set filterimage = "https://res.cloudinary.com/ds2o5ecdw/image/upload/f_auto/v1673646580/twemoji/" + filterunicodes[loop.index0] + ".png" -%}
-<button type="button" id="{{thing}}" class="catbtn{{catloop}} btn btn-color-light ft-size-small margin-top-20 filter-btn">{% if item.icon_type=="emoji" %}{{ thing }} {% elif item.icon_type=="image" %}<img class="img-emoji" loading="lazy" src="{{ filterimage }}" alt="{{ thing }}"> {% endif %}{{ filternames[loop.index0] }}</button>
-{% endfor %}
-</div>
-</div>
-</div>
-{% endfor %}
-<div id="catcounter" data-counter="{{catlooplast}}"></div> {# this is to pass to javascript so it knows how many iterations for loop #}
-</div> {# end wrapper for accordian #}
+</form>
+</div> <!-- end wrapper for accordian -->
 
 </div> {# this will be end of modal #}
 </dialog>
@@ -68,7 +51,7 @@ For more info see <a href="#notes">notes</a>. You can also have a poke around th
 <p id="bookCount" class="ft-size-small">Showing the {{ max_intial_books }} most recently published history books</p>
 {{ book_covers_all_api( booksall ) }}
 
-...use the filter above to show more books.
+<p id="moreBooks" class="ft-size-small">...use the filter above to show more books.</p>
 
 </div>  
 </div>
@@ -82,6 +65,7 @@ For more info see <a href="#notes">notes</a>. You can also have a poke around th
   - I have excluded history books that I see as too “local” eg the many books on particular aspects of the US Civil War, or the many books focussing on relatives of medieval English kings.
 - The filter is an OR filter within categories and an AND filter between categories. For example if you select '{% twemoji "🗓️" %}  2021' and '{% twemoji "🗓️" %} 2022' books from both years will be shown - 2021 OR 2022...
 - ...but if you select '{% twemoji "🗓️" %} 2021' and '{% twemoji "👑" %} Political' then only books that have both attributes will be shown - 2021 AND Political. I think this is intuitively what most people expect to happen.
+- (As an aside when applying a filter, for example `{% twemoji "🗓️" %} 2023`, the labels of the other filter buttons will update to show you how many other filters _also_ have `{% twemoji "🗓️" %} 2023` as a filter for a given book. A given edition of a book can only be published once, so this means that the other `publish year` options are greyed out. However you can still click on the other `publish year` filters and the formatting now show you which other filters for a given book include `{% twemoji "🗓️" %} 2023` OR `{% twemoji "🗓️" %} 2023` say... just click around and see what happens!)
 - This history book database is hand-curated - the categories for the books are chosen by me when I do my monthly roundup. This means they can't be manipulated to boost sales (“hey my book is in *all* the categories...”) but also that you may or may not agree with my judgement 🙂.
 - Links are provided to Amazon UK and US for convenience only, with no affiliation on my part. Please ignore them if you want to shop elsewhere.
-- Finally for the more technicially minded among you: this is not a _proper_ database because all books are loaded when the page loads and are then selectively hidden or shown by the filter. On the negative side this is not a scalable solution, on the positive side it works well enough for now!</div>
+- Finally for the more technicially minded among you: this book filter is the front end of a Datasette read-only SQLite database using the API that is generated automatically when you pass SQL queries through a Datasette URL.</div>
