@@ -197,7 +197,8 @@ const modalLink_AmazonUS = document.querySelector('.myModalLink_AmazonUS');
 const modalLink_review = document.querySelector('.myModalLink_review');
 const modal_review_btn = document.querySelector('.myModal_review_btn');
 const modalClose = document.querySelector('.modal_close');
-    const displayId = document.getElementById("book_cat_display");
+const displayId = document.getElementById("book_cat_display");
+
 
 document.querySelectorAll('.open_modal_bookzoom').forEach(item => {
   item.addEventListener('click', event => {

@@ -756,6 +756,52 @@ Start of MODAL FILTER
   margin: 0px;
 }
 
+/* NEW STYLE MODAL BOOKFILTER */ 
+/* hide check boxes so just see labels */ 
+/* hide check boxes so just see labels */ 
+.tag_check {
+  opacity:0;
+  width:1px;
+  margin:0px;
+  padding:0px;
+}
+.tag_label {
+  font-family: inherit;
+  display: inline-flex;
+  align-items: center;
+  border-radius:0.25em;
+  border: none;
+  padding: 8px 12px 8px 12px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-block: 8px;
+  cursor: pointer;
+  background-color: var(--color-menu-hover);
+  color: var(--color-text);
+  border: 1px solid var(--color-menu-hover);
+  box-shadow: 0px 2px 0px 0px var(--color-light-darker);
+}
+.tag_label:hover {
+    background-color: var(--color-light-darker);
+  box-shadow: 0px 2px 0px 0px var(--color-menu-hover);
+}
+.tag_label:has(input[type='checkbox']:checked) {
+  background-color: var(--color-accent);
+  color: var(--color-accent-text);
+  border: 1px solid var(--color-accent);
+  box-shadow: 0px 2px 0px 0px var(--color-accent-darker);
+}
+.tag_label:has(input[type='checkbox']:checked:hover) {
+  background-color: var(--color-accent-darker);
+  box-shadow: 0px 2px 0px 0px var(--color-accent);
+}
+.tag_label:has(input[type='checkbox']:focus) {
+  outline: 2px solid black;
+  outline-offset: -4px;
+}
+.tag_label:has(input[type="checkbox"]:focus:not(:focus-visible)) {
+    outline: none; /*don't apply focus style if selected with a mouse*/
+}
 
 /* ------------------------------------
 End of MODAL FILTER
@@ -1327,6 +1373,7 @@ transition: var(--ftsize-transition);}
 .txt-right {text-align:right;}
 .txt-capital {text-transform: uppercase;}
 .txt-summary-color {color: var(--color-summary-text);}
+.txt-subtle-color {color: var(--color-summary-bg);}
 .color-white {color: white;}
 .color-accent {color: var(--color-accent);}
 .color-accent-fill{fill: var(--color-icon-hover);}
