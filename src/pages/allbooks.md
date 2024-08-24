@@ -3,8 +3,8 @@ layout: layouts/page_wide.njk
 permalink: '/allbooks/'
 title: All books
 title_content: All books
-image: image link here please
-meta_excerpt: some info about this and that
+image: 
+meta_excerpt: A mini database of history books published in the last few years
 tags: page
 script_add: [script_bookfilter_modals.js, script_bookfilter.js]
 
@@ -65,7 +65,6 @@ For more info see <a href="#notes">notes</a>. You can also have a poke around th
   - I have excluded history books that I see as too “local” eg the many books on particular aspects of the US Civil War, or the many books focussing on relatives of medieval English kings.
 - The filter is an OR filter within categories and an AND filter between categories. For example if you select '{% twemoji "🗓️" %}  2021' and '{% twemoji "🗓️" %} 2022' books from both years will be shown - 2021 OR 2022...
 - ...but if you select '{% twemoji "🗓️" %} 2021' and '{% twemoji "👑" %} Political' then only books that have both attributes will be shown - 2021 AND Political. I think this is intuitively what most people expect to happen.
-- (As an aside when applying a filter, for example '{% twemoji "🗓️" %} 2023', the labels of the other filter buttons will update to show you how many other filters _also_ have 2023 as a filter for a given book. A given edition of a book can only be published once, so this means that the other `publish year` options are greyed out. However you can still click on the other `publish year` filters and the formatting now show you which other filters for a given book include OR 2023' say... ok just click around and see what happens!)
 - This history book database is hand-curated - the categories for the books are chosen by me when I do my monthly roundup. This means they can't be manipulated to boost sales (“hey my book is in *all* the categories...”) but also that you may or may not agree with my judgement 🙂.
 - Links are provided to Amazon UK and US for convenience only, with no affiliation on my part. Please ignore them if you want to shop elsewhere.
 - Finally for the more technicially minded among you: this book filter is the front end of a Datasette read-only SQLite database using the API that is generated automatically when you pass SQL queries through a Datasette URL.</div>
