@@ -4,7 +4,7 @@ const vercel_url = "https://history-books-blush.vercel.app/data.json?sql=";
 const datasette_options_book = "&_shape=array";
 const datasette_options_cats =
   "&_shape=array&_json=tag_emoji&_json=tag_name&_json=emoji_unicode&_json=tag_count&_json=pk_tag_id";
-const sql_limit_initial = 100;
+const sql_limit_initial = "100";
 let sql_limit = "100";
 const book_load_limit = 300;
 let sql_top_100 = `select
@@ -34,9 +34,9 @@ let sql_top_100 = `select
   order by
     hb_publish_date desc
   limit ${sql_limit}`;
-let sql_last_section = `)
-select
-    distinct books.isbn_10 as 'isbn_10',
+const sql_first_section_AND = `with temp_table as (
+  select
+    books.isbn_10 as 'isbn_10',
     title,
     author,
     hb_publish_date,
@@ -51,19 +51,22 @@ select
       books.isbn_10,
       '.02._SCL_.jpg'
     ) as 'url_cldnry_img_large',
+    group_concat(books_tags.tag_id, ' ') as tag_id_all,
     group_concat(tags.tag_emoji, ' ') as 'css_filter_classes'
   from
     books
     join books_tags on books.isbn_10 = books_tags.isbn_10
     join tags on books_tags.tag_id = tags.pk_tag_id
-    join cats on tags.fk_cat_id = cats.pk_cat_id
-  where
-    books_tags.isbn_10 in tags_filtered
   group by
     books.isbn_10
   order by
     hb_publish_date desc
-  limit ${sql_limit}`;
+)
+select
+  *
+from
+  temp_table
+where`;
 const cat_sql = `with tags_count as (
   select
     tag,
@@ -131,45 +134,52 @@ from
   tags full
   outer join tags_count on tags.pk_tag_id = tags_count.tag_id`;
 
+const sql_tag_counter_filter_first_section = `with books_with_tag_ids as (
+  -- books table with all tag_ids shown
+  select
+    books.isbn_10 as 'isbn_10',
+    group_concat(books_tags.tag_id, ' ') as tag_id_all
+  from
+    books
+    join books_tags on books.isbn_10 = books_tags.isbn_10
+  group by
+    books.isbn_10
+),
+tags_filtered as (
+  -- books table filtered by desired tags
+  select
+    *
+  from
+    books_with_tag_ids
+  where`
+
 const sql_tag_counter_filter_last_section = `),
-books_count as (
+bookcount_table as (
+  -- table to count all books with that filter
   select
     isbn_10,
     count(isbn_10) as book_count
   from
     tags_filtered
-),
-tags_count as (
-  /* find out which tags are used by those books */
-  select
-    books_tags.isbn_10 as isbn_10,
-    tag_id,
-    count(tag_id) as tag_count,
-    book_count
-  from
-    books_tags
-    full outer join books_count on books_tags.isbn_10 = books_count.isbn_10
-  where
-    books_tags.isbn_10 in tags_filtered
-  group by
-    tag_id
 )
+-- table to count for each tag how many books with that tag ALSO have the tags currently selected
 select
-  tags.pk_tag_id as tag_id,
-  tags.tag_emoji,
-  tags.tag_text,
-  ifnull(tags_count.tag_count,0) as tag_count,
-  (select max(book_count) from tags_count) as book_count
+  pk_tag_id as tag_id,
+  count(tag_id) as tag_count,
+  (select max(book_count) from bookcount_table) as book_count
 from
-  tags
-  full outer join tags_count on tags.pk_tag_id = tags_count.tag_id`;
+  books_tags
+  join tags_filtered on books_tags.isbn_10 = tags_filtered.isbn_10 full
+  outer join bookcount_table on books_tags.isbn_10 = bookcount_table.isbn_10 full
+  outer join tags on books_tags.tag_id = tags.pk_tag_id
+group by
+  pk_tag_id`;
 
 var cat_id_arr = []; // used to construct json from select tags
 var bookcounter;
 var numBooks;
 var categories_url =
   vercel_url + encodeURIComponent(cat_sql) + datasette_options_cats; // url to bring back json of categories
-
 
 document.addEventListener("DOMContentLoaded", function () {
   renderCategories(categories_url).catch((error) => {
@@ -212,7 +222,7 @@ function handleFormSubmit(event) {
 }
 
 const myform = document.getElementById("form_filter");
-myform.addEventListener("submit", handleFormSubmit); // not used directly but needed to stop functions calling submit form from reloading the page 
+myform.addEventListener("submit", handleFormSubmit); // not used directly but needed to stop functions calling submit form from reloading the page
 const results = document.querySelector(".results pre");
 const book_grid = document.querySelector(".books_output");
 
@@ -225,13 +235,12 @@ async function renderBooks(url) {
   numBooks = bookJson.length;
   bookJson.forEach(function (book, index) {
     const bookid = "cover" + book.isbn_10;
-    let img_container_class
+    let img_container_class;
     if (book.review_url.length > 0) {
       img_container_class = "image_cover_container_fit_reviewed";
     } else {
       img_container_class = "image_cover_container_fit";
     }
-      
 
     html += `<div class="fix-children">
   <div class="image_cover_container">
@@ -311,10 +320,6 @@ function sql_limit_replace(sql_limit_old, sql_limit_new) {
     `limit ${sql_limit_old}`,
     `limit ${sql_limit_new}`
   );
-  sql_last_section = sql_last_section.replace(
-    `limit ${sql_limit_old}`,
-    `limit ${sql_limit_new}`
-  );
   sql_limit = sql_limit_new;
 }
 
@@ -323,23 +328,19 @@ function create_sql_books_query(arrays) {
   if (arrays.length == 0) {
     sql_query = sql_top_100;
   } else {
-    arrays.forEach(function (category, index) {
+    arrays.flat().forEach(function (tag, index) {
       if (index == 0) {
-        sql_query = "with tags_filtered as (";
+        sql_query = sql_first_section_AND;
       } else {
-        sql_query += ` intersect `;
+        sql_query += " AND ";
       }
-      sql_query += `select
-    isbn_10
-  from
-    books_tags
-  where
-    tag_id in (${category.map((i) => `"${i}"`).join(",")})`;
-      if (index + 1 == arrays.length) {
-        sql_query += sql_last_section;
-      }
+      sql_query += ` tag_id_all like '%${tag}%' `;
     });
+
+    sql_query += `limit ${sql_limit}`;
+    console.log(sql_query);
   }
+
   return sql_query;
 }
 
@@ -348,22 +349,16 @@ function create_sql_tag_count_query(arrays) {
   if (arrays.length == 0) {
     sql_query = sql_tag_counter_all;
   } else {
-    arrays.forEach(function (category, index) {
+    arrays.flat().forEach(function (tag, index) {
       if (index == 0) {
-        sql_query = "with tags_filtered as (";
+        sql_query = sql_tag_counter_filter_first_section;
       } else {
-        sql_query += ` intersect `;
+        sql_query += " AND ";
       }
-      sql_query += `select
-    isbn_10
-  from
-    books_tags
-  where
-    tag_id in (${category.map((i) => `"${i}"`).join(",")})`;
-      if (index + 1 == arrays.length) {
-        sql_query += sql_tag_counter_filter_last_section;
-      }
+      sql_query += ` tag_id_all like '%${tag}%' `;
+      
     });
+    sql_query += sql_tag_counter_filter_last_section
   }
   return sql_query;
 }
@@ -408,9 +403,10 @@ async function renderCategories(url) {
       } else if (icon_type == "image") {
         tag_emoji_render = `<img class='img-emoji' alt='${tag_emoji}' loading='lazy' src='${cldnry_url_stem}twemoji/${tag_emoji_unicode}.png'>`;
       }
+      let tag_count_width = tag_count.toString().length + 0.8;
 
       result += `<label id="${tag_id}label" class="tag_label margin-top-20 ft-size-small" for="${tag_name}"><input id="${tag_name}" class="tag_check" data-labelname="${tag_emoji_render} ${tag_name}" name="${cat_id}" type="checkbox" value="${tag_id}"/>
-      ${tag_emoji_render} ${tag_name} &nbsp<span style="min-width:20px" id="${tag_id}count" class="ft-size-verysmall">(${tag_count})</span></label>`;
+      ${tag_emoji_render} ${tag_name} &nbsp<span style="min-width:${tag_count_width}ch" id="${tag_id}count" class="ft-size-verysmall">(${tag_count})</span></label>`;
     } // loop on checkbox creation ends here
 
     result += `</div></div></div></div>`; // close off divs on all checkbox groups
@@ -458,8 +454,6 @@ async function renderTagCounts(url, books_url) {
     console.log("Error " + error);
   });
 }
-
-
 
 function addRemoveFilterBtn(id) {
   // if filter label / button thing exists then remove, otherwise create
