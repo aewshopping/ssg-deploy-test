@@ -22,7 +22,7 @@ review_book_tags:
   - [Political, Social]
   - []
 review_podcasts:
-  - 
+  - [https://www.listennotes.com/e/14fa887938d549f7a40dca5a7da5ffaf, Dan Snow‘s History Hit, The Bronze Age Collapse]
 shopping_links:
   - [https://www.amazon.co.uk/dp/0691192138, Amazon UK, Amazon UK book link]
   - [https://www.amazon.com/dp/0691192138, Amazon US, Amazon US book link]
