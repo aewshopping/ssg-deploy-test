@@ -185,6 +185,7 @@ document.addEventListener("DOMContentLoaded", function () {
   renderCategories(categories_url).catch((error) => {
     console.log("Error " + error);
   });
+  console.log(categories_url);
 });
 
 function handleFormSubmit(event) {
@@ -208,6 +209,7 @@ function handleFormSubmit(event) {
   const myvalues = Object.values(formJSON); // get the values
 
   let mysql_books = create_sql_books_query(myvalues);
+  console.log(mysql_books)
   let mysql_tags = create_sql_tag_count_query(myvalues);
 
   let tag_count_url =
