@@ -50,7 +50,7 @@ A hand reaches down. Fingers lever me up. Brush my surface. A finger tip runs al
 
 An eyeball looms. Squints.
 
-Tumbling into darkness. Enclosed. Bumping up and down - m  o v  e m e  n t.
+Tumbling into darkness. Enclosed. Bumping up and down, m--o-v--e-m-e--n-t.
 
 Light again. Placed next to a book. The Flint Tools Field Guide. Fingers pointing. To me. To the book. To me. To the book. Voices vibrate the air. 
 
@@ -71,3 +71,5 @@ Light.
 Dark.
 
 Time passes.
+
+🪨
