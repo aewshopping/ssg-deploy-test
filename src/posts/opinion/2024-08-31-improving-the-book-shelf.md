@@ -21,7 +21,7 @@ When I started this website one of the aims was to make recently published histo
 
 One way of doing this is by writing reviews. But, let's face it, we are never going to review _every_ history book published each month and maintain our standards of quality 🙂.
 
-So to show _all_ history books, I would load every single book to the [All Books] page from my hand curated [Airtable](https://airtable.com/) database, then allow the users to show and hide the ones that didn't match the active filters using some messy behind-the-scenes javascript.
+So to show _all_ history books, I would load every single book to the [All Books](https://popularhistorybooks.com/allbooks/) page from my hand curated [Airtable](https://airtable.com/) database, then allow the users to show and hide the ones that didn't match the active filters using some messy behind-the-scenes javascript.
 
 ## Issues with my current solution
 
