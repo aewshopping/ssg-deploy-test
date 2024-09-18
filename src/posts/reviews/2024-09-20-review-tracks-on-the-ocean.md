@@ -30,7 +30,7 @@ post_author: Anthony Webb
 date: 2024-09-20
 review_rating: ★★★★☆
 permalink: ''
-review_summary: '<p>Tracing a history of ships track on maps from their inception about five hundred years ago to modern times, <i>Tracks on the Ocean</i>, untangles what else they can tell us beyond how to get from A to B.</p><p>I‘m only a minor map buff, and I don‘t know much about ships, but I found it to be a fascinating take on our history of the last few hundred years.</p>'
+review_summary: '<p>Tracing a history of ships track on maps from their inception about five hundred years ago to modern times, <i>Tracks on the Ocean</i>, untangles what else they can tell us beyond how to get from A to B.</p><p>I‘m only a minor map buff, and I don‘t know much about ships, but I found it to be a fascinating take on a global history of the last few hundred years.</p>'
 ---
 Back in 2001 Maddox Von Ranke and I were in a small Moroccan mountain village, planning an ascent of Mount Toubkal.
 
@@ -131,7 +131,7 @@ I would say it is an almost brilliant book - the only thing holding it back is t
 >> Born of imperial arrogance, solidified through colonial technology, and manifested through environmental pollution: both precarious and violent, tracks embody many of the contradictions inherent to modern mobility.
 >>> Sara Caputo, Tracks on the Ocean
 
-Whether or not you are a map buff, whether or not you like ships, and whether or not you agree with the quote above, _Tracks on the Ocean_ provides a fascinating take into on history of the last few hundred years.
+Whether or not you are a map buff, whether or not you like ships, and whether or not you agree with the quote above, _Tracks on the Ocean_ provides a fascinating take on global history of the last few hundred years.
 
 
 
