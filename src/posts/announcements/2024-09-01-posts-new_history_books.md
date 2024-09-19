@@ -13,7 +13,7 @@ newbooks: ["0241471508","1789149150","1800816251","0008596069","0300278942","178
 ---
 A good line up this month - I'm always happy to see geographical and temporal spread in the selection!
 
-For the first time since I have been keeping track there is a popular history books on the history of Iraq which is great to see. Also Big Hitter Richard J Evans has published a book on Nazi Germany. Alongside this we have two books on medieval manuscripts, a book on nobodies and mangos.
+For the first time since I have been keeping track there is a popular history book on the history of Iraq which is great to see. Also Big Hitter Richard J Evans has published a book on Nazi Germany. Alongside this we have two books on medieval manuscripts, a book on nobodies and mangos.
 
 I've highlighted a few more books below the covers that I hope to read soon.
 
