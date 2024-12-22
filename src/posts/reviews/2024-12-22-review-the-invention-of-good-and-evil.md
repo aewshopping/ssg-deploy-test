@@ -29,8 +29,8 @@ shopping_links:
 post_author: Anthony Webb
 date: 2024-12-22
 review_rating: ★★★☆☆
-permalink: ''
-review_summary: '<p>While not really about history and not really about good and evil <i>The Invention of Good and Evil</i> peers deep into our psyches to explain current day (often antagonistic) behaviours.</p><p>While it is great in parts, the book as a whole didn’t really hang together for me. But I do now appreciate how far things have progressed (morally) since we were chimpanzees.</p>'
+permalink: '/posts/reviews/2024-12-22-review-the-invention-of-good-and-evil/'
+review_summary: '<p>While not really about history and not really about good and evil <i>The Invention of Good and Evil</i> peers deep into our psyches to explain current day (often antagonistic) behaviours.</p><p>I found the book great in parts, but as a whole it didn’t really hang together. But I do now appreciate how far things have progressed (morally) since we were chimpanzees.</p>'
 ---
 _The Invention of Good and Evil: A World History of Morality_, by Hanno Sauer, has - I think - one of the best titles of any non-fiction book. Who could fail to be intrigued?
 
