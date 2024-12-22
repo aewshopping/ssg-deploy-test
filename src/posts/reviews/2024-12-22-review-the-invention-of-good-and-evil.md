@@ -30,7 +30,7 @@ post_author: Anthony Webb
 date: 2024-12-22
 review_rating: ★★★☆☆
 permalink: ''
-review_summary: '<p>Covering the psychological roots of todays’ fractured society in the West, and why we shouldn’t give up, but instead keep trying to get on better with one another, <i>The Invention of Good and Evil</i> made me appreciate how far things have progressed (morally) since we were chimpanzees.</p><p>However while it is great in parts, the book as a whole didn’t really hang together for me.</p>'
+review_summary: '<p>While not really about history and not really about good and evil <i>The Invention of Good and Evil</i> peers deep into our psyches to explain current day (often antagonistic) behaviours.</p><p>While it is great in parts, the book as a whole didn’t really hang together for me. But I do now appreciate how far things have progressed (morally) since we were chimpanzees.</p>'
 ---
 _The Invention of Good and Evil: A World History of Morality_, by Hanno Sauer, has - I think - one of the best titles of any non-fiction book. Who could fail to be intrigued?
 
@@ -75,7 +75,7 @@ To appreciate how far we have come Sauer invites us to consider what would happe
 
 As more modern strains of human emerged we underwent a process of self-domestication. Like other animals that have been domesticated this means pacific juvenile traits are retained into adulthood. Basically we stay cute and cuddly forever!
 
-How did this happen? The most likely assumption, Sauer tells, us is that we just killed off the most aggressive members of our societies, leaving only the cute ones:
+How did this happen? The most likely assumption, Sauer tells us, is that we just killed off the most aggressive members of our societies, leaving only the cute ones:
 
 >> A species that kills its most belligerent, aggressive and ruthless members over hundreds of generations creates a strong selection pressure in favour of peacefulness, tolerance and impulse control. We are the descendants of the friendliest.
 >>> Hanno Sauer on the domestication of humans
@@ -87,15 +87,15 @@ With poor behaviour punished and repeat offenders killed we could develop even l
 
 ### 🏹 50,000 years ago
 
-Sauer introduces us to the idea of cumulative cultural evolution - no one person can remember how to do everything, but as a collective we retain the knowledge and the skills to for example, make a bow and arrow, or produce a pair of waterproof moccasins.
+Here Sauer introduces us to the idea of cumulative cultural evolution - no one person can remember how to do everything, but as a collective we retain the knowledge and the skills to  makea bow and arrow for example, or produce a pair of waterproof moccasins.
 
 Morals and values are part of this cumulative culture, they are learned along with everything else.
 
-As a reader I am still not sure if we should see our morals as culturally contingent or a superficial coating on top of consistent human ideas of good and bad, right and wrong? The book leans to the idea that all humans are the same but feels a bit contradictory in places.
+(As an aside I am still not sure if we should see our morals as culturally contingent, or a superficial coating on top of consistent human ideas of good and bad, right and wrong? The book leans to the idea that all humans are the same but feels a bit contradictory in places.)
 
 ### 👑 5,000 years ago
 
-At about this time cities and agriculture sprouted up in optimal locations around the globe: Mesopotamia, the Indus river, Northern China, Central Mexico. With so many people living together, high levels of specialisation, and unprecedented surpluses, humans experienced the rise of ‘radical inequality’.
+At about this time cities and agriculture sprouted up in optimal locations around the globe: Mesopotamia, the Indus river, Northern China, Central Mexico. With so many people living together, high levels of specialisation, and unprecedented surpluses, humans experienced the rise of ‘radical inequality’ - kings and priests basically.
 
 And with ever more stuff to steal and pilfer, humans ramped up the scope of punishment a notch or two with the idea that not only would you be policed by your fellow humans but also by the gods:
 
@@ -110,7 +110,7 @@ In the last few centuries we see the emergence of Western, Educated, Industriali
 
 How did this mindset emerge? Sauer follows the arguments of the Harvard Professor Joseph Heinrich who pinpoints the medieval Catholic church’s marriage program as the inadvertent cause.
 
-Because the Pope said you were no longer allowed to marry your cousin, both spouses had to move out of their parental homes, and you could leave money to whoever you wanted when you died, traditional family power structures were weakened. Thus leading to greater cross societal cooperation, and (hey presto) increased economic activity.
+Because (the then Pope said) you were no longer allowed to marry your cousin, newly married couples had to move out of their parental homes, and you could leave money to whoever you wanted when you died, traditional family power structures were weakened. Thus leading to greater cross societal cooperation, and (hey presto) increased economic activity.
 
 And leading (also inadvertently) to a set of moral values that get applied equally whether or not you are talking about someone on the other side of the world or your own mum - well she did kick you out when you got married after all.
 
@@ -128,9 +128,9 @@ The last chapter!
 
 Here Sauer gets into wokedom and anti-wokedom - the conflict between freedom and equality that we sometimes wrestle with today. The temptation to legislate for equality at the expense of freedom is seen as the essence of the ‘culture wars’.
 
-Sauer also makes the interesting point that the more extreme positions that people adopt when fighting for a culture army are positions that are adopted precisely _because_ they are extreme, thereby strongly signalling group identity.
+Sauer also makes the point that the more extreme positions that people adopt when fighting for a culture army are positions that are adopted precisely _because_ they are extreme, thereby strongly signalling group identity.
 
-Putting a slightly different slant on a similar phenomenon:
+Putting a slightly different slant on a similar phenomenon he goes on:
 
 >> The notion that some people are simply too stupid or irrational to distinguish true from false is inaccurate and self-righteous – because of course, only other people are irrational and deluded. In reality, we are all mere consumers of cumulative cultural capital that holds us hostage in informational captivity. The processes that lead some people to adopt fake news are, counterintuitive though it sounds, completely rational - the same mechanisms are at work that we have used to acquire any other form of knowledge.
 >>> Hanno Sauer, The Invention of Good and Evil
@@ -144,7 +144,7 @@ This is good news because:
 
 ### Style guide
 
-Each sentence and paragraph is nicely crafted - the book has clearly been written to make it as fun and accessible to the ordinary punter as possible. Each section has its own subheading which I think is a great idea to break up the text, as you may be able to tell from the style of this website.
+Each sentence and paragraph is nicely crafted - the book has clearly been written to make it as fun and accessible to the ordinary punter as possible. Each section has its own subheading which I think breaks up the text nicely.
 
 The translation is also seamless, with cultural references switched to UK versions and moneys to pound sterling.
 
