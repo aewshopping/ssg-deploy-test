@@ -41,7 +41,9 @@ from
 order by
   hb_publish_date desc`;
 
-const url = ("https://history-books-blush.vercel.app/data.json?sql=" + encodeURIComponent(sql) + "&_shape=array");
+const url = ("https://datasette-for-history-books.glitch.me/data.json?sql=" + encodeURIComponent(sql) + "&_shape=array");
+  // // had been using https://history-books-blush.vercel.app/data but unfortunately github actions vercel login stopped working for me.
+  
 
 	/* This returns a promise */
 	return EleventyFetch(url, {
