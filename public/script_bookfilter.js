@@ -1,6 +1,6 @@
 const cldnry_url = "https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/";
 const cldnry_url_stem = "https://res.cloudinary.com/ds2o5ecdw/image/upload/";
-const vercel_url = "https://datasette-for-history-books.glitch.me/data.json?sql="; // had been using https://history-books-blush.vercel.app/data but unfortunately github actions vercel login stopped working for me.
+const vercel_url = "https://datasette-for-history-books.glitch.me/data.json?sql="; // https://datasette-for-history-books.glitch.me/data can be used as a backup if vercel fails to work, but needs to be manually updated with csv files. https://history-books-blush.vercel.app/data
 const datasette_options_book = "&_shape=array";
 const datasette_options_cats =
   "&_shape=array&_json=tag_emoji&_json=tag_name&_json=emoji_unicode&_json=tag_count&_json=pk_tag_id";

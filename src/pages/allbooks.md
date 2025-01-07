@@ -14,7 +14,7 @@ script_add: [script_bookfilter_modals.js, script_bookfilter.js]
 
 A comprehensive list of recent {% twemoji "📚" %} popular history books below! Click the covers to see more details on that book, also our review {% twemoji "📝" %} if available.
 
-For more info see <a href="#notes">notes</a>. You can also have a poke around the <a href="https://datasette-for-history-books.glitch.me/data/books">underlying data</a>, which allows you to do a text search, and lets you see a few extra details.
+For more info see <a href="#notes">notes</a>. You can also have a poke around the <a href="https://datasette-for-history-books.glitch.me/data">underlying data</a>, which allows you to do a text search, and lets you see a few extra details.
   
 </div>
 <div class="bg-alternative">
