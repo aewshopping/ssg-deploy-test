@@ -42,7 +42,7 @@ order by
   hb_publish_date desc`;
 
 const url = ("https://datasette-for-history-books.glitch.me/data.json?sql=" + encodeURIComponent(sql) + "&_shape=array");
-  // // had been using https://history-books-blush.vercel.app/data but unfortunately github actions vercel login stopped working for me.
+  // https://datasette-for-history-books.glitch.me/data is a backup but needs manually updated csv files. https://history-books-blush.vercel.app/data
   
 
 	/* This returns a promise */

@@ -36,7 +36,7 @@ I got this book because I wanted to better understand how Ukraine finds itself i
 
 At the time of writing in early April 2022 Ukraine is partly occupied by Russian forces who have caused immense suffering and damage, on the ludicrous pretext of eradicating Nazism. It is clear that their intention was to take over the whole country, but so far they have not been able to do so. The Russian army also appears to have seen significant numbers of soldiers killed and wounded.
 
-When searching through our [database of history books](https://popularhistorybooks.glitch.me) which shows all popular history books published in the UK from 2019 onward, Kees Boterbloem’s _Russia as Empire: Past and Present_ seemed to be the most useful book on the (pretty short) list.
+When searching through our [database of history books](https://popularhistorybooks.com/allbooks/) which shows all popular history books published in the UK from 2019 onward, Kees Boterbloem’s _Russia as Empire: Past and Present_ seemed to be the most useful book on the (pretty short) list.
 
 It provides a concise summary of the last 1,000 years of Russian history. In other words _all_ of Russian history, right back to the semi-mythical Viking foundation stories. It goes up to 2020, so the Russian annexation / invasion of Crimea has happened but the invasion of Ukraine has not yet.
 

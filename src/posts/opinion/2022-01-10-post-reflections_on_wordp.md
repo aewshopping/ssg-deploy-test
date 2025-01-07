@@ -81,7 +81,7 @@ As I get more familiar with web world I can see that with a little more technica
 Plans for the future
 In the near future I will be “announcing” a new history book filtering tool that I have developed – but not on the WordPress site. This allows you to filter all history books published in the UK since January 2019 by period, region, country etc. To make this I had to spent lots of my Xmas holiday evenings struggling with vanilla website building on Glitch.com but I think the functionality it provides is worth it!
 
-The history book filter is already live on the site on the “[All Books](https://popularhistorybooks.glitch.me/)” link, which takes you off the main WordPress website.
+The history book filter is already live on the site on the “[All Books](https://popularhistorybooks.com/allbooks/)” link, which takes you off the main WordPress website.
 
 In the medium term I will be looking into Static Site Generators (SSGs) such as Eleventy or Hugo as a WordPress alternative. With not too much learning I think generating a site like this is within the realm of the possible. It won’t be quick though as the whole design will effectively need to be redone from scratch – and job + 2 young kids doesn’t provide that much free-time…
 

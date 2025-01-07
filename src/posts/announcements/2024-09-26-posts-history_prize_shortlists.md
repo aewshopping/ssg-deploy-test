@@ -44,4 +44,4 @@ _Out of the Darkness_ as the winner?
 
 The only book that is in both lists is _Shadows At Noon: The South Asian Twentieth Century_ by Joya Chatterji.
 
-Across both lists I have only read (and reviewed) [Courting India: England, Mughal India and the Origins of Empire](https://pophist-ssg-test.glitch.me/posts/reviews/2023-07-14-review-courting-india/) which I thought was a fantastic book.
+Across both lists I have only read (and reviewed) [Courting India: England, Mughal India and the Origins of Empire](https://popularhistorybooks.com/posts/reviews/2023-07-14-review-courting-india/) which I thought was a fantastic book.
