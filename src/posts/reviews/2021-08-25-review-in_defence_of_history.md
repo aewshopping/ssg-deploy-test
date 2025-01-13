@@ -55,7 +55,6 @@ But while Carr provides the bones of the story, the post-modernists provide the 
 We are first taken on a tour of what the (European) study of history was thought to mean through time: it is no longer considered “scientific” by most – although Evans is quick to reassure us that it is just different and not worse. It is also not currently a moralizing profession – serious historians try to better understand the human past not to pass judgement upon the individuals. And the belief in the predictive power of history is not what it once was…
 
 >> “while a chemist… knows in advance the result of mixing two elements… the historian has no such advance knowledge of anything, nor is trying to gain such knowledge central to the business historians are engaged in.”
->>
 >>> Richard Evans, In Defence of History
 
 This all represents something of a retreat for the historical profession, or perhaps a planned withdrawal, from the territory occupied by the more ambitious historians of the past.
@@ -91,7 +90,6 @@ The post-modernist arguments advanced feel a bit too much like straw men. They d
 I was also a little disappointed in what the book was not: it is not a call to arms or a rousing inspiration to take up the pen and make the world anew. For example the concluding sentence is:
 
 >> “I will look humbly at the past and say despite them all: it really happened, and we really can, if we are very scrupulous and careful and self-critical, find out how it happened and reach some tenable though always less than final conclusions about what it all meant.”
->>
 >>> Richard Evans, In Defence of History
 
 Is this a lack of ambition from Evans? Or a sensible scholarly statement in view of past historians’ intellectual over-reach? Either way the blue touch paper remains unlit.

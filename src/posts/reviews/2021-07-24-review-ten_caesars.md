@@ -38,12 +38,9 @@ These are the sorts of questions that people like to ask about Roman emperors. P
 
 As Strauss notes in the summary of his chapter on Nero:
 
->> “Nero did quite respectably at some of the aspects of his job. He won the support of the common people. He was a great builder. He was a superb impresario. He presided over a cultural renaissance. He loved Greece and won the support of the Greek East. It should also be remembered that for about the first five years of his reign, he had the support of the Senate as well.
->>
->> Where did Nero fail? By appointing an incompetent governor, he caused a major revolt in Judea. By confiscating property, he stirred up revolt in the Western provinces. By persecuting and executing elite enemies, and by embarrassing himself in the eyes of the elite through his personal behavior, he stirred up conspiracy and revolt.
->>
+>> “Nero did quite respectably at some of the aspects of his job. He won the support of the common people. He was a great builder. He was a superb impresario. He presided over a cultural renaissance. He loved Greece and won the support of the Greek East. It should also be remembered that for about the first five years of his reign, he had the support of the Senate as well.  
+>> Where did Nero fail? By appointing an incompetent governor, he caused a major revolt in Judea. By confiscating property, he stirred up revolt in the Western provinces. By persecuting and executing elite enemies, and by embarrassing himself in the eyes of the elite through his personal behavior, he stirred up conspiracy and revolt.  
 >>Nero was the most cultivated and cruelest emperor Rome had seen… Nero’s predecessors, aristocrats all, were more martial and sometimes madder, but none was more magnificent.”
->>>
 >>>Barry Strauss, Ten Ceasars
 
 So even 2000 years later we are still judging the Romans. And in fact whenever we come across an individual in history it seems we can’t resist assessing their character and wondering what they would be like to meet. The Roman emperors are particularly enticing because we have enough source material to consider them as people, and as role models for absolute power they convey an extra frisson of pleasurable excitement.

@@ -10,7 +10,6 @@ image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1646515673/posts/Vikin
 meta_excerpt: How important is it that history is 'correct'? Should we discard older discredited history books? What does it even mean to be 'wrong'?
 ---
 >> ...at the end, Garder [the last Norse settlement in Greenland] was like an overcrowded lifeboat… famine and associated disease would have caused a breakdown of respect for authority… starving people would have poured into Gardar… slaughtering the last cattle and sheet… eating the dogs and newborn livestock…
->>>
 >>> Jared Diamond, Collapse
 
 So writes Jared Diamond on the end of the Norse (Viking) settlement in Greenland, evoking the visceral terror of crazed and desperate Vikings on the rampage for whatever raw meat they could lay their hands on. The trouble is – as Gordon Campbell points out in his recent book Norse America (see my review here), and as others have pointed out before him – there is no evidence for this. In fact it is just as likely they sailed back to Norway and lived happily ever after.

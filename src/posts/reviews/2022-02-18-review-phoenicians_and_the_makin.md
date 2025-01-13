@@ -70,8 +70,7 @@ All this applebantery though, while enjoyable, misses the key point. Which is th
 
 To put it another way: the various bickering Greek city states didn’t get together in 800 BCE and set up a working group to weigh up the pros and cons of the different symbol systems that they could have used for making notes. Instead they adopted a script that was already all over the place and which they thought looked pretty cool. Why did they think it looked cool? Because they thought the Phoenicians were pretty cool guys. Or as Lopez-Ruiz puts it:
 
->>”Writing systems and conventions are culturally and historically meaningful, and the alphabet’s contribution came precisely at a time when Phoenician culture was highly influential, when the economic power and reach of Tyre [the pre-eminent Phoenician city state] was at its height, and when doing things “in the Phoenician way” (*phoinikizein*) was not stigmatised but desirable.”
->>>
+>>Writing systems and conventions are culturally and historically meaningful, and the alphabet’s contribution came precisely at a time when Phoenician culture was highly influential, when the economic power and reach of Tyre [the pre-eminent Phoenician city state] was at its height, and when doing things “in the Phoenician way” (*phoinikizein*) was not stigmatised but desirable.
 >>> Lopez-Ruiz, Phoenicians and the Making of the Mediterranean
 
 ### A comprehensive survey

@@ -19,7 +19,6 @@ I have lived all my life in the UK and have a certain idea about what history is
 In this post I will be exploring some of the – for me – surprising answers to these questions.
 
 > England and America are two countries separated by the same language
->>>
 >>> George Bernard Shaw, perhaps partly contemplating history books [^1]
 
 One way to compare attitudes to history in the UK and US is to look at the history bestseller lists here and there. If it is not just the same list twice (which it isn’t) what are the similarities and what are the differences?

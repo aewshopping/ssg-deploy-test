@@ -78,9 +78,9 @@ Historical editing is also at work in another scene describing a Viking burial c
 
 Finally I also enjoyed the book’s down to earth approach. A good example of this is when Sandbrook is considering why the Vikings decided to go Medieval on Anglo-Saxon England. Was it the shortage of good farmland in Norway? Perhaps the lack of available lady Vikings? Or perhaps the answer is a bit simpler:
 
->> They had seen the wealth of their towns, the softness of their people and the weakness of their defences. They had seen the treasures of their monasteries, the golden relics and silver crosses, the decorated robes and jewel encrusted books. And they had seen the men they would be fighting: peaceful monks and well-meaning priests, who never even carried weapons.
->> So why did they do it?
->> Because they could.
+>> They had seen the wealth of their towns, the softness of their people and the weakness of their defences. They had seen the treasures of their monasteries, the golden relics and silver crosses, the decorated robes and jewel encrusted books. And they had seen the men they would be fighting: peaceful monks and well-meaning priests, who never even carried weapons.  
+So why did they do it?  
+Because they could.
 >>> Dominic Sandbrook, Fury of the Vikings
 
 “Because they could” is an explanation that should get more use by historians!

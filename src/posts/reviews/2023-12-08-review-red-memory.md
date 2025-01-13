@@ -33,15 +33,15 @@ review_rating: ★★★★☆
 permalink: ''
 review_summary: '<p>Covering the Cultural Revolution in China from 1966 to 1976, Branigan argues that this violent and traumatic period, when Mao Zedong incited students against their teachers and neighbour against nieghbour, was formative for modern China.</p><p>I found this a grimly fascinating, yet empathetic and enlightening book, covering what happened and how it is remembered today.</p>'
 ---
->> They f\*ck you up, your mum and dad.   
-They may not mean to, but they do.   
-They fill you with the faults they had   
-And add some extra, just for you.    
+>> They f\*ck you up, your mum and dad. 
+They may not mean to, but they do. 
+They fill you with the faults they had  
+And add some extra, just for you.  
 ~   
-But they were f\*cked up in their turn   
-By fools in navy-blue one-piece suits,   
-Who half the time were marxist-stern   
-And half at one another’s throats.   
+But they were f\*cked up in their turn  
+By fools in navy-blue one-piece suits,  
+Who half the time were marxist-stern  
+And half at one another’s throats.  
 >>> This Be The Verse, by Philip Larkin
 
 The Cultural Revolution in China started in 1966 17 years after the actual revolution  - the civil war - had been won by the Communists in 1949.

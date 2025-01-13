@@ -57,14 +57,17 @@ On the principle that the best form of defence is attack, the Egyptians regularl
 By the time of Amenhotep II the Egyptians had been fighting their “defensive” campaigns in Syria for about 80 years. And while you could say these expeditions were born of necessity, they seem to have been undertaken with real relish by Amenhotep, who boasted that:
 
 > He has gathered them [his enemies] all into his fist, his mace has crushed upon their heads.
+>>> Amenhotep II
 
 And:
 
 > With joy of heart to his father, Amen, he slew with his own weapon the seven [rebellious] princes.
+>>> Amenhotep II
 
 Finally:
 
 > His heart is satisfied when he sees them after he decapitated the troublemakers.
+>>> Amenhotep II
 
 Amenhotep II launched two massive campaigns against the Mitanni empire, northern Mesopotamia's top dog. After the second campaign he proudly recorded that he had taken (among a long list other things) an incredible 101,128 prisoners.[^3]
 

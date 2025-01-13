@@ -63,8 +63,7 @@ I was expecting a bit more of a narrative history about how our views on sex hav
 
 Lister is an entertaining writer who has a breezy conversational style, with an infectious enthusiasm for her subject matter. To give you a flavour here is her description of severe period pain from the aforementioned chapter:
 
->> “You feel like you have a cold – shivering, aching, nauseous – and have the hair-trigger emotions of someone who has not slept for days… The intense cramping across your lower abdomen feels like the worst diarrhoea you’ve ever had – in fact, you’ll also get diarrhoea, to help with the crying fits. As your internal organs contract and tear themselves to blooded bits so you can lay an egg, blasts of searing pain rip through you. Sometimes they’re so bad, you double over and can’t breathe until it’s passed, and the dull, constant ache returns… You bleed so much that all ‘intimate feminine hygiene products’ fail you – it’s like trying to control a lava flow with an oven mitt. You worry people can smell your period. You are terrified to sit on anything or stand up for a week in case you’ve bled through. And as you’re sitting, a crying, sweaty, wobbly, spotty, smelly mess, some bastard asks ‘Time of the month, love?’ And then you have to eat his head.”
->>> 
+>> You feel like you have a cold – shivering, aching, nauseous – and have the hair-trigger emotions of someone who has not slept for days… The intense cramping across your lower abdomen feels like the worst diarrhoea you’ve ever had – in fact, you’ll also get diarrhoea, to help with the crying fits. As your internal organs contract and tear themselves to blooded bits so you can lay an egg, blasts of searing pain rip through you. Sometimes they’re so bad, you double over and can’t breathe until it’s passed, and the dull, constant ache returns… You bleed so much that all ‘intimate feminine hygiene products’ fail you – it’s like trying to control a lava flow with an oven mitt. You worry people can smell your period. You are terrified to sit on anything or stand up for a week in case you’ve bled through. And as you’re sitting, a crying, sweaty, wobbly, spotty, smelly mess, some bastard asks ‘Time of the month, love?’ And then you have to eat his head.
 >>> Kate Lister, A Curious History of Sex
 
 ### Any complaints?
@@ -79,8 +78,7 @@ It is also often difficult to judge if the anecdotes she has selected represente
 
 However the book is a clear success in its primary aim which is to bring into the light sex from different times and places, so we can understand our own attitudes and behaviour. As Lister concludes:
 
->> “We must keep talking about sex. We must keep educating children about sex, and not just about what happens when a sperm gets its hands on an egg. We must talk about consent, pleasure, masturbation, pornography, love, relationships and our own bodies. Because the only way we will dispel shame is to drag sex out in the open and have a good long look at it. History has shown us how damaging shaming sexual practices, in all their myriad forms, can be.”
->>> 
+>> We must keep talking about sex. We must keep educating children about sex, and not just about what happens when a sperm gets its hands on an egg. We must talk about consent, pleasure, masturbation, pornography, love, relationships and our own bodies. Because the only way we will dispel shame is to drag sex out in the open and have a good long look at it. History has shown us how damaging shaming sexual practices, in all their myriad forms, can be. 
 >>> Kate Lister, A Curious History of Sex
 
 A statement to reflect on while munching through my breakfast cereal^[A racy mix of Jordan’s muesli and Kellogg’s bran flakes].

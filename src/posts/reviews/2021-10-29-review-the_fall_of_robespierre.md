@@ -34,7 +34,6 @@ permalink: '/2021/10/29/the-fall-of-robespierre/'
 review_summary: '<p>Colin Jones tells the story of Robespierre’s vertiginous fall over the course of a single day: from the voice of the Revolution to its victim. It is fascinating to trace what happens when those in power give orders, people decide whether or not to go along with them, and then… everything goes crazy.</p><p>If you have any interest in the French Revolution, or politics in general, or the “processes of history” you will find The Fall of Robespierre a riveting, rigorous and thought-provoking read.</p>'
 ---
 >GREAT CONSPIRACY. Today would have been one of the greatest events that France has ever known if conspiracy had had its way.
->>>
 >>>Celestin Guittard de Floriban
 
 What had so shocked Parisian diarist Celestin Guittard de Floriban were the earth-shaking events of 27 July 1794 that culminated in the execution by guillotine of Maximillian Robespierre, who only 24 hours before had been at the height of power in Revolutionary France.

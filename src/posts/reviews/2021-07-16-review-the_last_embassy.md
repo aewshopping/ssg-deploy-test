@@ -32,13 +32,12 @@ review_rating: ★★★★☆
 permalink: '/2021/07/16/the-last-embassy/'
 review_summary: '<p>The Last Embassy offers an alternative viewpoint to that of China vs the West, an absorbing travelogue, and a sneak peek into the Qianlong Emperor’s court. It is also a very engaging read with a smooth but vivid writing style.</p><p>I would enthusiastically recommend this to anyone with an interest in China’s past – or present.</p>'
 ---
->> The Dutch present ships have arrived at the Tiger’s Mouth,
->> like tall inns on the oyster-shell mirror of the water, a joyful noise ringing out.
->> They’re filled with precious offerings, but first they must transmit their official document, wrapped in gold.
->> 
->>  荷兰贡舶虎门收,蠔镜声嚣水上楼。
->> 琛献先传金叶表,翎开还整翠云裘。
->>>
+>> The Dutch present ships have arrived at the Tiger’s Mouth,  
+like tall inns on the oyster-shell mirror of the water, a joyful noise ringing out.  
+They’re filled with precious offerings, but first they must transmit their official document, wrapped in gold.  
+~  
+荷兰贡舶虎门收,蠔镜声嚣水上楼。  
+琛献先传金叶表,翎开还整翠云裘。
 >>> Wang Wengao 王文诰
 
 Tonio Andrade in his compelling new book “The Last Embassy: The Dutch Mission of 1795 and the Forgotten History of Western Encounters with China” tells us that this poem was written by the Chinese scholar Wang Wengao in 1795 to commemorate a Dutch embassy setting out for Beijing from Canton (now Guangzhou) in the far south of China. The ambassadors are heading off to congratulate the Qing emperor on a significant anniversary – 60 years on the throne.
