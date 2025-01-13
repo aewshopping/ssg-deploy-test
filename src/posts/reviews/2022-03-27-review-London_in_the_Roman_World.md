@@ -40,7 +40,6 @@ The bronze head of the Roman emperor Hadrian has a serene, philosophical express
 ###### [© The Trustees of the British Museum](https://www.britishmuseum.org/collection/object/H_1848-1103-1)
 
 >> recovered from the Thames below London Bridge... [the head] had been hacked from the body of the imperial statue, and may have been thrown into the river in an act of ritual abuse and expurgation...
->>
 >>> Dominic Perring, London in the Roman World
 
 An enraged[^1] Londoner[^2] had hacked the supreme symbol of Roman authority to bits.

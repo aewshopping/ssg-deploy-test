@@ -61,8 +61,7 @@ Except that… after reading Judith Herrin’s book it is hard to think of him a
 
 Under Gothic rule Ravenna thrived, and this continued under direct Byzantine rule, after the city was captured by the famous general Belisarius when he conquered the heirs of Theodoric on behalf of the emperor Justinian in 540 CE. It was Ravenna that was the capital of the Byzantine “Exarchate” of Italy and surrounding area: while Rome continued to contract and crumble, Ravenna grew in splendour. And it was the artistic precedents and achievements of Theodoric that then inspired the famous golden wall mosaic of Justinian shown above – although Theodoric himself was “mosaic brushed” from history. As Herrin puts it:
 
->> “The unique representation of Justinian and Theodora right in the sanctuary of a very unusual octagonal church was their response to Theodoric’s blazing presence in his golden palace church… But… the images of the heretic Arian king and his courtiers were cut away. The central space that had been Theodoric’s was filled with gold tesserae… Of Theodoric’s portrait not even a fingernail survives.”
->>>
+>> The unique representation of Justinian and Theodora right in the sanctuary of a very unusual octagonal church was their response to Theodoric’s blazing presence in his golden palace church… But… the images of the heretic Arian king and his courtiers were cut away. The central space that had been Theodoric’s was filled with gold tesserae… Of Theodoric’s portrait not even a fingernail survives.
 >>> Judith Herrin, Ravenna
 
 ### The golden thread

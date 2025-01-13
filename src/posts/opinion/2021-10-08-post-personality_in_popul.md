@@ -40,13 +40,11 @@ So it is great stuff but I suspect my retention rate will be pretty poor when I 
 Big Sister, Little Sister, Red Sister on the other hand tells us a lot about what the movers and shakers were like as people. For example when introduced to Yuan Shikai the first president of China we are told that:
 
 >> “Yuan’s personal habits were conservative. After bathrooms were introduced to the presidential palace, he still eschewed the flush toilet, preferring his old wooden stool” (sic)
->>
 >>> Jung Chang, *Big Sister, Little Sister, Red Sister*
 
 And if that’s not enough personal detail:
 
 >> “The route to a healthy life for him was the ancient Chinese recipe of drinking human milk; two wet nurses were employed to squeeze their milk into a bowl for him.”
->>
 >>> Jung Chang, *Big Sister, Little Sister, Red Sister*
 
 I’m not going to forget that in a hurry… but did I need to know it in the first place?

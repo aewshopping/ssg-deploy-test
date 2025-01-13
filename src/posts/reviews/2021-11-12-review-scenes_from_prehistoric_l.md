@@ -57,7 +57,6 @@ So why did they do it? What would make 200 of your relatives dig up an oak tree,
 Pryor tells us a key clue may be a bit of coffin found in a nearby burial mound. Perhaps then, placed in the upturned roots of the oak tree and exposed to the air would have been an open wooden casket. Seahenge becomes the site of a sky burial in which the body of the person who has died is exposed to the elements and the birds – and bigger wild animals kept out – until only the skeleton is left.
 
 >> Once the circle of timbers and the inverted central oak tree had been set in place, the funeral rites could begin. The body would have been carried into the shrine through the single narrow entranceway. It was probably then ceremoniously place on top of the inverted tree roots, which formed an outstretched, hand-like surface… I have often written about the extraordinary smell of tannin on the air when I first entered the completed reconstruction of the Seahenge timber enclosure… One must imagine such a strong smell during the ceremonies, compounded no doubt by darkness, fire and the sound of rhythmical drumming.
->>>
 >>> Francis Pryor, Scenes from Prehistoric Life
 
 This was not an evening your 10 year old great x201 grandfather would forget in a hurry – it might even, extrapolating from Pryor – have been the first time he got plastered.

@@ -33,7 +33,6 @@ permalink: '/2022/01/21/empire-and-righteous-nation/'
 review_summary: '<p>Empire and Righteous Nation crams a lot of into its 170 pages: it is an insightful and entertaining primer on Korean history over the last 600 years.</p><p>Those already well informed about the Chosun state and King Kojong may find it covers familiar territory. But if you are a relative newcomer you will get a much better appreciation of Korean history and identity.</p>'
 ---
 >Big moment, big moment.
->>>
 >>>Donald Trump
 
 Ex president Trump was talking to Kim Jong-un, leader of North Korea in 2019. It was indeed a big moment - the first time a US president had visited north Korea, and the first time a US president had arranged to meet a fellow head of state via a post on social media.
@@ -53,6 +52,7 @@ Westad gives us a great example of this: after a minor border kerfuffle in 1864 
 This is how I try to handle conflict resolution between my kids as well, although the three year old is not quite up to the flowery language of thanks memorialised by the Korean King Kojong:
 
 >>'I am frightened and ashamed, and there is no way I can be forgiven... I never imagined I would escape blame and punishment, yet Permission has been granted to supply timber. With the command to dispatch men to receive it, I am emotionally overcome in the extreme and rendered utterly speechless...'
+>>> Empire and Righteous Nation, Odd Arne Westad
 
 ### Why does Korea even exist?
 

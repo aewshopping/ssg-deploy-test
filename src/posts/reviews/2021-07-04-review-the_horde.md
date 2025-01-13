@@ -75,7 +75,6 @@ She is particularly good at bringing to life the importance of the trade for the
 Expressing a sentiment that Maynard Keynes would have heartily approved of 700 hundred years later, one Mongol Khan stated:
 
 > “What benefit do we derive from all these stores [tens of thousands of bars of silver]? They have to be constantly guarded. Have it announced that everybody who wants a bar should come and take one!”
->>>
 >>>Rashid al-Din, Compendium of Chronicles
 
 ### The Mongol worldview

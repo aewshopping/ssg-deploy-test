@@ -46,7 +46,6 @@ Given this message it was not unreasonable for Flamingo Snake to fear one of the
 To start with the Emperor appeared to pay little attention: perhaps he was thinking about what might be for lunch, or perhaps it took him a while to grasp the allusion, because the song Flamingo Snake was singing was on the surface a song by a female prisoner of war who was bemoaning her terrible fate. But about halfway through, the Emperor perked up and began to dance to the music:
 
 > When he got to the dance floor, Axayacatl lifted up one foot, completely happy in hearing the music, and began to dance and move in circles
->>>
 >>> Chimalmpahin, Ocho Relaciones
 
 But when the song finished, ending with an offer from the female prisoner of war, now a concubine, to live with the king with no hard feelings, if only she were treated with respect... the Emperor suddenly left the room saying nothing.
@@ -56,6 +55,7 @@ When Flamingo Snake received a message that the Emperor wanted a word with him, 
 It was also, as it turned out, completely the wrong one. Camilla Townsend tells us what happens next in *Fifth Sun: A New History of the Aztecs*:
 
 >> the Emperor 'liked the song, and he liked the singer. He took Quecholcolhaultl [Flamingo Snake] to bed forthwith and asked him to promise to sing only for him.'
+>>> Fifth Sun, Camilla Townsend
 
 ### Bringing the Mexica back to life
 

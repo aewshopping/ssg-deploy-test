@@ -50,7 +50,6 @@ Partly this is because the “bold Columbus” narrative slots nicely into the t
 As Mountain puts it:
 
 >>it’s impossible to deny the role of history in shaping our perceptions of society, both past and present…. History, whether we like it or not, has an annoying habit of being relevant.
->>>
 >>>David Mountain, Past Mistakes
 
 “Past Mistakes” can be read as an attempt to identify and debunk some of the most persistent and pernicious historical myths that we still lug around with us as mental baggage today. Mountain is doing his bit to overturn our comfortable view of the past to reveal the complexity that lies underneath. He wants us to replace Columbus the cartoon with Columbus the killer. In doing so we achieve a better understand of what has created our present.

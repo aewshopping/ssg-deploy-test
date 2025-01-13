@@ -10,7 +10,6 @@ image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1646084435/posts/new_v
 meta_excerpt: Why a new history book is almost always better than an old history book... with some important caveats!
 ---
 >> “Who controls the past,” ran the Party slogan, “controls the future: who controls the present controls the past.”
->>
 >>> George Orwell, agreeing with me that new history books are important, in his recent book 1984
 
 On this site we try to find, read and review new history books (or mostly new ones – see [FAQ]({{ staticdata.links.canonical_stem }}{{ staticdata.links.faq }}). But are we right to focus on new books? Is there any reason to prefer a book about the Normans written in the last 5 years to one written 30 years ago – or 130 years ago?

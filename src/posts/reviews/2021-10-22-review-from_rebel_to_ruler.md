@@ -63,7 +63,6 @@ It doesn’t stop there: after consolidating their position in power and keen to
 This was followed by the Cultural Revolution from 1966 which, Saich tells us, was Mao’s attempt to shake things up so that the younger generation could undergo a “baptism of fire” like the political and social maelstrom that buffeted Mao himself as a young man. The result was
 
 >> a shattered social fabric, with students turning on their teachers and fellow classmates, children encouraged to denounce their parents, workmates fighting one another leading to ridicule and disrespect of authority in all its forms with the exception of the holy writ of Mao.
->>>
 >>>Tony Saich, From Rebel to Ruler
 
 ### Things can only get better

@@ -113,7 +113,7 @@ There is a major caveat though. While the subject matter is fascinating, and the
 
 Here is a typical sentence to give you a flavour:
 
->> He [Zara Yaqob, an important Ethiopian king] invented a new model for Church-state relations, in which the secular state was the dominant force, creating an indigenous absolutism based upon the concept of Solomonic legitimacy. He reformed the Church in ways that unified the country, thereby further consolidating royal power.”
+>> He [Zara Yaqob, an important Ethiopian king] invented a new model for Church-state relations, in which the secular state was the dominant force, creating an indigenous absolutism based upon the concept of Solomonic legitimacy. He reformed the Church in ways that unified the country, thereby further consolidating royal power.
 >>> Great Kingdoms of Africa, Essay on The Solomonic Christian Kingdom of Ethiopia
 
 Passages like this leave me convinced of the academic respectability of the authors but none-the-wiser myself on what it really all means.

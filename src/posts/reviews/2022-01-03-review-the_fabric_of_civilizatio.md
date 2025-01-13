@@ -35,7 +35,6 @@ permalink: '/2022/01/07/the-fabric-of-civilisation/'
 review_summary: '<p>A great read for anyone interested in textiles, industry or society, The Fabric of Civilisation brings into focus the technological developments in textiles: fibres, yarns, cloths and dyeing.</p><p>The book spins a thread leading from prehistory to the near future, showing the interwoven technologies and developments from different civilisations across the world.</p>'
 ---
 > Surrounded by textiles, we’re largely oblivious to their existence and the knowledge and efforts embodied in every scrap of fabric.
->>>
 >>> Virginia Postrel, The Fabric of Civilisation
 
 Any visitor to the West Berkshire Museum can see the Newbury Coat, a coat made in 1811 from sheep to finished garment within a day using the technologies at Greenham Mill as the result of a bet between its owner, John Coxton, and Sir John Throckmorton. Coxton was keen to showcase the improvements in his mill machinery, but readers of *The Fabric of Civilisation: How Textiles Changed the World* by Virginia Postrel will realise that the feat also demonstrates millennia of technological advances in sheep breeding, spinning techniques, weaving methods and dyeing. 

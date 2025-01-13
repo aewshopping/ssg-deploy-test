@@ -85,7 +85,7 @@ The tone of the book remains dispassionate throughout - which I guess is deliber
 
 The exception to this downbeat view is the introduction and epilogue which are both great to read! Maybe the author wrote them after he had finally finished writing the main body of the book and was feeling a bit more upbeat? Whatever the reason, they clearly and concisely set out the situation at the time, his own arguments, and why it all still matters. The epilogue also looks further forward and makes some interesting connections between the American Revolution and the Civil War:
 
->> This one pitted Southerners motivated by the deeply held conviction that their government sought to promote the cause of a marginalised people (enslaved African Americans) against Union loyalists prepared to accept more inclusive visions of the American future and to deny the justice of seceding from a duly constituted sovereign. Those positions would have seemed quite familiar to the revolutionaries and their imperial opponents... <br><br>
+>> This one pitted Southerners motivated by the deeply held conviction that their government sought to promote the cause of a marginalised people (enslaved African Americans) against Union loyalists prepared to accept more inclusive visions of the American future and to deny the justice of seceding from a duly constituted sovereign. Those positions would have seemed quite familiar to the revolutionaries and their imperial opponents...  
 If the Civil War was a re-enactment of the American Revolution, Lincoln was playing George III.
 >>> Samual K Fisher, The Gaelic and Indian Origins of the American Revolution
 

@@ -37,13 +37,11 @@ There is something about the theory of history or historiography – ie how and 
 Take this for an example, in a review (by professional historian Alan Munslow) of a book of historiography called “The New Nature of History” (by another professional historian Arthur Marwick):
 
 >> “There is a common saying that when you are in a hole you should at some juncture cease excavating further. Marwick’s failure to adopt this policy is embarrassingly revealed in some of his throw away sentiments. I am astounded that he should say, for example, that John Warren is a defender of postmodernism, or that postmodernists don’t write books, or that historians are not idealist or materialist, just historians… There are many other regrettable /ludicrous/bizarre/funny/plainly wrong statements of this kind. I would like to say the book is worth the sale price just to find them as, dependent on your point of view, you may find them diverting, but as I got the book free to review I can’t really comment…”
->>
 >>> Alan Munslow, Sept 2001 [history in focus archives](https://archives.history.ac.uk/history-in-focus/Whatishistory/munslow5.html)
 
 Marwick in reply:
 
 >> “At least, unlike Munslow, I have written a fair amount of archive-based history on topics of, I would say, some significance. And, despite Munslow’s snide remarks… I am perhaps less conceited than Munslow would seem to be suggesting… According to Munslow my book is a sour diatribe against my fellow historians. On the contrary, it is a joyous celebration of the immense achievements of professional history… We need an understanding of the distant past as well as the recent. Do we need Munslow? One has to admire Munslow’s resilience. But does he really have to go on boring the pants off us?”
->>
 >>>Arthur Marwick, Sept 2001 [history in focus archives](https://archives.history.ac.uk/history-in-focus/Whatishistory/marwick2.html)
 
 The drawing of the battle lines suggests there is no clear consensus on why people “do history” or even what it is they are doing.
@@ -95,7 +93,6 @@ The writing style is highly engaging. I don’t know how accurately the book rep
 I will finish with a somewhat controversial quote from the chapter on History as Progress:
 
 >> “You can, if you please, turn history into theology by making the meaning of the past depend on some extra-historical and super-rational power. You can, if you please, turn it into literature – a collection of stories and legends about the past without meaning or significance. History properly so-called can be written only by those who find and accept a sense of direction in history itself. The belief that we have come from somewhere is closely linked with the belief that we are going somewhere. A society which has lost belief in its capacity to progress in the future will quickly cease to concern itself with its progress in the past”
->>
 >>> E.H. Carr, What is History?
 
 ### Conclusion
