@@ -866,6 +866,14 @@ displaying a GRID OF POSTS of different types
   transition: var(--color-transition);
   border: 3px solid var(--color-summary-bg);
 }
+.grid_post_quote {
+  padding: 10px var(--padding-edge) 4em var(--padding-edge);
+  background-color: var(--color-bg);
+  transition: var(--color-transition);
+  border-radius: 0px;
+  border-top: 3px solid var(--color-summary-bg);
+  border-bottom: 3px solid var(--color-summary-bg);  
+}
 .grid_post_taglist {
   padding: 0 20px;
   background-color: var(--color-summary-bg);
@@ -918,6 +926,11 @@ displaying a GRID OF POSTS of different types
   position: absolute;
   bottom: 10px;
   left: var(--padding-edge)
+}
+.grid_post_btn_position_bottom {
+  position: absolute;
+  bottom: var(--padding-edge);
+  right: var(--padding-edge)
 }
 .grid_post_latest::before {
   background-color: var(--color-pill-bg);

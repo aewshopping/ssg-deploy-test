@@ -1,9 +1,10 @@
 ---
 layout: layouts/base.njk
 templateClass: tmpl-home
+script_add: [script_quotes.js]
 pagination:
   data: collections.post
-  size: 9
+  size: 12
   reverse: true
   alias: myposts
 ---
@@ -39,46 +40,14 @@ pagination:
       
       {% for post in myposts %}
 
-      <div class="grid_post_container fix-children {% if post.data.tags[1]=="review" %}grid_post_review summary_text{% else %}grid_post_other{% endif %} {% if post.data.title==collections.posts[0].data.title %}grid_post_latest{% endif %}">
-        {%- from "sections/macros.njk" import post_icon with context -%}
-        {{ post_icon({type:post.data.tags[1] | lower}) }}
-
-        <h4 aria-level="2" class="undecorate_link {% if post.data.tags[1]=="review" %} grid_post_title{% endif %}"><a class="main_link" href="{{post.url}}">{{ post.data.title }}</a></h4>
-
-        {% if post.data.tags[1]=="review" %}
-        <img loading="lazy" class="grid_post_bookimage" src="{{post.data.review_book_image_small_url | replace("upload/","upload/f_auto/")}}" alt="Book cover for {{post.data.review_book_main_title}}">        
-        {% endif %}
-        
-        <p class="ft-size-small"><i>Posted on</i>: {{post.data.date | htmlDateString }}</p>
-        
-        <p class="ft-size-small">{{ post.templateContent | excerpt }}</p>
-        
-        {% if post.data.tags[1]=="review" %}<p class="ft-size-small">{{post.data.review_rating}} ({{ post.data.review_publication_date | myDateYear }})</p>{% endif %}
-        
-        {% if post.data.newbooks %}
-        <div class="bg_fade_sides">
-          
-        <div class="flex_book_row pad-bottom-20 pad-top-20 fix-children">
-        {% for item in post.data.newbooks %}
-    
-        <img loading='lazy' class='flex_row_image_book_cover' src="https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/{{ item }}.02._SCM_.jpg" alt="book cover" title="book cover">
-  
-        {% endfor %}
-        </div>
-        </div>
-        {% endif %}
-        
-        <p class="fw-normal grid_post_tagpill_position_bottom">
-          {% for tag in post.data.tags %}
-            {%- if tag != "post" -%}
-              <span class="tagpill">{{ tag }}</span>
-            {%- endif -%}
-          {% endfor %}
-        </p>
-        
-          </div>
-                                                                                  
-      {%- endfor -%}
+      {% set content_excerpt = post.templateContent | excerpt %}
+      {% set content_excerpt_quote = post.templateContent | excerpt_quote %}
+      {% set loopnumber = loop.index %}
+      {%- from "sections/macros_cards.njk" import post_card with context -%}
+{{ post_card( post.data.tags[1], post.data.title, collections.posts[0].data.title, post.data.review_book_image_small_url, post.url, post.data.date, post.data.review_rating, post.data.review_publication_date, content_excerpt, content_excerpt_quote, post.data.quotelink, post.data.quoteref, post.data.newbooks, post.data.tags, loopnumber ) }}
+{# not sure why the with context option isn't working so need to pass in all variables...#}
+      
+     {%- endfor -%}
      </div>
 
 {% include "sections/pagination_pages.html" %}   

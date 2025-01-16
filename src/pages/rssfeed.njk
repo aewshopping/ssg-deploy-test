@@ -29,7 +29,10 @@
     <name>{{ metadata.author.name }}</name>
     <email>{{ metadata.author.email }}</email>
   </author>
-  {%- for post in collections.posts %}
+
+  {% set rssposts = collections.posts %}
+  {%- for post in rssposts.slice(0,20) %}
+  {% if post.data.tags[1]!="quote" %}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   {% set img_square %}{{ post.data.image | replace ("/upload/", "/upload/c_pad,ar_1,w_900,b_auto:border/f_png/r_40/") }} {% endset %}
   <entry>
@@ -43,5 +46,6 @@
     <id>{{ absolutePostUrl }}</id>
     {% set book_info %}<img src="{{ img_square }}" alt="{{ post.data.title }}">{% if post.data.tags[1]=="review" %}<p>{{post.data.meta_excerpt}}</p> <p><strong><hr>{{post.data.review_summary | safe}}</strong></p> <p>{{post.data.review_rating}}</p><hr> {% endif %}{% endset %}<content type="html">{{ book_info | htmlToAbsoluteUrls(absolutePostUrl) }}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
+  {% endif %}
   {%- endfor %}
 </feed>
