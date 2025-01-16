@@ -1,0 +1,82 @@
+{% macro post_card(tag_type, title, latest_title, coverpic, post_url, post_date, review_rating, review_pub_date, content_excerpt, content_excerpt_quote, quotelink, quoteref, covers_array, tags_array, loopnumber) %}
+
+{# ///// REVIEW CARD ////////// #}
+{% if tag_type == "review" %}
+
+<div class="grid_post_container fix-children grid_post_review summary_text {% if title==latest_title %}grid_post_latest{% endif %}">
+
+<img loading="lazy" class="grid_post_icon" src="{{staticdata.images.review_icon}}" alt="little review icon">
+
+<h4 aria-level="2" class="undecorate_link grid_post_title"><a class="main_link" href="{{post_url}}">{{ title }}</a></h4>
+
+<img loading="lazy" class="grid_post_bookimage" src="{{coverpic | replace("upload/","upload/f_auto/") }}" alt="Book cover for {{title}}">   
+  
+<p class="ft-size-small"><i>Posted on</i>: {{post_date | htmlDateString }}</p>
+
+<p class="ft-size-small">{{ content_excerpt }}</p>
+
+<p class="ft-size-small">{{review_rating}} ({{ review_pub_date | myDateYear }})</p>
+        
+<p class="fw-normal grid_post_tagpill_position_bottom">
+<span class="tagpill">review</span>
+</p>
+</div>
+
+{# ///// END OF REVIEW CARD ////////// #}
+
+
+{# ///// QUOTE CARD ////////// #}
+{% elif tag_type == "quote" %}
+
+<div class="grid_post_quote fix-children">
+        
+<blockquote><blockquote><p class="quote_class" id="quote{{loopnumber}}">{{ content_excerpt_quote }}</p><blockquote>
+<p>Review of <a class="quote_ref_class" id="quoteref{{loopnumber}}" href="{{ quotelink }}" target="_blank">{{ quoteref }}</a></p></blockquote></blockquote></blockquote>
+  
+        <button type="button" title="Refresh quote" onclick="myClick('quote{{loopnumber}}', 'quoteref{{loopnumber}}')" class="icon-button-lightbg grid_post_btn_position_bottom">
+        <svg class="svg-icon" height="30px" width="30px" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 -960 960 960" fill="#000000">{% include "sections/svg/icon_refresh.html" %}</svg>
+        </button>
+        
+</div>
+{# ///// END OF QUOTE CARD ////////// #}
+
+
+{# ///// ALL OTHER CARDS ////////// #}
+{% else %}
+
+<div class="grid_post_container fix-children grid_post_other {% if title==latest_title %}grid_post_latest{% endif %}">
+
+<h4 aria-level="2" class="undecorate_link"><a class="main_link" href="{{post_url}}">{{ title }}</a></h4>
+       
+<p class="ft-size-small"><i>Posted on</i>: {{post_date | htmlDateString }}</p>
+
+<p class="ft-size-small">{{ content_excerpt }}</p>
+        
+{% if covers_array %}
+<div class="bg_fade_sides">
+          
+<div class="flex_book_row pad-bottom-20 pad-top-20 fix-children">
+{% for item in covers_array %}
+    
+<img loading='lazy' class='flex_row_image_book_cover' src="https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/{{ item }}.02._SCM_.jpg" alt="book cover" title="book cover">
+  
+{% endfor %}
+</div>
+</div>
+{% endif %}
+        
+<p class="fw-normal grid_post_tagpill_position_bottom">
+{% for tag in tags_array %}
+{%- if tag != "post" -%}
+<span class="tagpill">{{ tag }}</span>
+{%- endif -%}
+{% endfor %}
+</p>
+        
+</div>
+
+{# ///// END OF ALL OTHER CARDS ////////// #}
+
+{% endif %}
+
+{% endmacro %}

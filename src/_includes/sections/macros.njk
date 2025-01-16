@@ -21,17 +21,6 @@
 
 
 
-{# ///// POST TAG STICKER ONNER ///////////////// #}
-{% macro post_icon(input) %}
-
-{# associate icons with post tag types - may need to look at padding #}
-
-{% if input.type=="review" %}
-<img loading="lazy" class="grid_post_icon" src="{{staticdata.images.review_icon}}" alt="little review icon">{% endif %}
-{% if input.type=="history books" %}
-<img loading="lazy" class="grid_post_icon" src="{{staticdata.images.books_icon}}" alt="little books icon">{% endif %}
-                           
-{% endmacro %}
 
 
 
