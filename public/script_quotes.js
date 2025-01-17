@@ -1,14 +1,12 @@
 const QUOTE_SQL_QUERY =
   "select quotes.isbn_10,books.title,books.author,books.review_url,quotes.quote from quotes join books on books.isbn_10=quotes.isbn_10 where quotes.rowid=(abs(random())%(select(select max(quotes.rowid)from quotes)+1));";
 
-const URL =
-  "https://datasette-for-history-books.glitch.me/data.json?sql=" +
-  encodeURIComponent(QUOTE_SQL_QUERY) +
-  "&_shape=array";
+const URL_STEM_SQL =
+  "https://datasette-for-history-books.glitch.me/data.json?sql=";
 
 function myClick(quote, quoteref) {
 
-  getquote(quote, quoteref, URL)
+  getquote(quote, quoteref)
     .then((response) => {
       console.log("got quote");
     })
@@ -18,9 +16,9 @@ function myClick(quote, quoteref) {
     });
 }
 
-async function getquote(quote, quoteref, url) {
-
-  const response = await fetch(url);
+async function getquote(quote, quoteref) {
+  const URL = `${URL_STEM_SQL}${encodeURIComponent(QUOTE_SQL_QUERY)}--${Math.random().toFixed(5)}&_shape=array`; // cache busting with random number after inline sql comment symbol "--"
+  const response = await fetch(URL);
   const data = await response.json();
   const URLSTEM = data[0].review_url;
   const TEXTFRAG = data[0].quote;
