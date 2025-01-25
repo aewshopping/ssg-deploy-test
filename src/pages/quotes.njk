@@ -1,0 +1,7 @@
+---
+permalink: '/data/quotes.json'
+eleventyExcludeFromCollections: true
+---
+
+{{ books_quotes | dump | safe }}
+{# this builds a json object from a _data file loaded at build time. The idea is that the json object is a subset of a larger data set and can be referenced 'statically' by the front end if needed. Note that in this particular case I decided not to use it! Or at least not yet #}

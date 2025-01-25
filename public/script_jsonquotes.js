@@ -1,9 +1,5 @@
-// This loads a random quote from the SQL database - a new one each time. Initiated by the user when they click a button but can also be done on page load. Decided not to do page load for now to keep homepage load as light as possible. Note this file is loaded by a front matter item in the home.njk layouts.
-const QUOTE_SQL_QUERY =
-  "select quotes.isbn_10,books.title,books.author,books.review_url,quotes.quote from quotes join books on books.isbn_10=quotes.isbn_10 where quotes.rowid=(abs(random())%(select(select max(quotes.rowid)from quotes)+1));";
-
-const URL_STEM_SQL =
-  "https://datasette-for-history-books.glitch.me/data.json?sql=";
+// This is alternative way of getting quotes. Relies on creating a json file with eleventy in build stage, using a call to the SQL database at that time, and then referencing the json file on the front end. I have maxed out the number of quotes in the json file at 100 to manage file size. They are selected in a random order from SQL at build, so that if > 100 in total, randomly selects 100 of them. This script selects a random quote no from the json file each time. Note - doesn't seem to be any quicker than just calling SQL from front end directly!
+const URL = "/data/quotes.json";
 
 function updateQuote(quote, quoteref) {
 
@@ -18,13 +14,15 @@ function updateQuote(quote, quoteref) {
 }
 
 async function getquote(quote, quoteref) {
-  const URL = `${URL_STEM_SQL}${encodeURIComponent(QUOTE_SQL_QUERY)}--${Math.random().toFixed(5)}&_shape=array`; // cache busting with random number after inline sql comment symbol "--"
   const response = await fetch(URL);
   const data = await response.json();
-  const URLSTEM = data[0].review_url;
-  const TEXTFRAG = data[0].quote;
-  const AUTHOR = data[0].author;
-  const TITLE = data[0].title;
+
+  const RAND_100 = Math.floor(Math.random() * data.length+1) + 1;
+
+  const URLSTEM = data[RAND_100].review_url;
+  const TEXTFRAG = data[RAND_100].quote;
+  const AUTHOR = data[RAND_100].author;
+  const TITLE = data[RAND_100].title;
   createLink(quote, quoteref, URLSTEM, TEXTFRAG, AUTHOR, TITLE);
 }
 
