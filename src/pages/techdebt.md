@@ -26,13 +26,17 @@ One of the reasons Eleventy is easy to have a go at is because it is available o
 
 ## Glitch
 
+_Glitch is closing down in July 2025, sadly..._
+
 If you sort of know what you would like a website to _do_ but have no idea _how_ to go about it, [Glitch is an amazing place / platform to start](https://glitch.com). It offers a colourful, inviting and above all immensely practical way into web programming with a whole range of carefully chosen languages, frameworks and examples you can adapt. It also allows you to bypass all this Command Line super user do this and that mumbo jumbo which can be a big barrier to just trying things out.
 
-I use Glitch to test and update the code for this website, which I can then export to...
+This website started out on Glitch using the eleventy template on that site. However it is _almost_ as easy now for newbies to start on...
 
 ## Github
 
 The code for this website is backed up on Github in my repository (ie folder). [Github is way of storing code or text built around version control](https://github.com). You are welcome to take a look at [the code that creates this website](https://github.com/aewshopping/ssg-deploy-test).
+
+I also use Github Codespaces to update the website with new posts, new code and whatnot. It means I can do it in the cloud and don't have to worry about me accidentally bricking my computer.
 
 The code for the website isn't the website itself. The actual html website pages need to be _built_ from the code, for which I turn to...
 
