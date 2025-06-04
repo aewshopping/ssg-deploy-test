@@ -41,7 +41,7 @@ from
 order by
   hb_publish_date desc`;
 
-const url = ("https://datasette-for-history-books.glitch.me/data.json?sql=" + encodeURIComponent(sql) + "&_shape=array");
+const url = ("https://history-books-blush.vercel.app/data.json?sql=" + encodeURIComponent(sql) + "&_shape=array");
   // https://datasette-for-history-books.glitch.me/data is a backup but needs manually updated csv files. https://history-books-blush.vercel.app/data
   
 

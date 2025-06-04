@@ -71,7 +71,7 @@ group by
 order by
   cat_sort asc`;
 
-const url = ("https://datasette-for-history-books.glitch.me/data.json?sql=" + encodeURIComponent(sql) + "&_shape=array&_json=tag_emoji&_json=tag_name&_json=emoji_unicode&_json=tag_count");
+const url = ("https://history-books-blush.vercel.app/data.json?sql=" + encodeURIComponent(sql) + "&_shape=array&_json=tag_emoji&_json=tag_name&_json=emoji_unicode&_json=tag_count");
   
   // https://datasette-for-history-books.glitch.me/data or https://history-books-blush.vercel.app/data
 
