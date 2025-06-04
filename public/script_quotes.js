@@ -3,7 +3,7 @@ const QUOTE_SQL_QUERY =
   "select quotes.isbn_10,books.title,books.author,books.review_url,quotes.quote from quotes join books on books.isbn_10=quotes.isbn_10 where quotes.rowid=(abs(random())%(select(select max(quotes.rowid)from quotes)+1));";
 
 const URL_STEM_SQL =
-  "https://datasette-for-history-books.glitch.me/data.json?sql=";
+  "https://history-books-blush.vercel.app/data.json?sql=";
 
 function updateQuote(quote, quoteref) {
 
