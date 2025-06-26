@@ -3,7 +3,7 @@ layout: layouts/post.njk
 permalink: 
 tags: [post, quote]
 quoteref: Alice Hunt, Republic
-quotelink: https://pophist-ssg-test.glitch.me/posts/reviews/2025-02-09-review-republic/#:~:text=Only%20weeks%20before%20Charles%20II%20was%20invited%20to%20return%20to%20England%2C%20many%20still%20thought%20that%20a%20restoration%20was%20inconceivable.
+quotelink: https://popularhistorybooks.com/posts/reviews/2025-02-09-review-republic/#:~:text=Only%20weeks%20before%20Charles%20II%20was%20invited%20to%20return%20to%20England%2C%20many%20still%20thought%20that%20a%20restoration%20was%20inconceivable.
 title: Quotation re-marks
 post_author: Anthony Webb
 date: 2025-02-20
