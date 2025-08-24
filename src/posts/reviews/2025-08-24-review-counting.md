@@ -30,7 +30,7 @@ post_author: Anthony Webb
 date: 2025-08-24
 review_rating: ★★★★☆
 permalink: ''
-review_summary: '<p>A grand historical survey of human counting cultures and techniques, through time and across the globe.</p><p>Overall I strongly recommend this book - even if you are not a ‘numbers person’ you can count on a good read.</p>'
+review_summary: '<p>A grand historical survey of human counting cultures and techniques, through time and across the globe.</p><p>I can happily recommend this book - even if you are not a ‘numbers person’ you can count on a good read.</p>'
 ---
 Do you really understand the number 13? Or the number 24? I would argue - and Benjamin Wardhaugh, author of _Counting: Humans, History and the Infinite Lives of Numbers_ might cautiously back me up here - that you don’t. Not really. Let me demonstrate. Have a look at this:
 
