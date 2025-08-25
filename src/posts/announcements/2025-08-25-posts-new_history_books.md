@@ -5,7 +5,7 @@ tags: [post, new books]
 title: New history books in July 2025
 post_author: Anthony Webb
 date: 2025-08-25
-image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1751401976/posts/June2025_newhistorybooks.jpg
+image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1756134052/posts/July2025_newhistorybooks.jpg
 meta_excerpt: New history books published in July 2025 in the UK
 script_add: [script_bookfilter_modals.js]
 newbooks: ["0241522153","0241611415","1529186404","0008347549","0571367151","1036115534"]
