@@ -25,7 +25,7 @@ For more info see <a href="#notes">notes</a>. You can also have a poke around th
 </div>
 
 
-<dialog class="modal_bookfilter">
+<dialog closedby="any" class="modal_bookfilter">
 <div class="container pad-top-20"> {# this will be start of modal #}
 
 
