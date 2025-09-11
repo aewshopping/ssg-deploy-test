@@ -11,15 +11,15 @@ script_add: [script_bookfilter_modals.js]
 newbooks: ["1399414399","1474617220","0316496553","1398510084","1035415771","1783968966"]
 
 ---
-This seems to be a month of big ideas, judging by the new history books released last month (in the UK, hardback). Many are spanning the whole of human history, all over the world. There are a few different angles: childbirth, rivers (x2), the economic force of women, sensory experience. Also a couple on "big men" of history, including two of the biggest: Winston Churchill and de Gaulle.
+This seems to be a month of big ideas, judging by the new history books (in the UK, hardback). Many are spanning the whole of human history, and the entirelty of the world. There are a few different angles: childbirth, rivers (x2), the economic force of women, sensory experience. Also a couple on "big men" of history, including two of the biggest: Winston Churchill and de Gaulle.
 
 Anyway, here are three that I may delve into more deeply, time permitting...
 
-- __Dinner with King Tut: How Rogue Archaeologists Are Re-Creating the Sights, Sounds, Smells, and Tastes of Lost Civilizations__, by _Sam Kean_. [comment]
+- __Dinner with King Tut: How Rogue Archaeologists Are Re-Creating the Sights, Sounds, Smells, and Tastes of Lost Civilizations__, by _Sam Kean_. This one looks fun, and I'm curious to know how the sounds can be recreated. Maybe it means musical instruments?
 
-- __Seven Rivers: A Journey Through the Currents of Human History__, by _Vanessa Taylor_. [comment]
+- __Seven Rivers: A Journey Through the Currents of Human History__, by _Vanessa Taylor_. I like the idea of a comparative history that looks at the beginnings of urbanisation across difference river systems, untangling what it was that drove similar patterns of human behaviour at similar times. This probably isn't that book, but it may touch upon it.
 
-- __Domination: The fall of the Roman empire and the rise of Christianity__, by _Alice Roberts_. [comment]
+- __Domination: The fall of the Roman empire and the rise of Christianity__, by _Alice Roberts_. Having read a Guardian newspaper review of Domination already, this feels like a stepping stone on Roberts' path to become the next Dawkins, if she has not achieved this already. My suspicion is it will be frequently provocative, often unfair, and sell nicely! 
 
 _Click the book covers to see a zoomed in image and links to Amazon if you like to buy your books there._
 
