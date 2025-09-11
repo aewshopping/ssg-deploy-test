@@ -2,15 +2,15 @@
 layout: layouts/post.njk
 permalink: 
 tags: [post, quote]
-quoteref: Lyndal Roper, Summer of Fire and Blood
-quotelink: https://popularhistorybooks.com/posts/reviews/2025-06-27-review-summer-of-fire-and-blood/#:~:text=The%20ideas%20of%20winter%20gave%20way%20to%20a%20period%20of%20action%20in%20early%20spring%201525%20that%20was%20far%20more%20widespread%20and%20wide%2Dranging%20in%20its%20targets%20than%20anything%20that%20would%20be%20seen%20in%20western%20Europe%20before%20the%20French%20Revolution
+quoteref: Justin Marozzi, Captives and Companions
+quotelink: https://popularhistorybooks.com/posts/reviews/2025-09-05-review-captives-and-companions/#:~:text=I%20said%20to%20myself%20%E2%80%9CThis%20king%20would%20be%20worth%2030%20dinars%20in%20Oman%20in%20the%20%5Bslave%5D%20marketplace%2C%20and%20the%20seven%20%5Bcompanions%5D%20160%20dinars%2C%20and%20they%20have%20clothes%20worth%2020%20dinars%2C%20so%20that%20would%20bring%20us%20at%20least%203%2C000%20dirhams%20without%20any%20risk%20attached.%E2%80%9D
 title: Quotation re-marks
 post_author: Anthony Webb
-date: 2025-06-25
+date: 2025-09-04
 image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1736787849/pophist_static/twemoji_loudspeaker.png
 meta_excerpt: A quote from a history book we have reviewed
 ---
->>  The ideas of winter gave way to a period of action in early spring 1525 that was far more widespread and wide-ranging in its targets than anything that would be seen in western Europe before the French Revolution. 📣
+>>  I said to myself “This king would be worth 30 dinars in Oman in the [slave] marketplace, and the seven [companions] 160 dinars, and they have clothes worth 20 dinars, so that would bring us at least 3,000 dirhams without any risk attached.” 📣
 >>> <a href="{{ quotelink }}" target=_blank>{{ quoteref }}</a>
 
 This is a quote from our review of {{ quoteref }}. Follow the link to go to that section of the review.
