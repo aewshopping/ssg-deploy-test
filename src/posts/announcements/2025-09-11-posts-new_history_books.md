@@ -5,11 +5,10 @@ tags: [post, new books]
 title: New history books in August 2025
 post_author: Anthony Webb
 date: 2025-09-11
-image: 
+image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1757624146/posts/Aug2025_newhistorybooks.jpg
 meta_excerpt: New history books published in August 2025 in the UK
 script_add: [script_bookfilter_modals.js]
 newbooks: ["1399414399","1474617220","0316496553","1398510084","1035415771","1783968966"]
-
 ---
 This seems to be a month of big ideas, judging by the new history books (in the UK, hardback). Many are spanning the whole of human history, and the entirelty of the world. There are a few different angles: childbirth, rivers (x2), the economic force of women, sensory experience. Also a couple on "big men" of history, including two of the biggest: Winston Churchill and de Gaulle.
 
