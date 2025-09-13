@@ -12,9 +12,7 @@ This website is a blog for reading and reviewing popular history books. We revie
 
 ## Born on Glitch ✨
 
-[Glitch](https://glitch.com) was a friendly community where millions of people come together to build web apps and websites. Unfortunately it will  close down in July 2025.
-
-This project started with the official Eleventy template on Glitch: [Minimal Eleventy](https://glitch.com/edit/#!/remix/11ty) I suspect this link will stop working soon... 
+[Glitch](https://glitch.com) was a friendly community where millions of people come together to build web apps and websites. Unfortunately it closed down in July 2025, but I feel it deserves this memorialisation!
 
 ## Deployed on Netlify
 
