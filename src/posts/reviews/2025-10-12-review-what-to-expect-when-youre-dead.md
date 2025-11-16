@@ -33,6 +33,7 @@ permalink: ''
 review_summary: '<p>Entertaining, witty, and engaging, this ‘tour of death’ is structured around a series of themes and questions such as ‘where to deposit the remains?’, ‘endocannibalism’, and ‘what if you come back to life as a frog?’.</p><p>If you’ve long been looking for answers to those questions, this is the place to find them!</p>'
 ---
 > The Greek Historian Herodotus reports that the Egyptians carried a painted corpse made of wood inside a coffin into their drinking parties. The host then displayed the corpse to each of the guests in turn, saying. “Look at this as you drink and enjoy yourself. You’ll be like that when you die.”
+>>> Robert Garland, What to Expect When You're Dead
 
 In fact, stories told by Herodotus make a frequent appearance in the book. He appears to have enjoyed a death-related anecdote – we also get the two brothers who died dragging their mum to a festival in an ox-cart (the oxen didn’t turn up in time) which apparently was a great way to die and made them the second most fortunate men to have ever lived;[^1] and a Persian tribe called the Massagetae who killed, stewed, and ate their elderly when they got too old (described as “the most blessed way to die”).
 
