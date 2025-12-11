@@ -91,7 +91,7 @@ Let's delve into some of these inadvertently hazardous activities...
 
 ---
 
-_Editor's interjection: you can have a look at the [full dataset of accidents online](https://ora.ox.ac.uk/objects/uuid:cc7d619d-fcb5-40f6-9b8d-ede670413a15), in handy csv or xlsx format. I looked up my childhood town of Newbury in Berkshire which appeared to be a relatively dangerous place to live..._
+_Editor's interjection: you can have a look at the [full dataset of accidents online](https://ora.ox.ac.uk/objects/uuid:cc7d619d-fcb5-40f6-9b8d-ede670413a15), in handy csv or xlsx format. I looked up my childhood town of Newbury in Berkshire which appeared to be a relatively dangerous place to live, with the River Kennet being a particular hazard._
 
 ---
 
