@@ -107,7 +107,7 @@ Others died falling off bridges which might be little more than wooden planks, s
 
 ### 🛞 Travel, potholes, and mud
 
-Like today, travelling by road could be dangerous. Carts and wagons accounted for one in six accidental deaths which is a higher proportion than road traffic deaths now. If modern cars feel dangerous, at least they have breaks – imagine trying to lead a horse and cart down a steep slope.
+Like today, travelling by road could be dangerous. Carts and wagons accounted for one in six accidental deaths which is a higher proportion than road traffic deaths now. If modern cars feel dangerous, at least they have brakes – imagine trying to lead a horse and cart down a steep slope.
 
 It turns out that England has also long had a problem with potholes and poorly maintained roads, which you may or may not find comforting next time your car's suspension is ruined. Francis Turner broke his neck jumping from his cart into a wheel-rut. The problem was so acute that it led to legislation in 1555, which noted that:
 
