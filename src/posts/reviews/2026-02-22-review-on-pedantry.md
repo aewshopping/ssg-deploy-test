@@ -30,7 +30,7 @@ post_author: Anthony Webb
 date: 2026-02-22
 review_rating: ★★★☆☆
 permalink: ''
-review_summary: '<p>A history of anti-intellectualism in the western world from the Greeks onwards, Visser makes this potentially dry subject entertaining by focussing on the character and caricatures of the pedant.</p><p>Apart from a minor grammatical error on page 237, I found _On Pedants_ a worthwhile and enjoyable read ;-)</p>'
+review_summary: '<p>A history of anti-intellectualism in the western world from the Greeks onwards, Visser makes this potentially dry subject entertaining by focussing on the character and caricatures of the pedant.</p><p>Apart from a minor grammatical error on page 237, I found <i>On Pedantry</i> a worthwhile and enjoyable read ;-)</p>'
 ---
 ![ship of fools bookworm](https://res.cloudinary.com/ds2o5ecdw/image/upload/v1771753501/posts/book_fool.jpg#center)
 
