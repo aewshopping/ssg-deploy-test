@@ -35,13 +35,13 @@ review_summary: '<p>Empire and Righteous Nation crams a lot of into its 170 page
 >Big moment, big moment.
 >>>Donald Trump
 
-Ex president Trump was talking to Kim Jong-un, leader of North Korea in 2019. It was indeed a big moment - the first time a US president had visited north Korea, and the first time a US president had arranged to meet a fellow head of state via a post on social media.
+Ex-president Trump was talking to Kim Jong-un, leader of North Korea in 2019. It was indeed a big moment - the first time a US president had visited North Korea, and the first time a US president had arranged to meet a fellow head of state via a post on social media.
 
-Kim and Trump exchanging pleasantries in the Demilitarized Zone reinforced for me the outsiders view of modern Korea: the product of a terrible war, divided into two, with an impoverished totalitarian North and a prosperous open South.
+Kim and Trump exchanging pleasantries in the Demilitarized Zone reinforced for me the outsider's view of modern Korea: the product of a terrible war, divided into two, with an impoverished totalitarian North and a prosperous open South.
 
 ### We are Korea
 
-This view, as Odd Arne Westad shows us in his book *Empire & Righteous Nation: 600 Years of China-Korea Relations*, overlooks much of what makes Koreans Koreans, and much of how think of themselves. This has been an identity principally delineated by China, their largest and most influential neighbour, ever since they were both baby states 2000 years ago.
+This view, as Odd Arne Westad shows us in his book *Empire & Righteous Nation: 600 Years of China-Korea Relations*, overlooks much of what makes Koreans Koreans, and much of how they think of themselves. This has been an identity principally delineated by China, their largest and most influential neighbour, ever since they were both baby states 2000 years ago.
 
 A common way of thinking about this relationship was as older and younger brother. Because both states have shared a deep commitment to Confucian values over the last 600 hundred years, the duties and rights of big and little brother shape their interactions.
 
@@ -51,7 +51,7 @@ Westad gives us a great example of this: after a minor border kerfuffle in 1864 
 
 This is how I try to handle conflict resolution between my kids as well, although the three year old is not quite up to the flowery language of thanks memorialised by the Korean King Kojong:
 
->>'I am frightened and ashamed, and there is no way I can be forgiven... I never imagined I would escape blame and punishment, yet Permission has been granted to supply timber. With the command to dispatch men to receive it, I am emotionally overcome in the extreme and rendered utterly speechless...'
+>>I am frightened and ashamed, and there is no way I can be forgiven... I never imagined I would escape blame and punishment, yet permission has been granted to supply timber. With the command to dispatch men to receive it, I am emotionally overcome in the extreme and rendered utterly speechless...
 >>> Empire and Righteous Nation, Odd Arne Westad
 
 ### Why does Korea even exist?
@@ -62,7 +62,7 @@ Westad notes that the commitment to this shared Confucian identity was a key rea
 
 But while Korea continued to exist, this same dedication to an increasingly old fashioned political and social system led to a very brittle state. Whatever you say about the pros and cons of Confucianism, it doesn't encourage social mobility: the duty of the common folk is to obey and to pay. It is a philosophy that can encourage paternalism and responsibility, but also exploitation and ossification.
 
-So when Japan started causing trouble in the late 19th century the Korean state found itself helpless to do anything about it. Although - to be fair to the Chosun (Korean) state - the Russians, Chinese and (eventually) the British Empire didn't fair very well against Japan either.
+So when Japan started causing trouble in the late 19th century the Korean state found itself helpless to do anything about it. Although - to be fair to the Chosun (Korean) state - the Russians, Chinese and (eventually) the British Empire didn't fare very well against Japan either.
 
 ### A century of pain
 
@@ -72,11 +72,11 @@ By the time the Korean war ended in 1953 all the cities and towns had been destr
 
 ### An updated view of Korea
 
-This is the context then for the current situation on the Korean peninsular - a centuries long existence as a single united kingdom, closely connected to Chinese culture, and the trauma of a devastating war in living memory.
+This is the context then for the current situation on the Korean peninsula - a centuries long existence as a single united kingdom, closely connected to Chinese culture, and the trauma of a devastating war in living memory.
 
 ### Ok but what's the book like?
 
-Westad's book is a great introduction to this fascinating national history, as revealed by it's foreign and principally Chinese relations.
+Westad's book is a great introduction to this fascinating national history, as revealed by its foreign and principally Chinese relations.
 
 It does this with three authoritative chapters: the first going from about 1392-1866, the second from 1866-1992, and the third covering 'today' which is up to 2019. It is mainly a succinct narrative summary covering the whole period in about 130 pages, with the author's conclusions taking up another 25 pages.
 
@@ -92,6 +92,6 @@ However if you are already well informed about the Chosun state and King Kojong 
 
 ### Conclusion
 
-Empire and Righteous Nation crams a lot of into its 170 pages. Given that I knew nothing when I started, I probably got more bang for buck - or perhaps perspicacity per pound - than any other history book I have recently read.
+Empire and Righteous Nation crams a lot into its 170 pages. Given that I knew nothing when I started, I probably got more bang for buck - or perhaps perspicacity per pound - than any other history book I have recently read.
 
 If you come from a similarly ignorant position, you will find Westad's primer an insightful and entertaining introduction to Korean history: given Korea's centrality to current international relations, a better understanding and a more nuanced view can only be a good thing. And if you also happen to be president of the United States of America, reading this book may make the world a slightly safer place.
