@@ -1,6 +1,6 @@
     <footer>
 
-      <div class="footer-item">  
+      <div class="footer-item">
 
       <ul class="margin-none nobullet-sublist footer-item pad-bottom">
         <li>Got a frequently asked question? See the <a href="{{staticdata.links.faq}}">FAQ</a></li>   
@@ -12,6 +12,8 @@
         <li>Our <a href="/privacy/">privacy policy</a></li>
         <li><hr></li>
         <li>Members <a href="/admin/">login here</a></li>
+        {% set source_path = page.inputPath | replace("./", "/") %}
+        <li>Page <a href="{{staticdata.links.github_repo}}blob/main{{source_path}}?plain=1" target="_blank">source</a></li>
         <li>Website image by <a href="https://commons.wikimedia.org/wiki/File:Mosaic_of_Justinianus_I_-_Basilica_San_Vitale_(Ravenna).jpg">Petar Milošević</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</li>
 
       </ul>

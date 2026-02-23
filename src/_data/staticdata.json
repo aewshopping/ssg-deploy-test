@@ -26,6 +26,7 @@
     "instagram":"https://www.instagram.com/popularhistorybooks/",
     "myemail":"popularhistorybooks@gmail.com",
     "cloudinary": "https://res.cloudinary.com/ds2o5ecdw/image/upload/",
-    "emailsighnup" : "http://eepurl.com/hXCyJj"
+    "emailsighnup" : "http://eepurl.com/hXCyJj",
+    "github_repo": "https://github.com/aewshopping/ssg-deploy-test/"
   }  
 }
