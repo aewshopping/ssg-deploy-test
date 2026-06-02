@@ -5,7 +5,7 @@ tags: [post, new books]
 title: New history books in May 2026
 post_author: Anthony Webb
 date: 2026-06-02
-image: 
+image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1780433796/posts/May2026_newhistorybooks.jpg
 meta_excerpt: New history books published in May 2026 in the UK
 script_add: [script_bookfilter_modals.js]
 newbooks: ["152666965X","139974125X","0197667481","0857506439","1800963203","1526688948"]
