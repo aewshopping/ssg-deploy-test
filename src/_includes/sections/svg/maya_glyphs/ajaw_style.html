@@ -1,0 +1,33 @@
+<style>
+    .svg-glyph,
+    .svg-glyph path,
+    .svg-glyph g {
+        --stroke-color: var(--color-text);
+        stroke: var(--stroke-color);
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .svg-glyph-container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .svg-glyph {
+        width: 100%;
+    }
+
+    /* Switch to desktop layout when screen is wider than X (Row) */
+    @media (min-width: 450px) {
+        .svg-glyph-container {
+            flex-direction: row;
+        }
+
+        .svg-glyph {
+            flex: 1;
+            /* Expands equally to fill the space */
+        }
+    }
+</style>
