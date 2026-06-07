@@ -11,23 +11,12 @@
 
     .svg-glyph-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 16px;
     }
 
     .svg-glyph {
-        width: 100%;
+        width: 150px;       
     }
 
-    /* Switch to desktop layout when screen is wider than X (Row) */
-    @media (min-width: 450px) {
-        .svg-glyph-container {
-            flex-direction: row;
-        }
-
-        .svg-glyph {
-            flex: 1;
-            /* Expands equally to fill the space */
-        }
-    }
 </style>
