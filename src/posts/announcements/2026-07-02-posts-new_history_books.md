@@ -12,7 +12,7 @@ newbooks: ["1493098373","1009456121","1472874730","152906578X","1526658178","000
 ---
 Ok here's what we've got from last month (published in the UK in hardback). With the World Cup in full swing and England not yet out of it, I'm pleased to see at least one football history book on the list! Here are the three that appeal to me at first glance:
 
-- __Cold War Football: A History in Ten Matches__, by _Tony Shaw, Alan McDougall_. Possibly ashameless cash-in on the World Cup but I am still pulled in by the premise. As the legendary Golden Leg reminds us in the cult film Shaolin Soccer: "Football is war".
+- __Cold War Football: A History in Ten Matches__, by _Tony Shaw, Alan McDougall_. Possibly a shameless cash-in on the World Cup but I am still pulled in by the premise. As the legendary Golden Leg reminds us in the cult film Shaolin Soccer: "Football is war".
 
 - __Lords of the Salt Road: The Norse Earls of Orkney and the Viking World__, by _Angus Konstam_. Having visited Orkney for the day last year, arriving by Magnus Lounge, I am a fan of the islands. And although it is Orkney's Neolithic history that really appeals I would like to find out more about the Viking connection too.
 
