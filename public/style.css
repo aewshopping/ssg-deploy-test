@@ -249,7 +249,7 @@ p {
 
 ul {
   font-size: var(--ul-size);
-  color: var(--color-text);
+  color: inherit;
   padding: 10px 0;
   margin: 10px var(--padding-edge);
 }
@@ -272,7 +272,7 @@ ul li {
 ol {
   font-size: var(--ul-size);
   line-height: 1.4;
-  color: var(--color-text);
+  color: inherit;
   margin: 10px var(--padding-edge);
   padding: 10px 0;
 }
