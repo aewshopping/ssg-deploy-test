@@ -5,7 +5,7 @@ tags: [post, new books]
 title: New history books in August 2026
 post_author: Anthony Webb
 date: 2026-09-20
-image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1785666056/posts/July2026_newhistorybooks.jpg
+image: https://res.cloudinary.com/ds2o5ecdw/image/upload/v1789910588/posts/Aug2026_newhistorybooks.jpg
 meta_excerpt: New history books published in August 2026 in the UK
 script_add: [script_bookfilter_modals.js]
 newbooks: ["0241754887","1035905906","1037200535","0300252951","1780279736","1009781448"]
