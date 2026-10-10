@@ -12,6 +12,9 @@
     }
     </script>
 
+    <!-- history books Datasette API helper (apiUrl / apiFetch), defined in src/_data/api.js -->
+    <script>{{ api.clientScript | safe }}</script>
+
 {% if script_add %}
 {% for item in script_add %}
 <script src="/public/{{ item }}" defer></script>

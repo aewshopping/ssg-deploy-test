@@ -1,6 +1,6 @@
 const cldnry_url = "https://res.cloudinary.com/ds2o5ecdw/image/upload/acovers/";
 const cldnry_url_stem = "https://res.cloudinary.com/ds2o5ecdw/image/upload/";
-const vercel_url = "https://history-books-blush.vercel.app/data.json?sql="; // https://datasette-for-history-books.glitch.me/data can be used as a backup if vercel fails to work, but needs to be manually updated with csv files. https://history-books-blush.vercel.app/data
+const vercel_url = "/data.json?sql="; // urls are passed through apiUrl (from src/_data/api.js), which adds the base url and token
 const datasette_options_book = "&_shape=array";
 const datasette_options_cats = "&_shape=array&_json=tag_emoji&_json=tag_name&_json=emoji_unicode&_json=tag_count&_json=pk_tag_id";
 const sql_limit_initial = "100";
@@ -177,14 +177,13 @@ group by
 var cat_id_arr = []; // used to construct json from select tags
 var bookcounter;
 var numBooks;
-var categories_url =
-  vercel_url + encodeURIComponent(cat_sql) + datasette_options_cats; // url to bring back json of categories
+var categories_url = apiUrl(
+  vercel_url + encodeURIComponent(cat_sql) + datasette_options_cats); // url to bring back json of categories
 
 document.addEventListener("DOMContentLoaded", function () {
   renderCategories(categories_url).catch((error) => {
     console.log("Error " + error);
   });
-  console.log(categories_url);
 });
 
 function handleFormSubmit(event) {
@@ -211,10 +210,10 @@ function handleFormSubmit(event) {
   console.log(mysql_books)
   let mysql_tags = create_sql_tag_count_query(myvalues);
 
-  let tag_count_url =
-    vercel_url + encodeURIComponent(mysql_tags) + datasette_options_book;
-  let books_url =
-    vercel_url + encodeURIComponent(mysql_books) + datasette_options_book;
+  let tag_count_url = apiUrl(
+    vercel_url + encodeURIComponent(mysql_tags) + datasette_options_book);
+  let books_url = apiUrl(
+    vercel_url + encodeURIComponent(mysql_books) + datasette_options_book);
 
   renderTagCounts(tag_count_url, books_url).catch((error) => {
     console.log("Error " + error);
@@ -230,8 +229,7 @@ const book_grid = document.querySelector(".books_output");
 //////// FUNCTIONS BELOW HERE ////////
 
 async function renderBooks(url) {
-  const response = await fetch(url);
-  const bookJson = await response.json();
+  const bookJson = await apiFetch(url);
   let html = "";
   numBooks = bookJson.length;
   bookJson.forEach(function (book, index) {
@@ -366,8 +364,7 @@ function create_sql_tag_count_query(arrays) {
 
 async function renderCategories(url) {
   let result = "";
-  const response = await fetch(url);
-  const catdata = await response.json();
+  const catdata = await apiFetch(url);
 
   catdata.forEach(function (category, index) {
     cat_id_arr.push(category["pk_cat_id"]); // this helps build the json object later in the form submit function
@@ -429,8 +426,7 @@ async function renderCategories(url) {
 async function renderTagCounts(url, books_url) {
   // function to update the little counters next to the filter check boxes
 
-  const response = await fetch(url);
-  const tagsdata = await response.json();
+  const tagsdata = await apiFetch(url);
   bookcounter = tagsdata[0]["book_count"];
   //  console.log(bookcounter);
 

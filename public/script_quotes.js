@@ -2,8 +2,7 @@
 const QUOTE_SQL_QUERY =
   "select quotes.isbn_10,books.title,books.author,books.review_url,quotes.quote from quotes join books on books.isbn_10=quotes.isbn_10 where quotes.rowid=(abs(random())%(select(select max(quotes.rowid)from quotes)+1));";
 
-const URL_STEM_SQL =
-  "https://history-books-blush.vercel.app/data.json?sql=";
+const URL_STEM_SQL = "/data.json?sql="; // apiUrl (from src/_data/api.js) adds the base url and token
 
 function updateQuote(quote, quoteref) {
 
@@ -19,8 +18,7 @@ function updateQuote(quote, quoteref) {
 
 async function getquote(quote, quoteref) {
   const URL = `${URL_STEM_SQL}${encodeURIComponent(QUOTE_SQL_QUERY)}--${Math.random().toFixed(5)}&_shape=array`; // cache busting with random number after inline sql comment symbol "--"
-  const response = await fetch(URL);
-  const data = await response.json();
+  const data = await apiFetch(apiUrl(URL));
   const URLSTEM = data[0].review_url;
   const TEXTFRAG = data[0].quote;
   const AUTHOR = data[0].author;

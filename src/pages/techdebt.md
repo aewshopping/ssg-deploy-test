@@ -68,7 +68,7 @@ I therefore updated my books database approach to...
 
 The All Books page is now based on a [Datasette](https://datasette.io/) SQLite database served up by [Vercel](https://vercel.com/). This means that I can use javascript to query the database based on user selected filters (ie published in 2024 _and_ UK history) and bring back only the books you are interested in. Datasette is an open source data sharing program that is brilliant but comes with caveats the main one being it is not yet on v1.0, so things could change or break. I had a few difficulties in setting it up which you can read about on the [GitHub page where my csv data lives](https://github.com/aewshopping/history_books) that builds the database. Vercel have a free tier to serve the data which I am hoping my database is small enough to stay within!
 
-You can have a look at [my history books Datasette database directly](https://history-books-blush.vercel.app/) if you want to. This has more functionality than my All Books front end - such as full text search and sql queries but it is much harder to use for the uninitiated and doesn't look as pretty 🙂. 
+You can have a look at [my history books Datasette database directly]({{ api.baseUrl }}/) if you want to. This has more functionality than my All Books front end - such as full text search and sql queries but it is much harder to use for the uninitiated and doesn't look as pretty 🙂. 
 
 ## Google Sheets
 
