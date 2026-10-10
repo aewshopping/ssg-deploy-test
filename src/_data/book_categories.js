@@ -1,4 +1,4 @@
-const EleventyFetch = require("@11ty/eleventy-fetch");
+const api = require("./api.js");
 
 module.exports = async function () {
 	    const sql = `with books_all as (
@@ -71,12 +71,11 @@ group by
 order by
   cat_sort asc`;
 
-const url = ("https://history-books-blush.vercel.app/data.json?sql=" + encodeURIComponent(sql) + "&_shape=array&_json=tag_emoji&_json=tag_name&_json=emoji_unicode&_json=tag_count");
+const url = ("/data.json?sql=" + encodeURIComponent(sql) + "&_shape=array&_json=tag_emoji&_json=tag_name&_json=emoji_unicode&_json=tag_count");
   
-  // https://datasette-for-history-books.glitch.me/data or https://history-books-blush.vercel.app/data
 
 	/* This returns a promise */
-	return EleventyFetch(url, {
+	return api.fetchJson(url, { // adds the base url and token
 		duration: "1d", // save for 1 day
 		type: "json", // we’ll parse JSON for you
 	});
