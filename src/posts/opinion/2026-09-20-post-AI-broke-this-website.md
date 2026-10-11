@@ -83,6 +83,6 @@ So the problem is AI and the solution is... AI. I'm not sure if this is an examp
 
 Anthony Webb, London
 
-[^1]: I allow anyone to execute arbitrary sql queries against the database - hey I'm just a nice guy! Also as a small (0.6mb), database containing only read only pubic data, the worst case is only that someone abuses this privelege and hammers the database with too many requests. Which is exactly what happened. As an aside I suspect Vercel is rate limited on my free tier at c.6,000 requests an hour.
+[^1]: I allow anyone to execute arbitrary sql queries against the database - hey I'm just a nice guy! Also as a small (0.6mb), database containing only read only public data, the worst case is only that someone abuses this privelege and hammers the database with too many requests. Which is exactly what happened. As an aside I suspect Vercel is rate limited on my free tier at c.6,000 requests an hour.
 
 [^2]: Full disclosure: I haven't actually lost any money. In fact I am currently on Vercel's free tier. I'm very much incentived not to upgrade from this free tier because then I give them my credit card, with no upper limit on costs incurred. Also for the record I am a big fan of Vercel and would recommend them to others!
