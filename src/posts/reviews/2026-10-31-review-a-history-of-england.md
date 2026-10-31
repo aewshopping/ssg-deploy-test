@@ -30,7 +30,7 @@ post_author: Anthony Webb
 date: 2026-10-31
 review_rating: ★★★★☆
 permalink: ''
-review_summary: '<p>Spanning from Anglo-Saxon England to the 21st Century of King Charles III, Catherine Clarke tries to look beyond what happened and show us - through poetry - how people felt.</p><p>I found this an enjoyable and occasionally emotionally powerful book.</p>'
+review_summary: '<p>From 7th century Anglo-Saxon England right up to the 2020s, Catherine Clarke looks beyond what happened and tries to show us - through poetry - how people felt.</p><p>I found this an enjoyable and occasionally emotionally powerful book.</p>'
 ---
 There is a seduction in reading history via poetry. For one thing it is quicker to read a poem than a narrative, so you can rattle through the years very efficiently. With poetry you also feel you are really getting to the essence of a thing: all that prose is boiled down until what you have left is super-saturated with meaning. Perhaps you have reached _the truth_.
 
@@ -66,9 +66,9 @@ My wretched spirit was tormented with sorrow.
 
 Clarke takes us through the poem step by step, drawing out the implications of certain word choices, what we can know and what we cannot.
 
-As well as personal truth a poem can also tell us something about how people of a time viewed the world, ie the culture.
+### Summer time
 
-### Summer has come in!
+As well as personal truth a poem can also tell us something about how people of a time viewed the world, ie the culture.
 
 A good example of this is the poem “_Sumer is Icumen in_” from around 1260[^1]. This is quite a short poem so here is the whole thing:
 
@@ -96,14 +96,14 @@ Sing cuckoo now; sing cuckoo.
 Sing cuckoo; sing cuckoo now.
 </details>
 
-And for those of you who prefer old English (þ is pronounced “th” as in “thorn”):
+And for those of you who prefer old English:
 
 <details style="border-radius:8px;padding-inline:20px;padding-block:8px;background-color:var(--color-summary-bg);color:var(--color-summary-text)">
 <summary>Sumer is Icumen in - click to read in the original old English</summary>
 
  Sumer is icumen in  
 Lhude sing cuccu!  
-Groweþ sed  
+Groweþ[^2] sed  
 and bloweþ med  
 and springþ þe wde nu  
 Sing cuccu!  
@@ -142,12 +142,12 @@ and crowns them with himself on the throne of heaven.
 
 </details>
 
-You can see a [picture of the original manuscript of the poem on wikipedia](https://en.wikipedia.org/wiki/Sumer_is_icumen_in) also reproduced here.
+You can look up the [original manuscript of the poem on wikipedia](https://en.wikipedia.org/wiki/Sumer_is_icumen_in), and I have shown a picture of the page below.
 
 ![Sumer is Icumen in manuscript](https://res.cloudinary.com/ds2o5ecdw/image/upload/v1793481447/posts/Sumer_is_icumen_in_BL_Harley_MS_978.jpg#center)
 ###### Sumer is Icumen in, British Library Harley Manuscript 978, CC
 
-If you look closely you can see the black text just under the lines of musical notation is the earthy sumer is icumin in lyrics, while the red text just underneath that is the Christian hymn. The words of the two songs are closely connected on the page.
+If you look closely you can see that the black text just under the lines of musical notation is the earthy _Sumer is icumin in_ lyrics, while the red text just underneath that is the Christian hymn. The words of the two songs are closely connected on the page.
 
 The reason that these two contradictory texts - profane and sacred - are set out side by side, Clarke tells us, is that at that time they were not seen as contradictory at all. Illustrated manuscripts with bums and willies lovingly rendered in the margins, or misericords carvings of flatulent men were a recognised (and officially sanctioned) part of medieval church life.
 
@@ -165,7 +165,7 @@ It does sometimes have the smell of the schoolroom about it: dismembering a poem
 
 One problem with a book like this is, in my view, that it can over assume authenticity.
 
-We are rightly cautious when someone is writing on behalf of an institution - a newspaper journalist say, or an Anglo Saxon Chronicle scribe. Or when an individual is writing about an event. We take it for granted that they will represent a particular point of view. But as soon as a person starts writing _poems about their feelings_ we readily accept that this is a window to their soul, or even the world.[^2]
+We are rightly cautious when someone is writing on behalf of an institution - a newspaper journalist say, or an Anglo Saxon Chronicle scribe. Or when an individual is writing about an event. We take it for granted that they will represent a particular point of view. But as soon as a person starts writing _poems about their feelings_ we readily accept that this is a window to their soul, or even the world.[^3]
 
 This struck me in particular when reading the poem “_The Balland Which Anne Askew Made And Sang When She Was in Newgate_” by Anne Askew (1546). The reason that she was in Newgate prison was because she had been condemned for heresy (she was a protestant) and was to be burned to death as a punishment. While she was waiting she composed a poem of defiance.
 
@@ -187,7 +187,7 @@ This is an extreme example but to some extent I feel all poets are emotional pup
 
 ### What I liked most about the book
 
-I know I am considering myself here, but the thing I liked most about this book was the feeling of empathy the poems create with people who lived hundreds of years ago. Despite their very different circumstances I often felt that I could connect with them on a personal level.[^3]
+I know I am considering myself here, but the thing I liked most about this book was the feeling of empathy the poems create with people who lived hundreds of years ago. Despite their very different circumstances I often felt that I could connect with them on a personal level.[^4]
 
 If millions of people die in the black death 600 years ago I don’t really care. Everybody who has ever lived dies at some point right?
 
@@ -206,6 +206,8 @@ Said the poet: “Yes, every part
 
 [^1]: You may recognise this poem / song from the film _The Wicker Man_ where the pagan locals celebrate the arrival of spring by burning a policeman alive and cheerfully singing this song as they do so. This is about as anachronistic as you can get.
 
-[^2]: This is one of the reasons I chose the limerick form to tell the history of the universe. That and because they are easier to write than iambic pentameters.
+[^2]: þ is pronounced “th” as in “thorn”
 
-[^3]: Apart from Anne Askew.
+[^3]: This is one of the reasons I chose the limerick form to tell the history of the universe. That and because they are easier to write than iambic pentameters.
+
+[^4]: Apart from Anne Askew.
