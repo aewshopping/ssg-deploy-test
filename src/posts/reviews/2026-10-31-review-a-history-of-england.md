@@ -48,7 +48,7 @@ So far I have written about 30 limericks but the remaining 70 are still on the t
 
 ### A history of England in 25 poems
 
-Luckily the human story told through poetry doesn’t rely on me getting my act together because many better guides have put pen to paper already, not least of which is Catherine Clark in _A History of England in 25 Poems_. While she limits herself to the story of the nation of England from its emergence in the Anglo-Saxon kingdoms up to the modern day she does so with more depth than can be achieved by self-penned limericks, picking poems from 25 different authors.
+Luckily the human story told through poetry doesn’t rely on me getting my act together because many better guides have put pen to paper already, not least of which is Catherine Clarke in _A History of England in 25 Poems_. While she limits herself to the story of the nation of England from its emergence in the Anglo-Saxon kingdoms up to the modern day she does so with more depth than can be achieved by self-penned limericks, picking poems from 25 different authors.
 
 Each poem is examined for the truths it reveals.
 
