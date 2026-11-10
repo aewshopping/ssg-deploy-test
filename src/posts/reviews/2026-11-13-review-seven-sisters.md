@@ -85,6 +85,7 @@ The map below shows you more or less what it looked like - if you click on or ho
 
 {% set cssStr %}
 {%- include 'sections/svg/maps/worldmapstyle.html' %}
+{% include 'sections/svg/maps/europe1789mapstyle.html' -%}
 {% endset %}
 {{ cssStr | safe }}
 

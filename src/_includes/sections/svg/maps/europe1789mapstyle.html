@@ -1,0 +1,26 @@
+<style>
+/* Overrides of worldmapstyle.html for the (roughly square) Europe 1789 map.
+   Ids stay #mapcontainer / #svgmap because worldmapscript.html looks them up by id;
+   the class .map-europe on the container scopes these rules to this map. */
+#mapcontainer.map-europe {
+  /* square-ish map: limit the width so the height stays on screen */
+  --max-w: min(700px, 80vh);
+}
+#mapcontainer.map-europe #svgmap {
+  display: block;
+  /* container width is min(100vw, --max-w); make the height match it (viewBox is 450 x 456) */
+  height: calc(min(var(--cont-w), var(--max-w)) * 456 / 450);
+  max-height: none;
+}
+/* full screen: same as the world map (this rule needs to beat the one above) */
+#mapcontainer.map-europe #fullscreencheck:checked ~ #svgmap {
+  height: 90vh;
+  max-height: 100vh;
+}
+/* hover outline: the Europe map is drawn at about twice the scale of the world map,
+   so halve the world map's 0.4 to get the same on-screen thickness */
+#mapcontainer.map-europe #svgmap path:hover,
+#mapcontainer.map-europe #svgmap > g > g:hover > path {
+  stroke-width: 0.2;
+}
+</style>
