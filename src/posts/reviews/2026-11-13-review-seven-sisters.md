@@ -30,7 +30,7 @@ post_author: Anthony Webb
 date: 2026-11-13
 review_rating: ★★★☆☆
 permalink: ''
-review_summary: '<p>The story of seven royal Habsburg daughters who lived through Europe in the age of the French revolution - one of whom, Marie Antionette, losing her head as a result.</p><p>Although it takes a bit of perseverance and concentration I would recommend this book to anyone with an interest in this period - or anyone who thinks Disney princesses are in any way representative of real life.</p>'
+review_summary: '<p>The story of seven royal Habsburg daughters who lived throughout Europe in the age of the French revolution, including one, Marie Antionette, who lost her head as a result.</p><p>Although it takes a bit of perseverance and concentration I would recommend this book to anyone with an interest in this period - or who thinks Disney princesses are in any way representative of real life.</p>'
 ---
 Some of the perks of royalty in mid 18th century Europe included: good food, big houses, chat with Enlightenment celebs, plus everyone else had to say you were awesome. I _had_ always thought that the biggest downside was that you might get your head chopped off, but after reading _Seven Sisters: Captives and Rebels in Revolutionary Europe’s First Family_ by Veronica Buckley I now realise that losing your head was actually quite rare and in reality the biggest drawback of being a royal was: you had to marry another royal.
 
@@ -120,7 +120,7 @@ What I thought was brilliant about this book was the alternative perspectives it
 
 A fascinating story of a royal family that provides a window on late 18th century Europe but a window overlooking a less familiar side of the garden.
 
-Although it takes a bit of perseverance and concentration I would recommend this book to anyone with an interest in this period - or anyone who thinks Disney princesses are in any way representative of real life.
+Although it takes a bit of perseverance and concentration I would recommend this book to anyone with an interest in this period - or who thinks Disney princesses are in any way representative of real life.
 
 
 [^1]: The degrees of success were: Maria Theresia - lots; Queen Carolina - some; Marie Antoinette - very little.
