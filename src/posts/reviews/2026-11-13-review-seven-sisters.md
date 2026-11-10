@@ -34,7 +34,7 @@ review_summary: '<p>The story of seven royal Habsburg daughters who lived throug
 ---
 Some of the perks of royalty in mid 18th century Europe included: good food, big houses, chat with Enlightenment celebs, plus everyone else had to say you were awesome. I _had_ always thought that the biggest downside was that you might get your head chopped off, but after reading _Seven Sisters: Captives and Rebels in Revolutionary Europe’s First Family_ by Veronica Buckley I now realise that losing your head was actually quite rare and in reality the biggest drawback of being a royal was: you had to marry another royal.
 
-Because, despite the deference that you had to show them, many royals were not awesome, they were awful. Severely limited interpersonal skills were just the start - and why bother with them when everyone has to agree you are the best anyway? Parental affection or even attention could also be highly variable, or even deliberately cruel. 
+Because, despite the deference, many royals were not awesome, they were awful. Severely limited interpersonal skills were just the start - and why bother with them when everyone has to agree you are the best anyway? Parental affection or even attention could also be highly variable, or even deliberately cruel. 
 
 ### Married by proxy before first sight
 
@@ -81,7 +81,7 @@ Along with the French and Spanish royal families the Austrian Habsburgs were the
 
 It was really interesting to me to be reminded how different the map of Europe was at this time, on the eve of the French Revolution. Italy was split up into a number of small states, Germany was just a big mess. Even France had its quirks, such as the Comtat Venaissin, a weird papal state in the area around Avignon.
 
-The map below shows you more or less what it looked like - if you click on or hover a territory it will show the name. The arrows and dots indicate the main destination of each of the seven daughters from their place of birth in Vienna. The disclaimer is that I took this map from Wikipedia then got an AI agent to both simplify it - the fantastic original is here - and to name all the territories, so a few errors may have crept in.
+The map below shows you more or less what it looked like - if you click on or hover a territory it will show the name. The yellow dots indicate the main destination of each of the seven daughters, starting at the big dot which is their place of birth: Vienna. The disclaimer is that I took this map from Wikipedia then got an AI agent to both simplify it - here is the [fantastic original map](https://commons.wikimedia.org/wiki/File:Habsburg_Monarchy_1789.svg) - and to name all the territories, so a few errors may have crept in.
 
 {% set cssStr %}
 {%- include 'sections/svg/maps/worldmapstyle.html' %}
