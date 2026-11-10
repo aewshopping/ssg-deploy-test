@@ -11,16 +11,26 @@
   --color-svgbg: #105955;       /* rgb(16,89,85) */
   --habsburg-gold: #fcdd09;     /* yellow of the Habsburg black-and-yellow flag */
 }
+#mapcontainer.map-europe {
+  /* full map height at the container width (min(100vw, --max-w); viewBox is 450 x 456) */
+  --map-h: calc(min(var(--cont-w), var(--max-w)) * 456 / 450);
+  /* container is 25% shorter than the map; width unchanged */
+  height: calc(var(--map-h) * 0.75);
+  /* of the 25% hidden (pan to see it), the share hidden at the top: mostly Arctic,
+     leaving 7% hidden at the bottom so the Naples dot clears the zoom slider */
+  --crop-top: 0.18;
+}
 #mapcontainer.map-europe #svgmap {
   display: block;
-  /* container width is min(100vw, --max-w); make the height match it (viewBox is 450 x 456) */
-  height: calc(min(var(--cont-w), var(--max-w)) * 456 / 450);
+  height: var(--map-h);
   max-height: none;
+  margin-top: calc(var(--map-h) * var(--crop-top) * -1);
 }
-/* full screen: same as the world map (this rule needs to beat the one above) */
+/* full screen: same as the world map, whole map shown (this rule needs to beat the one above) */
 #mapcontainer.map-europe #fullscreencheck:checked ~ #svgmap {
   height: 90vh;
   max-height: 100vh;
+  margin-top: 0;
 }
 /* hover outline: the Europe map is drawn at about twice the scale of the world map,
    so halve the world map's 0.4 to get the same on-screen thickness */
@@ -35,14 +45,15 @@
   --hover-green: #73b973;         /* Habsburg Monarchy: green */
   --hover-church-green: #9be199;  /* ecclesiastical territories: #49c946 */
   --hover-tuscany: #caeac9;       /* Grand Duchy of Tuscany: #9fd89c */
-  --hover-sister: #707070;        /* seven sisters dots: black */
+  --hover-sister: #fdec77;        /* seven sisters dots: gold #fcdd09 */
 }
 #mapcontainer.map-europe #svgmap path[fill="green"]:hover,
 #mapcontainer.map-europe #svgmap > g > g:hover > path[fill="green"] { fill: var(--hover-green); }
 #mapcontainer.map-europe #svgmap path[fill="#49c946"]:hover { fill: var(--hover-church-green); }
 #mapcontainer.map-europe #svgmap path[fill="#9fd89c"]:hover { fill: var(--hover-tuscany); }
-#mapcontainer.map-europe #svgmap path[fill="black"]:hover { fill: var(--hover-sister); }
-/* seven sisters dots: gold outline, kept the same width when hovered */
+/* seven sisters dots: gold fill, black outline kept the same width when hovered */
+#mapcontainer.map-europe #svgmap path.sister-dot { fill: var(--habsburg-gold); }
+#mapcontainer.map-europe #svgmap path.sister-dot:hover { fill: var(--hover-sister); }
 #mapcontainer.map-europe #svgmap path.sister-dot,
-#mapcontainer.map-europe #svgmap path.sister-dot:hover { stroke: var(--habsburg-gold); stroke-width: 0.6; }
+#mapcontainer.map-europe #svgmap path.sister-dot:hover { stroke: black; stroke-width: 0.6; }
 </style>
