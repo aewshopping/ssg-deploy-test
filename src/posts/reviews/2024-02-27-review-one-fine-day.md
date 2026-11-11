@@ -46,18 +46,9 @@ Matthew Parker’s new book _One Fine Day: 29 September 1923, Britain’s Empire
 
 To get a sense of the extent of the Empire at that time, this map sets out countries today that were ruled, or at least partly ruled, by Britain.[^2]
 
-{% set cssStr %}
-{%- include 'sections/svg/maps/worldmapstyle.html' %}
-{% include 'sections/svg/maps/worldmapstyle_britemp1923.html' -%}
-{% endset %}
-{{ cssStr | safe }}
-
-{%- include 'sections/svg/maps/worldmap.html' -%}
-
-{% set jsStr %}
-{%- include 'sections/svg/maps/worldmapscript.html' -%}
-{% endset %}
-{{ jsStr | safe }}
+{% set mapSvg = "sections/svg/maps/worldmap.svg" %}
+{% set mapCss = "sections/svg/maps/worldmapstyle_britemp1923.html" %}
+{% include "sections/svg/maps/mapframe.html" %}
 
 ###### Source: me using Wikipedia 🙂. Top right button to enlarge map and press the finger button to pan around and zoom in. Base map from [simplemaps.com](simplemaps.com).
 

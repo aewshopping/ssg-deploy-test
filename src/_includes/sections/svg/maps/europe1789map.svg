@@ -1,17 +1,3 @@
-<div id="mapcontainer" class="map-europe">
-<input type="checkbox" class="svgmapicon" id="fullscreencheck" name="fullscreen" value="fullscreenon" title="full screen toggle">  
-<svg id="fullscreenicon" class="svgmapicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
-  <path d="M120-120v-200h80v120h120v80H120Zm520 0v-80h120v-120h80v200H640ZM120-640v-200h200v80H200v120h-80Zm640 0v-120H640v-80h200v200h-80Z"></path></svg>
-<input type="checkbox" class="svgmapicon" id="panzoomcheck" name="panzoom" value="panzoomon" title="Pan and zoom toggle">
-<svg id=panzoomicon class="svgmapicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M419-80q-28 0-52.5-12T325-126L107-403l19-20q20-21 48-25t52 11l74 45v-328q0-17 11.5-28.5T340-760q17 0 29 11.5t12 28.5v472l-97-60 104 133q6 7 14 11t17 4h221q33 0 56.5-23.5T720-240v-160q0-17-11.5-28.5T680-440H461v-80h219q50 0 85 35t35 85v160q0 66-47 113T640-80H419ZM167-620q-13-22-20-47.5t-7-52.5q0-83 58.5-141.5T340-920q83 0 141.5 58.5T540-720q0 27-7 52.5T513-620l-69-40q8-14 12-28.5t4-31.5q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 17 4 31.5t12 28.5l-69 40Zm335 280Z"/></svg>
-<div id="zoomdiv">
-<button id="btnreset">reset</button>
-<svg class="zoomlabel" id="zoomlabelminus" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M200-440v-80h560v80H200Z"/></svg>
-<input type="range" title="zoom in out" id="zoominput" name="zoom" min="1" max="20" value="1" step="0.1" />
-<svg class="zoomlabel" id="zoomlabelplus" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
-<div class="flexs"></div>
-</div>
-<div id="hoverbox">Hover over a country to see the name 👉</div>
 <!--PROVENANCE AND ATTRIBUTION
 Source: "Habsburg Monarchy 1789.svg" by Wikimedia user Alphathon (2013), CC BY-SA 3.0
 (https://creativecommons.org/licenses/by-sa/3.0/), derived from his "Europe 1789.svg" and
@@ -96,4 +82,3 @@ Modified 2-3 November 2026 by Claude Opus 5.5 (Anthropic); see the XML comment a
 <path id="Sister_Marie_Antoinette" class="sister-dot" name="Paris,&#10;Marie Antoinette (1755–1793)" data-name="Paris, Marie Antoinette (1755–1793)" d="M134.4 285.9a2.8 2.8 0 1 0 5.6 0a2.8 2.8 0 1 0 -5.6 0z" fill="#fcdd09" stroke="black" stroke-width="1.2"><title>Paris, Marie Antoinette (1755–1793)</title></path>
 <path id="Sister_Maria_Christina" class="sister-dot" name="Brussels,&#10;Maria Christina (1742–1798)" data-name="Brussels, Maria Christina (1742–1798)" d="M152.4 262.9a2.8 2.8 0 1 0 5.6 0a2.8 2.8 0 1 0 -5.6 0z" fill="#fcdd09" stroke="black" stroke-width="1.2"><title>Brussels, Maria Christina (1742–1798)</title></path>
 </svg>
-</div>

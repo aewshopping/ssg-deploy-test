@@ -1,0 +1,16 @@
+{#- Interactive svg map: shared styles, container with controls, the map svg, shared script.
+Set these before including this file:
+  mapSvg   (required) include path of the map, e.g. "sections/svg/maps/europe1789map.svg"
+  mapClass (optional) class for the container, scoping that map's own CSS, e.g. "map-europe"
+  mapCss   (optional) include path of that map's own CSS, e.g. "sections/svg/maps/europe1789mapstyle.html"
+Order matters: the controls must come straight before the svg (the CSS uses ~ and + selectors).
+Only one map per page: worldmapscript.html finds everything by id.
+Avoid blank lines in this file, mapcontrols.html and the map svgs: markdown can end the HTML block
+at a blank line (inside <style> and <script> they are fine). -#}
+{%- include "sections/svg/maps/worldmapstyle.html" %}
+{% if mapCss %}{% include mapCss %}{% endif %}
+<div id="mapcontainer"{% if mapClass %} class="{{ mapClass }}"{% endif %}>
+{% include "sections/svg/maps/mapcontrols.html" -%}
+{% include mapSvg -%}
+</div>
+{% include "sections/svg/maps/worldmapscript.html" -%}

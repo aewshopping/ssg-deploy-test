@@ -83,18 +83,10 @@ It was really interesting to me to be reminded how different the map of Europe w
 
 The map below shows you more or less what it looked like - if you click on or hover a territory it will show the name. The yellow dots indicate the main destination of each of the seven daughters, starting at the big dot which is their place of birth: Vienna. The disclaimer is that I took this map from Wikipedia then got an AI agent to both simplify it - here is the [fantastic original map](https://commons.wikimedia.org/wiki/File:Habsburg_Monarchy_1789.svg) - and to name all the territories, so a few errors may have crept in.
 
-{% set cssStr %}
-{%- include 'sections/svg/maps/worldmapstyle.html' %}
-{% include 'sections/svg/maps/europe1789mapstyle.html' -%}
-{% endset %}
-{{ cssStr | safe }}
-
-{%- include 'sections/svg/maps/europe1789map.html' -%}
-
-{% set jsStr %}
-{%- include 'sections/svg/maps/worldmapscript.html' -%}
-{% endset %}
-{{ jsStr | safe }}
+{% set mapSvg = "sections/svg/maps/europe1789map.svg" %}
+{% set mapClass = "map-europe" %}
+{% set mapCss = "sections/svg/maps/europe1789mapstyle.html" %}
+{% include "sections/svg/maps/mapframe.html" %}
 
 ### Marriage mapping 
 
