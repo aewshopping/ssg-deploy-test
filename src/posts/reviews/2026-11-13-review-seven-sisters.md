@@ -81,7 +81,7 @@ Along with the French and Spanish royal families the Austrian Habsburgs were the
 
 It was really interesting to me to be reminded how different the map of Europe was at this time, on the eve of the French Revolution. Italy was split up into a number of small states, Germany was just a big mess. Even France had its quirks, such as the Comtat Venaissin, a weird papal state in the area around Avignon.
 
-The map below shows you more or less what it looked like - if you click on or hover a territory it will show the name. The yellow dots indicate the main destination of each of the seven daughters, starting at the big dot which is their place of birth: Vienna. The disclaimer is that I took this map from Wikipedia then got an AI agent to both simplify it - here is the [fantastic original map](https://commons.wikimedia.org/wiki/File:Habsburg_Monarchy_1789.svg) - and to name all the territories, so a few errors may have crept in.
+The map below shows you more or less what it looked like - if you click on or hover a territory it will show the name. The yellow dots indicate the main destination of each of the seven daughters, starting at the big dot which is their place of birth: Vienna. The disclaimer is that I took this map from Wikipedia then got an AI agent to both simplify it - here is the [fantastic original map](https://commons.wikimedia.org/wiki/File:Habsburg_Monarchy_1789.svg) - and to name all the territories, so a few errors may have crept in.[^1]
 
 {% set mapSvg = "sections/svg/maps/europe1789map.svg" %}
 {% set mapClass = "map-europe" %}
@@ -94,7 +94,7 @@ The map below shows you more or less what it looked like - if you click on or ho
 
 One of the reasons that this book works so well is that it brings this (for us) unusual political landscape to life. Each of the daughters was a piece on a chess board, and following their sometimes tragic progress as they were pushed here and there in various marriage alliances is a really effective way to get a feel for the political currents and undercurrents of the time.
 
-It also works very well as a multi-biography. The three main characters that emerged out of the book were Maria Theresa (the matriarch), Queen Carolina (sister 6), and Marie Antoinette (sister 7). Each of them was a dominant figure in their respective kingdoms, with variable degrees of success.[^1] None of them are painted as particularly likable characters: they were warped by the demands of monarchy along with their male counterparts, but they all come alive as real people.
+It also works very well as a multi-biography. The three main characters that emerged out of the book were Maria Theresa (the matriarch), Queen Carolina (sister 6), and Marie Antoinette (sister 7). Each of them was a dominant figure in their respective kingdoms, with variable degrees of success.[^2] None of them are painted as particularly likable characters: they were warped by the demands of monarchy along with their male counterparts, but they all come alive as real people.
 
 ### Style guide
 
@@ -108,7 +108,7 @@ Overall though it works and hangs together as a single narrative which is no sma
 
 ### What I most liked about the book
 
-What I thought was brilliant about this book was the alternative perspectives it gave me: the perspective of Europe with Vienna at the centre of the world; the perspective of banishment by marriage to a foreign court; the perspective of an inescapable requirement of obedience to dreadful husbands and pitiless kings.[^2]
+What I thought was brilliant about this book was the alternative perspectives it gave me: the perspective of Europe with Vienna at the centre of the world; the perspective of banishment by marriage to a foreign court; the perspective of an inescapable requirement of obedience to dreadful husbands and pitiless kings.[^3]
 
 ### Conclusion
 
@@ -116,7 +116,8 @@ A fascinating story of a royal family that provides a window on late 18th centur
 
 Although it takes a bit of perseverance and concentration I would recommend this book to anyone with an interest in this period - or who thinks Disney princesses are in any way representative of real life.
 
+[^1]: The reason that the Ottoman Empire is missing a big chunk in the Levant though is more down to the area covered by the original map - we can't blame AI for this! 
 
-[^1]: The degrees of success were: Maria Theresia - lots; Queen Carolina - some; Marie Antoinette - very little.
+[^2]: The degrees of success were: Maria Theresia - lots; Queen Carolina - some; Marie Antoinette - very little.
 
-[^2]: The seven sisters also had to obey their Habsberg Emperor brothers and then nephew without question too, who would forbid the sisters they didn’t get on with from coming within 6 miles of Vienna. The first thing that their brother the Emperor Joseph II did when their mother the Empress Maria Theresia died was to banish the sisters from their homes in the capital (those who had not already been sent off to be married). Why? No reason, he just found them a bit annoying.
+[^3]: The seven sisters also had to obey their Habsberg Emperor brothers and then nephew without question too, who would forbid the sisters they didn’t get on with from coming within 6 miles of Vienna. The first thing that their brother the Emperor Joseph II did when their mother the Empress Maria Theresia died was to banish the sisters from their homes in the capital (those who had not already been sent off to be married). Why? No reason, he just found them a bit annoying.
