@@ -88,6 +88,8 @@ The map below shows you more or less what it looked like - if you click on or ho
 {% set mapCss = "sections/svg/maps/europe1789mapstyle.html" %}
 {% include "sections/svg/maps/mapframe.html" %}
 
+###### Map of Europe in 1780, showing the Habsburg Empire in yellow, and the destinations of the Seven Sisters, from their birthplace in Vienna
+
 ### Marriage mapping 
 
 One of the reasons that this book works so well is that it brings this (for us) unusual political landscape to life. Each of the daughters was a piece on a chess board, and following their sometimes tragic progress as they were pushed here and there in various marriage alliances is a really effective way to get a feel for the political currents and undercurrents of the time.
