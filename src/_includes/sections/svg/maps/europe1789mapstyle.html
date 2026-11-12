@@ -1,0 +1,59 @@
+<style>
+/* Overrides of worldmapstyle.html for the (roughly square) Europe 1789 map.
+   Ids stay #mapcontainer / #svgmap because worldmapscript.html looks them up by id;
+   the class .map-europe on the container scopes these rules to this map. */
+#mapcontainer.map-europe {
+  /* square-ish map: limit the width so the height stays on screen */
+  --max-w: min(700px, 80vh);
+  /* the sea is drawn by #sea in the svg; the svg background shows only outside the
+     mapped area, as a border: the sea colour taken half way to black */
+  --color-sea: LightSeaGreen;   /* rgb(32,178,170); blue alternative: #0033ff */
+  --color-svgbg: #105955;       /* rgb(16,89,85);   blue alternative: #001a80 */
+  --habsburg-gold: #fcdd09;     /* yellow of the Habsburg black-and-yellow flag */
+}
+#mapcontainer.map-europe {
+  /* full map height at the container width (min(100vw, --max-w); viewBox is 450 x 456) */
+  --map-h: calc(min(var(--cont-w), var(--max-w)) * 456 / 450);
+  /* container is 25% shorter than the map; width unchanged */
+  height: calc(var(--map-h) * 0.75);
+  /* of the 25% hidden (pan to see it), the share hidden at the top: mostly Arctic,
+     leaving 7% hidden at the bottom so the Naples dot clears the zoom slider */
+  --crop-top: 0.18;
+}
+#mapcontainer.map-europe #svgmap {
+  display: block;
+  height: var(--map-h);
+  max-height: none;
+  margin-top: calc(var(--map-h) * var(--crop-top) * -1);
+}
+/* full screen: same as the world map, whole map shown (this rule needs to beat the one above) */
+#mapcontainer.map-europe #fullscreencheck:checked ~ #svgmap {
+  height: 90vh;
+  max-height: 100vh;
+  margin-top: 0;
+}
+/* hover outline: the Europe map is drawn at about twice the scale of the world map,
+   so halve the world map's 0.4 to get the same on-screen thickness */
+#mapcontainer.map-europe #svgmap path:hover,
+#mapcontainer.map-europe #svgmap > g > g:hover > path {
+  stroke-width: 0.2;
+}
+/* hover colours: each territory's own colour taken half way to white, like the red/pink of
+   worldmapstyle_britemp1923.html. Greys (silver, #969696) keep the shared #f7f7f7 hover.
+   Matched on the fill attribute, so no class lists are needed; the dots share the gold fill
+   so are excluded (they have their own hover below). */
+#mapcontainer.map-europe {
+  --hover-habsburg: #feee84;      /* Habsburg Monarchy: #fcdd09 */
+  --hover-church: #fef3af;        /* church lands within the Habsburg lands: #fde85f */
+  --hover-tuscany: #fff8ce;       /* Grand Duchy of Tuscany: #fef19d */
+}
+#mapcontainer.map-europe #svgmap path:not(.sister-dot)[fill="#fcdd09"]:hover,
+#mapcontainer.map-europe #svgmap > g > g:hover > path[fill="#fcdd09"] { fill: var(--hover-habsburg); }
+#mapcontainer.map-europe #svgmap path[fill="#fde85f"]:hover { fill: var(--hover-church); }
+#mapcontainer.map-europe #svgmap path[fill="#fef19d"]:hover { fill: var(--hover-tuscany); }
+/* seven sisters dots: gold fill and black outline; on hover the fill stays gold
+   (overriding the shared near-white hover) and only the outline turns white */
+#mapcontainer.map-europe #svgmap path.sister-dot,
+#mapcontainer.map-europe #svgmap path.sister-dot:hover { fill: var(--habsburg-gold); stroke: black; stroke-width: 1.2; }
+#mapcontainer.map-europe #svgmap path.sister-dot:hover { stroke: white; }
+</style>
